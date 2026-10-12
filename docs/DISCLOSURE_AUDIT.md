@@ -61,10 +61,21 @@ Labels are preserved exactly (for example
   left/right padding, 34 px collapsed to 239 px expanded.
 * `book2QA()` reports no element escaping its section.
 
-## Not done
+## Corrected by the 2026-10-12 corrective wave
 
-Three rebuilt controls (Walmart, Starbucks Rewards and one further flattened
-pair) had no description body at all in the supplied source - the flattened
-paragraph was the last thing in its region. They are now correct, expandable
-controls with an empty panel rather than a body that does not exist. Inventing
-that text is not permitted; the gap is recorded here instead.
+The sentence above was wrong for Starbucks Rewards. Its description text did
+exist: the previous build had left it inside the panel beside a stray
+full-page bitmap, and this audit read the panel as empty. The corrective wave
+put the 157-character body back inside the control, lifted the bitmap out to be
+the region's figure, and moved the caption strip below the panel back outside
+the control. See `EXTENDED_DESCRIPTION_AUDIT.md`.
+
+## Bodies that genuinely do not exist
+
+Two rebuilt controls - **Walmart** (`TMP-0542`) and **Merck** (`TMP-0585`) -
+have no description body anywhere in the supplied source. The PNG capture shows
+the grey panel below the label empty, and the structured fidelity record for
+each page lists no panel text at all. They remain correct, expandable controls
+with an empty panel rather than a body that does not exist. Inventing that text
+is not permitted; the gap is recorded here and in
+`EXTENDED_DESCRIPTION_AUDIT.md`.

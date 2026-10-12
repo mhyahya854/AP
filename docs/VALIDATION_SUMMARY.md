@@ -1,7 +1,10 @@
 # Validation summary - continuous-reading wave
 
 Everything below was measured on the built candidate and then re-checked on the
-promoted `AP Book Final.html` (`e38a07ca...`, 1,132,281,148 bytes).
+promoted `AP Book Final.html`. The headline figures are for the corrective
+wave's final artifact, `1d270d0b...`, 1,132,281,938 bytes; the content
+preservation table compares it against the previously promoted
+`e38a07ca...`, 1,132,281,148 bytes.
 
 ## 1. Content preservation (the strongest test)
 
@@ -13,15 +16,17 @@ final and the new one.
 |---|---|
 | Regions | 1,899 before, 1,899 after |
 | Region order / ids | identical |
-| Regions with byte-identical text | **1,772** |
-| Regions differing only by disclosure UI glyphs | 127 (delta -2 to -6 characters each) |
+| Regions with byte-identical text | **1,899** |
+| Regions differing only by disclosure UI glyphs | 0 (that normalisation was the previous wave) |
 | Regions differing in **words** | **0** |
 
-The only text differences are the removal of the `▼` / `▶` chevron and the
-`ℹ` / `ⓘ` / `● i` information glyph that used to be written into the summary
-label, now drawn once by the shared control. `show_diff.py` and
-`verify_glyphs.py` reproduce this; the raw evidence is
-`region_text_before.json`, `region_text_after.json`, `region_text_diffs.json`.
+The corrective wave rewrote exactly one source region - `TMP-0563`, the
+Starbucks Rewards control - and even there the region's text fingerprint is
+unchanged: the words were already present, they were simply in the wrong place
+inside the control. `region_text` fingerprints before and after are in
+`corrective_wave/region_text_before.json` and `region_text_after.json`; a
+region-by-region byte comparison of the two artifacts shows 1,898 regions
+byte-identical and only `TMP-0563` different.
 
 ## 2. Assets
 
@@ -92,3 +97,37 @@ replaces them. No table row, cell value or caption was lost.
   It does not prove pixel-level equality with the printed book, which remains
   impossible for the source ranges that were never available (see
   `KNOWN_ISSUES.md`).
+
+## 6. Corrective wave re-run (final artifact `1d270d0b...`)
+
+Measured on the promoted final itself with headless Chrome 155 over `file://`
+(`corrective_wave/browser_qa_corrected.json`), at desktop 1400x1000, mobile
+390x844 and wide 1920x1200:
+
+| Check | Result |
+|---|---|
+| Regions loaded | 1,899 / 1,899 (`TMP-0001` .. `TMP-1899`) |
+| JavaScript exceptions / console errors / log errors | **0 / 0 / 0** |
+| `book2QA()` layout failures | **0** at all three viewports |
+| Document / `main` horizontal overflow | **0 px** at all three viewports |
+| Cover region escapes its section | no, rail open or closed, all three viewports |
+| Tables | 1,484 |
+| `<details>` / disclosures / labels | 173 / 131 / 131 (0 empty labels) |
+| Learning-goal badges | 151 |
+| Contents rows / linked / held | 502 / 376 / 126 |
+| Printed-page reference cells rendered | 12 (`A1`, `iii`, `iv`, `4`, `6`, `9`, `11`, `104`, `202`, `328`, `386`, `456`) |
+| Duplicate element ids | 0 |
+| Broken in-document links | 0 of 393 |
+| Contents navigation | `#book-heading-0010`, `aria-current` set on one row, heading lands below the toolbar |
+| Search | `Match in Contents` |
+| Disclosure keyboard operation | summary focusable; opens and closes |
+| Starbucks Rewards description | collapsed 34 px -> expanded 128 px, body present, 0 px overflow |
+| Front Cover description | collapsed 34 px -> expanded 239 px, 0 px overflow, 0 padding |
+| Walmart / Merck descriptions | collapsed 34 px -> expanded 59 px, body legitimately absent in source |
+
+The two stale reports (`reports/browser_qa.json`,
+`reports/browser_qa_controls.json`) are reconciled in
+`BROWSER_QA_RECONCILIATION.md`: the first records an exception raised by a
+development fixture, the second a bare `Uncaught` string with no evidence and a
+cover finding that does not reproduce on either the corrected final or the
+previous commit.

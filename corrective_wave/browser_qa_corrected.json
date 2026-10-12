@@ -1,0 +1,239 @@
+{
+  "fileUrl": "file:///C:/Users/mhyah/Downloads/book-source/Word/_master_work/corrective_wave/staged/AP%20Book%20Final%20(corrected).html",
+  "startedAt": "2026-10-12T17:51:51.568Z",
+  "consoleErrors": [],
+  "exceptions": [],
+  "logErrors": [],
+  "checks": {
+    "readyState": "complete",
+    "title": "AP Book Final",
+    "pages": 1899,
+    "firstPageId": "TMP-0001",
+    "lastPageId": "TMP-1899",
+    "tables": 1484,
+    "details": 173,
+    "disclosureControls": 131,
+    "descLabels": 131,
+    "emptyDescLabels": 0,
+    "images": 424,
+    "lgBadges": 151,
+    "navGroups": 10,
+    "navModules": 31,
+    "navRows": 502,
+    "navUnlinked": 126,
+    "navPageCells": 12,
+    "navPageValues": [
+      "A1",
+      "iii",
+      "iv",
+      "4",
+      "6",
+      "9",
+      "11",
+      "104",
+      "202",
+      "328",
+      "386",
+      "456"
+    ],
+    "headingsRoleHeading": 383,
+    "sectionHeads": 51,
+    "book2QAType": "function",
+    "duplicateIds": 0,
+    "duplicateIdSamples": [],
+    "navLinksChecked": 393,
+    "brokenHashLinks": 0,
+    "brokenHashSamples": []
+  },
+  "coverProbe": {
+    "page": {
+      "left": 318.984375,
+      "right": 1106.015625,
+      "top": 74,
+      "bottom": 1067.8125,
+      "width": 787.03125
+    },
+    "pageScrollWidth": 794,
+    "pageClientWidth": 794,
+    "contentScrollWidth": 688,
+    "contentClientWidth": 688,
+    "tables": [
+      {
+        "index": 0,
+        "left": 371,
+        "right": 1054,
+        "width": 682,
+        "scrollWidth": 688,
+        "clientWidth": 688
+      },
+      {
+        "index": 1,
+        "left": 733,
+        "right": 1054,
+        "width": 321,
+        "scrollWidth": 323,
+        "clientWidth": 323
+      },
+      {
+        "index": 2,
+        "left": 371,
+        "right": 1054,
+        "width": 682,
+        "scrollWidth": 688,
+        "clientWidth": 688
+      }
+    ],
+    "offenders": []
+  },
+  "disclosureProbe": {
+    "controls": [
+      {
+        "label": "Extended description for Walmart",
+        "found": true,
+        "collapsedHeight": 34,
+        "summaryHeight": 32,
+        "panelText": "",
+        "panelTextChars": 0,
+        "panelImages": 0,
+        "panelScrollWidth": 686,
+        "panelClientWidth": 686,
+        "openHeight": 59,
+        "grew": true,
+        "panelOverflow": 0
+      },
+      {
+        "label": "Extended description for Starbucks Rewards",
+        "found": true,
+        "collapsedHeight": 34,
+        "summaryHeight": 32,
+        "panelText": "Text on the page reads, FREE COFFEE IS A TAP AWAY. Join now to startearning Rewards. Button: Join Now. Or join in the app (hyperlink) for the bestexperience.",
+        "panelTextChars": 157,
+        "panelImages": 0,
+        "panelScrollWidth": 686,
+        "panelClientWidth": 686,
+        "openHeight": 128,
+        "grew": true,
+        "panelOverflow": 0,
+        "paraPaddingLeft": "0px",
+        "paraPaddingRight": "0px"
+      },
+      {
+        "label": "Extended description for Merck",
+        "found": true,
+        "collapsedHeight": 34,
+        "summaryHeight": 32,
+        "panelText": "",
+        "panelTextChars": 0,
+        "panelImages": 0,
+        "panelScrollWidth": 686,
+        "panelClientWidth": 686,
+        "openHeight": 59,
+        "grew": true,
+        "panelOverflow": 0
+      },
+      {
+        "label": "Extended description for Front Cover",
+        "found": true,
+        "collapsedHeight": 34,
+        "summaryHeight": 32,
+        "panelText": "The authors are David A. Anderson, Heidi M. Neck, Christopher P. Neck, and Emma L. Murray. The B F W Publishers logo appears at the bottom. The cover shows four photos. The first photo shows a girl raising her hand to write on a board in a classroom as her peers observe. The second photo shows a man wearing an apron and standing at a bakery, smiling while looking outside. The third photo shows a m",
+        "panelTextChars": 580,
+        "panelImages": 0,
+        "panelScrollWidth": 686,
+        "panelClientWidth": 686,
+        "openHeight": 239,
+        "grew": true,
+        "panelOverflow": 0,
+        "paraPaddingLeft": "0px",
+        "paraPaddingRight": "0px"
+      }
+    ],
+    "keyboard": {
+      "focusable": true,
+      "toggledByClick": true
+    }
+  },
+  "firstViewport": {
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailureCount": 0,
+    "qaFailures": [],
+    "overflowingPages": 0,
+    "outsideSection": []
+  },
+  "error": null,
+  "loadReady": true,
+  "mobile": {
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailureCount": 0,
+    "qaFailures": [],
+    "overflowingPages": 0,
+    "outsideSection": []
+  },
+  "coverProbeMobile": {
+    "page": {
+      "left": 12,
+      "right": 378,
+      "top": -499,
+      "bottom": 84.390625,
+      "width": 366
+    },
+    "pageScrollWidth": 366,
+    "pageClientWidth": 366,
+    "contentScrollWidth": 270,
+    "contentClientWidth": 260,
+    "tables": [
+      {
+        "index": 0,
+        "left": 65,
+        "right": 325,
+        "width": 260,
+        "scrollWidth": 260,
+        "clientWidth": 260
+      },
+      {
+        "index": 1,
+        "left": 203,
+        "right": 325,
+        "width": 122,
+        "scrollWidth": 122,
+        "clientWidth": 122
+      },
+      {
+        "index": 2,
+        "left": 65,
+        "right": 325,
+        "width": 260,
+        "scrollWidth": 260,
+        "clientWidth": 260
+      }
+    ],
+    "offenders": []
+  },
+  "wide": {
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailureCount": 0,
+    "qaFailures": [],
+    "overflowingPages": 0,
+    "outsideSection": []
+  },
+  "navigation": {
+    "link": true,
+    "hash": "#book-heading-0010",
+    "activeId": "BODY",
+    "targetTop": 89,
+    "toolbarBottom": 62,
+    "landedBelowToolbar": true,
+    "currentRows": 1
+  },
+  "searchDispatch": {
+    "dispatched": true
+  },
+  "searchResult": {
+    "status": "Match in Contents"
+  },
+  "screenshot": "_master_work/corrective_wave/browser_qa_corrected.png",
+  "elapsedMs": 38693
+}

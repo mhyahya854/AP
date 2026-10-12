@@ -121,6 +121,11 @@
 .book-page details.disclosure>.desc-panel>p:last-child,
 .book-page details.disclosure>.desc-panel>ul:last-child{margin-bottom:0!important}
 .book-page details.disclosure>.desc-panel img{max-width:100%;height:auto}
+/* a figure that the corrective wave lifted out of an extended-description
+   panel keeps its reconstructed geometry; it is centred and never wider than
+   the reading column */
+.book-page figure.b2-source-figure{margin:0 0 10pt;text-align:center}
+.book-page figure.b2-source-figure>img{max-width:100%;height:auto;display:inline-block}
 
 /* ---------------------------------------------------------------- 4 ------
    Learning Goals.  The source shows ONE component: a plum hairline, then a

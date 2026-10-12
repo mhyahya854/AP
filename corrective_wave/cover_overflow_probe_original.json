@@ -1,0 +1,45 @@
+{
+  "fileUrl": "file:///C:/Users/mhyah/Downloads/book-source/Word/_master_work/repo/AP/AP%20Book%20Final.html",
+  "steps": [
+    {
+      "name": "closed",
+      "value": {
+        "appClasses": "app left-closed mode-continuous",
+        "mainWidth": 1125,
+        "pageLeft": 166,
+        "pageRight": 959,
+        "pageWidth": 794,
+        "pageScrollWidth": 794,
+        "pageClientWidth": 794,
+        "tableLeft": 219,
+        "tableRight": 906,
+        "tableWidth": 688,
+        "tableScrollWidth": 688,
+        "escapes": [],
+        "totalFailures": 0,
+        "failureIds": []
+      }
+    },
+    {
+      "name": "open",
+      "value": {
+        "appClasses": "app mode-continuous",
+        "mainWidth": 825,
+        "pageLeft": 319,
+        "pageRight": 1106,
+        "pageWidth": 787,
+        "pageScrollWidth": 794,
+        "pageClientWidth": 794,
+        "tableLeft": 371,
+        "tableRight": 1054,
+        "tableWidth": 682,
+        "tableScrollWidth": 688,
+        "escapes": [],
+        "totalFailures": 0,
+        "failureIds": []
+      }
+    }
+  ],
+  "error": null,
+  "elapsedMs": 23309
+}

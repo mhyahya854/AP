@@ -29,8 +29,8 @@ Git LFS and opened locally.
 | Field | Value |
 |---|---|
 | File | `AP Book Final.html` |
-| Bytes | 1,132,281,148 |
-| SHA-256 | `e38a07ca2f09c77deb7dce38993bba41b10b18ba8effd2d7a1d67806b47dfd83` |
+| Bytes | 1,132,281,938 |
+| SHA-256 | `1d270d0b383fcbca619204274275e31f19a250ed338b26dbae2a204f4eb8a896` |
 
 Verify after downloading:
 
@@ -76,10 +76,37 @@ thumbnail, title and authors. Every linked row points at a unique heading id
 Questions" resolve inside their own module instead of jumping to the first
 matching name in the book.
 
-The right-hand page-reference cell is implemented but empty: the printed
-Contents pages in the available source carry no page numbers. Drop a
-`reader/printed_page_references.json` file in and the references populate
+The right-hand page-reference cell shows the printed labels of the
+user-supplied numbered Contents list wherever that list was actually
+available: nine Contents rows (for example `Module 1.1 What Is a Business?` 4,
+`Unit 2 Marketing` 104, `Index` 456) and three front-matter rows
+(`Accessibility` A1, `Brief Contents` iii, `Contents` iv). The printed Contents
+pages in the available source carry no page numbers of their own, so the other
+493 rows keep an empty cell and are listed in
+`reports/contents_printed_page_match_report.json`; nothing was inferred. Drop a
+fuller `reader/printed_page_references.json` in and the references populate
 without re-extracting anything (see `docs/CONTENTS_MAPPING.md`).
+
+## Source images
+
+Everything the book was reconstructed from is in this same repository, so the
+source can be compared with the result:
+
+* `source_png/` - all **1,899 legitimate original Book 2 PNG captures**, in
+  their original batch folders (`Page 1-100`, ..., `Page 1801-1900`), as
+  individual files with original names and original bytes, tracked by Git LFS.
+* `source_png/SOURCE_PNG_MANIFEST.csv` and `.json` - one record per capture
+  with its ordinal, original filename, repository path, source batch, TMP
+  identifier, pixel dimensions, byte size, SHA-256, verification status and
+  section/module association.
+* `docs/source_previews/` - 95 labelled contact sheets and a browsable
+  `index.html` covering every capture. Each thumbnail carries the real
+  filename and TMP identifier and links back to the full-resolution original.
+
+The two captures `B2P3-0034.png` and `B2P3-0035.png` belong to a different book
+and are deliberately excluded (and were left untouched on the source machine).
+A TMP identifier is an internal reconstruction id - it is not a printed page
+number, and a capture may cover only part of a printed page.
 
 ## Reader controls
 
@@ -92,20 +119,25 @@ in `localStorage['book2.reader.v1']`.
 ## What remains uncertain
 
 See [`docs/KNOWN_ISSUES.md`](docs/KNOWN_ISSUES.md). In short: the available
-source has no printed page numbers, no Index body, no Word document for
-`Page 1101-1200`, and no per-image alt text; 125 Contents entries have no
-verified destination; three rebuilt descriptions have empty bodies; and the
-Page 501-600 donor document renders without run sizes.
+source has no printed page numbers of its own, no Index body, no Word document
+for `Page 1101-1200`, and no per-image alt text; 493 Contents rows have no
+supplied printed label; 126 rows have no verified destination; two rebuilt
+descriptions have genuinely empty bodies; and the Page 501-600 donor document
+renders without run sizes. Two older machine-readable browser reports are stale
+and are reconciled in `docs/BROWSER_QA_RECONCILIATION.md`.
 
 ## Repository layout
 
 ```
 AP Book Final.html        the complete textbook (Git LFS)
+source_png/               the 1,899 original source captures (Git LFS) + manifest
 docs/                     validation, audit and gap reports
 docs/layout/              representative rendered screenshots
+docs/source_previews/     labelled contact sheets + browsable index
 reports/                  machine-readable evidence (JSON)
 reader/                   the presentation layer and the patchers
 reader/manifests/         the audited Contents and section manifests
+corrective_wave/          the corrective-wave patcher and its raw evidence
 ```
 
 Generated versus source: `AP Book Final.html`, `docs/layout/*.png` and
@@ -121,13 +153,18 @@ python _master_work/build_reader.py                 # deterministic rebuild of t
 python _master_work/reader_ui/patch_reader_ui.py  _master_work/Book-2-unverified-draft.html  staged.html
 python _master_work/wave/build_sections.py staged.html
 python _master_work/wave/patch_wave.py staged.html "AP Book Final.html"
+python corrective_wave/patch_corrective_wave.py "AP Book Final.html" staged-corrected.html
 ```
 
 `patch_wave.py` streams the ~1.13 GB file, refuses to finish unless it tagged
 42 module/unit headings, 9 group anchors and all 128 in-place disclosure
-controls, and never rewrites article text. `promote.py` performs the guarded
-atomic promotion. The evidence files under `reports/` are the output of the
-audits described in `docs/VALIDATION_SUMMARY.md`.
+controls, and never rewrites article text. `corrective_wave/patch_corrective_wave.py`
+then streams the result again and makes exactly four auditable changes
+(the Starbucks Rewards control structure, the printed-page reference cells, the
+sidebar note and one stylesheet rule), refusing to finish unless each expected
+match count is met. `promote.py` performs the guarded atomic promotion. The
+evidence files under `reports/` are the output of the audits described in
+`docs/VALIDATION_SUMMARY.md`.
 
 ## Rights
 

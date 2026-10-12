@@ -25,7 +25,9 @@ Both files are included under `reader/manifests/`.
 | Top-level groups | 10 |
 | Hierarchy depth levels | 1-4 |
 | Entries missing or dropped | 0 |
-| Print labels assigned | 0 |
+| Print labels assigned | 9 (only the labels the user actually supplied) |
+| Front-matter cells assigned | 3 (`Accessibility` A1, `Brief Contents` iii, `Contents` iv) |
+| Entries remaining uncertain | 493 |
 
 ## Hierarchy and navigation
 
@@ -39,21 +41,48 @@ Both files are included under `reader/manifests/`.
 * the current section is highlighted and its group auto-expanded, and the rail
   scrolls independently.
 
-## Printed page labels - the one gap
+## Printed page labels - what is shown, and what is still missing
 
 The printed Contents pages **in the supplied source carry no page numbers at
-all** (verified by OCR and by eye; the entries are indented links only), and
-the complete numbered Contents list referred to in the brief was not present
-on disk when this wave ran. Rather than invent numbers, the right-aligned
-reference cell is implemented, empty, and the sidebar states plainly that no
-page references are shown.
+all** (verified by eye on `B2P1-0016.png` and `B2P1-0017.png` at full
+resolution; the OCR record for `B2P1-0016.png` holds the entry text only).
+The page-number authority is therefore the **user-supplied numbered Contents
+list**, and only the rows quoted in the brief could be filled:
 
-To populate it, drop a file at `reader/printed_page_references.json`:
+| Sidebar row | Printed label |
+|---|---|
+| Module 1.1 What Is a Business? | 4 |
+| Businesses Create Value | 6 |
+| Module 1.1 Review | 9 |
+| Module 1.2 Markets and Competitive Advantage | 11 |
+| Unit 2 Marketing | 104 |
+| Unit 3/Part 1 Personal Saving and Borrowing | 202 |
+| Unit 4 Management and Strategy | 328 |
+| Unit 5 Personal Goals, Budgeting, and Investing | 386 |
+| Index | 456 |
+| Accessibility (front matter) | A1 |
+| Brief Contents (front matter) | iii |
+| Contents (front matter) | iv |
+
+Nothing was inferred: not from the TMP names, the capture order, the region
+numbers, the Word pagination, the neighbouring headings, the next or previous
+entry, or any counter. Every other row keeps an **empty** reference cell and is
+listed, with its exact text and hierarchy, in
+`reports/contents_printed_page_match_report.json` (493 rows under
+`uncertain`). The list entry `About this Book (FC)` has no sidebar row in this
+build, so it is reported rather than invented.
+
+**Showing a printed label is not a navigation change.** The 376 linked rows
+keep exactly the targets they had; the 126 held rows keep no destination; the
+Index row stays visible and unlinked because no Index body exists. No
+destination was invented to make a label look linked.
+
+To fill more labels, drop the real list into `reader/printed_page_references.json`:
 
 ```json
 { "references": { "TMP-0016:4": "4", "TMP-0017:12": "11" } }
 ```
 
 where each key is a `source_id` from the manifest, and re-run
-`reader/patch_wave.py` (or `reader_ui/patch_reader_ui.py`, which already reads
-that file). No re-extraction is needed.
+`corrective_wave/patch_corrective_wave.py` (or `reader/patch_reader_ui.py`,
+which reads the same file). No re-extraction is needed.

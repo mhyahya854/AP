@@ -1,3 +1,7 @@
 # The complete offline textbook is about 1.13 GB, so it is stored in Git LFS.
 # Everything else in this repository is ordinary source and documentation.
 *.html filter=lfs diff=lfs merge=lfs -text
+
+# The original source captures are the only surviving copy of the page images
+# (3.5 GiB across 1,899 files), so they go through Git LFS as well.
+*.png filter=lfs diff=lfs merge=lfs -text

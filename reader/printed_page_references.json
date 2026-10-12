@@ -1,0 +1,28 @@
+{
+  "schema": "book2.printed_page_references.v1",
+  "authority": "User-supplied numbered Contents list (task brief, TASK 1)",
+  "status": "PARTIAL - only the labels the user actually supplied are recorded; nothing is inferred",
+  "note": "Every value below is a printed page label quoted verbatim from the brief. No label is derived from TMP filenames, source capture sequence, HTML region numbers, Word pagination, neighbouring headings, or an automatic counter. Rows whose label is unknown are deliberately absent so the sidebar leaves their reference cell empty and the gap is reported.",
+  "special_labels_preserved": ["FC", "A1", "iii", "iv", "456", "G-1", "EP-1", "BC"],
+  "references": {
+    "TMP-0016:4": "4",
+    "TMP-0016:8": "6",
+    "TMP-0016:9": "9",
+    "TMP-0016:12": "11",
+    "TMP-0022:13": "104",
+    "TMP-0029:3": "202",
+    "TMP-0036:11": "328",
+    "TMP-0040:10": "386",
+    "TMP-0044:4": "456"
+  },
+  "front_matter_references": {
+    "#book-heading-0002": "A1",
+    "#book-heading-0003": "iii",
+    "#book-heading-0004": "iv"
+  },
+  "unresolved": {
+    "count": 492,
+    "reason": "The complete numbered Contents list is not present in this Codex conversation, the project files, or the 1,899 legitimate source captures. The printed Contents pages in the supplied source carry no page numbers at all (verified against B2P1-0016/0017). Only the labels quoted in the brief are therefore populated; the remaining rows keep an empty reference cell and are listed in the match report.",
+    "rows": "see reports/printed_page_match_report.json"
+  }
+}

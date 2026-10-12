@@ -4,11 +4,13 @@ Reported honestly; none of these was introduced by this wave.
 
 ## Source gaps (cannot be fixed without more source)
 
-1. **No printed page numbers.** The Contents pages in the supplied source carry
-   none, and the complete numbered Contents list referenced in the brief was
-   not present on disk. The sidebar's page-reference column is therefore empty
-   and says so. A drop-in file can populate it later
-   (see `CONTENTS_MAPPING.md`).
+1. **Printed page numbers are only partly available.** The Contents pages in
+   the supplied source carry none, and the complete numbered Contents list
+   referenced in the brief was not present on disk. The nine labels quoted in
+   the brief (plus three front-matter roman/A1 labels) are now shown in the
+   sidebar; the remaining 493 rows keep an empty reference cell and are listed
+   in `reports/contents_printed_page_match_report.json`. Nothing was inferred.
+   The real list can be dropped in later (see `CONTENTS_MAPPING.md`).
 2. **No Index body.** The `Index` Contents entry is kept visible and
    deliberately not linked. The Index text does not exist in the 1,899-region
    sequence.
@@ -19,8 +21,11 @@ Reported honestly; none of these was introduced by this wave.
    formatting.
 5. **All images carry `alt=""`.** The supplied source provides no per-image
    descriptions, and inventing them is not permitted.
-6. **Three rebuilt disclosures have empty bodies** because the source has no
-   description text for them (`DISCLOSURE_AUDIT.md`).
+6. **Two rebuilt disclosures have empty bodies** because the source has no
+   description text for them - Walmart (`TMP-0542`) and Merck (`TMP-0585`).
+   The third one previously listed here, Starbucks Rewards, did have a body:
+   it was restored in the corrective wave
+   (`EXTENDED_DESCRIPTION_AUDIT.md`).
 
 ## Presentation limits
 
