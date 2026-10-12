@@ -2,7 +2,8 @@
  "schema": "book2.source_png_remote_verification.v1",
  "repository": "https://github.com/mhyahya854/AP",
  "branch": "main",
- "commit": "b8f434c0423cf4f48826448bbb72ff6b2c316e07",
+ "commit": "f03031f (latest; the wave itself was committed as b8f434c0423cf4f48826448bbb72ff6b2c316e07, and later commits only add verification reports and keep the preview index browsable)",
+ "waves_commit": "b8f434c0423cf4f48826448bbb72ff6b2c316e07",
  "verified_at_utc": "2026-10-12T18:20:00Z",
  "upload_summary": {
   "lfs_objects_uploaded_this_push": 1872,
