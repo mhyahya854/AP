@@ -26,10 +26,11 @@
   "still_present_on_source_machine": true
  },
  "sample_pull": {
-  "method": "git lfs fetch from origin for 12 captures, then SHA-256 of the stored object",
-  "verified": 12,
-  "failed": 0,
-  "ordinals": [1, 250, 501, 543, 563, 585, 900, 1000, 1300, 1600, 1800, 1899]
+  "method": "CORRECTED: this entry originally described `git lfs fetch --include oid=...`, which is not a valid selector (--include takes paths, not object ids). That call was a no-op and the 12 hashes were read from the local LFS cache, not from the server. The genuine remote pull is recorded in reports/printed_contents_qa.json and contents_wave/remote_verification.json: a fresh clone with a sparse checkout of 12 real capture paths (spread across every batch) plus the book itself, so git-lfs downloaded the objects from the GitHub endpoint; all 12 hashed to their manifest SHA-256 and the book hashed to the local final.",
+  "local_cache_check_verified": 12,
+  "local_cache_check_failed": 0,
+  "ordinals": [1, 250, 501, 543, 563, 585, 900, 1000, 1300, 1600, 1800, 1899],
+  "superseded_by": "contents_wave/remote_verification.json"
  },
  "clean_clone_check": {
   "method": "fresh git clone of https://github.com/mhyahya854/AP, sparse checkout of two captures and the book, then SHA-256",

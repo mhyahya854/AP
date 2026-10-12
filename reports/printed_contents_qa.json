@@ -741,6 +741,45 @@
   "bytes_added": 15719,
   "ok": true
  },
+ "remote_verification": {
+  "commit": "8096027dd370ce15b1739dfad7e677255ae70456",
+  "branch": "main",
+  "head_matches_remote": true,
+  "png_paths_in_commit": 1899,
+  "manifest_records": 1899,
+  "manifest_matches_inventory_order": true,
+  "lfs_pointer_oid_matches_manifest": 1899,
+  "lfs_pointer_mismatches": 0,
+  "excluded_captures_present": 0,
+  "genuine_remote_pull": {
+   "method": "fresh clone + sparse checkout of 12 real capture paths (one per batch) and the book, so git-lfs downloaded the objects from the GitHub endpoint",
+   "captures_verified": 12,
+   "captures_failed": 0,
+   "book_downloaded_bytes": 1132297657,
+   "book_downloaded_sha256": "f606cdc8bf3af4451ed1a092e047fca77bc506244c163dc5ec9bb5531f63346d",
+   "book_matches_local": true,
+   "bandwidth_bytes": 1166054160
+  },
+  "http_checks": {
+   "sheet": {
+    "status": 200,
+    "bytes": "227361"
+   },
+   "manifest_csv": {
+    "status": 200,
+    "bytes": "612877"
+   },
+   "index": {
+    "status": 200,
+    "bytes": "198913"
+   },
+   "readme": {
+    "status": 200,
+    "bytes": "9080"
+   }
+  },
+  "evidence": "contents_wave/remote_verification.json"
+ },
  "unresolved": {
   "manifest_rows_without_a_supplied_label": [
    {
