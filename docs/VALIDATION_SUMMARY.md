@@ -1,10 +1,9 @@
 # Validation summary - continuous-reading wave
 
 Everything below was measured on the built candidate and then re-checked on the
-promoted `AP Book Final.html`. The headline figures are for the corrective
-wave's final artifact, `1d270d0b...`, 1,132,281,938 bytes; the content
-preservation table compares it against the previously promoted
-`e38a07ca...`, 1,132,281,148 bytes.
+promoted `AP Book Final.html`. The headline figures are for the current final
+artifact, `f606cdc8...`, 1,132,297,657 bytes; the content preservation table
+compares it against the previously promoted `1d270d0b...`, 1,132,281,938 bytes.
 
 ## 1. Content preservation (the strongest test)
 
@@ -16,17 +15,18 @@ final and the new one.
 |---|---|
 | Regions | 1,899 before, 1,899 after |
 | Region order / ids | identical |
-| Regions with byte-identical text | **1,899** |
+| Regions with byte-identical text | **1,899** (unchanged) |
 | Regions differing only by disclosure UI glyphs | 0 (that normalisation was the previous wave) |
 | Regions differing in **words** | **0** |
 
 The corrective wave rewrote exactly one source region - `TMP-0563`, the
 Starbucks Rewards control - and even there the region's text fingerprint is
 unchanged: the words were already present, they were simply in the wrong place
-inside the control. `region_text` fingerprints before and after are in
-`corrective_wave/region_text_before.json` and `region_text_after.json`; a
-region-by-region byte comparison of the two artifacts shows 1,898 regions
-byte-identical and only `TMP-0563` different.
+inside the control. The printed-contents wave that followed touched **nothing**
+inside a source region: a region-by-region byte comparison of the previous
+artifact and the current one shows **1,899 of 1,899 regions byte-identical**,
+0 regions with a text change and 0 regions with a word change
+(`contents_wave/region_preservation.json`).
 
 ## 2. Assets
 
@@ -131,3 +131,37 @@ The two stale reports (`reports/browser_qa.json`,
 development fixture, the second a bare `Uncaught` string with no evidence and a
 cover finding that does not reproduce on either the corrected final or the
 previous commit.
+
+## 7. Printed-contents wave re-run (final artifact `f606cdc8...`)
+
+Measured on the promoted final with headless Chrome 155 over `file://`
+(`contents_wave/browser_qa_contents.json`), at desktop 1400x1000, mobile
+390x844 and wide 1920x1200:
+
+| Check | Result |
+|---|---|
+| Regions loaded | 1,899 / 1,899 |
+| JavaScript exceptions / console errors / log errors | **0 / 0 / 0** |
+| `book2QA()` layout failures | **0** at all three viewports |
+| Document / `main` horizontal overflow | **0 px** at all three viewports |
+| Cover region escapes its section | no |
+| Tables / `<details>` / disclosures / labels | 1,484 / 173 / 131 / 131 (0 empty) |
+| Learning-goal badges | 151 |
+| Images | 424 |
+| Contents rows / linked / unlinked | 502 manifest rows (509 sidebar rows) / 383 / 126 |
+| Printed-page cells rendered | **493** |
+| Label mismatches against the reference file | **0** |
+| Rows carrying more than one page cell | 0 |
+| Duplicate element ids / broken in-document links | 0 / 0 of 393 |
+| Contents navigation | `#book-heading-0010`, one `aria-current` row, lands below the toolbar |
+| Search | `Match in Contents` |
+| Disclosure keyboard operation | summary focusable; opens and closes |
+| Starbucks Rewards description | 34 px collapsed -> 128 px expanded, 157-character body, 0 px overflow |
+| Walmart / Merck descriptions | expand correctly; bodies legitimately absent in the source |
+| Region-by-region content comparison | 1,899 byte-identical, 0 word changes |
+
+Representative visual inspection for this wave: the sidebar at desktop width
+with the Front matter and Unit 1 groups expanded, checking that each row shows
+its own printed label (`contents_wave/browser_qa_contents.png`). The rest of
+the book was not re-screenshotted; its text and assets are covered by the
+region-by-region comparison above.

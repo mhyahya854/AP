@@ -64,7 +64,9 @@ rather than deleted.
 
 A fresh instrumented run over `file://` in headless Chrome 155 (the same
 engine the earlier wave used) against the corrected final
-(`corrective_wave/browser_qa_corrected.json`) reports:
+(`corrective_wave/browser_qa_corrected.json`), repeated after the
+printed-contents wave on the current artifact `f606cdc8...`
+(`contents_wave/browser_qa_contents.json`), reports:
 
 | Measure | Result |
 |---|---|
@@ -78,7 +80,7 @@ engine the earlier wave used) against the corrected final
 | Contents rows linked / held | 376 / 126 |
 | duplicate element ids | 0 |
 | broken in-document links | 0 of 393 |
-| printed-page reference cells rendered | 12 (`A1`, `iii`, `iv`, `4`, `6`, `9`, `11`, `104`, `202`, `328`, `386`, `456`) |
+| printed-page reference cells rendered | **493** (12 at the time of the corrective wave) |
 | Contents navigation | `#book-heading-0010`, one `aria-current` row, lands below the toolbar |
 | search | `Match in Contents` |
 | disclosure keyboard operation | summary focusable, expands and collapses |

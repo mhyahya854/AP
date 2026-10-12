@@ -1,5 +1,7 @@
 {
  "schema": "book2.contents_printed_page_match.v1",
+ "superseded_by": "reports/printed_contents_reconciliation.json and reports/printed_contents_qa.json",
+ "superseded_note": "This file records the corrective wave, which ran before the complete numbered Contents list was available and could therefore label only 9 rows. It is kept as the historical record of that state; the current mapping is in reports/printed_contents_reconciliation.json.",
  "contents_entries_in_manifest": 502,
  "entries_with_exact_printed_label": 9,
  "entries_remaining_uncertain": 493,

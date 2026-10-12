@@ -4,13 +4,18 @@ Reported honestly; none of these was introduced by this wave.
 
 ## Source gaps (cannot be fixed without more source)
 
-1. **Printed page numbers are only partly available.** The Contents pages in
-   the supplied source carry none, and the complete numbered Contents list
-   referenced in the brief was not present on disk. The nine labels quoted in
-   the brief (plus three front-matter roman/A1 labels) are now shown in the
-   sidebar; the remaining 493 rows keep an empty reference cell and are listed
-   in `reports/contents_printed_page_match_report.json`. Nothing was inferred.
-   The real list can be dropped in later (see `CONTENTS_MAPPING.md`).
+1. **16 Contents rows have no printed label, and 7 supplied labels have no
+   row.** The sidebar shows the printed labels of the supplied numbered
+   Contents list (493 cells). Sixteen manifest rows - the six unit/module
+   openers and the ten `AP® Skills Workshop ...` / `Business Canvas Project
+   Application` rows - have no entry in that list and keep an empty cell;
+   seven supplied entries (`About this Book` FC, `Cover Page` FC, `Title Page`
+   i, `Copyright Page` ii, `Get the most out of your textbook's . . .` xiv,
+   `FEP` EP-1, `Back Cover` BC) have no manifest row and no sidebar row, so
+   their labels are reported instead of being turned into new navigation rows.
+   Nothing was inferred from position, adjacency or the source images. Details
+   in `CONTENTS_MAPPING.md` and
+   `reports/printed_contents_reconciliation.json`.
 2. **No Index body.** The `Index` Contents entry is kept visible and
    deliberately not linked. The Index text does not exist in the 1,899-region
    sequence.

@@ -29,8 +29,8 @@ Git LFS and opened locally.
 | Field | Value |
 |---|---|
 | File | `AP Book Final.html` |
-| Bytes | 1,132,281,938 |
-| SHA-256 | `1d270d0b383fcbca619204274275e31f19a250ed338b26dbae2a204f4eb8a896` |
+| Bytes | 1,132,297,657 |
+| SHA-256 | `f606cdc8bf3af4451ed1a092e047fca77bc506244c163dc5ec9bb5531f63346d` |
 
 Verify after downloading:
 
@@ -77,15 +77,25 @@ Questions" resolve inside their own module instead of jumping to the first
 matching name in the book.
 
 The right-hand page-reference cell shows the printed labels of the
-user-supplied numbered Contents list wherever that list was actually
-available: nine Contents rows (for example `Module 1.1 What Is a Business?` 4,
-`Unit 2 Marketing` 104, `Index` 456) and three front-matter rows
-(`Accessibility` A1, `Brief Contents` iii, `Contents` iv). The printed Contents
-pages in the available source carry no page numbers of their own, so the other
-493 rows keep an empty cell and are listed in
-`reports/contents_printed_page_match_report.json`; nothing was inferred. Drop a
-fuller `reader/printed_page_references.json` in and the references populate
-without re-extracting anything (see `docs/CONTENTS_MAPPING.md`).
+user-supplied numbered Contents list (500 numbered entries): **493 cells**, for
+example `Module 1.1 What Is a Business?` 4, `Unit 2 Marketing` 104,
+`Index` 456, `Back Cover` BC and the front-matter roman numerals. Labels are
+strings exactly as supplied, so `103A`, `201A`, `327A`, `327B`, `385A`, `429A`,
+`G-1` and `EP-1` keep their real form.
+
+The printed Contents pages in the available source carry no page numbers of
+their own, so the supplied list is the only authority; nothing was inferred
+from position, adjacency, the source images or a counter. Sixteen manifest rows
+have no entry in that list and keep an empty cell, and seven supplied entries
+(`About this Book`, `Cover Page`, `Title Page`, `Copyright Page`, `Get the most
+out of your textbook's . . .`, `FEP`, `Back Cover`) have no sidebar row at all;
+both groups are listed in `reports/printed_contents_reconciliation.json`. See
+`docs/CONTENTS_MAPPING.md` for the full mapping and the exact normalizations
+used (`Case Study X` = `CASE STUDY: X`, `Practice Your AP® Skills` = `... 
+Skills Questions`, and three similar variants).
+
+Showing a label is not a navigation change: the held rows and the Index row
+stay unlinked and no `href` was added or re-pointed.
 
 ## Source images
 
@@ -120,11 +130,12 @@ in `localStorage['book2.reader.v1']`.
 
 See [`docs/KNOWN_ISSUES.md`](docs/KNOWN_ISSUES.md). In short: the available
 source has no printed page numbers of its own, no Index body, no Word document
-for `Page 1101-1200`, and no per-image alt text; 493 Contents rows have no
-supplied printed label; 126 rows have no verified destination; two rebuilt
-descriptions have genuinely empty bodies; and the Page 501-600 donor document
-renders without run sizes. Two older machine-readable browser reports are stale
-and are reconciled in `docs/BROWSER_QA_RECONCILIATION.md`.
+for `Page 1101-1200`, and no per-image alt text; 16 Contents rows have no label
+in the supplied numbered list and 7 supplied labels have no sidebar row; 126
+rows have no verified destination; two rebuilt descriptions have genuinely
+empty bodies; and the Page 501-600 donor document renders without run sizes.
+Two older machine-readable browser reports are stale and are reconciled in
+`docs/BROWSER_QA_RECONCILIATION.md`.
 
 ## Repository layout
 
@@ -138,6 +149,7 @@ reports/                  machine-readable evidence (JSON)
 reader/                   the presentation layer and the patchers
 reader/manifests/         the audited Contents and section manifests
 corrective_wave/          the corrective-wave patcher and its raw evidence
+contents_wave/            the printed-contents mapper, patcher and its evidence
 ```
 
 Generated versus source: `AP Book Final.html`, `docs/layout/*.png` and
