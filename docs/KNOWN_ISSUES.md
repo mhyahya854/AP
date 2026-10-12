@@ -2,6 +2,32 @@
 
 Reported honestly; none of these was introduced by this wave.
 
+## Found by the overnight audit (2026-10-12/13)
+
+1a. **24 description controls are orphan labels (`OA-007`, P1).** In 25 places
+   the text `Extended description for …` is a bare paragraph rather than a
+   `<details>` control, so it cannot be expanded and the label reads as a
+   stray line; 24 of them have no real control anywhere in the book
+   (`TMP-0121`, `-0125`, `-0152`, `-0312`, `-0421`, `-0422`, `-0428`, `-0502`,
+   `-0516`, `-0523`, `-0530`, `-0567`, `-0575`, `-0621`, `-0624`, `-0726`,
+   `-0745`, `-0756`, `-0846`, `-0849`, `-0851`, `-0929`, `-1067`, `-1350`).
+   `TMP-0105` is only a redundant remnant of the real control in `TMP-0107`.
+   Visual proof of the class: `TMP-0567` ends with the control bar and an empty
+   panel while `B2P1-0568.png` opens with that panel's body — the same
+   capture-boundary cut already repaired for Walmart and Merck.  Not repaired
+   yet: each body's extent must be confirmed against its capture, and text is
+   never moved on proximity alone.  Locations:
+   `reports/overnight_audit/orphan_body_map.json`.
+
+1b. **The printed-page spread mode was withdrawn (`OA-001`, resolved by
+   removal).** Single/two-page modes used to page through the 1,899 capture
+   fragments and to offer a two-page *printed* spread.  The available source
+   contains no printed page boundary, so a printed spread cannot be offered
+   honestly.  The reader now offers **Continuous**, **Section** (the 383
+   verified headings) and **Source capture** (honestly labelled), and says why
+   in the Tools note.  Nothing was silently removed: the reason and the
+   replacement are in the UI, here, and in `docs/OVERNIGHT_AUDIT.md`.
+
 ## Source gaps (cannot be fixed without more source)
 
 1. **16 Contents rows have no printed label.** The sidebar shows the printed

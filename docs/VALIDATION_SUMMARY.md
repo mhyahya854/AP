@@ -240,3 +240,52 @@ other byte of the book is copied unchanged.
   0 are broken (`naturalWidth === 0`), which is the check that matters.
 * The narrow-screen drawer overlap recorded in `KNOWN_ISSUES.md` item 12b is
   pre-existing and untouched.
+
+## 9. Overnight-audit wave (final artifact `ec7a490e...`)
+
+Baseline for this wave: `1f935d1a...`, 1,132,298,830 bytes.  Waves applied:
+`contents_wave/patch_reader_semantics.py` (sidebar-shell mode list + an
+additive `reader/ui2.js` script) and `patch_credit_order.py` (four article
+bodies).  Everything else is copied byte-for-byte.
+
+### What the audit covered
+
+| Sweep | Extent | Result |
+|---|---|---|
+| Source captures | 1,899 | file present, SHA-256 and byte count match the manifest, PNG format and pixel size verified |
+| Regions | 1,899 | present, in manifest order, no extra, no missing |
+| Capture transitions | 1,898 | 0 overlapping/duplicated pairs, 0 empty panels, 4 misplaced credits found |
+| Disclosures | 131 | labels present, 0 empty bodies, 0 duplicated panel texts; 25 non-`<details>` labels found (open item) |
+| LG badges | 151 in 143 regions | present, 0 zero-size |
+| Images | 423 in regions | 0 corrupt payloads, 0 broken in the browser |
+| Navigation | 516 rows, 395 links | 0 broken; 500 page cells on rows + 6 on unit headers = 506 |
+
+### Content proof
+
+| Measure | Result |
+|---|---|
+| Regions with a changed text fingerprint | **0** |
+| Regions with changed words | **0** |
+| Whole-book region text | 1,444,347 characters before and after |
+| Tables / images / details / panels / labels | 1,485 / 424 / 173 / 131 / 132, unchanged |
+| New bytes | +12,965 (the additive script and the mode list) |
+
+### Browser (real headless Chrome 155 over `file://`)
+
+| Check | Result |
+|---|---|
+| Exceptions / console errors | 0 / 0 |
+| Mode list | continuous, section, single (the printed spread is gone) |
+| Section mode | 383 sections, `Section 7 of 383 · UNIT 1`, clipping hides 1,896 of 1,899 regions, the section heading is visible |
+| Source-capture mode | `Source capture i of 1,899` with the explanatory note |
+| Discrete mode change (seeded `{left:open,right:open}`) | desktop 1400: both drawers, no overlap; 390 px: one drawer, **no overlap**; back to 1400: both restored |
+| Opening a drawer on mobile | the other closes automatically; still no overlap |
+| Screenshots | `docs/layout/15`..`18` |
+
+### Honest limits
+
+* 18 whole captures and 20 crops were inspected by eye; the rest were covered by
+  the programmatic sweep only — the report never claims otherwise.
+* The 24 orphan description controls are **not** fixed; see `docs/OVERNIGHT_AUDIT.md`.
+* Four misplaced credits were fixed; a looser detector had claimed 11, of which
+  7 were false positives.  The stricter test is the one that was acted on.

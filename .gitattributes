@@ -9,3 +9,10 @@
 # The preview index and the contact sheets are small derived files that must
 # stay browsable in the GitHub web UI, so they are NOT stored in LFS.
 docs/source_previews/index.html !filter !diff !merge text
+
+# The representative QA screenshots under docs/layout/ are small derived
+# evidence and must be previewable in the GitHub file view rather than coming
+# back as ~130-byte LFS pointers.  They are therefore ordinary blobs.  This
+# exception does NOT touch the 1,899 original captures under source_png/ or the
+# book itself, which stay in LFS.
+docs/layout/*.png !filter !diff !merge -text

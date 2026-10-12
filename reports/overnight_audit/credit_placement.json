@@ -1,0 +1,113 @@
+{
+ "schema": "book2.overnight_audit.credits.v1",
+ "regions": 1899,
+ "credit_immediately_after_its_image": 6,
+ "credit_immediately_before_an_image_NOT_after_one": [
+  {
+   "region": "TMP-0570",
+   "credit": "Mike Kemp/Getty Images",
+   "index": 0,
+   "next_element": "img"
+  },
+  {
+   "region": "TMP-0575",
+   "credit": "Andrew Aitchison/Getty Images",
+   "index": 2,
+   "next_element": "img"
+  },
+  {
+   "region": "TMP-0592",
+   "credit": "Connect Images/Henglein and Steets/Getty Images",
+   "index": 0,
+   "next_element": "img"
+  },
+  {
+   "region": "TMP-0598",
+   "credit": "David Bokuchava/Alamy Stock Photo",
+   "index": 0,
+   "next_element": "img"
+  }
+ ],
+ "credit_elsewhere": [
+  {
+   "region": "TMP-0057",
+   "credit": "Copyright © BFW Publishers",
+   "next_element": null
+  },
+  {
+   "region": "TMP-0064",
+   "credit": "Copyright © BFW Publishers",
+   "next_element": null
+  },
+  {
+   "region": "TMP-0071",
+   "credit": "Copyright © BFW Publishers",
+   "next_element": null
+  },
+  {
+   "region": "TMP-0076",
+   "credit": "Copyright © BFW Publishers",
+   "next_element": null
+  },
+  {
+   "region": "TMP-0085",
+   "credit": "Copyright © BFW Publishers",
+   "next_element": null
+  },
+  {
+   "region": "TMP-0091",
+   "credit": "Copyright © BFW Publishers",
+   "next_element": null
+  },
+  {
+   "region": "TMP-0097",
+   "credit": "Copyright © BFW Publishers",
+   "next_element": null
+  },
+  {
+   "region": "TMP-0502",
+   "credit": "Copyright © BFW Publishers",
+   "next_element": null
+  },
+  {
+   "region": "TMP-0516",
+   "credit": "Copyright © BFW Publishers",
+   "next_element": "p"
+  },
+  {
+   "region": "TMP-0631",
+   "credit": "Percent of sales Swimsuits 6% Bikes 27% Shoes 34% Apparel 14% Balls 19% Copyright © BFW Pu",
+   "next_element": "details"
+  },
+  {
+   "region": "TMP-0650",
+   "credit": "Market Opportunities Ideation Validation Production Messaging Design Launch Copyright © BF",
+   "next_element": null
+  },
+  {
+   "region": "TMP-0673",
+   "credit": "Introduction Growth Maturity Decline Sales and Profit ($) Sales Profit Time Copyright © BF",
+   "next_element": "details"
+  },
+  {
+   "region": "TMP-0700",
+   "credit": "$10 $7 } } Price Per-unit profit margin Per-unit cost 1 pair of socks Copyright © BFW Publ",
+   "next_element": "details"
+  },
+  {
+   "region": "TMP-0855",
+   "credit": "Left: Neilson Barnard/Getty Images; right: Anna Webber/Getty Images",
+   "next_element": "details"
+  },
+  {
+   "region": "TMP-0859",
+   "credit": "Bettmann/Getty Images",
+   "next_element": "p"
+  },
+  {
+   "region": "TMP-1338",
+   "credit": "Copyright © BFW Publishers",
+   "next_element": "p"
+  }
+ ]
+}

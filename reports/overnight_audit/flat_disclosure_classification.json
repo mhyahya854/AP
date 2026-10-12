@@ -1,0 +1,186 @@
+{
+ "schema": "book2.overnight_audit.flat_disclosure_classification.v1",
+ "flat_labels": 25,
+ "real_controls": 131,
+ "redundant_remnants": 1,
+ "orphan_labels": 24,
+ "rows": [
+  {
+   "region": "TMP-0105",
+   "label": "Extended description for Digital Platform",
+   "key": "digitalplatform",
+   "matching_real_controls": [
+    "TMP-0107"
+   ],
+   "classification": "REDUNDANT_REMNANT_of_a_real_control"
+  },
+  {
+   "region": "TMP-0121",
+   "label": "Extended description for Businesses",
+   "key": "businesses",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0125",
+   "label": "Extended description for Kellogg&#x27;s Froot Loops",
+   "key": "kelloggsfrootloops",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0152",
+   "label": "Extended description for FIGURE 1.2-1 Where Market Prices Comes From: Supply",
+   "key": "figure121wheremarketpricescomesfromsupply",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0312",
+   "label": "Extended description for Your School’s Vision, Mission, and Culture",
+   "key": "yourschoolsvisionmissionandculture",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0421",
+   "label": "Extended description for Figure 1.8-1 The Supply Chain for a Good",
+   "key": "figure181thesupplychainforagood",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0422",
+   "label": "Extended description for Figure 1.8-2 The Supply Chain for Cereal",
+   "key": "figure182thesupplychainforcereal",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0428",
+   "label": "Extended description for Figure 1.8-3 The Supply Chain for a Service",
+   "key": "figure183thesupplychainforaservice",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0502",
+   "label": "Extended description for FIGURE 2.1-2 Four Main Types of Market Segmentation",
+   "key": "figure212fourmaintypesofmarketsegmentation",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0516",
+   "label": "Extended description for Figure 2.1-3 Cooper, the Family Man",
+   "key": "figure213cooperthefamilyman",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0523",
+   "label": "Extended description for Lancôme Cosmetics",
+   "key": "lancomecosmetics",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0530",
+   "label": "Extended description for Privacy Statement",
+   "key": "privacystatement",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0567",
+   "label": "Extended description for Figure 2.2-1 Cialdini&#x27;s Seven Principles of Influence",
+   "key": "figure221cialdinissevenprinciplesofinfluence",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0575",
+   "label": "Extended description for Consumers",
+   "key": "consumers",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0621",
+   "label": "Extended description for Figure 2.3-2 Bar Chart",
+   "key": "figure232barchart",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0624",
+   "label": "Extended description for Figure 2.3-3 Stacked Bar Chart",
+   "key": "figure233stackedbarchart",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0726",
+   "label": "Extended description for Disaster Strikes",
+   "key": "disasterstrikes",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0745",
+   "label": "Extended description for Middleman",
+   "key": "middleman",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0756",
+   "label": "Extended description for Docu Sign",
+   "key": "docusign",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0846",
+   "label": "Extended description for Figure U 2-5 The Product Life Cycle",
+   "key": "figureu25theproductlifecycle",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0849",
+   "label": "Extended description for Figure U 2-6 Product Features of Beats Studio Pro Headphones",
+   "key": "figureu26productfeaturesofbeatsstudioproheadphones",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0851",
+   "label": "Extended description for Figure U 2-7 Beats Studio Pro Ad",
+   "key": "figureu27beatsstudioproad",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-0929",
+   "label": "Extended description for Loans",
+   "key": "loans",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-1067",
+   "label": "Extended description for Capital Bank",
+   "key": "capitalbank",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  },
+  {
+   "region": "TMP-1350",
+   "label": "Extended description for South by Southwest",
+   "key": "southbysouthwest",
+   "matching_real_controls": [],
+   "classification": "ORPHAN_LABEL_no_control_anywhere"
+  }
+ ]
+}

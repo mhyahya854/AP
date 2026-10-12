@@ -1,0 +1,111 @@
+{
+ "schema": "book2.overnight_audit.flat_disclosures.v1",
+ "regions": 1899,
+ "labels_inside_a_details_control": 131,
+ "labels_NOT_inside_a_details_control": [
+  {
+   "region": "TMP-0105",
+   "label": "Extended description for Digital Platform"
+  },
+  {
+   "region": "TMP-0121",
+   "label": "Extended description for Businesses"
+  },
+  {
+   "region": "TMP-0125",
+   "label": "Extended description for Kellogg&#x27;s Froot Loops"
+  },
+  {
+   "region": "TMP-0152",
+   "label": "Extended description for FIGURE 1.2-1 Where Market Prices Comes From: Supply"
+  },
+  {
+   "region": "TMP-0312",
+   "label": "Extended description for Your School’s Vision, Mission, and Culture"
+  },
+  {
+   "region": "TMP-0421",
+   "label": "Extended description for Figure 1.8-1 The Supply Chain for a Good"
+  },
+  {
+   "region": "TMP-0422",
+   "label": "Extended description for Figure 1.8-2 The Supply Chain for Cereal"
+  },
+  {
+   "region": "TMP-0428",
+   "label": "Extended description for Figure 1.8-3 The Supply Chain for a Service"
+  },
+  {
+   "region": "TMP-0502",
+   "label": "Extended description for FIGURE 2.1-2 Four Main Types of Market Segmentation"
+  },
+  {
+   "region": "TMP-0516",
+   "label": "Extended description for Figure 2.1-3 Cooper, the Family Man"
+  },
+  {
+   "region": "TMP-0523",
+   "label": "Extended description for Lancôme Cosmetics"
+  },
+  {
+   "region": "TMP-0530",
+   "label": "Extended description for Privacy Statement"
+  },
+  {
+   "region": "TMP-0567",
+   "label": "Extended description for Figure 2.2-1 Cialdini&#x27;s Seven Principles of Influence"
+  },
+  {
+   "region": "TMP-0575",
+   "label": "Extended description for Consumers"
+  },
+  {
+   "region": "TMP-0621",
+   "label": "Extended description for Figure 2.3-2 Bar Chart"
+  },
+  {
+   "region": "TMP-0624",
+   "label": "Extended description for Figure 2.3-3 Stacked Bar Chart"
+  },
+  {
+   "region": "TMP-0726",
+   "label": "Extended description for Disaster Strikes"
+  },
+  {
+   "region": "TMP-0745",
+   "label": "Extended description for Middleman"
+  },
+  {
+   "region": "TMP-0756",
+   "label": "Extended description for Docu Sign"
+  },
+  {
+   "region": "TMP-0846",
+   "label": "Extended description for Figure U 2-5 The Product Life Cycle"
+  },
+  {
+   "region": "TMP-0849",
+   "label": "Extended description for Figure U 2-6 Product Features of Beats Studio Pro Headphones"
+  },
+  {
+   "region": "TMP-0851",
+   "label": "Extended description for Figure U 2-7 Beats Studio Pro Ad"
+  },
+  {
+   "region": "TMP-0929",
+   "label": "Extended description for Loans"
+  },
+  {
+   "region": "TMP-1067",
+   "label": "Extended description for Capital Bank"
+  },
+  {
+   "region": "TMP-1350",
+   "label": "Extended description for South by Southwest"
+  }
+ ],
+ "regions_with_a_loose_black_triangle": [
+  "TMP-0567",
+  "TMP-0575"
+ ]
+}

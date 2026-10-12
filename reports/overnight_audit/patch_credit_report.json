@@ -1,0 +1,37 @@
+{
+ "patch": "PATCH-3 credit order",
+ "source": "staged\\AP Book Final (semantics).html",
+ "output": "staged\\AP Book Final (candidate).html",
+ "source_bytes": 1132311795,
+ "output_bytes": 1132311795,
+ "bytes_added": 0,
+ "output_sha256": "ec7a490e53e811b1f433a9311f4bd7152dcb305f0007e306db5b33703691f24b",
+ "regions_edited": [
+  "TMP-0570",
+  "TMP-0575",
+  "TMP-0592",
+  "TMP-0598"
+ ],
+ "moved": [
+  {
+   "region": "TMP-0570",
+   "credit": "Mike Kemp/Getty Images",
+   "bytes_moved": 77
+  },
+  {
+   "region": "TMP-0575",
+   "credit": "Andrew Aitchison/Getty Images",
+   "bytes_moved": 84
+  },
+  {
+   "region": "TMP-0592",
+   "credit": "Connect Images/Henglein and Steets/Getty Images",
+   "bytes_moved": 102
+  },
+  {
+   "region": "TMP-0598",
+   "credit": "David Bokuchava/Alamy Stock Photo",
+   "bytes_moved": 88
+  }
+ ]
+}

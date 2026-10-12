@@ -29,8 +29,8 @@ Git LFS and opened locally.
 | Field | Value |
 |---|---|
 | File | `AP Book Final.html` |
-| Bytes | 1,132,298,830 |
-| SHA-256 | `1f935d1ac2595b9c84ec81354c0b963867abda7c3d5506272a36941c4bd8a83b` |
+| Bytes | 1,132,311,795 |
+| SHA-256 | `ec7a490e53e811b1f433a9311f4bd7152dcb305f0007e306db5b33703691f24b` |
 
 Verify after downloading:
 
@@ -129,11 +129,22 @@ number, and a capture may cover only part of a printed page.
 
 ## Reader controls
 
-Continuous / single page / two-page spread; Original-Textbook, Georgia,
-Times New Roman, Arial and Verdana fonts; text size 70–150 %; line spacing
-compact / normal / relaxed; zoom 50–200 %; reset typography; reset view;
-search; Contents and Tools toggles; keyboard navigation. Preferences persist
-in `localStorage['book2.reader.v1']`.
+**Continuous** (default) reads the whole book as one flowing sheet.
+**Section** pages through the book's own 383 verified headings — a real unit of
+the book — and reports `Section i of 383 · <heading>`.  **Source capture** steps
+through the 1,899 page images the book was rebuilt from and says so: a capture
+is a screenshot of a scrolling page, not a printed page.
+
+A two-page *printed* spread is deliberately **not** offered: the available
+source contains no printed page boundary, so a printed spread could not be drawn
+honestly.  The Tools panel states this where the choice would have been.
+
+Also: Original-Textbook, Georgia, Times New Roman, Arial and Verdana fonts;
+text size 70–150 %; line spacing compact / normal / relaxed; zoom 50–200 %;
+reset typography; reset view; search; Contents and Tools toggles; keyboard
+navigation.  Preferences persist in `localStorage['book2.reader.v1']`.  On a
+narrow viewport the two drawers never overlap: opening one closes the other,
+and the stored desktop preference is restored when the window widens.
 
 ## What remains uncertain
 
@@ -151,6 +162,14 @@ and Merck - were **not** empty: the capture boundary cut the description panel
 in two and their bodies stand at the top of the following capture. Both are now
 restored inside their controls (`docs/WALMART_MERCK_FORENSICS.md`), and no
 disclosure control has an empty body.
+
+The overnight forensic audit and its corrections are written up in
+[`docs/OVERNIGHT_AUDIT.md`](docs/OVERNIGHT_AUDIT.md), with the raw evidence in
+`reports/overnight_audit/`.  Its headline open item is the **24 orphan
+description controls** (`OA-007`): the source has a control, the reconstruction
+has only a bare label, and the body's extent still has to be confirmed against
+each capture before the text can be moved — so it was left untouched rather
+than guessed.
 
 ## Repository layout
 

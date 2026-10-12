@@ -1,0 +1,38 @@
+{
+ "schema": "book2.overnight_audit.candidate_verification.v1",
+ "baseline": {
+  "path": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\repo\\AP\\AP Book Final.html",
+  "tables": 1485,
+  "imgs": 424,
+  "details": 173,
+  "desc_panels": 131,
+  "empty_panels": 0,
+  "desc_labels": 132,
+  "lg_badges": 328,
+  "headings": 383,
+  "bytes": 1132298830,
+  "sha256": "1f935d1ac2595b9c84ec81354c0b963867abda7c3d5506272a36941c4bd8a83b"
+ },
+ "candidate": {
+  "path": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\overnight_audit\\staged\\AP Book Final (candidate).html",
+  "tables": 1485,
+  "imgs": 424,
+  "details": 173,
+  "desc_panels": 131,
+  "empty_panels": 0,
+  "desc_labels": 132,
+  "lg_badges": 328,
+  "headings": 383,
+  "bytes": 1132310704,
+  "sha256": "017183431451715c11b0cbe489cbc61c3a3f8b51770656e7e77508e10e460796"
+ },
+ "regions": 1899,
+ "region_order_identical": true,
+ "regions_with_changed_text": [],
+ "regions_with_changed_words": [],
+ "region_text_chars_baseline": 1444347,
+ "region_text_chars_candidate": 1444347,
+ "delta_chars": 0,
+ "new_script_blocks": 11874,
+ "ok": true
+}

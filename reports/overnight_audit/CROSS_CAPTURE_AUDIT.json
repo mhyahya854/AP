@@ -1,0 +1,259 @@
+{
+ "schema": "book2.overnight_audit.cross_capture.v1",
+ "audited_at": "2026-10-12T23:19:37",
+ "regions": 1899,
+ "transitions_checked": 1898,
+ "findings": {
+  "A_empty_panel": [],
+  "B_overlap_duplicate": [],
+  "C_credit_stranded_at_top": [
+   {
+    "a": "TMP-0569",
+    "b": "TMP-0570",
+    "credit": "Mike Kemp/Getty Images",
+    "verdict": "REVIEW: credit is the first thing in the next capture"
+   },
+   {
+    "a": "TMP-0591",
+    "b": "TMP-0592",
+    "credit": "Connect Images/Henglein and Steets/Getty Images",
+    "verdict": "REVIEW: credit is the first thing in the next capture"
+   },
+   {
+    "a": "TMP-0597",
+    "b": "TMP-0598",
+    "credit": "David Bokuchava/Alamy Stock Photo",
+    "verdict": "REVIEW: credit is the first thing in the next capture"
+   }
+  ],
+  "D_caption_far_from_figure": [],
+  "E_disclosure_spanning_boundary": [],
+  "F_blank_region_source_check": [
+   {
+    "region": "TMP-0053",
+    "source_png": "B2P1-0053.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-0055",
+    "source_png": "B2P1-0055.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-0106",
+    "source_png": "B2P1-0106.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-0108",
+    "source_png": "B2P1-0108.png",
+    "non_white_fraction": 0.47592,
+    "verdict": "source capture has visible content - INVESTIGATE"
+   },
+   {
+    "region": "TMP-0109",
+    "source_png": "B2P1-0109.png",
+    "non_white_fraction": 0.37833,
+    "verdict": "source capture has visible content - INVESTIGATE"
+   },
+   {
+    "region": "TMP-0110",
+    "source_png": "B2P1-0110.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-0129",
+    "source_png": "B2P1-0129.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-0231",
+    "source_png": "B2P1-0231.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-0434",
+    "source_png": "B2P1-0434.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-0478",
+    "source_png": "B2P1-0478.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-0666",
+    "source_png": "B2P1-0666.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-0708",
+    "source_png": "B2P1-0708.png",
+    "non_white_fraction": 0.01187,
+    "verdict": "source capture has visible content - INVESTIGATE"
+   },
+   {
+    "region": "TMP-0771",
+    "source_png": "B2P1-0771.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-0862",
+    "source_png": "B2P1-0862.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-0922",
+    "source_png": "B2P2-0059.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-0969",
+    "source_png": "B2P2-0106.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-0970",
+    "source_png": "B2P2-0107.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-0977",
+    "source_png": "B2P2-0114.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-0993",
+    "source_png": "B2P2-0130.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-1112",
+    "source_png": "B2P2-0249.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-1121",
+    "source_png": "B2P2-0258.png",
+    "non_white_fraction": 0.40407,
+    "verdict": "source capture has visible content - INVESTIGATE"
+   },
+   {
+    "region": "TMP-1156",
+    "source_png": "B2P2-0293.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-1162",
+    "source_png": "B2P2-0299.png",
+    "non_white_fraction": 0.50505,
+    "verdict": "source capture has visible content - INVESTIGATE"
+   },
+   {
+    "region": "TMP-1174",
+    "source_png": "B2P2-0311.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-1205",
+    "source_png": "B2P2-0342.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-1208",
+    "source_png": "B2P2-0345.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-1298",
+    "source_png": "B2P2-0435.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-1305",
+    "source_png": "B2P2-0442.png",
+    "non_white_fraction": 0.34031,
+    "verdict": "source capture has visible content - INVESTIGATE"
+   },
+   {
+    "region": "TMP-1306",
+    "source_png": "B2P2-0443.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-1312",
+    "source_png": "B2P2-0449.png",
+    "non_white_fraction": 0.39914,
+    "verdict": "source capture has visible content - INVESTIGATE"
+   },
+   {
+    "region": "TMP-1414",
+    "source_png": "B2P2-0551.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-1444",
+    "source_png": "B2P2-0581.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-1521",
+    "source_png": "B2P2-0658.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-1577",
+    "source_png": "B2P2-0714.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-1599",
+    "source_png": "B2P2-0736.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   },
+   {
+    "region": "TMP-1670",
+    "source_png": "B2P2-0807.png",
+    "non_white_fraction": 0.0,
+    "verdict": "source capture is effectively blank"
+   }
+  ]
+ },
+ "counts": {
+  "A_empty_panel": 0,
+  "B_overlap_duplicate": 0,
+  "C_credit_stranded_at_top": 3,
+  "D_caption_far_from_figure": 0,
+  "E_disclosure_spanning_boundary": 0,
+  "F_blank_region_source_check": 36
+ },
+ "elapsed_s": 31.7
+}

@@ -1,0 +1,12 @@
+{
+ "patch": "PATCH-1/PATCH-2 reader semantics + mobile drawers",
+ "source": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\repo\\AP\\AP Book Final.html",
+ "output": "staged\\AP Book Final (semantics).html",
+ "source_bytes": 1132298830,
+ "output_bytes": 1132311795,
+ "bytes_added": 12965,
+ "output_sha256": "fe3198c289968b81c483f843c7be8c003b88a28f7ad85945310db0b3f65d9c23",
+ "mode_select_replaced": true,
+ "ui2_script_bytes": 12969,
+ "ui2_sha256": "0bf24603b1c214ed0286e378dc6748619526d5490f3a5d17792f62b520c1cd58"
+}
