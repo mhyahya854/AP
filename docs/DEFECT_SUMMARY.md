@@ -17,11 +17,19 @@ and re-checked on the promoted artifact.
 | 10 | The front cover had stray borders and the title inherited the reading serif, breaking "PERSONAL" across two lines | Cover scoped rules: no borders or padding, sans title that fits its column at every width, author line on one line | `book2QA()` 0 failures; screenshot `01`; mobile cover overflow 0 |
 | 11 | Headings in the OCR-recovered regions rendered at body size (e.g. "The Anatomy of an Income Statement") | Headings that carry no run formatting of their own are marked from their verified manifest level and given the book's heading presentation | 58 headings marked; screenshots `07`, `08` |
 | 12 | The text-size control moved the base size only, so paragraphs with their own inline sizes did not respond | Text size now scales the reading surface as well, so every text node responds | probe: 100 % -> 130 % changes body size and surface zoom |
+| 13 | The seven supplied Contents entries `About this Book`, `Cover Page`, `Title Page`, `Copyright Page`, `Get the most out of your textbook's . . .`, `FEP` and `Back Cover` had no sidebar row | Rendered as their own rows, in the supplied order, with the exact supplied title and printed label; linked only where a verified source region exists | `reports/supplied_entries_verification.json`; screenshot `10` |
+| 14 | The six top-level unit rows showed no printed page number - the label sat only on the nested copy of the same entry | The supplied label is on the group header itself (2 / 104 / 202 / 236 / 328 / 386) | browser rail probe; screenshot `14` |
+| 15 | The front-matter navigation label rendered as `BUSINESSWITHPERSONALFINANCE` (the cover title is four stacked lines) | Repaired to the supplied wording `Business with Personal Finance`; the cover region's `data-nav-label` too | `CONTENTS_MAPPING.md`; screenshot `05` |
+| 16 | The Walmart (`TMP-0542`) and Merck (`TMP-0585`) Extended Descriptions opened to an empty panel | Both bodies exist at the top of the following capture; the exact paragraphs were relocated into the controls and the figure captions left outside | `docs/WALMART_MERCK_FORENSICS.md`; screenshots `11`, `12`; 0 of 131 panels now empty |
 
 ## What was deliberately not changed
 
 * No source text, figure, table value, caption, credit or description body was
   edited, re-ordered or removed (proved word-for-word over all 1,899 regions).
+  The Walmart and Merck description bodies were *relocated* - the same bytes,
+  moved from the following region into the control - which is why each pair's
+  concatenated text still hashes identically and the whole-book region text is
+  unchanged at 1,444,347 characters.
 * No printed page number, Index entry body or missing page content was
   invented.
 * The genuine source variants (plate/colour differences between the Word

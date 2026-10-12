@@ -72,10 +72,23 @@ the control. See `EXTENDED_DESCRIPTION_AUDIT.md`.
 
 ## Bodies that genuinely do not exist
 
-Two rebuilt controls - **Walmart** (`TMP-0542`) and **Merck** (`TMP-0585`) -
-have no description body anywhere in the supplied source. The PNG capture shows
-the grey panel below the label empty, and the structured fidelity record for
-each page lists no panel text at all. They remain correct, expandable controls
-with an empty panel rather than a body that does not exist. Inventing that text
-is not permitted; the gap is recorded here and in
-`EXTENDED_DESCRIPTION_AUDIT.md`.
+**None.** This section previously named Walmart (`TMP-0542`) and Merck
+(`TMP-0585`). That was wrong for the same reason as the Starbucks Rewards
+mistake above: the audit read only the capture that holds the control. For both
+pages the capture boundary cuts the description panel in two, and the body is
+the first thing on the *next* capture - inside the same bordered grey panel,
+above the divider, with the caption strip below it.
+
+Restored in `supplied-entries-2026-10-12` by relocating the exact source
+paragraphs into the control:
+
+* Walmart - "Additional registers are open and checking out customers. Long
+  lines extend from each of the three registers." (17 words);
+* Merck - the three-paragraph description beginning "The phone screen displays a
+  screenshot from a web page for Merck..." (79 words).
+
+After the wave, **0 of the 131 controls have an empty `.desc-panel`**
+(`contents_wave/scan_disclosure_panels.py`). The figure captions stay outside
+the controls where the source puts them. Full evidence and the relocation
+arithmetic: `WALMART_MERCK_FORENSICS.md` and
+`reports/walmart_merck_crosscapture.json`.

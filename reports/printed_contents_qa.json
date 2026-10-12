@@ -900,5 +900,6 @@
     "printed_page_label": "BC"
    }
   ]
- }
+ },
+ "superseded_by": "reports/supplied_entries_qa.json and reports/supplied_entries_verification.json (supplied-entries-2026-10-12); the figures below describe the printed-contents-2026-10-12 wave only"
 }

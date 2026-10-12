@@ -9,7 +9,12 @@
   "manifest_rows_with_label": 486,
   "manifest_rows_without_label": 16,
   "numbered_entries_without_manifest_row": 14,
-  "sidebar_extra_cells": 7
+  "sidebar_extra_cells": 9,
+  "supplied_entries_rendered_on_new_rows": 7,
+  "supplied_entries_rendered_unlinked": 5,
+  "supplied_entries_linked_to_a_verified_region": 2,
+  "supplied_entries_on_pre_existing_non_manifest_rows": 7,
+  "numbered_entries_represented_in_the_sidebar": 500
  },
  "special_labels_preserved": [
   "FC",
@@ -522,12 +527,14 @@
   "TMP-0044:4": "456"
  },
  "by_href": {
+  "#TMP-0001": "FC",
   "#book-heading-0002": "A1",
   "#book-heading-0003": "iii",
   "#book-heading-0004": "iv",
   "#book-heading-0005": "x",
   "#book-heading-0006": "xii",
   "#book-heading-0001": "xiii",
+  "#TMP-0056": "xiv",
   "#book-heading-0382": "G-1"
  },
  "entries": [

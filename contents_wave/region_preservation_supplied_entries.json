@@ -1,0 +1,11 @@
+{
+ "regions_a": 1899,
+ "regions_b": 1899,
+ "order_identical": true,
+ "regions_byte_identical": 1899,
+ "regions_byte_different": [],
+ "regions_with_text_change": [],
+ "regions_with_word_change": [],
+ "total_chars_a": 1444347,
+ "total_chars_b": 1444347
+}

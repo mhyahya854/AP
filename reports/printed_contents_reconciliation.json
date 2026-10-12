@@ -8,7 +8,12 @@
   "manifest_rows_with_label": 486,
   "manifest_rows_without_label": 16,
   "numbered_entries_without_manifest_row": 14,
-  "sidebar_extra_cells": 7
+  "sidebar_extra_cells": 9,
+  "supplied_entries_rendered_on_new_rows": 7,
+  "supplied_entries_rendered_unlinked": 5,
+  "supplied_entries_linked_to_a_verified_region": 2,
+  "supplied_entries_on_pre_existing_non_manifest_rows": 7,
+  "numbered_entries_represented_in_the_sidebar": 500
  },
  "paired": [
   {
@@ -5363,99 +5368,143 @@
    "sequence_index": 1,
    "numbered_title": "About this Book",
    "printed_page_label": "FC",
-   "sidebar_row": "no sidebar row exists",
-   "status": "no sidebar row to attach it to"
+   "sidebar_row": "rendered as a new visible, unlinked sidebar row",
+   "status": "rendered as a new sidebar row with its supplied label, deliberately not linked because the supplied source has no body for it"
   },
   {
    "sequence_index": 2,
    "numbered_title": "Cover Page",
    "printed_page_label": "FC",
-   "sidebar_row": "no sidebar row exists",
-   "status": "no sidebar row to attach it to"
+   "sidebar_row": "rendered by the row that links to #TMP-0001",
+   "status": "label attached to the sidebar row for #TMP-0001"
   },
   {
    "sequence_index": 3,
    "numbered_title": "Accessibility",
    "printed_page_label": "A1",
-   "sidebar_row": "rendered by href #book-heading-0002",
-   "status": "label attached to an existing sidebar row"
+   "sidebar_row": "rendered by the row that links to #book-heading-0002",
+   "status": "label attached to the sidebar row for #book-heading-0002"
   },
   {
    "sequence_index": 4,
    "numbered_title": "Title Page",
    "printed_page_label": "i",
-   "sidebar_row": "no sidebar row exists",
-   "status": "no sidebar row to attach it to"
+   "sidebar_row": "rendered as a new visible, unlinked sidebar row",
+   "status": "rendered as a new sidebar row with its supplied label, deliberately not linked because the supplied source has no body for it"
   },
   {
    "sequence_index": 5,
    "numbered_title": "Copyright Page",
    "printed_page_label": "ii",
-   "sidebar_row": "no sidebar row exists",
-   "status": "no sidebar row to attach it to"
+   "sidebar_row": "rendered as a new visible, unlinked sidebar row",
+   "status": "rendered as a new sidebar row with its supplied label, deliberately not linked because the supplied source has no body for it"
   },
   {
    "sequence_index": 6,
    "numbered_title": "Brief Contents",
    "printed_page_label": "iii",
-   "sidebar_row": "rendered by href #book-heading-0003",
-   "status": "label attached to an existing sidebar row"
+   "sidebar_row": "rendered by the row that links to #book-heading-0003",
+   "status": "label attached to the sidebar row for #book-heading-0003"
   },
   {
    "sequence_index": 7,
    "numbered_title": "Contents",
    "printed_page_label": "iv",
-   "sidebar_row": "rendered by href #book-heading-0004",
-   "status": "label attached to an existing sidebar row"
+   "sidebar_row": "rendered by the row that links to #book-heading-0004",
+   "status": "label attached to the sidebar row for #book-heading-0004"
   },
   {
    "sequence_index": 8,
    "numbered_title": "About the Authors",
    "printed_page_label": "x",
-   "sidebar_row": "rendered by href #book-heading-0005",
-   "status": "label attached to an existing sidebar row"
+   "sidebar_row": "rendered by the row that links to #book-heading-0005",
+   "status": "label attached to the sidebar row for #book-heading-0005"
   },
   {
    "sequence_index": 9,
    "numbered_title": "Content Advisory Board",
    "printed_page_label": "xii",
-   "sidebar_row": "rendered by href #book-heading-0006",
-   "status": "label attached to an existing sidebar row"
+   "sidebar_row": "rendered by the row that links to #book-heading-0006",
+   "status": "label attached to the sidebar row for #book-heading-0006"
   },
   {
    "sequence_index": 10,
    "numbered_title": "Business with Personal Finance",
    "printed_page_label": "xiii",
-   "sidebar_row": "rendered by href #book-heading-0001",
-   "status": "label attached to an existing sidebar row"
+   "sidebar_row": "rendered by the row that links to #book-heading-0001",
+   "status": "label attached to the sidebar row for #book-heading-0001"
   },
   {
    "sequence_index": 11,
    "numbered_title": "Get the most out of your textbook’s . . .",
    "printed_page_label": "xiv",
-   "sidebar_row": "no sidebar row exists",
-   "status": "no sidebar row to attach it to"
+   "sidebar_row": "rendered by the row that links to #TMP-0056",
+   "status": "label attached to the sidebar row for #TMP-0056"
   },
   {
    "sequence_index": 496,
    "numbered_title": "Glossary",
    "printed_page_label": "G-1",
-   "sidebar_row": "rendered by href #book-heading-0382",
-   "status": "label attached to an existing sidebar row"
+   "sidebar_row": "rendered by the row that links to #book-heading-0382",
+   "status": "label attached to the sidebar row for #book-heading-0382"
   },
   {
    "sequence_index": 499,
    "numbered_title": "FEP",
    "printed_page_label": "EP-1",
-   "sidebar_row": "no sidebar row exists",
-   "status": "no sidebar row to attach it to"
+   "sidebar_row": "rendered as a new visible, unlinked sidebar row",
+   "status": "rendered as a new sidebar row with its supplied label, deliberately not linked because the supplied source has no body for it"
   },
   {
    "sequence_index": 500,
    "numbered_title": "Back Cover",
    "printed_page_label": "BC",
-   "sidebar_row": "no sidebar row exists",
-   "status": "no sidebar row to attach it to"
+   "sidebar_row": "rendered as a new visible, unlinked sidebar row",
+   "status": "rendered as a new sidebar row with its supplied label, deliberately not linked because the supplied source has no body for it"
+  }
+ ],
+ "new_sidebar_rows_created_by_the_supplied_entries_wave": [
+  {
+   "numbered_title": "About this Book",
+   "printed_page_label": "FC",
+   "href": null,
+   "status": "visible and unlinked: the supplied source has no body for it"
+  },
+  {
+   "numbered_title": "Cover Page",
+   "printed_page_label": "FC",
+   "href": "#TMP-0001",
+   "status": "linked to the verified source region #TMP-0001"
+  },
+  {
+   "numbered_title": "Title Page",
+   "printed_page_label": "i",
+   "href": null,
+   "status": "visible and unlinked: the supplied source has no body for it"
+  },
+  {
+   "numbered_title": "Copyright Page",
+   "printed_page_label": "ii",
+   "href": null,
+   "status": "visible and unlinked: the supplied source has no body for it"
+  },
+  {
+   "numbered_title": "Get the most out of your textbook’s . . .",
+   "printed_page_label": "xiv",
+   "href": "#TMP-0056",
+   "status": "linked to the verified source region #TMP-0056"
+  },
+  {
+   "numbered_title": "FEP",
+   "printed_page_label": "EP-1",
+   "href": null,
+   "status": "visible and unlinked: the supplied source has no body for it"
+  },
+  {
+   "numbered_title": "Back Cover",
+   "printed_page_label": "BC",
+   "href": null,
+   "status": "visible and unlinked: the supplied source has no body for it"
   }
  ],
  "manifest_only_rows": [

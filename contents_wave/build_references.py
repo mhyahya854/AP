@@ -20,27 +20,66 @@ ROOT = Path(r'C:\Users\mhyah\Downloads\book-source\Word')
 REPO = ROOT / '_master_work' / 'repo' / 'AP'
 OUT = ROOT / '_master_work' / 'contents_wave'
 
-# Sidebar rows that exist outside the 502-entry manifest (front matter + the
-# back-matter Glossary row).  Keyed by the anchor the row links to.
+# Sidebar rows that exist outside the 502-entry manifest.  Keyed by the anchor
+# the row links to.  A value of None means the supplied entry had no sidebar
+# row of its own; the `supplied-entries-2026-10-12` wave rendered it as a new,
+# visible row (see REQUIRED_NEW_ROWS) instead of inventing a destination.
 SIDEBAR_EXTRA = {
-    'about this book': None,            # not present in the sidebar
-    'cover page': None,
+    'about this book': None,            # rendered by the supplied-entries wave
+    'cover page': '#TMP-0001',          # the front-cover region
     'accessibility': '#book-heading-0002',
-    'title page': None,
-    'copyright page': None,
+    'title page': None,                 # rendered by the supplied-entries wave
+    'copyright page': None,             # rendered by the supplied-entries wave
     'brief contents': '#book-heading-0003',
     'contents': '#book-heading-0004',
     'about the authors': '#book-heading-0005',
     'content advisory board': '#book-heading-0006',
     'business with personal finance': '#book-heading-0001',
-    'get the most out of your textbook\u2019s . . .': None,
+    'get the most out of your textbook\u2019s . . .': '#TMP-0056',
     'glossary': '#book-heading-0382',
-    'fep': None,
-    'back cover': None,
+    'fep': None,                        # rendered by the supplied-entries wave
+    'back cover': None,                 # rendered by the supplied-entries wave
 }
+
+# The seven supplied numbered entries that the 502-row manifest does not carry.
+# Order is the supplied order.  `href` is the verified source-backed
+# destination, or None for "visible, unlinked: the supplied source has no body
+# for it".  None of these labels is inferred.
+REQUIRED_NEW_ROWS = [
+    ('About this Book', 'FC', None),
+    ('Cover Page', 'FC', '#TMP-0001'),
+    ('Title Page', 'i', None),
+    ('Copyright Page', 'ii', None),
+    ('Get the most out of your textbook\u2019s . . .', 'xiv', '#TMP-0056'),
+    ('FEP', 'EP-1', None),
+    ('Back Cover', 'BC', None),
+]
 
 
 def main() -> None:
+    def _href_of(title: str) -> str | None:
+        for t, _lab, href in REQUIRED_NEW_ROWS:
+            if t.lower() == title.lower():
+                return href
+        return SIDEBAR_EXTRA.get(title.lower())
+
+    def _unpaired_row_note(item: dict) -> str:
+        href = _href_of(item['title'])
+        if href:
+            return 'rendered by the row that links to ' + href
+        if item['title'].lower() in SIDEBAR_EXTRA:
+            return 'rendered as a new visible, unlinked sidebar row'
+        return 'no sidebar row exists'
+
+    def _unpaired_status(item: dict) -> str:
+        href = _href_of(item['title'])
+        if href:
+            return 'label attached to the sidebar row for ' + href
+        if item['title'].lower() in SIDEBAR_EXTRA:
+            return ('rendered as a new sidebar row with its supplied label, '
+                    'deliberately not linked because the supplied source has no body for it')
+        return 'no sidebar row to attach it to'
+
     alignment = json.loads((OUT / 'alignment.json').read_text(encoding='utf-8'))
     manifest = json.loads(
         (REPO / 'reader' / 'manifests' / 'source_contents_navigation_manifest_v2.json')
@@ -82,6 +121,10 @@ def main() -> None:
         if href:
             by_href[href] = item['label']
 
+    rendered_here = [t for t, _lab, href in REQUIRED_NEW_ROWS if href is None]
+    linked_here = [t for t, _lab, href in REQUIRED_NEW_ROWS if href]
+    new_hrefs = {href for _t, _lab, href in REQUIRED_NEW_ROWS if href}
+    pre_existing_anchor_rows = [h for h in by_href if h not in new_hrefs]
     out = {
         'schema': 'book2.printed_page_references.v2',
         'authority': 'the user-supplied numbered Contents list, verbatim',
@@ -94,6 +137,12 @@ def main() -> None:
             'manifest_rows_without_label': len(rows) - len(references),
             'numbered_entries_without_manifest_row': len(alignment['user_only']),
             'sidebar_extra_cells': len(by_href),
+            'supplied_entries_rendered_on_new_rows': len(REQUIRED_NEW_ROWS),
+            'supplied_entries_rendered_unlinked': len(rendered_here),
+            'supplied_entries_linked_to_a_verified_region': len(linked_here),
+            'supplied_entries_on_pre_existing_non_manifest_rows': len(pre_existing_anchor_rows),
+            'numbered_entries_represented_in_the_sidebar': (
+                len(references) + len(pre_existing_anchor_rows) + len(REQUIRED_NEW_ROWS)),
         },
         'special_labels_preserved': [
             'FC', 'A1', 'i', 'ii', 'iii', 'iv', 'x', 'xii', 'xiii', 'xiv',
@@ -131,11 +180,16 @@ def main() -> None:
             'sequence_index': item['user_index'],
             'numbered_title': item['title'],
             'printed_page_label': item['label'],
-            'sidebar_row': ('rendered by href ' + SIDEBAR_EXTRA[item['title'].lower()])
-            if SIDEBAR_EXTRA.get(item['title'].lower()) else 'no sidebar row exists',
-            'status': 'label attached to an existing sidebar row'
-            if SIDEBAR_EXTRA.get(item['title'].lower()) else 'no sidebar row to attach it to',
+            'sidebar_row': _unpaired_row_note(item),
+            'status': _unpaired_status(item),
         } for item in alignment['user_only']],
+        'new_sidebar_rows_created_by_the_supplied_entries_wave': [{
+            'numbered_title': t,
+            'printed_page_label': lab,
+            'href': href,
+            'status': ('linked to the verified source region ' + href) if href
+                      else 'visible and unlinked: the supplied source has no body for it',
+        } for t, lab, href in REQUIRED_NEW_ROWS],
         'manifest_only_rows': [{
             'manifest_index': item['manifest_index'],
             'manifest_row_id': item['source_id'],

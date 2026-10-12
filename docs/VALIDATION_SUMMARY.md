@@ -1,9 +1,10 @@
 # Validation summary - continuous-reading wave
 
 Everything below was measured on the built candidate and then re-checked on the
-promoted `AP Book Final.html`. The headline figures are for the current final
-artifact, `f606cdc8...`, 1,132,297,657 bytes; the content preservation table
-compares it against the previously promoted `1d270d0b...`, 1,132,281,938 bytes.
+promoted `AP Book Final.html`. Sections 1-7 describe the
+`printed-contents-2026-10-12` artifact, `f606cdc8...`, 1,132,297,657 bytes,
+compared against the previously promoted `1d270d0b...`, 1,132,281,938 bytes.
+**Section 8 is the current final**: `1f935d1a...`, 1,132,298,830 bytes.
 
 ## 1. Content preservation (the strongest test)
 
@@ -165,3 +166,77 @@ with the Front matter and Unit 1 groups expanded, checking that each row shows
 its own printed label (`contents_wave/browser_qa_contents.png`). The rest of
 the book was not re-screenshotted; its text and assets are covered by the
 region-by-region comparison above.
+
+## 8. Supplied-entries wave re-run (final artifact `1f935d1a...`)
+
+Two stages, both streaming and surgical: `contents_wave/patch_supplied_entries.py`
+rewrites only the `<nav id="contents-nav">` block (plus the cover region's
+`data-nav-label`), and `contents_wave/patch_disclosures_crosscapture.py`
+rewrites only the four article bodies of the Walmart and Merck pairs. Every
+other byte of the book is copied unchanged.
+
+### Contents
+
+| Check | Result |
+|---|---|
+| Rail rows | 516 (502 manifest + 7 pre-existing front/back-matter rows + 7 new rows) |
+| Page cells rendered | 506 (was 493) |
+| Unlinked rail rows | 131 (125 held + the Index row + the 5 new rows with no body) |
+| Supplied entries represented | **500 / 500** |
+| Seven previously missing entries | all present, exact title and label; 2 linked to a verified region, 5 visible and unlinked |
+| Six top-level unit rows | 2 / 104 / 202 / 236 / 328 / 386 - on the group header, not only on the nested copy |
+| Front-matter order | supplied order (About this Book -> ... -> Get the most out of your textbook's) |
+| End-matter order | Appendix -> References -> Glossary -> Glossary/Glosario -> Index -> FEP -> Back Cover |
+| Broken in-document links | 0 of 395 |
+| Duplicate element ids | 0 |
+| Evidence | `reports/supplied_entries_verification.json` (ok: true), `reports/printed_contents_reconciliation.json` |
+
+### Source preservation
+
+| Measure | Result |
+|---|---|
+| Source regions | 1,899, identities and order unchanged |
+| Regions byte-identical (sidebar stage) | 1,899 / 1,899 (`contents_wave/region_preservation_supplied_entries.json`) |
+| Regions with a changed text fingerprint (final) | 4 - `TMP-0542`, `TMP-0543`, `TMP-0585`, `TMP-0586` |
+| Reason | the Walmart and Merck description bodies were relocated into their controls |
+| Whole-book region text | 1,444,347 characters before and after (delta 0) |
+| Pair text before vs after | `TMP-0542+TMP-0543` and `TMP-0585+TMP-0586` hash identically; words identical |
+| Tables / figures / badges | 1,484 tables, 424 images (0 broken), 151 LG badges (0 zero-size) |
+
+### Disclosures
+
+| Check | Result |
+|---|---|
+| Controls | 131, all with a non-empty label |
+| Empty `.desc-panel` bodies | **0** (was 2) |
+| Structurally expandable | 131 / 131; all expand to the full reading width, 0 px internal overflow |
+| Walmart | collapsed 34 px -> expanded 102 px, 108-character body restored, 0 px overflow |
+| Merck | collapsed 34 px -> expanded 334 px, 465-character body restored, 0 px overflow |
+| Starbucks Rewards | unchanged, 157-character body, 0 px overflow |
+| Front Cover | unchanged, 580-character body, 0 px overflow |
+| Keyboard | summary focusable, toggles by click and by key |
+
+### Browser (real headless Chrome 155 over `file://`)
+
+| Check | Result |
+|---|---|
+| Load | `readyState complete`, 1,899 sections, 424 images, 0 broken |
+| JavaScript exceptions / console errors / log errors | **0 / 0 / 0** |
+| `book2QA()` layout failures | **0** at 1400x1000, 390x844 and 1920x1200 |
+| Document / `main` horizontal overflow | **0 px** at all three viewports |
+| Contents navigation | click lands below the toolbar, one `aria-current` row |
+| The two new links | `Cover Page` -> `#TMP-0001` (top 74 px), unit header -> `#book-group-03` (top 89 px) |
+| Search | "Match in Contents" |
+| View modes | continuous / single (`Page 23 / 1899` -> next `Page 24 / 1899`) / spread (`Pages 24-25 / 1899`) |
+| Typography controls | font, text size (100 -> 130 %, `--b2-text` 1.3), zoom, line spacing, resets - all change computed values; the badge, bar and label stay Arial |
+| Continuous sheet | `main` white, every `.book-page` `box-shadow:none`, `margin:0`, transparent |
+| Screenshots | `docs/layout/10`..`14` (rail with the supplied rows, Walmart and Merck restored and expanded, Starbucks unchanged, mobile) and `_master_work/final_wave/shots_final/` |
+
+### Honest limits of this wave
+
+* The four changed regions change the per-region fingerprint; the relocation
+  proof is the pair-level hash, not a byte-identical region.
+* 415 of the 424 images are `loading="lazy"` and never decode while off screen;
+  0 are broken (`naturalWidth === 0`), which is the check that matters.
+* The narrow-screen drawer overlap recorded in `KNOWN_ISSUES.md` item 12b is
+  pre-existing and untouched.

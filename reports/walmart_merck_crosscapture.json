@@ -1,0 +1,35 @@
+{
+ "source": "staged\\AP Book Final (supplied entries).html",
+ "output": "staged\\AP Book Final (final).html",
+ "source_bytes": 1132298830,
+ "output_bytes": 1132298830,
+ "output_sha256": "1f935d1ac2595b9c84ec81354c0b963867abda7c3d5506272a36941c4bd8a83b",
+ "regions_edited": [
+  "TMP-0542",
+  "TMP-0543",
+  "TMP-0585",
+  "TMP-0586"
+ ],
+ "checks": [
+  {
+   "figure": "Walmart",
+   "control": "TMP-0542",
+   "donor": "TMP-0543",
+   "paragraphs_moved": 2,
+   "chars_moved": 222,
+   "words_moved": 17,
+   "description_text": "Additional registers are open and checking out customers. Long lines extend from each of the three registers.",
+   "caption_left_in_place": "<p style=\"font-family:'Arial',serif;color:#555555\">While you are checking out, Walmart is checking you out, collecting d"
+  },
+  {
+   "figure": "Merck",
+   "control": "TMP-0585",
+   "donor": "TMP-0586",
+   "paragraphs_moved": 11,
+   "chars_moved": 1092,
+   "words_moved": 79,
+   "description_text": "The phone screen displays a screenshot from a web page for Merck, which reads, Our areas of focus. We focus on scientific innovation to deliver medicines and vaccines that may help millions of people around the world. A photo from an electron microscope shows a cluster of three cells. Oncology. We work to deliver innovations that extend and improve the lives of people with cancer. Learn about oncology (hyperlink). Behind the phone, a signboard reads, MERCK with its logo.",
+   "caption_left_in_place": "<p style=\"font-family:'Arial',serif;color:#777777\">Businesses like Merck try to develop products that consumers need or "
+  }
+ ]
+}

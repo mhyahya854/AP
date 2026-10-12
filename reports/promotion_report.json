@@ -1,11 +1,43 @@
 {
- "promoted_at_utc": "2026-10-12T16:26:39.008246Z",
- "previous_sha256": "8279ae53da005c662f103f64b94a89d1661e8ef280ba4813542d386fcdd1438a",
- "previous_bytes": 1132584117,
- "previous_backup": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\integration_backups\\continuous-wave-20261012\\prev-final-AP Book Final.html",
- "final_sha256": "e38a07ca2f09c77deb7dce38993bba41b10b18ba8effd2d7a1d67806b47dfd83",
- "final_bytes": 1132281148,
- "candidate_sha256": "e38a07ca2f09c77deb7dce38993bba41b10b18ba8effd2d7a1d67806b47dfd83",
- "patched_from": "AP Book Final.html",
- "match": true
+ "schema": "book2.promotion_report.v1",
+ "wave": "supplied-entries-2026-10-12",
+ "final_artifact": "AP Book Final.html",
+ "new_bytes": 1132298830,
+ "new_sha256": "1f935d1ac2595b9c84ec81354c0b963867abda7c3d5506272a36941c4bd8a83b",
+ "previous_bytes": 1132297657,
+ "previous_sha256": "f606cdc8bf3af4451ed1a092e047fca77bc506244c163dc5ec9bb5531f63346d",
+ "previous_backup": "_master_work/integration_backups/supplied-entries-20261012/prev-final-AP Book Final.html",
+ "previous_backup_sha256_verified": "f606cdc8bf3af4451ed1a092e047fca77bc506244c163dc5ec9bb5531f63346d",
+ "promotion": "atomic replacement of AP Book Final.html after all gates passed",
+ "stages": [
+  {
+   "stage": "sidebar: seven supplied entries, six unit labels, lost-space label repair, supplied ordering",
+   "script": "contents_wave/patch_supplied_entries.py",
+   "report": "_master_work/final_wave/patch_wave3_report.json",
+   "bytes_added": 1173,
+   "rows_before": 509,
+   "rows_after": 516,
+   "page_cells_before": 493,
+   "page_cells_after": 506
+  },
+  {
+   "stage": "disclosures: Walmart and Merck bodies restored across captures",
+   "script": "contents_wave/patch_disclosures_crosscapture.py",
+   "report": "reports/walmart_merck_crosscapture.json",
+   "regions_edited": [
+    "TMP-0542",
+    "TMP-0543",
+    "TMP-0585",
+    "TMP-0586"
+   ],
+   "bytes_added": 0
+  }
+ ],
+ "verification": {
+  "contents": "reports/supplied_entries_verification.json",
+  "browser_qa": "reports/supplied_entries_qa.json",
+  "region_preservation": "reports/region_text_supplied_entries.json",
+  "source_region_bytes": "contents_wave/region_preservation_supplied_entries.json",
+  "disclosure_forensics": "docs/WALMART_MERCK_FORENSICS.md"
+ }
 }

@@ -29,8 +29,8 @@ Git LFS and opened locally.
 | Field | Value |
 |---|---|
 | File | `AP Book Final.html` |
-| Bytes | 1,132,297,657 |
-| SHA-256 | `f606cdc8bf3af4451ed1a092e047fca77bc506244c163dc5ec9bb5531f63346d` |
+| Bytes | 1,132,298,830 |
+| SHA-256 | `1f935d1ac2595b9c84ec81354c0b963867abda7c3d5506272a36941c4bd8a83b` |
 
 Verify after downloading:
 
@@ -77,7 +77,7 @@ Questions" resolve inside their own module instead of jumping to the first
 matching name in the book.
 
 The right-hand page-reference cell shows the printed labels of the
-user-supplied numbered Contents list (500 numbered entries): **493 cells**, for
+user-supplied numbered Contents list (500 numbered entries): **506 cells**, for
 example `Module 1.1 What Is a Business?` 4, `Unit 2 Marketing` 104,
 `Index` 456, `Back Cover` BC and the front-matter roman numerals. Labels are
 strings exactly as supplied, so `103A`, `201A`, `327A`, `327B`, `385A`, `429A`,
@@ -86,13 +86,22 @@ strings exactly as supplied, so `103A`, `201A`, `327A`, `327B`, `385A`, `429A`,
 The printed Contents pages in the available source carry no page numbers of
 their own, so the supplied list is the only authority; nothing was inferred
 from position, adjacency, the source images or a counter. Sixteen manifest rows
-have no entry in that list and keep an empty cell, and seven supplied entries
-(`About this Book`, `Cover Page`, `Title Page`, `Copyright Page`, `Get the most
-out of your textbook's . . .`, `FEP`, `Back Cover`) have no sidebar row at all;
-both groups are listed in `reports/printed_contents_reconciliation.json`. See
+have no entry in that list and keep an empty cell; they are listed in
+`reports/printed_contents_reconciliation.json`. See
 `docs/CONTENTS_MAPPING.md` for the full mapping and the exact normalizations
 used (`Case Study X` = `CASE STUDY: X`, `Practice Your AP® Skills` = `... 
 Skills Questions`, and three similar variants).
+
+All **500** supplied entries are represented in the rail. The seven that the
+manifest did not carry - `About this Book` (FC), `Cover Page` (FC),
+`Title Page` (i), `Copyright Page` (ii), `Get the most out of your textbook's
+. . .` (xiv), `FEP` (EP-1) and `Back Cover` (BC) - are rendered as their own
+rows with their supplied labels. `Cover Page` and `Get the most out of your
+textbook's . . .` link to a verified source region; the other five are visible
+and deliberately unlinked because the available source has no body for them.
+The six top-level unit rows carry the supplied printed labels (2, 104, 202,
+236, 328, 386) on the group header itself, not only on the nested copy of the
+entry.
 
 Showing a label is not a navigation change: the held rows and the Index row
 stay unlinked and no `href` was added or re-pointed.
@@ -131,11 +140,17 @@ in `localStorage['book2.reader.v1']`.
 See [`docs/KNOWN_ISSUES.md`](docs/KNOWN_ISSUES.md). In short: the available
 source has no printed page numbers of its own, no Index body, no Word document
 for `Page 1101-1200`, and no per-image alt text; 16 Contents rows have no label
-in the supplied numbered list and 7 supplied labels have no sidebar row; 126
-rows have no verified destination; two rebuilt descriptions have genuinely
-empty bodies; and the Page 501-600 donor document renders without run sizes.
-Two older machine-readable browser reports are stale and are reconciled in
+in the supplied numbered list; 126 rows have no verified destination (125 held
++ the Index row, plus the 5 new rows whose source has no body); and the
+Page 501-600 donor document renders without run sizes. Two older
+machine-readable browser reports are stale and are reconciled in
 `docs/BROWSER_QA_RECONCILIATION.md`.
+
+The two Extended Descriptions that were reported as having no body - Walmart
+and Merck - were **not** empty: the capture boundary cut the description panel
+in two and their bodies stand at the top of the following capture. Both are now
+restored inside their controls (`docs/WALMART_MERCK_FORENSICS.md`), and no
+disclosure control has an empty body.
 
 ## Repository layout
 
@@ -150,6 +165,7 @@ reader/                   the presentation layer and the patchers
 reader/manifests/         the audited Contents and section manifests
 corrective_wave/          the corrective-wave patcher and its raw evidence
 contents_wave/            the printed-contents mapper, patcher and its evidence
+                          (incl. the supplied-entries and cross-capture patchers)
 ```
 
 Generated versus source: `AP Book Final.html`, `docs/layout/*.png` and
@@ -166,6 +182,9 @@ python _master_work/reader_ui/patch_reader_ui.py  _master_work/Book-2-unverified
 python _master_work/wave/build_sections.py staged.html
 python _master_work/wave/patch_wave.py staged.html "AP Book Final.html"
 python corrective_wave/patch_corrective_wave.py "AP Book Final.html" staged-corrected.html
+python contents_wave/patch_contents_labels.py "staged-corrected.html" staged-labelled.html
+python contents_wave/patch_supplied_entries.py staged-labelled.html staged-supplied.html
+python contents_wave/patch_disclosures_crosscapture.py staged-supplied.html "AP Book Final.html"
 ```
 
 `patch_wave.py` streams the ~1.13 GB file, refuses to finish unless it tagged
@@ -174,9 +193,17 @@ controls, and never rewrites article text. `corrective_wave/patch_corrective_wav
 then streams the result again and makes exactly four auditable changes
 (the Starbucks Rewards control structure, the printed-page reference cells, the
 sidebar note and one stylesheet rule), refusing to finish unless each expected
-match count is met. `promote.py` performs the guarded atomic promotion. The
-evidence files under `reports/` are the output of the audits described in
-`docs/VALIDATION_SUMMARY.md`.
+match count is met. `contents_wave/patch_contents_labels.py` writes the printed
+page labels into the rail, `contents_wave/patch_supplied_entries.py` renders the
+seven supplied entries that had no row, fixes the top-level unit labels and the
+one lost-space label, and re-orders the front and back matter into the supplied
+order, and `contents_wave/patch_disclosures_crosscapture.py` moves the Walmart
+and Merck description bodies into their controls. Each script asserts an exact
+match count for every edit and refuses to write a partial result.
+`reader/promote.py` performs the guarded atomic promotion. The evidence files
+under `reports/` are the output of the audits described in
+`docs/VALIDATION_SUMMARY.md`; `contents_wave/verify_supplied_entries.py`
+re-checks the built artifact against the supplied list.
 
 ## Rights
 

@@ -1,5 +1,14 @@
 # Extended description audit - the three rebuilt controls
 
+> **Corrected by the `supplied-entries-2026-10-12` wave.** The Walmart and
+> Merck rows below are wrong. Both controls *do* have a description body: the
+> capture boundary falls inside the description panel, so the body stands at
+> the top of the following capture (`B2P1-0543.png`, `B2P1-0586.png`), which
+> this audit never opened. Both bodies have been restored by relocating the
+> exact paragraphs into the control. See `WALMART_MERCK_FORENSICS.md`. The
+> Starbucks Rewards row, and the front-cover description, are correct and
+> unchanged.
+
 Wave: corrective (2026-10-12). Scope: the three controls whose expanded body
 was empty in the previous build. Everything below was checked against the
 original Word reconstruction, the saved PNG capture and the structured OCR
