@@ -1,0 +1,142 @@
+{
+  "schema": "book2-provisional-major-groups-v1",
+  "created_at": "2026-10-10T19:00:37.059639+00:00",
+  "authority": "selected candidate heading text and saved global sequence only",
+  "status": "PROVISIONAL_NOT_FINAL_NOT_APPROVED",
+  "final_printed_labels": "UNASSIGNED",
+  "source_region_count": 1899,
+  "groups": [
+    {
+      "title": "Front matter",
+      "start_tmp": "TMP-0001",
+      "end_tmp": "TMP-0110",
+      "source_range": [
+        1,
+        110
+      ],
+      "evidence": "selected opening/frontmatter; Brief Contents TMP-0013",
+      "status": "PROVISIONAL_CANDIDATE_TEXT_ONLY",
+      "final_page_label": null
+    },
+    {
+      "title": "Unit 1 Businesses, Competition, and New Ideas",
+      "start_tmp": "TMP-0111",
+      "end_tmp": "TMP-0478",
+      "source_range": [
+        111,
+        478
+      ],
+      "evidence": "selected Unit 1 heading TMP-0111",
+      "status": "PROVISIONAL_CANDIDATE_TEXT_ONLY",
+      "final_page_label": null
+    },
+    {
+      "title": "Unit 2 Marketing",
+      "start_tmp": "TMP-0479",
+      "end_tmp": "TMP-0862",
+      "source_range": [
+        479,
+        862
+      ],
+      "evidence": "selected Unit 2 heading TMP-0479",
+      "status": "PROVISIONAL_CANDIDATE_TEXT_ONLY",
+      "final_page_label": null
+    },
+    {
+      "title": "Unit 3 / Part 1 Personal Saving and Borrowing",
+      "start_tmp": "TMP-0863",
+      "end_tmp": "TMP-0970",
+      "source_range": [
+        863,
+        970
+      ],
+      "evidence": "selected Unit 3 Part 1 heading TMP-0863",
+      "status": "PROVISIONAL_CANDIDATE_TEXT_ONLY",
+      "final_page_label": null
+    },
+    {
+      "title": "Unit 3 / Part 2 Business Finance and Accounting",
+      "start_tmp": "TMP-0971",
+      "end_tmp": "TMP-1298",
+      "source_range": [
+        971,
+        1298
+      ],
+      "evidence": "selected Unit 3 Part 2 heading TMP-0971",
+      "status": "PROVISIONAL_CANDIDATE_TEXT_ONLY",
+      "final_page_label": null
+    },
+    {
+      "title": "Unit 4 Management and Strategy",
+      "start_tmp": "TMP-1299",
+      "end_tmp": "TMP-1521",
+      "source_range": [
+        1299,
+        1521
+      ],
+      "evidence": "selected Unit 4 heading TMP-1299",
+      "status": "PROVISIONAL_CANDIDATE_TEXT_ONLY",
+      "final_page_label": null
+    },
+    {
+      "title": "Unit 5 Personal Goals, Budgeting, and Investing",
+      "start_tmp": "TMP-1522",
+      "end_tmp": "TMP-1693",
+      "source_range": [
+        1522,
+        1693
+      ],
+      "evidence": "selected Unit 5 heading TMP-1522",
+      "status": "PROVISIONAL_CANDIDATE_TEXT_ONLY",
+      "final_page_label": null
+    },
+    {
+      "title": "Appendix The Business Model Canvas",
+      "start_tmp": "TMP-1694",
+      "end_tmp": "TMP-1714",
+      "source_range": [
+        1694,
+        1714
+      ],
+      "evidence": "selected Appendix heading TMP-1694 and title TMP-1695",
+      "status": "PROVISIONAL_CANDIDATE_TEXT_ONLY",
+      "final_page_label": null
+    },
+    {
+      "title": "References",
+      "start_tmp": "TMP-1715",
+      "end_tmp": "TMP-1734",
+      "source_range": [
+        1715,
+        1734
+      ],
+      "evidence": "selected References heading TMP-1715",
+      "status": "PROVISIONAL_CANDIDATE_TEXT_ONLY",
+      "final_page_label": null
+    },
+    {
+      "title": "Glossary/Glosario",
+      "start_tmp": "TMP-1735",
+      "end_tmp": "TMP-1899",
+      "source_range": [
+        1735,
+        1899
+      ],
+      "evidence": "selected Glossary heading TMP-1735; available sequence ends in glossary",
+      "status": "PROVISIONAL_CANDIDATE_TEXT_ONLY",
+      "final_page_label": null
+    }
+  ],
+  "known_unavailable_body": [
+    "Index body absent from available source sequence"
+  ],
+  "verification": {
+    "contiguous": true,
+    "gaps": 0,
+    "overlaps": 0,
+    "source_regions_once": 1899,
+    "independent_heading_audit": "PASS_SELECTED_CANDIDATE_TEXT_ONLY",
+    "auditor": "SA-CANONICAL-GROUPING-MAP-POST-001",
+    "audited_at": "2026-10-10T19:04:11.921273+00:00"
+  }
+}

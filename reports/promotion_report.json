@@ -1,0 +1,11 @@
+{
+ "promoted_at_utc": "2026-10-12T16:26:39.008246Z",
+ "previous_sha256": "8279ae53da005c662f103f64b94a89d1661e8ef280ba4813542d386fcdd1438a",
+ "previous_bytes": 1132584117,
+ "previous_backup": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\integration_backups\\continuous-wave-20261012\\prev-final-AP Book Final.html",
+ "final_sha256": "e38a07ca2f09c77deb7dce38993bba41b10b18ba8effd2d7a1d67806b47dfd83",
+ "final_bytes": 1132281148,
+ "candidate_sha256": "e38a07ca2f09c77deb7dce38993bba41b10b18ba8effd2d7a1d67806b47dfd83",
+ "patched_from": "AP Book Final.html",
+ "match": true
+}
