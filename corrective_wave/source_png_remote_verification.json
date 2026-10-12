@@ -1,0 +1,72 @@
+{
+ "commit": "b8f434c0423cf4f48826448bbb72ff6b2c316e07",
+ "png_paths_in_committed_tree": 1899,
+ "pointer_matches_manifest": 1899,
+ "pointer_mismatches": [],
+ "non_pointer_paths": [],
+ "lfs_fetch_exit": 0,
+ "lfs_fetch_output": "Fetching reference refs/heads/main\n",
+ "sample_verified": [
+  {
+   "path": "source_png/Page 1-100/B2P1-0001.png",
+   "oid": "f65501c662c9fe40414b42ca7fc6cca50faac581646584d01e4d6962b55b65e3",
+   "bytes": 3591688
+  },
+  {
+   "path": "source_png/Page 201-300/B2P1-0250.png",
+   "oid": "8853407f5152f278dbeb623fed8de501cf59261def904cab5568fae97d330be4",
+   "bytes": 5476077
+  },
+  {
+   "path": "source_png/Page 501-600/B2P1-0501.png",
+   "oid": "ce1e15a19c9b616cb9f03b0f936b33ec3076bad520158b0e714144eb43ee26ea",
+   "bytes": 851896
+  },
+  {
+   "path": "source_png/Page 501-600/B2P1-0543.png",
+   "oid": "d1eafb2cf5a894ac58c9f86130b4fdca8072e8f19ade3bedc32dc5276a2aa695",
+   "bytes": 2336640
+  },
+  {
+   "path": "source_png/Page 501-600/B2P1-0563.png",
+   "oid": "daca5da8428735976212af95e6661f744e428165895d8fff9b70234f62b61e40",
+   "bytes": 1872303
+  },
+  {
+   "path": "source_png/Page 501-600/B2P1-0585.png",
+   "oid": "78634661650ec08346c3e53039abdcce15951517cca9cddc521d440aba264c9b",
+   "bytes": 1859333
+  },
+  {
+   "path": "source_png/Page 801-900/B2P2-0037.png",
+   "oid": "fa5c14d5a100bfcba60d5f0830230de52ebfd20eb4f30658aae2845dbb0a1cd9",
+   "bytes": 2366565
+  },
+  {
+   "path": "source_png/Page 901-1000/B2P2-0137.png",
+   "oid": "596ff53ed2730f81d1e737dfea6da98ed9d48fb9043089afa2597f4ca4d1fd1a",
+   "bytes": 5052486
+  },
+  {
+   "path": "source_png/Page 1201-1300/B2P2-0437.png",
+   "oid": "6ca132c79c7aa7e2953ee32e9b36f300d09a5f970983ba3dadef76a0bd32f4ce",
+   "bytes": 4458883
+  },
+  {
+   "path": "source_png/Page 1501-1600/B2P2-0737.png",
+   "oid": "f3ca100e2e4b2e8fa16030ecb7275994cf9214fb70d9c9a6f91316549c4ac64c",
+   "bytes": 1946563
+  },
+  {
+   "path": "source_png/Page 1701-1800/B2P2-0937.png",
+   "oid": "a4d88b60f91074e4d7f3601af07f277397b86ff6545bd8a4fda76500cd4417e3",
+   "bytes": 1192409
+  },
+  {
+   "path": "source_png/Page 1801-1900/B2P3-0038.png",
+   "oid": "d61355e648bd6002ef772942266f530e38a95fc64852aba91820d8d30861f655",
+   "bytes": 1008694
+  }
+ ],
+ "sample_failed": []
+}

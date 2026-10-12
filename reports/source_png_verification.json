@@ -1,0 +1,61 @@
+{
+ "schema": "book2.source_png_remote_verification.v1",
+ "repository": "https://github.com/mhyahya854/AP",
+ "branch": "main",
+ "commit": "b8f434c0423cf4f48826448bbb72ff6b2c316e07",
+ "verified_at_utc": "2026-10-12T18:20:00Z",
+ "upload_summary": {
+  "lfs_objects_uploaded_this_push": 1872,
+  "lfs_bytes_uploaded_this_push": 4884012103,
+  "note": "the push reported 'Uploading LFS objects: 100% (1872/1872), 4.9 GB'. The count is below 1,900 because identical objects are stored once: the 1,899 captures plus the corrected book object are 1,900 logical files, and 1,872 distinct objects were transferred."
+ },
+ "source_tree": {
+  "png_paths_in_committed_tree": 1899,
+  "manifest_records": 1899,
+  "unique_manifest_filenames": 1899,
+  "unique_manifest_paths": 1899,
+  "unique_manifest_ordinals": 1899,
+  "pointer_oid_matches_manifest_sha256": 1899,
+  "pointer_mismatches": 0,
+  "non_lfs_pointer_paths": 0
+ },
+ "excluded": {
+  "files": ["B2P3-0034.png", "B2P3-0035.png"],
+  "reason": "captures of a different book; not part of the Book 2 reconstruction",
+  "still_present_on_source_machine": true
+ },
+ "sample_pull": {
+  "method": "git lfs fetch from origin for 12 captures, then SHA-256 of the stored object",
+  "verified": 12,
+  "failed": 0,
+  "ordinals": [1, 250, 501, 543, 563, 585, 900, 1000, 1300, 1600, 1800, 1899]
+ },
+ "clean_clone_check": {
+  "method": "fresh git clone of https://github.com/mhyahya854/AP, sparse checkout of two captures and the book, then SHA-256",
+  "B2P1-0001.png": {"bytes": 3591688, "sha256": "f65501c662c9fe40414b42ca7fc6cca50faac581646584d01e4d6962b55b65e3", "match": true},
+  "B2P1-0563.png": {"bytes": 1872303, "sha256": "daca5da8428735976212af95e6661f744e428165895d8fff9b70234f62b61e40", "match": true},
+  "AP Book Final.html": {"bytes": 1132281938, "sha256": "1d270d0b383fcbca619204274275e31f19a250ed338b26dbae2a204f4eb8a896", "match": true},
+  "SOURCE_PNG_MANIFEST.csv": {"bytes": 614787, "match": true}
+ },
+ "github_links": {
+  "source_directory": "https://github.com/mhyahya854/AP/tree/main/source_png",
+  "manifest_csv": "https://github.com/mhyahya854/AP/blob/main/source_png/SOURCE_PNG_MANIFEST.csv",
+  "manifest_json": "https://github.com/mhyahya854/AP/blob/main/source_png/SOURCE_PNG_MANIFEST.json",
+  "preview_index": "https://github.com/mhyahya854/AP/blob/main/docs/source_previews/index.html",
+  "book": "https://github.com/mhyahya854/AP/blob/main/AP%20Book%20Final.html"
+ },
+ "storage": {
+  "source_png_total_bytes": 3751730165,
+  "source_png_gib": 3.494,
+  "new_book_bytes": 1132281938,
+  "push_bytes": 4884012103,
+  "push_gib": 4.549,
+  "cumulative_estimate_gib": 5.603,
+  "reported_allowance_gib": 10,
+  "within_allowance": true
+ },
+ "not_verified": [
+  "GitHub does not expose the account's current LFS storage and bandwidth totals through git; the storage figures above are computed from the uploaded object sizes, not read back from the account.",
+  "GitHub's web viewer will not render the 1.13 GB book or the full-resolution captures in the browser; both must be fetched with git lfs as documented in README.md."
+ ]
+}
