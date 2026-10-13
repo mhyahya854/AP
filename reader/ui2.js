@@ -66,6 +66,24 @@
     return Array.prototype.slice.call(c.children);
   }
 
+  /* A heading set as stacked display lines ("BUSINESS" <br> "WITH" ...) loses
+     its spaces in textContent.  Restore the spaces, and when the region's
+     audited nav label is the same title, prefer that wording. */
+  function headingTitle(el) {
+    var clone = el.cloneNode(true);
+    var brs = clone.querySelectorAll('br');
+    var i;
+    for (i = 0; i < brs.length; i++) {
+      brs[i].parentNode.replaceChild(document.createTextNode(' '), brs[i]);
+    }
+    var t = (clone.textContent || '').replace(/\s+/g, ' ').trim();
+    var reg = el.closest('.book-page');
+    var lab = (reg && reg.getAttribute('data-nav-label')) || '';
+    var norm = function (s) { return String(s).toLowerCase().replace(/[^a-z0-9]/g, ''); };
+    if (lab && t && norm(lab) === norm(t)) { t = lab; }
+    return t.slice(0, 90);
+  }
+
   /* Each heading is located by (region index, index of the top-level child of
      that region's .content that contains it).  Sections are then contiguous
      ranges of (region, child) - a direct index, no global block list. */
@@ -84,8 +102,7 @@
         if (kids[k] === el || kids[k].contains(el)) { ci = k; break; }
       }
       if (ci < 0) { continue; }
-      headings.push({ el: el, region: reg, child: ci,
-                      title: (el.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 90) });
+      headings.push({ el: el, region: reg, child: ci, title: headingTitle(el) });
     }
     headings.sort(function (a, b) {
       return a.region !== b.region ? a.region - b.region : a.child - b.child;
@@ -281,6 +298,47 @@
 
   /* ---------- 4. start ---------------------------------------------------- */
   applyStoredPanels();
+
+  /* ---------- vertical photo credits -------------------------------------- */
+  /* In the source a credit often runs vertically down the right edge of the
+     photograph, and the reconstruction keeps it in a narrow side cell, which
+     breaks the words in half ("Productio/ns").  Detect exactly those credits
+     (a credit line in a cell far narrower than its own table) and let the
+     stylesheet set them vertically, as the source prints them.  Nothing is
+     hidden, removed or rewritten: only a class and the writing mode change. */
+  var CREDIT_RE = /(Getty Images|Alamy|Shutterstock|AP Images|Reuters|Bloomberg|Courtesy|Photographer|iStock|Unsplash|Pexels)$/i;
+  var styleEl = document.createElement('style');
+  styleEl.textContent = '.b2-vcredit{writing-mode:vertical-rl;text-orientation:mixed;'
+    + 'white-space:nowrap;margin:0 auto;line-height:1.15}';
+  document.head.appendChild(styleEl);
+
+  function tagVerticalCredits() {
+    var ps = document.querySelectorAll('.book-page .content p'), n = 0, i;
+    for (i = 0; i < ps.length; i++) {
+      var p = ps[i];
+      var t = (p.textContent || '').replace(/\s+/g, ' ').trim();
+      if (!t || t.length > 90 || !CREDIT_RE.test(t)) { continue; }
+      var cell = p.closest('td');
+      var table = p.closest('table');
+      if (!cell || !table) { continue; }
+      var cw = cell.getBoundingClientRect().width;
+      var tw = table.getBoundingClientRect().width;
+      var squeezed = cw > 0 && tw > 320 && cw < tw * 0.34 && cw < 190;
+      if (squeezed) {
+        if (!p.classList.contains('b2-vcredit')) { p.classList.add('b2-vcredit'); n++; }
+      } else if (p.classList.contains('b2-vcredit')) {
+        p.classList.remove('b2-vcredit');
+      }
+    }
+    return n;
+  }
+  var verticalCredits = tagVerticalCredits();
+  var creditTimer = 0;
+  window.addEventListener('resize', function () {
+    window.clearTimeout(creditTimer);
+    creditTimer = window.setTimeout(function () { verticalCredits = tagVerticalCredits(); }, 250);
+  });
+
   var stored = prefs();
   var want = stored.mode;
   if (want === 'spread') {                       /* the printed-spread claim is withdrawn */
@@ -297,5 +355,7 @@
   }
   window.book2Semantics = { section: function (i) { setMode('section'); showSection(i); },
                             sections: function () { buildSections(); return headings.length; },
-                            mode: function () { return state.mode; } };
+                            mode: function () { return state.mode; },
+                            verticalCredits: function () { return verticalCredits; },
+                            retagCredits: function () { verticalCredits = tagVerticalCredits(); return verticalCredits; } };
 })();

@@ -3,8 +3,8 @@
 | Field | Value |
 |---|---|
 | File | `AP Book Final.html` |
-| Bytes | 1,132,311,795 |
-| SHA-256 | `ec7a490e53e811b1f433a9311f4bd7152dcb305f0007e306db5b33703691f24b` |
+| Bytes | 1,132,314,672 |
+| SHA-256 | `c0ea6f3310c0829cdbaefc7bb424c57c5f2b8569ba8528b9db4e8b3812290251` |
 | Self-contained | yes - every figure and table is an inline `data:` URI, the only scripts are three inline scripts, no network access is required |
 | Source regions | 1,899 (`TMP-0001` .. `TMP-1899`), unchanged in identity, order and text |
 

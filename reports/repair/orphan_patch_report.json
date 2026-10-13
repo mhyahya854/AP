@@ -1,0 +1,49 @@
+{
+ "patch": "OA-007 orphan disclosure repair",
+ "source": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\repo\\AP\\AP Book Final.html",
+ "output": "staged-orphans.html",
+ "source_bytes": 1132311795,
+ "output_bytes": 1132311718,
+ "regions_edited": [
+  "TMP-0523",
+  "TMP-0524",
+  "TMP-0567",
+  "TMP-0568",
+  "TMP-0575",
+  "TMP-0576"
+ ],
+ "controls_created": 3,
+ "output_sha256": "13c7b9f254705800dd442aa1bbd2a664d03939d41dc56225db49a72246c6ea16",
+ "checks": [
+  {
+   "control": "TMP-0523",
+   "donor": "TMP-0524",
+   "label": "Extended description for Lancôme Cosmetics",
+   "glyphs_removed": 0,
+   "paragraphs_moved": 11,
+   "words_moved": 112,
+   "body_head": "The screen reads as follows: EARNING POINTS IS EASY. Discover how to earn points your way to indulge in beauti",
+   "terminator": "Perfume and cosmetics company Lancôme has a customer loyalty program t"
+  },
+  {
+   "control": "TMP-0567",
+   "donor": "TMP-0568",
+   "label": "Extended description for Figure 2.2-1 Cialdini&#x27;s Seven Principles of Influe",
+   "glyphs_removed": 2,
+   "paragraphs_moved": 18,
+   "words_moved": 140,
+   "body_head": "The illustration shows a circle. At the center of the circle is a smaller circle that reads, Persuasion. Wedge",
+   "terminator": "Figure 2.2-1 Cialdini’s Seven Principles of Influence"
+  },
+  {
+   "control": "TMP-0575",
+   "donor": "TMP-0576",
+   "label": "Extended description for Consumers",
+   "glyphs_removed": 2,
+   "paragraphs_moved": 3,
+   "words_moved": 36,
+   "body_head": "Additional barrels of vegetables are clustered around the carrot bin in a colorful display. A sign above the p",
+   "terminator": "Consumers are attracted to products that are consistent with their sel"
+  }
+ ]
+}

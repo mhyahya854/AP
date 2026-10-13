@@ -4,7 +4,26 @@ Reported honestly; none of these was introduced by this wave.
 
 ## Found by the overnight audit (2026-10-12/13)
 
-1a. **24 description controls are orphan labels (`OA-007`, P1).** In 25 places
+1a. **Description controls that are orphan labels (`OA-007`, P1) - 3 repaired,
+   21 still open.** The `orphan-repair-2026-10-13` wave repaired the three
+   whose description panel was confirmed against its source captures and whose
+   body ends at the figure caption strip below the panel (the same pattern as
+   Walmart/Merck): `TMP-0523` (Lancôme, 112 words), `TMP-0567` (Cialdini, 140
+   words) and `TMP-0575` (Consumers, 36 words). Each is now an accessible
+   grey-bar `<details>` control, its body moved verbatim from the following
+   capture, the loose `▼`/`i` glyphs removed, and the figure caption left
+   outside the control. Controls in the book: **134**, 0 with an empty body;
+   word-level preservation verified for all three pairs
+   (`reports/repair/orphan_patch_report.json`).
+   The remaining 21 could not be delimited from the evidence in this run - the
+   label and body are wrapped inside a table, the Georgia body run is cut by an
+   inline style change, or the run ends at a figure rather than at the panel's
+   caption strip, so the description's end cannot be established without a
+   per-case reading of the capture. They were left untouched rather than
+   guessed at; their measured runs and terminators are in
+   `reports/repair/body_runs.json` and `repair_plan.json`.
+
+1a-old. **Historically: 24 description controls were orphan labels.** In 25 places
    the text `Extended description for …` is a bare paragraph rather than a
    `<details>` control, so it cannot be expanded and the label reads as a
    stray line; 24 of them have no real control anywhere in the book

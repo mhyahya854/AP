@@ -1,0 +1,11 @@
+{
+ "patch": "update additive reader script (ui2)",
+ "source": "staged-orphans.html",
+ "output": "staged-candidate.html",
+ "old_block_bytes": 12968,
+ "new_block_bytes": 15922,
+ "bytes_delta": 2954,
+ "ui2_sha256": "931a061a51b03261a33cfa6a692279b990714a5f083387849c5c6b0648a34c9f",
+ "output_bytes": 1132314672,
+ "output_sha256": "c0ea6f3310c0829cdbaefc7bb424c57c5f2b8569ba8528b9db4e8b3812290251"
+}
