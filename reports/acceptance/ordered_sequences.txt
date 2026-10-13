@@ -1,0 +1,15 @@
+prev artifact: prev-final-AP Book Final.html
+groups: 9
+TMP-0125                     tokens   112 ->   112  ORDERED EQUAL: True
+TMP-0152                     tokens    46 ->    46  ORDERED EQUAL: True
+TMP-0422                     tokens    89 ->    89  ORDERED EQUAL: True
+TMP-0502+TMP-0503+TMP-0504   tokens   250 ->   250  ORDERED EQUAL: False
+      first divergence at token 94
+      before: ○ Education ○ Income ○ Gender Copyright © BFW Publishers ○ Occupation
+      after : ○ Education ○ Income ○ Gender ○ Occupation ○ Ethnicity ○ Family
+TMP-0516+TMP-0517+TMP-0518   tokens   698 ->   698  ORDERED EQUAL: True
+TMP-0530+TMP-0531            tokens   387 ->   387  ORDERED EQUAL: True
+TMP-0745                     tokens    98 ->    98  ORDERED EQUAL: True
+TMP-0851                     tokens    63 ->    63  ORDERED EQUAL: True
+TMP-1350                     tokens    30 ->    30  ORDERED EQUAL: True
+ALL NINE GROUPS ORDERED-EQUAL: False

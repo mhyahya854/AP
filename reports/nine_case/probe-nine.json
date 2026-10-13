@@ -306,5 +306,6 @@
     "tableHasText": "A large screen shows Cuban to the audience in a packed audit"
    }
   ]
- }
+ },
+ "superseded_note": "The mobile section of this file is SUPERSEDED. Its collapsed/expanded heights were read on controls that the screenshot step of the same probe had left open, so collapsed == expanded for TMP-0125 and TMP-0516. See reports/acceptance/acceptance.json and docs/FINAL_ACCEPTANCE_REPORT.md section A: with open=false set before each reading, both controls hide their body when closed and reveal it when opened at every viewport."
 }

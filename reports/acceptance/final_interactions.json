@@ -1,0 +1,92 @@
+{
+ "exceptions": [],
+ "consoleErrors": [],
+ "fresh_mobile": {
+  "left": {
+   "shown": false,
+   "left": 0,
+   "right": 0,
+   "w": 0
+  },
+  "right": {
+   "shown": false,
+   "left": 0,
+   "right": 0,
+   "w": 0
+  },
+  "overlap": false,
+  "vw": 390
+ },
+ "stored_desktop": {
+  "left": {
+   "shown": true,
+   "left": 0,
+   "right": 300,
+   "w": 300
+  },
+  "right": {
+   "shown": true,
+   "left": 1140,
+   "right": 1400,
+   "w": 260
+  },
+  "overlap": false,
+  "vw": 1400
+ },
+ "stored_desktop_then_narrow": {
+  "left": {
+   "shown": true,
+   "left": 0,
+   "right": 280,
+   "w": 280
+  },
+  "right": {
+   "shown": false,
+   "left": 0,
+   "right": 0,
+   "w": 0
+  },
+  "overlap": false,
+  "vw": 390
+ },
+ "after_opening_tools": {
+  "left": {
+   "shown": false,
+   "left": 0,
+   "right": 0,
+   "w": 0
+  },
+  "right": {
+   "shown": true,
+   "left": 110,
+   "right": 390,
+   "w": 280
+  },
+  "overlap": false,
+  "vw": 390
+ },
+ "back_on_desktop": {
+  "left": {
+   "shown": true,
+   "left": 0,
+   "right": 300,
+   "w": 300
+  },
+  "right": {
+   "shown": true,
+   "left": 1140,
+   "right": 1400,
+   "w": 260
+  },
+  "overlap": false,
+  "vw": 1400
+ },
+ "captureMode_label": {
+  "counter": "Source capture 1 of 1899",
+  "note": "Source captures are the 1,899 page images the book was rebuilt from. Each is a screenshot of a scrolling page, so a capture is not a printed page."
+ },
+ "continuous_label": {
+  "counter": "Section 1 / 10 · Front matter",
+  "note": "Continuous reading: the whole book on one flowing sheet."
+ }
+}

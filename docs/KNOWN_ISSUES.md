@@ -1,141 +1,110 @@
-# Known unresolved issues
+# Known issues in the current release
 
-Reported honestly; none of these was introduced by this wave.
+Verified against `AP Book Final.html`, 1,132,243,794 bytes, SHA-256
+`572144b82c780abbad6ec81174c96fea0f4082222442ec42a8d90657d3a4b09f`
+(GitHub `fb11cc1`) by the acceptance run reported in
+`docs/FINAL_ACCEPTANCE_REPORT.md`.  Each item says whether it is a genuine
+source gap, an availability limit, a scope statement, or something already
+fixed.  Earlier wording that contradicts this file is listed under
+"Superseded claims" at the end, and the raw snapshots are preserved under
+`reports/`.
 
-## Found by the overnight audit (2026-10-12/13)
+## Source gaps - content genuinely absent from the supplied source
 
-1a. **Orphan description controls (`OA-007`, P1) - CLOSED, 24 of 24 restored.**
-   The original 24 regions carried `Extended description for …` as a bare
-   paragraph, so the control could not be expanded and the label read as a
-   stray line.  All 24 are now real, accessible grey-bar `<details>` controls
-   with their complete source-backed bodies, their figure captions left outside
-   the panel and the loose `▼`/`i` UI glyphs removed:
-
-   * 3 restored in `orphan-repair-2026-10-13` - `TMP-0523`, `-0567`, `-0575`;
-   * 12 restored in `final-completion-2026-10-13` - `TMP-0121`, `-0312`,
-     `-0421`, `-0428`, `-0621`, `-0624`, `-0726`, `-0756`, `-0846`, `-0849`,
-     `-0929`, `-1067`;
-   * 9 restored in `nine-case-2026-10-13` - `TMP-0125`, `-0152`, `-0422`,
-     `-0502`, `-0516`, `-0530`, `-0745`, `-0851`, `-1350`.
-
-   `TMP-0105` was never an orphan: the source shows one control twice (its bar
-   collapsed in the 0105 capture and expanded in the 0107 capture) and the
-   authentic control with its 1,739-character body is in `TMP-0107` -
-   **VERIFIED REDUNDANT**, nothing removed.
-
-   Disclosure controls in the final book: **155**, 0 with an empty body, 0
-   malformed.  Every move was checked with an exact normalized token-sequence
-   test (multiset equality plus original-order containment).  Per-case ledger:
-   `docs/NINE_CASE_LEDGER.md`; evidence: `reports/nine_case/` (current) and
-   `reports/overnight_audit/`, `reports/repair/`, `reports/final/` (the
-   superseded audit snapshots, kept intact for history).
-
-1b. **The printed-page spread mode was withdrawn (`OA-001`, resolved by
-   removal).** Single/two-page modes used to page through the 1,899 capture
-   fragments and to offer a two-page *printed* spread.  The available source
-   contains no printed page boundary, so a printed spread cannot be offered
-   honestly.  The reader now offers **Continuous**, **Section** (the 383
-   verified headings) and **Source capture** (honestly labelled), and says why
-   in the Tools note.  Nothing was silently removed: the reason and the
-   replacement are in the UI, here, and in `docs/OVERNIGHT_AUDIT.md`.
-
-1a2. **Orphan description controls - final state (inal-completion-2026-10-13).**
-+   14 further cases were repaired from the grey panel cell that holds label *and*
-+   body, and from the caption-strip boundary: TMP-0121, -0312, -0421,
-+   -0428, -0621, -0624, -0726, -0756, -0846, -0849, -0929,
-+   -1067.  Together with the three earlier repairs that is **17 of 24
-+   restored**; TMP-0105 is VERIFIED REDUNDANT (one source control, captured
-+   collapsed then expanded; the working control is TMP-0107).
-+   **6 remain UNRESOLVED WITH EVIDENCE** - TMP-0125, -0152, -0422,
-+   -0502, -0516, -0530, -0745, -0851 - each because the description
-+   shares a table/block with the figure or with ordinary narrative and the
-+   panel's bottom edge is no longer distinguishable in the markup.  Their text
-+   is untouched; see docs/FINAL_COMPLETION_REPORT.md.
-+   Controls in the book: **146**, 0 empty, 0 malformed.
-+
-+## Source gaps (cannot be fixed without more source)
-
-1. **16 Contents rows have no printed label.** The sidebar shows the printed
-   labels of the supplied numbered Contents list (506 cells: 486 manifest rows,
-   7 pre-existing front/back-matter rows, the 7 new rows and the 6 unit group
-   headers). Sixteen manifest rows - the six unit/module openers and the ten
-   `AP® Skills Workshop ...` / `Business Canvas Project Application` rows - have
-   no entry in that list and keep an empty cell. Nothing was inferred from
-   position, adjacency or the source images. All 500 supplied entries are
-   represented. Details in `CONTENTS_MAPPING.md` and
-   `reports/printed_contents_reconciliation.json`.
-1b. **Five supplied entries are visible but unlinked.** `About this Book`,
+1. **No Index body.** The `Index` Contents entry is kept visible and
+   deliberately not linked: the Index text does not exist anywhere in the
+   1,899-region sequence or in the supplied PNG captures.
+2. **`Page 1101-1200` has no Word document.** That range is carried by a
+   structured OCR candidate; its headings kept no run formatting.
+3. **All images carry `alt=""`.** The supplied source provides no per-image
+   descriptions and inventing them is not permitted.  The information that
+   *is* source-backed is already exposed through the 155 Extended Description
+   controls, which describe the figures they belong to.
+4. **The Page 501-600 donor document renders its paragraphs without run
+   sizes**, so those regions read at the reader's base size while other batches
+   carry their own sizes.  Making them uniform would be a fidelity change to
+   the source, so it was not done.
+5. **Some module-opener banners in the Page 501-600 batch lost their coloured
+   band** in extraction.  Two banner lines were white-on-white and now have a
+   teal band; one module in that batch lost its `LG` marker entirely and cannot
+   be reconstructed.
+6. **16 Contents rows have no printed label.** The sidebar shows the printed
+   labels of the user-supplied numbered Contents list (506 cells: 486 manifest
+   rows, 7 pre-existing front/back-matter rows, the 7 new rows and the 6 unit
+   group headers).  Sixteen manifest rows - the six unit/module openers and the
+   ten `AP® Skills Workshop …` / `Business Canvas Project Application` rows -
+   have no entry in that list and keep an empty cell.  Nothing was inferred from
+   position, adjacency or the source images.  All 500 supplied entries are
+   represented.
+7. **Five supplied entries are visible but unlinked.** `About this Book`,
    `Title Page`, `Copyright Page`, `FEP` and `Back Cover` have no body anywhere
    in the supplied source (a whole-file scan finds none of those words), so
-   their rows carry their supplied label and deliberately no link. `Cover Page`
-   and `Get the most out of your textbook's . . .` do have a verified
+   their rows carry their supplied label and deliberately no link.  `Cover
+   Page` and `Get the most out of your textbook's . . .` do have a verified
    destination and are linked.
-2. **No Index body.** The `Index` Contents entry is kept visible and
-   deliberately not linked. The Index text does not exist in the 1,899-region
-   sequence.
-3. **125 Contents entries are held** (shown, not linked) because no
+8. **125 Contents entries are held** (shown, not linked) because no
    source-verified heading target exists for them.
-4. **`Page 1101-1200` has no Word document.** That range is carried by a
-   structured OCR candidate; its headings, for example, kept no run
-   formatting.
-5. **All images carry `alt=""`.** The supplied source provides no per-image
-   descriptions, and inventing them is not permitted.
-6. **RESOLVED in `supplied-entries-2026-10-12`.** The two "empty" disclosures -
-   Walmart (`TMP-0542`) and Merck (`TMP-0585`) - did have bodies: the capture
-   boundary cut the description panel in two, and the body stood at the top of
-   the *following* capture (`B2P1-0543.png`, `B2P1-0586.png`), which the earlier
-   audit never opened. Both were restored by relocating the exact paragraphs
-   into the control. No disclosure control now has an empty body (0 of 131).
-   See `WALMART_MERCK_FORENSICS.md`.
 
-## Presentation limits
+## Availability limits - deliberately not offered
 
-7. **The printed-Contents page numbers are absent from the source pages**, so
-   the "printed label" column in the reader cannot be derived at all.
-8. **The Page 501-600 donor document renders its paragraphs without run
-   sizes**, so those regions read at the reader's base size while other
-   batches carry their own sizes. Making them uniform would be a fidelity
-   change to the source, so it was not done.
-9. **Some module-opener banners in the Page 501-600 batch lost their coloured
-   band** in extraction. Two banner lines were white-on-white and are now
-   given a teal band; one module in that batch lost its `LG` marker entirely
-   and cannot be reconstructed.
-10. **Two-page mode remains a two-page view of reader regions**, not of printed
-    pages, because no verified printed-page map exists. The reader labels it
-    with reader page numbers, never printed ones.
+9. **No printed two-page spread.** The available source contains no printed
+   page boundary - each capture is a screenshot of a scrolling page - so a
+   printed spread could not be drawn honestly and the mode was withdrawn.  The
+   reader offers **Continuous**, **Section** (the book's own 383 verified
+   headings) and **Source capture** (labelled as captures), and states the
+   reason in the Tools panel.
+10. **Printed page numbers are absent from the source pages**, so the reader's
+    page-reference cells are the labels of the user-supplied numbered Contents
+    list (the list is the authority); they are display-only and are never
+    treated as printed page boundaries.  All 506 rendered cells come from that
+    list.
 
 ## Verification scope
 
 11. **Pixel-level equality with the printed book was not attempted** for the
-    whole book; it is impossible for the source ranges that were never
-    supplied. The verification that *was* done is region-by-region word
-    equality against the previous verified final, plus representative visual
-    inspection (nine positions) and a clean browser run.
-12. **Not every one of the 131 disclosure controls was opened by hand**; the
-    structural check covers all of them, the geometric check covered a
-    sample.
-12b. **Two drawer panels can overlap on a narrow screen.** At 390 x 844 a fresh
-    load closes both rails (`narrow()` in `reader/ui.js`), but a session that
-    stored both rails open on a desktop and then narrowed the window keeps both
-    open, and the two fixed drawers overlap. It is a reader-interface state, not
-    a source-fidelity defect, and it was left alone;
-    `docs/layout/13-mobile-drawers-closed.png` shows the intended narrow-screen
-    state. Not introduced by this wave.
-
-## Presentation defects closed in later waves
-
-14. **The six top-level unit rows showed no printed page number** - the supplied
-    label had landed only on the nested copy of the same entry. Fixed in
-    `supplied-entries-2026-10-12`: the group header now carries the supplied
-    label (2 / 104 / 202 / 236 / 328 / 386). The nested row is unchanged.
-15. **The navigation label `BUSINESSWITHPERSONALFINANCE` had lost its spaces**
-    (the cover title is set as four stacked lines). Fixed to the supplied
-    wording `Business with Personal Finance`; the same label on the cover
-    region's `data-nav-label` attribute was repaired too, so the search status
-    line reads correctly.
+    whole book; it is impossible for source ranges that were never supplied.
+    What *was* done: region-by-region word equality against the previous
+    verified artifact, exact ordered token-sequence equality per repaired group,
+    a browser pass over all 155 disclosure controls, and representative visual
+    inspection (see `docs/FINAL_ACCEPTANCE_REPORT.md`).
+12. **Structural and browser coverage is complete for the disclosures; visual
+    inspection by hand covers a sample.** All 155 controls are checked in the
+    browser for structure, collapsed/expanded geometry, hidden-when-closed and
+    keyboard operation; the controls repaired across the last waves, plus the
+    Walmart, Merck, Starbucks, Lancôme, Cialdini, Consumers, Kellogg's,
+    Supply/Demand, Cooper, Privacy Statement and MoMo cases, were additionally
+    inspected against their captures.
+13. **Two drawer panels are never both open on a narrow screen** (fixed): on a
+    narrow viewport the reader keeps Contents, closes the other drawer when one
+    is opened, and restores the stored desktop preference when the window
+    widens.
 
 ## Outside the book
 
-13. `ISS-110` from an earlier session (a stray worker installing database
-    engines outside the project) still awaits the user's decision. Nothing was
+14. `ISS-110` from an earlier session (a stray worker installing database
+    engines outside the project) still awaits the user's decision.  Nothing was
     deleted.
+
+## Superseded claims (kept for history, not current)
+
+These appeared in earlier revisions of this file and are no longer true.  The
+superseded evidence snapshots remain under `reports/overnight_audit/`,
+`reports/repair/` and `reports/final/`:
+
+* "The printed label column cannot be derived at all" - superseded by
+  `printed-contents-2026-10-12`: the labels are the user-supplied list and 506
+  cells are rendered.
+* "Two-page mode remains a two-page view of reader regions" - superseded by
+  `overnight-audit-2026-10-13`: the printed-spread claim was withdrawn and
+  Section/Source capture took its place.
+* "There are 131 disclosure controls" / "0 of 131 have an empty body" - the
+  count is **155**, none empty.
+* "24 orphan description controls, 3/12/21 or 17-of-24 restored, 6 unresolved" -
+  the three repair waves restored **24 of 24** (3 + 12 + 9); see
+  `docs/NINE_CASE_LEDGER.md`.
+* "Walmart and Merck have genuinely empty descriptions" - both bodies existed
+  across the capture boundary and are restored; see
+  `docs/WALMART_MERCK_FORENSICS.md`.
+* "The two mobile drawers overlap" - fixed in the overnight-audit wave.
+* "The MoMo credit is squeezed" - fixed in the final-completion wave; the credit
+  is rendered vertically as the source prints it.

@@ -1,0 +1,8 @@
+prev occurrences of 'Copyright' in region: 1 | inside the panel body: False
+     (no panel) copyright is at char 13410 of the region
+curr occurrences of 'Copyright' in region: 1 | inside the panel body: False
+     copyright offset 14181 | panel spans 1099..2083 | copyright after the panel: True
+     text immediately before the copyright: ...uGXUK3np0ugAAAABJRU5ErkJggg==" alt="" loading="lazy" decoding="async">
+GROUP tokens: 283 -> 283 | multiset equal: True | 'Copyright' count 1 -> 1
+token counts: 109 -> 180 | multiset equal: False
+'Copyright' token count: prev 1 | curr 1
