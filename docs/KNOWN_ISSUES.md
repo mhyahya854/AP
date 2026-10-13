@@ -4,39 +4,31 @@ Reported honestly; none of these was introduced by this wave.
 
 ## Found by the overnight audit (2026-10-12/13)
 
-1a. **Description controls that are orphan labels (`OA-007`, P1) - 3 repaired,
-   21 still open.** The `orphan-repair-2026-10-13` wave repaired the three
-   whose description panel was confirmed against its source captures and whose
-   body ends at the figure caption strip below the panel (the same pattern as
-   Walmart/Merck): `TMP-0523` (Lancôme, 112 words), `TMP-0567` (Cialdini, 140
-   words) and `TMP-0575` (Consumers, 36 words). Each is now an accessible
-   grey-bar `<details>` control, its body moved verbatim from the following
-   capture, the loose `▼`/`i` glyphs removed, and the figure caption left
-   outside the control. Controls in the book: **134**, 0 with an empty body;
-   word-level preservation verified for all three pairs
-   (`reports/repair/orphan_patch_report.json`).
-   The remaining 21 could not be delimited from the evidence in this run - the
-   label and body are wrapped inside a table, the Georgia body run is cut by an
-   inline style change, or the run ends at a figure rather than at the panel's
-   caption strip, so the description's end cannot be established without a
-   per-case reading of the capture. They were left untouched rather than
-   guessed at; their measured runs and terminators are in
-   `reports/repair/body_runs.json` and `repair_plan.json`.
+1a. **Orphan description controls (`OA-007`, P1) - CLOSED, 24 of 24 restored.**
+   The original 24 regions carried `Extended description for …` as a bare
+   paragraph, so the control could not be expanded and the label read as a
+   stray line.  All 24 are now real, accessible grey-bar `<details>` controls
+   with their complete source-backed bodies, their figure captions left outside
+   the panel and the loose `▼`/`i` UI glyphs removed:
 
-1a-old. **Historically: 24 description controls were orphan labels.** In 25 places
-   the text `Extended description for …` is a bare paragraph rather than a
-   `<details>` control, so it cannot be expanded and the label reads as a
-   stray line; 24 of them have no real control anywhere in the book
-   (`TMP-0121`, `-0125`, `-0152`, `-0312`, `-0421`, `-0422`, `-0428`, `-0502`,
-   `-0516`, `-0523`, `-0530`, `-0567`, `-0575`, `-0621`, `-0624`, `-0726`,
-   `-0745`, `-0756`, `-0846`, `-0849`, `-0851`, `-0929`, `-1067`, `-1350`).
-   `TMP-0105` is only a redundant remnant of the real control in `TMP-0107`.
-   Visual proof of the class: `TMP-0567` ends with the control bar and an empty
-   panel while `B2P1-0568.png` opens with that panel's body — the same
-   capture-boundary cut already repaired for Walmart and Merck.  Not repaired
-   yet: each body's extent must be confirmed against its capture, and text is
-   never moved on proximity alone.  Locations:
-   `reports/overnight_audit/orphan_body_map.json`.
+   * 3 restored in `orphan-repair-2026-10-13` - `TMP-0523`, `-0567`, `-0575`;
+   * 12 restored in `final-completion-2026-10-13` - `TMP-0121`, `-0312`,
+     `-0421`, `-0428`, `-0621`, `-0624`, `-0726`, `-0756`, `-0846`, `-0849`,
+     `-0929`, `-1067`;
+   * 9 restored in `nine-case-2026-10-13` - `TMP-0125`, `-0152`, `-0422`,
+     `-0502`, `-0516`, `-0530`, `-0745`, `-0851`, `-1350`.
+
+   `TMP-0105` was never an orphan: the source shows one control twice (its bar
+   collapsed in the 0105 capture and expanded in the 0107 capture) and the
+   authentic control with its 1,739-character body is in `TMP-0107` -
+   **VERIFIED REDUNDANT**, nothing removed.
+
+   Disclosure controls in the final book: **155**, 0 with an empty body, 0
+   malformed.  Every move was checked with an exact normalized token-sequence
+   test (multiset equality plus original-order containment).  Per-case ledger:
+   `docs/NINE_CASE_LEDGER.md`; evidence: `reports/nine_case/` (current) and
+   `reports/overnight_audit/`, `reports/repair/`, `reports/final/` (the
+   superseded audit snapshots, kept intact for history).
 
 1b. **The printed-page spread mode was withdrawn (`OA-001`, resolved by
    removal).** Single/two-page modes used to page through the 1,899 capture

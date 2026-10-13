@@ -1,8 +1,10 @@
 # Final completion report - orphan disclosures, MoMo credit, verification
 
 Baseline: commit `1c6a5e6`, `AP Book Final.html` 1,132,314,672 bytes,
-SHA-256 `c0ea6f33...`.  Final: **1,132,278,215 bytes, SHA-256
-`ef09a8254ea6771aaed065faee3cba35dcd5328d0c9ad44a27c5b657442ae877`**.
+SHA-256 `c0ea6f33...`.  After this wave: 1,132,278,215 bytes,
+SHA-256 `ef09a825...`; after the subsequent `nine-case-2026-10-13` wave the final
+artifact is **1,132,243,794 bytes, SHA-256
+`572144b82c780abbad6ec81174c96fea0f4082222442ec42a8d90657d3a4b09f`**.
 
 ## Phase 1 - the orphan Extended Description controls
 
@@ -39,9 +41,12 @@ were resolved.
 | TMP-1350 South by Southwest | `B2P2-0734.png` donor | **UNRESOLVED WITH EVIDENCE** | the donor opens with ordinary narrative about Mark Cuban; no panel body is identifiable | none | n/a | `inner_cells.json` |
 | TMP-0105 Digital Platform | `B2P1-0105.png` vs `B2P1-0107.png` | **VERIFIED REDUNDANT** | the source shows one control twice - collapsed in 0105's capture and expanded in 0107's; the authentic, functional control (1,739-character body) is in `TMP-0107`.  The 0105 line is the source's own collapsed bar; removed nothing | none | yes (in 0107) | `flat_disclosure_classification.json` |
 
-Totals across both waves: **24 orphans resolved as 17 RESTORED, 1 VERIFIED
-REDUNDANT, 6 UNRESOLVED WITH EVIDENCE** (each with the reason above).  No
-orphan was left as a bare label where the source permitted a repair.
+Interim total after this wave: 15 of the 24 orphan regions restored (3 + 12),
+1 verified redundant (`TMP-0105`), 9 still unresolved.  **The nine were then
+resolved in the `nine-case-2026-10-13` wave, so the final position is 24 of 24
+restored and 0 unresolved** - see `docs/NINE_CASE_LEDGER.md`, which also records
+the corrected accounting (this wave created 12 controls, not 14: `TMP-0125` and
+`TMP-0152` were malformed here and were reverted to the baseline text).
 
 ## Phase 2 - the MoMo photograph credit
 
@@ -91,8 +96,10 @@ no console errors.
 
 ## Delivery
 
-Local final `AP Book Final.html` 1,132,278,215 bytes,
-SHA-256 `ef09a8254ea6771aaed065faee3cba35dcd5328d0c9ad44a27c5b657442ae877`.
+Local final `AP Book Final.html` 1,132,243,794 bytes,
+SHA-256 `572144b82c780abbad6ec81174c96fea0f4082222442ec42a8d90657d3a4b09f`
+(the `nine-case-2026-10-13` wave; this report's wave produced `ef09a825...`,
+preserved in `integration_backups/final-completion-20261013/`).
 Previous final (`c0ea6f33...`) preserved in
 `integration_backups/final-completion-20261013/`.  Patchers:
 `contents_wave/patch_orphan_controls2.py`, `patch_orphan_controls2b.py`,

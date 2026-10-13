@@ -3,16 +3,17 @@
 | Field | Value |
 |---|---|
 | File | `AP Book Final.html` |
-| Bytes | 1,132,278,215 |
-| SHA-256 | `ef09a8254ea6771aaed065faee3cba35dcd5328d0c9ad44a27c5b657442ae877` |
+| Bytes | 1,132,243,794 |
+| SHA-256 | `572144b82c780abbad6ec81174c96fea0f4082222442ec42a8d90657d3a4b09f` |
 | Self-contained | yes - every figure and table is an inline `data:` URI, the only scripts are three inline scripts, no network access is required |
 | Source regions | 1,899 (`TMP-0001` .. `TMP-1899`), unchanged in identity, order and text |
 
 ## Wave applied
 
 `continuous-reading-2026-10-12`, `corrective-2026-10-12` and
-`printed-contents-2026-10-12`, `supplied-entries-2026-10-12` and
-`overnight-audit-2026-10-13`.
+`printed-contents-2026-10-12`, `supplied-entries-2026-10-12`,
+`overnight-audit-2026-10-13`, `orphan-repair-2026-10-13`,
+`final-completion-2026-10-13` and `nine-case-2026-10-13`.
 
 * The corrective wave changed one source region (`TMP-0563`, the Starbucks
   Rewards control, whose description text was stranded beside a bitmap inside
@@ -34,6 +35,14 @@
   exists), and it stopped the two mobile drawers from overlapping on a narrow
   viewport.  It also moved four misplaced figure credits to directly after
   their photographs.
+* The three repair waves turned all **24** orphan `Extended description for …`
+  labels into real grey-bar `<details>` controls (3 + 12 + 9), each with its
+  complete source-backed body, its figure caption left outside the panel and
+  the loose UI glyphs removed; `TMP-0105` was proven a redundant remnant of the
+  control in `TMP-0107`.  The `final-completion` wave also rendered the
+  source-vertical `MoMo Productions/Getty Images` credit vertically instead of
+  letting the browser break the word in half.  Disclosure controls in the book:
+  155, none empty.  Ledger: `docs/NINE_CASE_LEDGER.md`.
 
 Of the **1,899** regions, **1,895** are byte-identical to the artifact before
 the supplied-entries wave and **4** changed - `TMP-0542`, `TMP-0543`,

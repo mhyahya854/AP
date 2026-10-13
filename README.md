@@ -29,8 +29,8 @@ Git LFS and opened locally.
 | Field | Value |
 |---|---|
 | File | `AP Book Final.html` |
-| Bytes | 1,132,278,215 |
-| SHA-256 | `ef09a8254ea6771aaed065faee3cba35dcd5328d0c9ad44a27c5b657442ae877` |
+| Bytes | 1,132,243,794 |
+| SHA-256 | `572144b82c780abbad6ec81174c96fea0f4082222442ec42a8d90657d3a4b09f` |
 
 Verify after downloading:
 
