@@ -313,27 +313,44 @@
   document.head.appendChild(styleEl);
 
   function tagVerticalCredits() {
-    var ps = document.querySelectorAll('.book-page .content p'), n = 0, i;
-    for (i = 0; i < ps.length; i++) {
+    /* The real defect is a credit whose longest word is wider than the cell the
+       source's vertical side credit was squeezed into, so the browser has to
+       break the word in half ("Productio/ns").  Measure exactly that, word by
+       word, in the credit's own font: a credit that fits is never touched. */
+    var ps = document.querySelectorAll('.book-page .content p'), n = 0;
+    var probe = document.createElement('span');
+    probe.setAttribute('aria-hidden', 'true');
+    probe.style.cssText = 'position:absolute;left:-9999px;top:0;white-space:nowrap;visibility:hidden';
+    document.body.appendChild(probe);
+    for (var i = 0; i < ps.length; i++) {
       var p = ps[i];
       var t = (p.textContent || '').replace(/\s+/g, ' ').trim();
       if (!t || t.length > 90 || !CREDIT_RE.test(t)) { continue; }
-      var cell = p.closest('td');
-      var table = p.closest('table');
-      if (!cell || !table) { continue; }
-      var cw = cell.getBoundingClientRect().width;
-      var tw = table.getBoundingClientRect().width;
-      var squeezed = cw > 0 && tw > 320 && cw < tw * 0.34 && cw < 190;
-      if (squeezed) {
-        if (!p.classList.contains('b2-vcredit')) { p.classList.add('b2-vcredit'); n++; }
-      } else if (p.classList.contains('b2-vcredit')) {
-        p.classList.remove('b2-vcredit');
+      var cs = window.getComputedStyle(p);
+      var avail = p.clientWidth - (parseFloat(cs.paddingLeft) || 0) - (parseFloat(cs.paddingRight) || 0);
+      if (!(avail > 0)) { continue; }
+      probe.style.font = cs.fontStyle + ' ' + cs.fontWeight + ' ' + cs.fontSize + ' ' + cs.fontFamily;
+      var words = t.split(' '), widest = 0;
+      for (var w = 0; w < words.length; w++) {
+        probe.textContent = words[w];
+        widest = Math.max(widest, probe.getBoundingClientRect().width);
       }
+      if (widest > avail + 0.5 && !p.classList.contains('b2-vcredit')) {
+        p.classList.add('b2-vcredit');
+      }
+      if (p.classList.contains('b2-vcredit')) { n++; }
     }
+    probe.remove();
     return n;
   }
   var verticalCredits = tagVerticalCredits();
   var creditTimer = 0;
+  /* At parse time the tables have not been laid out yet, so widths read as 0
+     and nothing looks squeezed.  Re-measure once the images have loaded. */
+  window.addEventListener('load', function () { verticalCredits = tagVerticalCredits(); });
+  [400, 1200, 2500].forEach(function (ms) {
+    window.setTimeout(function () { verticalCredits = tagVerticalCredits(); }, ms);
+  });
   window.addEventListener('resize', function () {
     window.clearTimeout(creditTimer);
     creditTimer = window.setTimeout(function () { verticalCredits = tagVerticalCredits(); }, 250);

@@ -1,0 +1,28 @@
+{
+ "patch": "Phase 1b (0726, 0756)",
+ "regions_edited": [
+  "TMP-0726",
+  "TMP-0727",
+  "TMP-0756",
+  "TMP-0757"
+ ],
+ "output_bytes": 1132276931,
+ "bytes_delta": -12214,
+ "output_sha256": "12e6f0d31b440126da82943b27a0736f0e7cb8400065337b9006816c7a4f8a06",
+ "checks": [
+  {
+   "control": "TMP-0726",
+   "donor": "TMP-0727",
+   "words_moved": 20,
+   "body_head": "Logo: Los Angeles County Consumer and Business Affairs. d c b a dot l a county dot gov. (8",
+   "caption_left": "When a crisis makes consumers vulnerable to excessive prices, governments someti"
+  },
+  {
+   "control": "TMP-0756",
+   "donor": "TMP-0757",
+   "words_moved": 36,
+   "body_head": "Text on the screen reads from top to bottom: Sales: 1-877-720-2040. Docu Sign. Free Trial.",
+   "caption_left": "DocuSign is a B2B service sold to businesses such as law firms and real estate a"
+  }
+ ]
+}

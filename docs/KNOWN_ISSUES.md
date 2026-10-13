@@ -47,7 +47,21 @@ Reported honestly; none of these was introduced by this wave.
    in the Tools note.  Nothing was silently removed: the reason and the
    replacement are in the UI, here, and in `docs/OVERNIGHT_AUDIT.md`.
 
-## Source gaps (cannot be fixed without more source)
+1a2. **Orphan description controls - final state (inal-completion-2026-10-13).**
++   14 further cases were repaired from the grey panel cell that holds label *and*
++   body, and from the caption-strip boundary: TMP-0121, -0312, -0421,
++   -0428, -0621, -0624, -0726, -0756, -0846, -0849, -0929,
++   -1067.  Together with the three earlier repairs that is **17 of 24
++   restored**; TMP-0105 is VERIFIED REDUNDANT (one source control, captured
++   collapsed then expanded; the working control is TMP-0107).
++   **6 remain UNRESOLVED WITH EVIDENCE** - TMP-0125, -0152, -0422,
++   -0502, -0516, -0530, -0745, -0851 - each because the description
++   shares a table/block with the figure or with ordinary narrative and the
++   panel's bottom edge is no longer distinguishable in the markup.  Their text
++   is untouched; see docs/FINAL_COMPLETION_REPORT.md.
++   Controls in the book: **146**, 0 empty, 0 malformed.
++
++## Source gaps (cannot be fixed without more source)
 
 1. **16 Contents rows have no printed label.** The sidebar shows the printed
    labels of the supplied numbered Contents list (506 cells: 486 manifest rows,
