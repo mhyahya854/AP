@@ -1,0 +1,733 @@
+{
+ "dry_run": true,
+ "tagged": [
+  {
+   "region": "TMP-0118",
+   "text": "Alexey Borodin/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0124",
+   "text": "Kristoffer Tripplaar/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0128",
+   "text": "Stephen Swintek/Getty Images"
+  },
+  {
+   "region": "TMP-0141",
+   "text": "Richard Levine/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0147",
+   "text": "Paul Christian Gordon/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0161",
+   "text": "Mario Tama/Getty Images"
+  },
+  {
+   "region": "TMP-0167",
+   "text": "Khim Hoe Ng/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0169",
+   "text": "Allen Creative/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0176",
+   "text": "jfmdesign/Getty Images"
+  },
+  {
+   "region": "TMP-0182",
+   "text": "Alex Slitz/Getty Images"
+  },
+  {
+   "region": "TMP-0189",
+   "text": "Bloomberg/Getty Images"
+  },
+  {
+   "region": "TMP-0195",
+   "text": "Christopher Polk/Getty Images"
+  },
+  {
+   "region": "TMP-0210",
+   "text": "Oleh_Slobodeniuk/Getty Images"
+  },
+  {
+   "region": "TMP-0215",
+   "text": "Alexander Spatari/Getty Images"
+  },
+  {
+   "region": "TMP-0217",
+   "text": "ERIC PIERMONT/Getty Images"
+  },
+  {
+   "region": "TMP-0227",
+   "text": "Bloomberg/Getty Images"
+  },
+  {
+   "region": "TMP-0233",
+   "text": "undefined undefined/Getty Images"
+  },
+  {
+   "region": "TMP-0244",
+   "text": "joel zatz/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0248",
+   "text": "AFF/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0250",
+   "text": "Bloomberg/Getty Images"
+  },
+  {
+   "region": "TMP-0259",
+   "text": "mangpor2004/Shutterstock"
+  },
+  {
+   "region": "TMP-0268",
+   "text": "JSMimages/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0276",
+   "text": "FatCamera/Getty Images"
+  },
+  {
+   "region": "TMP-0286",
+   "text": "Oleg Moiseyenko/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0289",
+   "text": "Ralf-Finn Hestoft/Getty Images"
+  },
+  {
+   "region": "TMP-0295",
+   "text": "ZUMA Press, Inc./Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0298",
+   "text": "halbergman/Getty Images"
+  },
+  {
+   "region": "TMP-0306",
+   "text": "UCG/Getty Images"
+  },
+  {
+   "region": "TMP-0312",
+   "text": "The Washington Post/Getty Images"
+  },
+  {
+   "region": "TMP-0317",
+   "text": "SEAN GLADWELL/Getty Images"
+  },
+  {
+   "region": "TMP-0326",
+   "text": "DNY59/Getty Images"
+  },
+  {
+   "region": "TMP-0330",
+   "text": "Marjorie Kamys Cotera/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0334",
+   "text": "Hindustan Times/Getty Images"
+  },
+  {
+   "region": "TMP-0337",
+   "text": "Kirsty O’Connor - PA Images/Getty Images"
+  },
+  {
+   "region": "TMP-0343",
+   "text": "Bloomberg/Getty Images"
+  },
+  {
+   "region": "TMP-0348",
+   "text": "kanvag/Getty Images"
+  },
+  {
+   "region": "TMP-0355",
+   "text": "Justin Sullivan/Getty Images"
+  },
+  {
+   "region": "TMP-0359",
+   "text": "Bloomberg/Getty Images"
+  },
+  {
+   "region": "TMP-0364",
+   "text": "James D. Wilson/Getty Images"
+  },
+  {
+   "region": "TMP-0392",
+   "text": "SDI Productions/Getty Images"
+  },
+  {
+   "region": "TMP-0396",
+   "text": "Bloomberg/Getty Images"
+  },
+  {
+   "region": "TMP-0405",
+   "text": "Smith Collection/Gado/Getty Images"
+  },
+  {
+   "region": "TMP-0411",
+   "text": "AzmanL/Getty Images"
+  },
+  {
+   "region": "TMP-0416",
+   "text": "OLIVER CHASSIGNOLE/Getty Images"
+  },
+  {
+   "region": "TMP-0429",
+   "text": "thianchai sitthikongsak/Getty Images"
+  },
+  {
+   "region": "TMP-0438",
+   "text": "picture alliance/Getty Images"
+  },
+  {
+   "region": "TMP-0449",
+   "text": "Bloomberg/Getty Images"
+  },
+  {
+   "region": "TMP-0480",
+   "text": "Marc Atkins/Getty Images"
+  },
+  {
+   "region": "TMP-0484",
+   "text": "Bloomberg/Getty Images"
+  },
+  {
+   "region": "TMP-0486",
+   "text": "Johnny Greig/Getty Images"
+  },
+  {
+   "region": "TMP-0491",
+   "text": "miniseries/Getty Images"
+  },
+  {
+   "region": "TMP-0494",
+   "text": "SDI Productions/Getty Images"
+  },
+  {
+   "region": "TMP-0607",
+   "text": "Jim West/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0612",
+   "text": "alvaro gonzalez/Getty Images"
+  },
+  {
+   "region": "TMP-0646",
+   "text": "John Nordell/Getty Images"
+  },
+  {
+   "region": "TMP-0653",
+   "text": "Andy445/Getty Images"
+  },
+  {
+   "region": "TMP-0670",
+   "text": "Bloomberg/Getty Images"
+  },
+  {
+   "region": "TMP-0681",
+   "text": "Paul Brady/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0691",
+   "text": "Susan Wood/Getty Images"
+  },
+  {
+   "region": "TMP-0696",
+   "text": "STEFANI REYNOLDS/Getty Images"
+  },
+  {
+   "region": "TMP-0713",
+   "text": "Cavan Images/Getty Images"
+  },
+  {
+   "region": "TMP-0735",
+   "text": "Juan Roballo/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0752",
+   "text": "John P Kelly/Getty Images"
+  },
+  {
+   "region": "TMP-0756",
+   "text": "Bloomberg/Getty Images"
+  },
+  {
+   "region": "TMP-0763",
+   "text": "buzbuzzer/Getty Images"
+  },
+  {
+   "region": "TMP-0772",
+   "text": "Xinhua News Agency/Getty Images"
+  },
+  {
+   "region": "TMP-0779",
+   "text": "TIMOTHY A. CLARY/Getty Images"
+  },
+  {
+   "region": "TMP-0785",
+   "text": "Logan Bowles/Getty Images"
+  },
+  {
+   "region": "TMP-0787",
+   "text": "Maurice Norbert/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0790",
+   "text": "FG Trade/Getty Images"
+  },
+  {
+   "region": "TMP-0793",
+   "text": "Sunrise Photos/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0797",
+   "text": "mauritius images GmbH/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0809",
+   "text": "Barry King/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0813",
+   "text": "Xinhua News Agency/Getty Images"
+  },
+  {
+   "region": "TMP-0820",
+   "text": "Erika Goldring/Getty Images"
+  },
+  {
+   "region": "TMP-0864",
+   "text": "RossHelen/Shutterstock"
+  },
+  {
+   "region": "TMP-0868",
+   "text": "John Lamb/Getty Images"
+  },
+  {
+   "region": "TMP-0871",
+   "text": "Edwin Tan/Getty Images"
+  },
+  {
+   "region": "TMP-0878",
+   "text": "Flavia Morlachetti/Getty Images"
+  },
+  {
+   "region": "TMP-0881",
+   "text": "Cecilie_Arcurs/Getty Images"
+  },
+  {
+   "region": "TMP-0886",
+   "text": "Marvin Tolentino/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-0889",
+   "text": "Robert Gauthier/Getty Images"
+  },
+  {
+   "region": "TMP-0895",
+   "text": "uchar/Getty Images"
+  },
+  {
+   "region": "TMP-0897",
+   "text": "JGI/Jamie Grill/Getty Images"
+  },
+  {
+   "region": "TMP-0904",
+   "text": "PATRICK T. FALLON/Getty Images"
+  },
+  {
+   "region": "TMP-0909",
+   "text": "Filippo Bacci/Getty Images"
+  },
+  {
+   "region": "TMP-0919",
+   "text": "TrixiePhoto/Getty Images"
+  },
+  {
+   "region": "TMP-0924",
+   "text": "Ground Picture/Shutterstock"
+  },
+  {
+   "region": "TMP-0932",
+   "text": "Anna Barclay/Getty Images"
+  },
+  {
+   "region": "TMP-0935",
+   "text": "Houston Chronicle/Hearst Newspapers/Getty Images"
+  },
+  {
+   "region": "TMP-0942",
+   "text": "Andrew Angelov/Shutterstock"
+  },
+  {
+   "region": "TMP-0951",
+   "text": "blackCAT/Getty Images"
+  },
+  {
+   "region": "TMP-0957",
+   "text": "Capuski/Getty Images"
+  },
+  {
+   "region": "TMP-0966",
+   "text": "Hiraman/Getty Images"
+  },
+  {
+   "region": "TMP-0972",
+   "text": "Cameron Prins/Shutterstock"
+  },
+  {
+   "region": "TMP-0979",
+   "text": "Igor Suka/Getty Images"
+  },
+  {
+   "region": "TMP-0983",
+   "text": "heshphoto/Getty Images"
+  },
+  {
+   "region": "TMP-0985",
+   "text": "courtneyk/Getty Images"
+  },
+  {
+   "region": "TMP-0997",
+   "text": "Spencer Platt/Getty Images"
+  },
+  {
+   "region": "TMP-1000",
+   "text": "Darren McCollester/Getty Images"
+  },
+  {
+   "region": "TMP-1003",
+   "text": "FangXiaNuo/Getty Images"
+  },
+  {
+   "region": "TMP-1012",
+   "text": "picture alliance/Getty Images"
+  },
+  {
+   "region": "TMP-1018",
+   "text": "DAVID GRAY/Getty Images"
+  },
+  {
+   "region": "TMP-1024",
+   "text": "Monty Rakusen/Getty Images"
+  },
+  {
+   "region": "TMP-1027",
+   "text": "fcafotodigital/Getty Images"
+  },
+  {
+   "region": "TMP-1032",
+   "text": "Kobus Louw/Getty Images"
+  },
+  {
+   "region": "TMP-1036",
+   "text": "Bloomberg/Getty Images"
+  },
+  {
+   "region": "TMP-1047",
+   "text": "simonkr/Getty Images"
+  },
+  {
+   "region": "TMP-1058",
+   "text": "Shutterstock AI/Shutterstock"
+  },
+  {
+   "region": "TMP-1067",
+   "text": "Photo: Rawpixel.com/Shutterstock"
+  },
+  {
+   "region": "TMP-1077",
+   "text": "Mike Kemp/Getty Images"
+  },
+  {
+   "region": "TMP-1080",
+   "text": "Bloomberg/Getty Images"
+  },
+  {
+   "region": "TMP-1086",
+   "text": "Hiraman/Getty Images"
+  },
+  {
+   "region": "TMP-1098",
+   "text": "ROMEO GACAD/Getty Images"
+  },
+  {
+   "region": "TMP-1207",
+   "text": "Justin Sullivan/Getty Images"
+  },
+  {
+   "region": "TMP-1214",
+   "text": "sturti/Getty Images"
+  },
+  {
+   "region": "TMP-1217",
+   "text": "Mario Tama/Getty Images"
+  },
+  {
+   "region": "TMP-1222",
+   "text": "South_agency/Getty Images"
+  },
+  {
+   "region": "TMP-1224",
+   "text": "Tim Boyle/Getty Images"
+  },
+  {
+   "region": "TMP-1233",
+   "text": "Arina Habich/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-1241",
+   "text": "SOPA Images/Getty Images"
+  },
+  {
+   "region": "TMP-1246",
+   "text": "Michael M. Santiago/Getty Images"
+  },
+  {
+   "region": "TMP-1248",
+   "text": "Kayla Bartkowski/Getty Images"
+  },
+  {
+   "region": "TMP-1251",
+   "text": "Andriy Popov/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-1257",
+   "text": "Hum Images/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-1267",
+   "text": "Hiroko Masuike/Getty Images"
+  },
+  {
+   "region": "TMP-1289",
+   "text": "Eising/Getty Images"
+  },
+  {
+   "region": "TMP-1295",
+   "text": "Hero Images Inc/Shutterstock"
+  },
+  {
+   "region": "TMP-1300",
+   "text": "PeopleImages.com - Yuri A/Shutterstock"
+  },
+  {
+   "region": "TMP-1304",
+   "text": "I-HWA CHENG/Getty Images"
+  },
+  {
+   "region": "TMP-1308",
+   "text": "Houston Chronicle/Hearst Newspapers/Getty Images"
+  },
+  {
+   "region": "TMP-1315",
+   "text": "Hispanolistic/Getty Images"
+  },
+  {
+   "region": "TMP-1318",
+   "text": "FatCamera/Getty Images"
+  },
+  {
+   "region": "TMP-1321",
+   "text": "RONNY HARTMANN/Getty Images"
+  },
+  {
+   "region": "TMP-1326",
+   "text": "Visual Art Agency/Getty Images"
+  },
+  {
+   "region": "TMP-1331",
+   "text": "picture alliance/Getty Images"
+  },
+  {
+   "region": "TMP-1340",
+   "text": "Gorodenkoff/Shutterstock"
+  },
+  {
+   "region": "TMP-1350",
+   "text": "Tibrina Hobson/Getty Images"
+  },
+  {
+   "region": "TMP-1356",
+   "text": "Bloomberg/Getty Images"
+  },
+  {
+   "region": "TMP-1361",
+   "text": "Miguel J. Rodriguez Carrillo/Getty Images"
+  },
+  {
+   "region": "TMP-1365",
+   "text": "Kindamorphic/Getty Images"
+  },
+  {
+   "region": "TMP-1370",
+   "text": "Roberto Machado Noa/Getty Images"
+  },
+  {
+   "region": "TMP-1379",
+   "text": "Ute Grabowsky/Getty Images"
+  },
+  {
+   "region": "TMP-1399",
+   "text": "ROBERTO PFEIL/Getty Images"
+  },
+  {
+   "region": "TMP-1413",
+   "text": "Quang NGUYEN DUC/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-1417",
+   "text": "Roberto Machado Noa/Getty Images"
+  },
+  {
+   "region": "TMP-1423",
+   "text": "Alexander Spatari/Getty Images"
+  },
+  {
+   "region": "TMP-1428",
+   "text": "Francesco Carta fotografo/Getty Images"
+  },
+  {
+   "region": "TMP-1438",
+   "text": "JASON REDMOND/Getty Images"
+  },
+  {
+   "region": "TMP-1446",
+   "text": "Maskot/Getty Images"
+  },
+  {
+   "region": "TMP-1455",
+   "text": "IAN LANGSDON/Getty Images"
+  },
+  {
+   "region": "TMP-1459",
+   "text": "Anadolu/Getty Images"
+  },
+  {
+   "region": "TMP-1471",
+   "text": "picture alliance/Getty Images"
+  },
+  {
+   "region": "TMP-1480",
+   "text": "Newsday LLC/Getty Images"
+  },
+  {
+   "region": "TMP-1492",
+   "text": "ANGELA WEISS/AFP/Getty Images"
+  },
+  {
+   "region": "TMP-1506",
+   "text": "MICHAELA STACHE/GETTY Images"
+  },
+  {
+   "region": "TMP-1513",
+   "text": "AleksandarNakic/Getty Images"
+  },
+  {
+   "region": "TMP-1518",
+   "text": "Kim Kulish/Getty Images"
+  },
+  {
+   "region": "TMP-1523",
+   "text": "Cia Image/Getty Images"
+  },
+  {
+   "region": "TMP-1527",
+   "text": "Mike Coppola/Getty Images"
+  },
+  {
+   "region": "TMP-1529",
+   "text": "Nora Carol Photography/Getty Images"
+  },
+  {
+   "region": "TMP-1534",
+   "text": "Tempura/Getty Images"
+  },
+  {
+   "region": "TMP-1536",
+   "text": "Don Mason/Getty Images"
+  },
+  {
+   "region": "TMP-1551",
+   "text": "Bloomberg/Getty Images"
+  },
+  {
+   "region": "TMP-1555",
+   "text": "24K-Production/Alamy Stock Photo"
+  },
+  {
+   "region": "TMP-1579",
+   "text": "Anadolu/Getty Images"
+  },
+  {
+   "region": "TMP-1584",
+   "text": "PhotoAlto/Odilon Dimier/Getty Images"
+  },
+  {
+   "region": "TMP-1589",
+   "text": "FatCamera/Getty Images"
+  },
+  {
+   "region": "TMP-1592",
+   "text": "sturti/Getty Images"
+  },
+  {
+   "region": "TMP-1597",
+   "text": "Bloomberg/Getty Images"
+  },
+  {
+   "region": "TMP-1605",
+   "text": "Sladic/Getty Images"
+  },
+  {
+   "region": "TMP-1608",
+   "text": "JulPo/Getty Images"
+  },
+  {
+   "region": "TMP-1619",
+   "text": "valentinrussanov/Getty Images"
+  },
+  {
+   "region": "TMP-1624",
+   "text": "Lomb/Shutterstock"
+  },
+  {
+   "region": "TMP-1628",
+   "text": "MediaNews Group/Boulder Daily Camera via Getty Images"
+  },
+  {
+   "region": "TMP-1631",
+   "text": "PeopleImages.com - Yuri A/Shutterstock"
+  },
+  {
+   "region": "TMP-1634",
+   "text": "Halfpoint Images/Getty Images"
+  },
+  {
+   "region": "TMP-1643",
+   "text": "Daniel Wischenbarth/Getty Images"
+  },
+  {
+   "region": "TMP-1665",
+   "text": "jubahphoto/Getty Images"
+  },
+  {
+   "region": "TMP-1685",
+   "text": "Peter Dazeley/Getty Images"
+  },
+  {
+   "region": "TMP-1691",
+   "text": "Maskot/Getty Images"
+  },
+  {
+   "region": "TMP-1695",
+   "text": "alexey_ds/Getty Images"
+  }
+ ]
+}

@@ -3,8 +3,8 @@
 | Field | Value |
 |---|---|
 | File | `AP Book Final.html` |
-| Bytes | 1,132,243,794 |
-| SHA-256 | `572144b82c780abbad6ec81174c96fea0f4082222442ec42a8d90657d3a4b09f` |
+| Bytes | 1,132,261,630 |
+| SHA-256 | `c4623c4a3feff2f005b29cae2a224945dfdc580708e80547caf81d3331e252e0` |
 | Self-contained | yes - every figure and table is an inline `data:` URI, the only scripts are three inline scripts, no network access is required |
 | Source regions | 1,899 (`TMP-0001` .. `TMP-1899`), unchanged in identity, order and text |
 
@@ -13,7 +13,8 @@
 `continuous-reading-2026-10-12`, `corrective-2026-10-12` and
 `printed-contents-2026-10-12`, `supplied-entries-2026-10-12`,
 `overnight-audit-2026-10-13`, `orphan-repair-2026-10-13`,
-`final-completion-2026-10-13` and `nine-case-2026-10-13`.
+`final-completion-2026-10-13`, `nine-case-2026-10-13` and
+`photo-credit-2026-10-13`.
 
 * The corrective wave changed one source region (`TMP-0563`, the Starbucks
   Rewards control, whose description text was stranded beside a bitmap inside
@@ -43,6 +44,13 @@
   source-vertical `MoMo Productions/Getty Images` credit vertically instead of
   letting the browser break the word in half.  Disclosure controls in the book:
   155, none empty.  Ledger: `docs/NINE_CASE_LEDGER.md`.
+* The photo-credit wave rendered every credit that sits in its own narrow cell
+  beside a photograph vertically, as the publisher prints it: 182 credits,
+  including the Kellogg's credit in `TMP-0124` (which reads upward in its
+  source, so it uses the opposite vertical flow).  Before the repair those cells
+  were 21-63 px wide against single words of 67-182 px, so the browser broke the
+  words apart at every viewport.  Attribute-only change: no text, image, table
+  or element order changed.  See `docs/PHOTO_CREDIT_REPAIR.md`.
 
 Of the **1,899** regions, **1,895** are byte-identical to the artifact before
 the supplied-entries wave and **4** changed - `TMP-0542`, `TMP-0543`,
