@@ -3,8 +3,8 @@
 | Field | Value |
 |---|---|
 | File | `AP Book Final.html` |
-| Bytes | 1,132,289,645 |
-| SHA-256 | `ba63e34f36d7a9b35fc174b2fef6f15a0c70e9d6ab1063aa4451110eae18ff74` |
+| Bytes | 1,132,306,770 |
+| SHA-256 | `2bff4ce2e75d767884672a983f470f9fb339d7088e7d9053925d8e3b351c777d` |
 | Self-contained | yes - every figure and table is an inline `data:` URI, the only scripts are four inline scripts, no network access is required |
 | Source regions | 1,899 (`TMP-0001` .. `TMP-1899`), unchanged in identity, order and text |
 
@@ -15,7 +15,20 @@
 `overnight-audit-2026-10-13`, `orphan-repair-2026-10-13`,
 `final-completion-2026-10-13`, `nine-case-2026-10-13` and
 `photo-credit-orientation-2026-10-14`, `sidebar-2026-10-14`,
-`toolbar-appearance-2026-10-14`.
+`toolbar-appearance-2026-10-14`, `contents-navigation-2026-10-14`.
+
+* The contents-navigation wave of 2026-10-14 made every Contents click land
+  exactly.  It appended one stylesheet block (`reader/ui3.css`), added four
+  additive hooks to the inline `reader/ui2.js`, appended one fifth inline
+  script (`reader/ui3.js`) and turned 58 verified held Contents rows into real
+  links to the source capture whose first words are the row's own title.  It
+  changed no article region: all 1,899 regions are byte-identical to the
+  previous artifact, in the same order, and every marker is unchanged (1,899
+  regions, 502 Contents rows, 506 printed-page cells, 155 description labels,
+  151 LG badges, 423 embedded PNGs, 383 heading anchors, 10 group anchors,
+  0 duplicate ids) except the internal-link count, which is 395 → 453 because
+  of the 58 verified additions.  Report and raw evidence:
+  `docs/CONTENTS_NAVIGATION_FINAL_REPORT.md`, `reports/contents_navigation/`.
 
 * The toolbar-appearance wave of 2026-10-14 moved the whole toolbar group to
   the top-right of the reading column as a compact group (619 px instead of a
@@ -105,9 +118,15 @@ and the file's total region text is still 1,444,347 characters
 
 | Field | Value |
 |---|---|
-| File | `_master_work/integration_backups/step2-20261014/prev-final-AP Book Final.html` (also the parent of the `toolbar-appearance-2026-10-14` commit) |
-| Bytes | 1,132,269,052 |
-| SHA-256 | `db07ab804bed45df6dd7b27a70dea2e86f259707d047b9b307d19e71108e35df` |
+| File | `_master_work/integration_backups/step3-20261014/prev-final-AP Book Final.html` (also the parent of the `contents-navigation-2026-10-14` commit) |
+| Bytes | 1,132,289,645 |
+| SHA-256 | `ba63e34f36d7a9b35fc174b2fef6f15a0c70e9d6ab1063aa4451110eae18ff74` |
+
+The artifact before that (the toolbar-appearance final, and the parent of this
+wave) is preserved as
+`_master_work/integration_backups/step2-20261014/prev-final-AP Book Final.html`,
+1,132,269,052 bytes, SHA-256
+`db07ab804bed45df6dd7b27a70dea2e86f259707d047b9b307d19e71108e35df`.
 
 The artifact before that (the sidebar-wave final) is preserved as
 `_master_work/integration_backups/sidebar-20261014/prev-final-AP Book Final.html`,

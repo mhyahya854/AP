@@ -1,0 +1,81 @@
+{
+ "schema": "book2.step3.extract.v1",
+ "file": "reader/AP-Book-Final-step3-staged.html",
+ "bytes": 1132305011,
+ "scripts": [
+  {
+   "idx": 1,
+   "start": 1132226579,
+   "bodyStart": 1132226587,
+   "bodyEnd": 1132244326,
+   "chars": 17736,
+   "file": "reports\\contents_navigation\\staged_extract\\script-1.js",
+   "head": " const app=document.querySelector('.app'),main=document.querySelector('main'),pages=[...document.querySelectorAll('.book-page')]; const counter=document.query"
+  },
+  {
+   "idx": 2,
+   "start": 1132244335,
+   "bodyStart": 1132244343,
+   "bodyEnd": 1132270882,
+   "chars": 26537,
+   "file": "reports\\contents_navigation\\staged_extract\\script-2.js",
+   "head": "/* ===== Book 2 reader UI layer (2026-10-12) ================================= Appended as a second classic script. It reuses the existing reader's global "
+  },
+  {
+   "idx": 3,
+   "start": 1132270892,
+   "bodyStart": 1132270900,
+   "bodyEnd": 1132273553,
+   "chars": 2653,
+   "file": "reports\\contents_navigation\\staged_extract\\script-3.js",
+   "head": "/* ===== Book 2 continuous-reading wave (2026-10-12) ======================= Additive only. It re-uses the verified reader's own preferences (`window.boo"
+  },
+  {
+   "idx": 4,
+   "start": 1132273563,
+   "bodyStart": 1132273571,
+   "bodyEnd": 1132293081,
+   "chars": 19510,
+   "file": "reports\\contents_navigation\\staged_extract\\script-4.js",
+   "head": " /* ===== Book 2 reader semantics + mobile drawer layer (2026-10-12 overnight) ==== Additive. It never edits content and never rewrites reader/ui.js. 1."
+  },
+  {
+   "idx": 5,
+   "start": 1132293091,
+   "bodyStart": 1132293099,
+   "bodyEnd": 1132304987,
+   "chars": 11888,
+   "file": "reports\\contents_navigation\\staged_extract\\script-5.js",
+   "head": " /* ===== Book 2 step 3: exact Contents navigation (2026-10-14) ============== Additive. It never edits content and never rewrites reader/ui.js or reader"
+  }
+ ],
+ "asides": [
+  {
+   "idx": 1,
+   "name": "aside-1-left-left.html",
+   "start": 56008,
+   "end": 188654,
+   "chars": 132584,
+   "opening": "<aside class=\"left\" id=\"contents-panel\" aria-labelledby=\"contents-heading\">"
+  },
+  {
+   "idx": 2,
+   "name": "aside-2-other-right.html",
+   "start": 1132224215,
+   "end": 1132226565,
+   "chars": 2358,
+   "opening": "<aside class=\"right\" id=\"reader-controls\" aria-labelledby=\"reader-heading\">"
+  }
+ ],
+ "regionOpeners": 1899,
+ "phraseCounts": {
+  "href=\"#book-heading-": 383,
+  "href=\"#book-group-": 10,
+  "href=\"#TMP-": 60,
+  "href=\"#": 453,
+  "id=\"book-heading-": 383,
+  "id=\"book-group-": 10,
+  "data-source-contents-id=": 502,
+  "<span class=\"nav-page\"": 506
+ }
+}

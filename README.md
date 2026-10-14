@@ -29,8 +29,8 @@ Git LFS and opened locally.
 | Field | Value |
 |---|---|
 | File | `AP Book Final.html` |
-| Bytes | 1,132,289,645 |
-| SHA-256 | `ba63e34f36d7a9b35fc174b2fef6f15a0c70e9d6ab1063aa4451110eae18ff74` |
+| Bytes | 1,132,306,770 |
+| SHA-256 | `2bff4ce2e75d767884672a983f470f9fb339d7088e7d9053925d8e3b351c777d` |
 
 Verify after downloading:
 
@@ -61,9 +61,9 @@ hairline is drawn only where a verified module or unit actually begins
 fixed-geometry tables, SVG compositions and figures still render at the size
 they were reconstructed for.
 
-The reader also offers a single-page view and a two-page spread. Those are
-views of the 1,899 reader regions, never of printed pages — no printed page
-number is invented anywhere.
+The reader also offers the Section view and the Source-capture view. Those are
+views of the book's own verified headings and of the 1,899 reader regions, never
+of printed pages — no printed page number is invented anywhere.
 
 ## Appearance and the toolbar
 
@@ -93,6 +93,18 @@ thumbnail, title and authors. Every linked row points at a unique heading id
 (`#book-heading-nnnn`), so repeated titles such as "Practice Your AP® Skills
 Questions" resolve inside their own module instead of jumping to the first
 matching name in the book.
+
+Clicking a row lands its own heading 14 px below the sticky toolbar in all
+three reading modes. The offset is measured from the toolbar at run time
+(`--b2-nav-offset`), so it is right on a desktop and on a phone where the
+toolbar wraps; in Section mode the click switches to the destination's verified
+section first, and in Source capture mode it selects the capture that holds the
+destination first. The clicked row becomes and stays the active row, with its
+unit and module groups opened. A stored `#book-heading-nnnn` link is honoured
+on load and on browser Back/Forward. 453 rows are linked (383 verified heading
+anchors, 58 source captures whose first words are the row's own title, 10 group
+anchors and 2 older capture links); the remaining 73 are held with a measured
+reason. See [`docs/CONTENTS_NAVIGATION_FINAL_REPORT.md`](docs/CONTENTS_NAVIGATION_FINAL_REPORT.md).
 
 The right-hand page-reference cell shows the printed labels of the
 user-supplied numbered Contents list (500 numbered entries): **506 cells**, for

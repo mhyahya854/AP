@@ -135,9 +135,17 @@ supplied title, which is a label repair - no source wording was changed.
 
 ### Navigation was not touched
 
-No `href` was added, removed or re-pointed. The 126 held/Index rows stay
-unlinked - a printed label is display-only and is not evidence of a
+No `href` was added, removed or re-pointed by this wave. The held and Index rows
+stayed unlinked - a printed label is display-only and is not evidence of a
 destination. `Index - 456` is shown on its unlinked row.
+
+The contents-navigation wave of 2026-10-14 later added 58 links
+(`data-link-kind="region-begin"`), each to the source capture whose first words
+are that row's own title, inside the row's own unit and unique in the whole
+reconstructed body; see `docs/CONTENTS_NAVIGATION_FINAL_REPORT.md` and
+`reports/contents_navigation/link_additions.json`. The 67 rows it could not
+verify stay unlinked, with their measured reason in
+`reports/contents_navigation/held_resolution.json`.
 
 ## Source of the Contents list
 
@@ -168,6 +176,11 @@ Both files are included under `reader/manifests/`.
 | Supplied entries represented | **500 of 500** |
 | Entries remaining without a supplied label | 16 manifest rows (no entry in the list) |
 | Sidebar rows in total | 516 (502 manifest rows + 7 pre-existing anchor rows + 7 new rows) |
+
+Current state after the contents-navigation wave of 2026-10-14, which added 58
+verified links: **453 linked rows, 73 held rows** (67 held + the Index row + the
+5 supplied entries whose body the source does not contain). See
+`docs/CONTENTS_NAVIGATION_FINAL_REPORT.md`.
 
 ## Hierarchy and navigation
 

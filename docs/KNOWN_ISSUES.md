@@ -1,8 +1,13 @@
 # Known issues in the current release
 
 Verified against `AP Book Final.html`, 1,132,289,645 bytes, SHA-256
-`ba63e34f36d7a9b35fc174b2fef6f15a0c70e9d6ab1063aa4451110eae18ff74`
-by the acceptance run reported in
+`2bff4ce2e75d767884672a983f470f9fb339d7088e7d9053925d8e3b351c777d`
+(1,132,306,770 bytes) by the contents-navigation wave of 2026-10-14
+(`docs/CONTENTS_NAVIGATION_FINAL_REPORT.md`), which changed only the reader
+shell — one appended stylesheet block, four additive hooks in `reader/ui2.js`,
+one appended inline script and 58 verified Contents rows turned into links — and
+left every article region byte-identical.  The earlier evidence is the
+acceptance run reported in
 `docs/FINAL_ACCEPTANCE_REPORT.md` plus the photo-credit wave of 2026-10-14
 (`docs/PHOTO_CREDIT_ORIENTATION.md`), the sidebar wave of 2026-10-14
 (`docs/SIDEBAR_WAVE.md`, which changed only the two sidebar controls and
@@ -73,8 +78,13 @@ fixed.  Earlier wording that contradicts this file is listed under
    their rows carry their supplied label and deliberately no link.  `Cover
    Page` and `Get the most out of your textbook's . . .` do have a verified
    destination and are linked.
-8. **125 Contents entries are held** (shown, not linked) because no
-   source-verified heading target exists for them.
+8. **67 Contents entries are held** (shown, not linked) because no
+   source-verified destination could be established for them: 36 have no
+   occurrence of their own wording anywhere in the reconstructed body, 17 occur
+   in more than one body capture (ambiguous without an anchor), 14 occur inside
+   a capture but not at its beginning (a new anchor would be needed).  The
+   contents-navigation wave of 2026-10-14 linked the other 58 held rows, each to
+   the source capture whose first words are that row's own title.
 
 ## Availability limits - deliberately not offered
 

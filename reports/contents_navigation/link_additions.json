@@ -1,0 +1,537 @@
+{
+ "schema": "book2.step3.link_additions.v1",
+ "held_rows": 125,
+ "verdicts": {
+  "link_region": 58,
+  "not_found": 36,
+  "anchor_needed": 14,
+  "ambiguous_text": 17
+ },
+ "additions": [
+  {
+   "source_id": "TMP-0016:5",
+   "title": "Businesses Meet Needs and Solve Problems",
+   "target_region": "TMP-0119",
+   "group_index": 2,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0016:5\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">4</span>Businesses Meet Needs and Solve Problems</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0016:5\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0119\"><span class=\"nav-page\">4</span>Businesses Meet Needs and Solve Problems</a>"
+  },
+  {
+   "source_id": "TMP-0017:8",
+   "title": "Barriers to Entry.",
+   "target_region": "TMP-0178",
+   "group_index": 2,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0017:8\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">20</span>Barriers to Entry.</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0017:8\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0178\"><span class=\"nav-page\">20</span>Barriers to Entry.</a>"
+  },
+  {
+   "source_id": "TMP-0017:13",
+   "title": "PESTEL: Six Factors That Shape Markets",
+   "target_region": "TMP-0197",
+   "group_index": 2,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0017:13\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">26</span>PESTEL: Six Factors That Shape Markets</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0017:13\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0197\"><span class=\"nav-page\">26</span>PESTEL: Six Factors That Shape Markets</a>"
+  },
+  {
+   "source_id": "TMP-0018:3",
+   "title": "PESTEL Analysis, Business Viability, and Career Prospects",
+   "target_region": "TMP-0207",
+   "group_index": 2,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0018:3\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">29</span>PESTEL Analysis, Business Viability, and Career Prospects</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0018:3\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0207\"><span class=\"nav-page\">29</span>PESTEL Analysis, Business Viability, and Career Prospects</a>"
+  },
+  {
+   "source_id": "TMP-0018:14",
+   "title": "Risks and Rewards of Product Development",
+   "target_region": "TMP-0247",
+   "group_index": 2,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0018:14\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">42</span>Risks and Rewards of Product Development</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0018:14\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0247\"><span class=\"nav-page\">42</span>Risks and Rewards of Product Development</a>"
+  },
+  {
+   "source_id": "TMP-0019:16",
+   "title": "CASE STUDY: Your School’s Vision, Mission, and Culture",
+   "target_region": "TMP-0312",
+   "group_index": 2,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0019:16\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">60</span>CASE STUDY: Your School’s Vision, Mission, and Culture</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0019:16\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-0312\"><span class=\"nav-page\">60</span>CASE STUDY: Your School’s Vision, Mission, and Culture</a>"
+  },
+  {
+   "source_id": "TMP-0020:4",
+   "title": "Sorting Out Ethical Dilemmas in Business",
+   "target_region": "TMP-0339",
+   "group_index": 2,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0020:4\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">68</span>Sorting Out Ethical Dilemmas in Business</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0020:4\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0339\"><span class=\"nav-page\">68</span>Sorting Out Ethical Dilemmas in Business</a>"
+  },
+  {
+   "source_id": "TMP-0020:16",
+   "title": "Roles and Responsibilities in Sole Proprietorships and Partnerships",
+   "target_region": "TMP-0375",
+   "group_index": 2,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0020:16\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">79</span>Roles and Responsibilities in Sole Proprietorships and Partnerships</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0020:16\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0375\"><span class=\"nav-page\">79</span>Roles and Responsibilities in Sole Proprietorships and Partnerships</a>"
+  },
+  {
+   "source_id": "TMP-0020:17",
+   "title": "Roles and Responsibilities in Larger Organizations",
+   "target_region": "TMP-0378",
+   "group_index": 2,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0020:17\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">80</span>Roles and Responsibilities in Larger Organizations</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0020:17\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0378\"><span class=\"nav-page\">80</span>Roles and Responsibilities in Larger Organizations</a>"
+  },
+  {
+   "source_id": "TMP-0022:1",
+   "title": "Using a Supply Chain to Gain Competitive Advantage",
+   "target_region": "TMP-0435",
+   "group_index": 2,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0022:1\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">98</span>Using a Supply Chain to Gain Competitive Advantage</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0022:1\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0435\"><span class=\"nav-page\">98</span>Using a Supply Chain to Gain Competitive Advantage</a>"
+  },
+  {
+   "source_id": "TMP-0022:10",
+   "title": "AP® Exam Practice Questions",
+   "target_region": "TMP-0457",
+   "group_index": 2,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0022:10\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">103A</span>AP® Exam Practice Questions</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0022:10\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0457\"><span class=\"nav-page\">103A</span>AP® Exam Practice Questions</a>"
+  },
+  {
+   "source_id": "TMP-0022:11",
+   "title": "AP® Skills Workshop Concept Application",
+   "target_region": "TMP-0472",
+   "group_index": 2,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0022:11\" title=\"No verified destination\" data-depth=\"3\">AP® Skills Workshop Concept Application</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0022:11\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0472\">AP® Skills Workshop Concept Application</a>"
+  },
+  {
+   "source_id": "TMP-0023:9",
+   "title": "Using Data Responsibly.",
+   "target_region": "TMP-0528",
+   "group_index": 3,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0023:9\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">116</span>Using Data Responsibly.</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0023:9\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0528\"><span class=\"nav-page\">116</span>Using Data Responsibly.</a>"
+  },
+  {
+   "source_id": "TMP-0024:4",
+   "title": "Consumer Psychology: Cialdini’s Seven Principles of Influence",
+   "target_region": "TMP-0565",
+   "group_index": 3,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0024:4\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">126</span>Consumer Psychology: Cialdini’s Seven Principles of Influence</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0024:4\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0565\"><span class=\"nav-page\">126</span>Consumer Psychology: Cialdini’s Seven Principles of Influence</a>"
+  },
+  {
+   "source_id": "TMP-0024:14",
+   "title": "CASE STUDY: Merck’s Pharmaceutical Marketing",
+   "target_region": "TMP-0585",
+   "group_index": 3,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0024:14\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">131</span>CASE STUDY: Merck’s Pharmaceutical Marketing</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0024:14\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-0585\"><span class=\"nav-page\">131</span>CASE STUDY: Merck’s Pharmaceutical Marketing</a>"
+  },
+  {
+   "source_id": "TMP-0026:7",
+   "title": "Maturity.",
+   "target_region": "TMP-0678",
+   "group_index": 3,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0026:7\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">157</span>Maturity.</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0026:7\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0678\"><span class=\"nav-page\">157</span>Maturity.</a>"
+  },
+  {
+   "source_id": "TMP-0027:9",
+   "title": "Distribution Channels and Business Models",
+   "target_region": "TMP-0742",
+   "group_index": 3,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0027:9\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">176</span>Distribution Channels and Business Models</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0027:9\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0742\"><span class=\"nav-page\">176</span>Distribution Channels and Business Models</a>"
+  },
+  {
+   "source_id": "TMP-0027:13",
+   "title": "Selecting and Evaluating a Distribution Channel",
+   "target_region": "TMP-0760",
+   "group_index": 3,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0027:13\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">182</span>Selecting and Evaluating a Distribution Channel</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0027:13\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0760\"><span class=\"nav-page\">182</span>Selecting and Evaluating a Distribution Channel</a>"
+  },
+  {
+   "source_id": "TMP-0028:1",
+   "title": "CASE STUDY: The Places for IRONMAN® Races",
+   "target_region": "TMP-0772",
+   "group_index": 3,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0028:1\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">185</span>CASE STUDY: The Places for IRONMAN® Races</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0028:1\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-0772\"><span class=\"nav-page\">185</span>CASE STUDY: The Places for IRONMAN® Races</a>"
+  },
+  {
+   "source_id": "TMP-0029:1",
+   "title": "AP® Skills Workshop Entrepreneurship",
+   "target_region": "TMP-0857",
+   "group_index": 3,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0029:1\" title=\"No verified destination\" data-depth=\"3\">AP® Skills Workshop Entrepreneurship</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0029:1\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0857\">AP® Skills Workshop Entrepreneurship</a>"
+  },
+  {
+   "source_id": "TMP-0030:5",
+   "title": "Borrowing and Repaying Money.",
+   "target_region": "TMP-0926",
+   "group_index": 4,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0030:5\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">221</span>Borrowing and Repaying Money.</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0030:5\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-0926\"><span class=\"nav-page\">221</span>Borrowing and Repaying Money.</a>"
+  },
+  {
+   "source_id": "TMP-0031:16",
+   "title": "CASE STUDY: Accenture",
+   "target_region": "TMP-1012",
+   "group_index": 5,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0031:16\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">247</span>CASE STUDY: Accenture</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0031:16\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-1012\"><span class=\"nav-page\">247</span>CASE STUDY: Accenture</a>"
+  },
+  {
+   "source_id": "TMP-0032:8",
+   "title": "CASE STUDY: Fore the Trail",
+   "target_region": "TMP-1047",
+   "group_index": 5,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0032:8\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">259</span>CASE STUDY: Fore the Trail</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0032:8\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-1047\"><span class=\"nav-page\">259</span>CASE STUDY: Fore the Trail</a>"
+  },
+  {
+   "source_id": "TMP-0033:1",
+   "title": "Benefits and Risks to Providers of Financial Capital",
+   "target_region": "TMP-1079",
+   "group_index": 5,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0033:1\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">270</span>Benefits and Risks to Providers of Financial Capital</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0033:1\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1079\"><span class=\"nav-page\">270</span>Benefits and Risks to Providers of Financial Capital</a>"
+  },
+  {
+   "source_id": "TMP-0033:4",
+   "title": "Pitching to Prospective Lenders or Investors",
+   "target_region": "TMP-1087",
+   "group_index": 5,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0033:4\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">273</span>Pitching to Prospective Lenders or Investors</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0033:4\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1087\"><span class=\"nav-page\">273</span>Pitching to Prospective Lenders or Investors</a>"
+  },
+  {
+   "source_id": "TMP-0033:7",
+   "title": "CASE STUDY: AgBiome",
+   "target_region": "TMP-1098",
+   "group_index": 5,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0033:7\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">276</span>CASE STUDY: AgBiome</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0033:7\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-1098\"><span class=\"nav-page\">276</span>CASE STUDY: AgBiome</a>"
+  },
+  {
+   "source_id": "TMP-0033:14",
+   "title": "Financial Performance and the Income Statement",
+   "target_region": "TMP-1113",
+   "group_index": 5,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0033:14\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">281</span>Financial Performance and the Income Statement</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0033:14\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1113\"><span class=\"nav-page\">281</span>Financial Performance and the Income Statement</a>"
+  },
+  {
+   "source_id": "TMP-0033:15",
+   "title": "Gross Profit Margin",
+   "target_region": "TMP-1114",
+   "group_index": 5,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0033:15\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">281</span>Gross Profit Margin</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0033:15\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1114\"><span class=\"nav-page\">281</span>Gross Profit Margin</a>"
+  },
+  {
+   "source_id": "TMP-0034:5",
+   "title": "Developing an Income Statement or a Projected Income Statement",
+   "target_region": "TMP-1134",
+   "group_index": 5,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0034:5\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">287</span>Developing an Income Statement or a Projected Income Statement</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0034:5\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1134\"><span class=\"nav-page\">287</span>Developing an Income Statement or a Projected Income Statement</a>"
+  },
+  {
+   "source_id": "TMP-0034:10",
+   "title": "CASE STUDY: YETI",
+   "target_region": "TMP-1149",
+   "group_index": 5,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0034:10\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">291</span>CASE STUDY: YETI</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0034:10\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-1149\"><span class=\"nav-page\">291</span>CASE STUDY: YETI</a>"
+  },
+  {
+   "source_id": "TMP-0035:3",
+   "title": "CASE STUDY: Shake Shack",
+   "target_region": "TMP-1200",
+   "group_index": 5,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0035:3\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">305</span>CASE STUDY: Shake Shack</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0035:3\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-1200\"><span class=\"nav-page\">305</span>CASE STUDY: Shake Shack</a>"
+  },
+  {
+   "source_id": "TMP-0035:5",
+   "title": "The Anatomy of a Cash Flow Statement",
+   "target_region": "TMP-1209",
+   "group_index": 5,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0035:5\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">308</span>The Anatomy of a Cash Flow Statement</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0035:5\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1209\"><span class=\"nav-page\">308</span>The Anatomy of a Cash Flow Statement</a>"
+  },
+  {
+   "source_id": "TMP-0035:11",
+   "title": "CASE STUDY: Home Depot",
+   "target_region": "TMP-1233",
+   "group_index": 5,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0035:11\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">315</span>CASE STUDY: Home Depot</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0035:11\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-1233\"><span class=\"nav-page\">315</span>CASE STUDY: Home Depot</a>"
+  },
+  {
+   "source_id": "TMP-0036:5",
+   "title": "CASE STUDY: Bernard L. Madoff Investment Securities, LLC.",
+   "target_region": "TMP-1267",
+   "group_index": 5,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0036:5\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">326</span>CASE STUDY: Bernard L. Madoff Investment Securities, LLC.</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0036:5\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-1267\"><span class=\"nav-page\">326</span>CASE STUDY: Bernard L. Madoff Investment Securities, LLC.</a>"
+  },
+  {
+   "source_id": "TMP-0036:8",
+   "title": "AP® Exam Practice Questions",
+   "target_region": "TMP-1279",
+   "group_index": 5,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0036:8\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">327B</span>AP® Exam Practice Questions</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0036:8\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1279\"><span class=\"nav-page\">327B</span>AP® Exam Practice Questions</a>"
+  },
+  {
+   "source_id": "TMP-0036:15",
+   "title": "Planning",
+   "target_region": "TMP-1311",
+   "group_index": 6,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0036:15\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">331</span>Planning</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0036:15\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1311\"><span class=\"nav-page\">331</span>Planning</a>"
+  },
+  {
+   "source_id": "TMP-0036:17",
+   "title": "Leading",
+   "target_region": "TMP-1316",
+   "group_index": 6,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0036:17\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">331</span>Leading</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0036:17\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1316\"><span class=\"nav-page\">331</span>Leading</a>"
+  },
+  {
+   "source_id": "TMP-0037:1",
+   "title": "Effective Leadership and Communication",
+   "target_region": "TMP-1319",
+   "group_index": 6,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0037:1\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">333</span>Effective Leadership and Communication</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0037:1\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1319\"><span class=\"nav-page\">333</span>Effective Leadership and Communication</a>"
+  },
+  {
+   "source_id": "TMP-0037:12",
+   "title": "CASE STUDY: The Mark Cuban Cost Plus Drug Company",
+   "target_region": "TMP-1350",
+   "group_index": 6,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0037:12\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">343</span>CASE STUDY: The Mark Cuban Cost Plus Drug Company</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0037:12\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-1350\"><span class=\"nav-page\">343</span>CASE STUDY: The Mark Cuban Cost Plus Drug Company</a>"
+  },
+  {
+   "source_id": "TMP-0037:14",
+   "title": "How Businesses Use Key Performance Indicators",
+   "target_region": "TMP-1358",
+   "group_index": 6,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0037:14\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">345</span>How Businesses Use Key Performance Indicators</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0037:14\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1358\"><span class=\"nav-page\">345</span>How Businesses Use Key Performance Indicators</a>"
+  },
+  {
+   "source_id": "TMP-0038:7",
+   "title": "CASE STUDY: Ford Motor Company",
+   "target_region": "TMP-1399",
+   "group_index": 6,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0038:7\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">357</span>CASE STUDY: Ford Motor Company</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0038:7\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-1399\"><span class=\"nav-page\">357</span>CASE STUDY: Ford Motor Company</a>"
+  },
+  {
+   "source_id": "TMP-0038:9",
+   "title": "Business Strategy",
+   "target_region": "TMP-1407",
+   "group_index": 6,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0038:9\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">359</span>Business Strategy</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0038:9\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1407\"><span class=\"nav-page\">359</span>Business Strategy</a>"
+  },
+  {
+   "source_id": "TMP-0038:18",
+   "title": "CASE STUDY: Microsoft",
+   "target_region": "TMP-1438",
+   "group_index": 6,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0038:18\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">368</span>CASE STUDY: Microsoft</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0038:18\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-1438\"><span class=\"nav-page\">368</span>CASE STUDY: Microsoft</a>"
+  },
+  {
+   "source_id": "TMP-0039:15",
+   "title": "Strengths",
+   "target_region": "TMP-1472",
+   "group_index": 6,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0039:15\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">377</span>Strengths</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0039:15\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1472\"><span class=\"nav-page\">377</span>Strengths</a>"
+  },
+  {
+   "source_id": "TMP-0039:17",
+   "title": "Opportunities",
+   "target_region": "TMP-1469",
+   "group_index": 6,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0039:17\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">379</span>Opportunities</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0039:17\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1469\"><span class=\"nav-page\">379</span>Opportunities</a>"
+  },
+  {
+   "source_id": "TMP-0039:18",
+   "title": "Threats",
+   "target_region": "TMP-1475",
+   "group_index": 6,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0039:18\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">379</span>Threats</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0039:18\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1475\"><span class=\"nav-page\">379</span>Threats</a>"
+  },
+  {
+   "source_id": "TMP-0040:4",
+   "title": "CASE STUDY: Beyond Meat",
+   "target_region": "TMP-1492",
+   "group_index": 6,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0040:4\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">384</span>CASE STUDY: Beyond Meat</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0040:4\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-1492\"><span class=\"nav-page\">384</span>CASE STUDY: Beyond Meat</a>"
+  },
+  {
+   "source_id": "TMP-0040:8",
+   "title": "AP® Skills Workshop Collaboration",
+   "target_region": "TMP-1516",
+   "group_index": 6,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0040:8\" title=\"No verified destination\" data-depth=\"3\">AP® Skills Workshop Collaboration</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0040:8\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1516\">AP® Skills Workshop Collaboration</a>"
+  },
+  {
+   "source_id": "TMP-0040:9",
+   "title": "Business Canvas Project Application",
+   "target_region": "TMP-1520",
+   "group_index": 6,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0040:9\" title=\"No verified destination\" data-depth=\"3\">Business Canvas Project Application</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0040:9\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1520\">Business Canvas Project Application</a>"
+  },
+  {
+   "source_id": "TMP-0040:16",
+   "title": "Payroll Taxes",
+   "target_region": "TMP-1537",
+   "group_index": 7,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0040:16\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">391</span>Payroll Taxes</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0040:16\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1537\"><span class=\"nav-page\">391</span>Payroll Taxes</a>"
+  },
+  {
+   "source_id": "TMP-0041:11",
+   "title": "CASE STUDY: Dylan’s First Paycheck",
+   "target_region": "TMP-1573",
+   "group_index": 7,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0041:11\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">399</span>CASE STUDY: Dylan’s First Paycheck</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0041:11\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-1573\"><span class=\"nav-page\">399</span>CASE STUDY: Dylan’s First Paycheck</a>"
+  },
+  {
+   "source_id": "TMP-0041:14",
+   "title": "Personal Risk",
+   "target_region": "TMP-1582",
+   "group_index": 7,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0041:14\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">402</span>Personal Risk</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0041:14\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1582\"><span class=\"nav-page\">402</span>Personal Risk</a>"
+  },
+  {
+   "source_id": "TMP-0041:15",
+   "title": "Property Risk",
+   "target_region": "TMP-1583",
+   "group_index": 7,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0041:15\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">402</span>Property Risk</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0041:15\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1583\"><span class=\"nav-page\">402</span>Property Risk</a>"
+  },
+  {
+   "source_id": "TMP-0041:16",
+   "title": "Liability Risk",
+   "target_region": "TMP-1617",
+   "group_index": 7,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0041:16\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">403</span>Liability Risk</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0041:16\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1617\"><span class=\"nav-page\">403</span>Liability Risk</a>"
+  },
+  {
+   "source_id": "TMP-0041:18",
+   "title": "Health Insurance",
+   "target_region": "TMP-1602",
+   "group_index": 7,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0041:18\" title=\"No verified destination\" data-depth=\"3\"><span class=\"nav-page\">403</span>Health Insurance</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0041:18\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1602\"><span class=\"nav-page\">403</span>Health Insurance</a>"
+  },
+  {
+   "source_id": "TMP-0042:13",
+   "title": "CASE STUDY: The Just-Right Amount of Insurance Coverage",
+   "target_region": "TMP-1619",
+   "group_index": 7,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0042:13\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">413</span>CASE STUDY: The Just-Right Amount of Insurance Coverage</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0042:13\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-1619\"><span class=\"nav-page\">413</span>CASE STUDY: The Just-Right Amount of Insurance Coverage</a>"
+  },
+  {
+   "source_id": "TMP-0043:13",
+   "title": "CASE STUDY: Planning for Pietro’s Financial Future",
+   "target_region": "TMP-1665",
+   "group_index": 7,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0043:13\" title=\"No verified destination\" data-depth=\"2\"><span class=\"nav-page\">427</span>CASE STUDY: Planning for Pietro’s Financial Future</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0043:13\" data-depth=\"2\" data-link-kind=\"region-begin\" href=\"#TMP-1665\"><span class=\"nav-page\">427</span>CASE STUDY: Planning for Pietro’s Financial Future</a>"
+  },
+  {
+   "source_id": "TMP-0043:18",
+   "title": "Business Canvas Project Application",
+   "target_region": "TMP-1693",
+   "group_index": 7,
+   "old": "<span class=\"nav-child nav-unlinked\" data-source-contents-id=\"TMP-0043:18\" title=\"No verified destination\" data-depth=\"3\">Business Canvas Project Application</span>",
+   "new": "<a class=\"nav-child\" data-source-contents-id=\"TMP-0043:18\" data-depth=\"3\" data-link-kind=\"region-begin\" href=\"#TMP-1693\">Business Canvas Project Application</a>"
+  }
+ ],
+ "count": 58,
+ "targets": [
+  "TMP-0119",
+  "TMP-0178",
+  "TMP-0197",
+  "TMP-0207",
+  "TMP-0247",
+  "TMP-0312",
+  "TMP-0339",
+  "TMP-0375",
+  "TMP-0378",
+  "TMP-0435",
+  "TMP-0457",
+  "TMP-0472",
+  "TMP-0528",
+  "TMP-0565",
+  "TMP-0585",
+  "TMP-0678",
+  "TMP-0742",
+  "TMP-0760",
+  "TMP-0772",
+  "TMP-0857",
+  "TMP-0926",
+  "TMP-1012",
+  "TMP-1047",
+  "TMP-1079",
+  "TMP-1087",
+  "TMP-1098",
+  "TMP-1113",
+  "TMP-1114",
+  "TMP-1134",
+  "TMP-1149",
+  "TMP-1200",
+  "TMP-1209",
+  "TMP-1233",
+  "TMP-1267",
+  "TMP-1279",
+  "TMP-1311",
+  "TMP-1316",
+  "TMP-1319",
+  "TMP-1350",
+  "TMP-1358",
+  "TMP-1399",
+  "TMP-1407",
+  "TMP-1438",
+  "TMP-1469",
+  "TMP-1472",
+  "TMP-1475",
+  "TMP-1492",
+  "TMP-1516",
+  "TMP-1520",
+  "TMP-1537",
+  "TMP-1573",
+  "TMP-1582",
+  "TMP-1583",
+  "TMP-1602",
+  "TMP-1617",
+  "TMP-1619",
+  "TMP-1665",
+  "TMP-1693"
+ ]
+}

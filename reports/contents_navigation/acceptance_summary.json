@@ -1,0 +1,256 @@
+{
+ "schema": "book2.step3.acceptance_summary.v1",
+ "artifact": "file:///C:/Users/mhyah/Downloads/book-source/Word/_master_work/repo/AP/reader/AP-Book-Final-step3-staged.html",
+ "matrix": "full",
+ "landings": 433,
+ "by_viewport": {
+  "d1920": 72,
+  "d1400": 73,
+  "d1024": 72,
+  "t768": 72,
+  "m390": 72,
+  "m320": 72
+ },
+ "by_mode": {
+  "continuous": 121,
+  "section": 144,
+  "single": 144,
+  "current": 24
+ },
+ "targets_displayed_below_toolbar": 373,
+ "zero_size_group_markers": 60,
+ "problems": [],
+ "gap_histogram": {
+  "12": 71,
+  "13": 4,
+  "14": 194,
+  "35": 1,
+  "36": 6,
+  "41": 1,
+  "43": 2,
+  "44": 1,
+  "51": 4,
+  "57": 7,
+  "59": 2,
+  "65": 15,
+  "71": 1,
+  "72": 2,
+  "73": 4,
+  "78": 1,
+  "83": 1,
+  "88": 1,
+  "103": 1,
+  "116": 2,
+  "117": 1,
+  "121": 1,
+  "139": 2,
+  "145": 1,
+  "148": 1,
+  "159": 1,
+  "193": 1,
+  "274": 1,
+  "286": 2,
+  "289": 1,
+  "318": 1,
+  "330": 2,
+  "333": 1,
+  "479": 1,
+  "483": 1,
+  "501": 1,
+  "583": 1,
+  "584": 5,
+  "635": 5,
+  "636": 1,
+  "727": 2,
+  "728": 4,
+  "731": 1,
+  "738": 1,
+  "791": 1,
+  "898": 4,
+  "926": 1,
+  "927": 3,
+  "978": 4
+ },
+ "js_errors": [],
+ "pin_survival": [
+  {
+   "name": "step3-region-link",
+   "href": "#TMP-0119",
+   "afterSync": {
+    "href": "#TMP-0119",
+    "title": "4Businesses Meet Needs and Solve Problems"
+   },
+   "ok": true
+  },
+  {
+   "name": "heading-link",
+   "href": "#book-heading-0002",
+   "afterSync": {
+    "href": "#book-heading-0002",
+    "title": "A1Accessibility"
+   },
+   "ok": true
+  },
+  {
+   "name": "mid-rail-link",
+   "href": "#book-heading-0201",
+   "afterSync": {
+    "href": "#book-heading-0201",
+    "title": "207Barriers to Saving"
+   },
+   "ok": true
+  }
+ ],
+ "group_header_click": {
+  "href": "#book-group-01",
+  "open_before": true,
+  "open_after": true,
+  "landing_region": "TMP-0001"
+ },
+ "census": {
+  "regions": 1899,
+  "firstRegion": "TMP-0001",
+  "lastRegion": "TMP-1899",
+  "headingCount": 383,
+  "railRows": 526,
+  "hrefCount": 453,
+  "duplicateIds": [],
+  "labelledCells": 506,
+  "groups": 10,
+  "modules": 31,
+  "sourceContentsGroups": 1,
+  "disclosureControls": 155,
+  "descLabels": 155,
+  "lgBadges": 151,
+  "tables": 1478,
+  "images": 418,
+  "pngDataUris": 418,
+  "sectionStarts": 51,
+  "verticalCredits": 158,
+  "toolbar": {
+   "w": 619,
+   "h": 44,
+   "top": 18,
+   "bottom": 62
+  }
+ },
+ "broken_links": 0,
+ "screenshots": {
+  "initial": "reports\\contents_navigation\\acceptance\\accept-initial.png",
+  "d1920-continuous-first": "reports\\contents_navigation\\acceptance\\accept-d1920-continuous-landing.png",
+  "d1920-section-first": "reports\\contents_navigation\\acceptance\\accept-d1920-section-landing.png",
+  "d1920-single-first": "reports\\contents_navigation\\acceptance\\accept-d1920-single-landing.png",
+  "d1400-continuous-first": "reports\\contents_navigation\\acceptance\\accept-d1400-continuous-landing.png",
+  "d1400-section-first": "reports\\contents_navigation\\acceptance\\accept-d1400-section-landing.png",
+  "d1400-single-first": "reports\\contents_navigation\\acceptance\\accept-d1400-single-landing.png",
+  "d1024-continuous-first": "reports\\contents_navigation\\acceptance\\accept-d1024-continuous-landing.png",
+  "d1024-section-first": "reports\\contents_navigation\\acceptance\\accept-d1024-section-landing.png",
+  "d1024-single-first": "reports\\contents_navigation\\acceptance\\accept-d1024-single-landing.png",
+  "t768-continuous-first": "reports\\contents_navigation\\acceptance\\accept-t768-continuous-landing.png",
+  "t768-section-first": "reports\\contents_navigation\\acceptance\\accept-t768-section-landing.png",
+  "t768-single-first": "reports\\contents_navigation\\acceptance\\accept-t768-single-landing.png",
+  "m390-continuous-first": "reports\\contents_navigation\\acceptance\\accept-m390-continuous-landing.png",
+  "m390-section-first": "reports\\contents_navigation\\acceptance\\accept-m390-section-landing.png",
+  "m390-single-first": "reports\\contents_navigation\\acceptance\\accept-m390-single-landing.png",
+  "m320-continuous-first": "reports\\contents_navigation\\acceptance\\accept-m320-continuous-landing.png",
+  "m320-section-first": "reports\\contents_navigation\\acceptance\\accept-m320-section-landing.png",
+  "m320-single-first": "reports\\contents_navigation\\acceptance\\accept-m320-single-landing.png",
+  "dark": "reports\\contents_navigation\\acceptance\\accept-dark-after-nav.png",
+  "bothClosed": "reports\\contents_navigation\\acceptance\\accept-both-closed-after-nav.png",
+  "groupHeader": "reports\\contents_navigation\\acceptance\\accept-group-header-after-nav.png",
+  "section": "reports\\contents_navigation\\acceptance\\accept-mode-switch-section.png"
+ },
+ "deeplink": [
+  {
+   "storedMode": "continuous",
+   "url": "file:///C:/Users/mhyah/Downloads/book-source/Word/_master_work/repo/AP/reader/AP-Book-Final-step3-staged.html?step3=deeplink-continuous#book-heading-0200",
+   "ready": true,
+   "measured": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "hash": "#book-heading-0200",
+    "counter": "Section 4 / 10 · Unit 3 / Part 1 Personal Saving and Borrowing",
+    "scrollTop": 291120,
+    "target": {
+     "tag": "P",
+     "region": "TMP-0880",
+     "gapBelowToolbar": 14,
+     "visible": true,
+     "belowToolbar": true
+    },
+    "visibleRegions": 1868,
+    "visibleIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "currentRegion": null,
+    "active": {
+     "href": "#book-heading-0200",
+     "title": "206Other Incentives to Save"
+    },
+    "storedMode": "continuous"
+   }
+  },
+  {
+   "storedMode": "section",
+   "url": "file:///C:/Users/mhyah/Downloads/book-source/Word/_master_work/repo/AP/reader/AP-Book-Final-step3-staged.html?step3=deeplink-section#book-heading-0200",
+   "ready": true,
+   "measured": {
+    "mode": "section",
+    "effective": "section",
+    "hash": "#book-heading-0200",
+    "counter": "Section 200 of 383 · Other Incentives to Save",
+    "scrollTop": 0,
+    "target": {
+     "tag": "P",
+     "region": "TMP-0880",
+     "gapBelowToolbar": 12,
+     "visible": true,
+     "belowToolbar": true
+    },
+    "visibleRegions": 3,
+    "visibleIds": [
+     "TMP-0880",
+     "TMP-0881",
+     "TMP-0882"
+    ],
+    "currentRegion": "TMP-1899",
+    "active": {
+     "href": "#book-heading-0200",
+     "title": "206Other Incentives to Save"
+    },
+    "storedMode": "section"
+   }
+  },
+  {
+   "storedMode": "single",
+   "url": "file:///C:/Users/mhyah/Downloads/book-source/Word/_master_work/repo/AP/reader/AP-Book-Final-step3-staged.html?step3=deeplink-single#book-heading-0200",
+   "ready": true,
+   "measured": {
+    "mode": "single",
+    "effective": "single",
+    "hash": "#book-heading-0200",
+    "counter": "Source capture 880 of 1899",
+    "scrollTop": 0,
+    "target": {
+     "tag": "P",
+     "region": "TMP-0880",
+     "gapBelowToolbar": 55,
+     "visible": true,
+     "belowToolbar": true
+    },
+    "visibleRegions": 1,
+    "visibleIds": [
+     "TMP-0880"
+    ],
+    "currentRegion": "TMP-0880",
+    "active": {
+     "href": "#book-heading-0200",
+     "title": "206Other Incentives to Save"
+    },
+    "storedMode": "single"
+   }
+  }
+ ]
+}

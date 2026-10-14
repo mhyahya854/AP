@@ -1,0 +1,98 @@
+{
+ "schema": "book2.step3.deeplink.v1",
+ "fileUrl": "file:///C:/Users/mhyah/Downloads/book-source/Word/_master_work/repo/AP/reader/AP-Book-Final-step3-staged.html",
+ "hash": "#book-heading-0200",
+ "loads": [
+  {
+   "storedMode": "continuous",
+   "url": "file:///C:/Users/mhyah/Downloads/book-source/Word/_master_work/repo/AP/reader/AP-Book-Final-step3-staged.html?step3=deeplink-continuous#book-heading-0200",
+   "ready": true,
+   "measured": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "hash": "#book-heading-0200",
+    "counter": "Section 4 / 10 · Unit 3 / Part 1 Personal Saving and Borrowing",
+    "scrollTop": 291120,
+    "target": {
+     "tag": "P",
+     "region": "TMP-0880",
+     "gapBelowToolbar": 14,
+     "visible": true,
+     "belowToolbar": true
+    },
+    "visibleRegions": 1868,
+    "visibleIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "currentRegion": null,
+    "active": {
+     "href": "#book-heading-0200",
+     "title": "206Other Incentives to Save"
+    },
+    "storedMode": "continuous"
+   }
+  },
+  {
+   "storedMode": "section",
+   "url": "file:///C:/Users/mhyah/Downloads/book-source/Word/_master_work/repo/AP/reader/AP-Book-Final-step3-staged.html?step3=deeplink-section#book-heading-0200",
+   "ready": true,
+   "measured": {
+    "mode": "section",
+    "effective": "section",
+    "hash": "#book-heading-0200",
+    "counter": "Section 200 of 383 · Other Incentives to Save",
+    "scrollTop": 0,
+    "target": {
+     "tag": "P",
+     "region": "TMP-0880",
+     "gapBelowToolbar": 12,
+     "visible": true,
+     "belowToolbar": true
+    },
+    "visibleRegions": 3,
+    "visibleIds": [
+     "TMP-0880",
+     "TMP-0881",
+     "TMP-0882"
+    ],
+    "currentRegion": "TMP-1899",
+    "active": {
+     "href": "#book-heading-0200",
+     "title": "206Other Incentives to Save"
+    },
+    "storedMode": "section"
+   }
+  },
+  {
+   "storedMode": "single",
+   "url": "file:///C:/Users/mhyah/Downloads/book-source/Word/_master_work/repo/AP/reader/AP-Book-Final-step3-staged.html?step3=deeplink-single#book-heading-0200",
+   "ready": true,
+   "measured": {
+    "mode": "single",
+    "effective": "single",
+    "hash": "#book-heading-0200",
+    "counter": "Source capture 880 of 1899",
+    "scrollTop": 0,
+    "target": {
+     "tag": "P",
+     "region": "TMP-0880",
+     "gapBelowToolbar": 55,
+     "visible": true,
+     "belowToolbar": true
+    },
+    "visibleRegions": 1,
+    "visibleIds": [
+     "TMP-0880"
+    ],
+    "currentRegion": "TMP-0880",
+    "active": {
+     "href": "#book-heading-0200",
+     "title": "206Other Incentives to Save"
+    },
+    "storedMode": "single"
+   }
+  }
+ ]
+}

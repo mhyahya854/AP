@@ -114,7 +114,10 @@
     if (cur !== hide) { el.style.display = hide ? 'none' : ''; }
   }
 
-  function showSection(i) {
+  /* `opts.scroll === false` lets the step-3 navigation layer position the
+     heading itself (with the measured toolbar offset) instead of scrolling to
+     the section's first pixel and correcting afterwards. */
+  function showSection(i, opts) {
     buildSections();
     if (!headings.length) { return; }
     secIndex = Math.max(0, Math.min(headings.length - 1, i));
@@ -141,10 +144,53 @@
       counter.textContent = sectionLabel;
     }
     if (badge) { badge.textContent = 'Section ' + (secIndex + 1) + '/' + headings.length; }
-    if (headings[secIndex].el) {
+    if (headings[secIndex].el && (!opts || opts.scroll !== false)) {
       try { headings[secIndex].el.scrollIntoView({ block: 'start' }); }
       catch (e) { headings[secIndex].el.scrollIntoView(); }
     }
+  }
+
+  /* Which verified section holds a given element: the section of the last
+     heading whose (region, child) slot is at or before the element's.  This is
+     the same ordering buildSections() uses, so the answer is source-derived. */
+  function elementSlot(el) {
+    var page = el && el.closest ? el.closest('.book-page') : null;
+    var reg = pageEls.indexOf(page);
+    if (reg < 0) { return null; }
+    var kids = childrenOf(reg), ci = -1, k;
+    for (k = 0; k < kids.length; k++) {
+      if (kids[k] === el || kids[k].contains(el)) { ci = k; break; }
+    }
+    if (ci < 0) { ci = 0; }
+    return { region: reg, child: ci };
+  }
+  function sectionForElement(el) {
+    if (!el) { return -1; }
+    buildSections();
+    if (!headings.length) { return -1; }
+    var slot = elementSlot(el);
+    if (!slot) { return -1; }
+    var best = 0, i, h;
+    for (i = 0; i < headings.length; i++) {
+      h = headings[i];
+      if (h.region < slot.region) { best = i; continue; }
+      if (h.region > slot.region) { break; }
+      if (h.child <= slot.child) { best = i; } else { break; }
+    }
+    return best;
+  }
+  function showSectionForElement(el, opts) {
+    var i = sectionForElement(el);
+    if (i >= 0) { showSection(i, opts); }
+    return i;
+  }
+  function currentSectionEl() {
+    buildSections();
+    return headings[secIndex] ? headings[secIndex].el : null;
+  }
+  function setSectionIndexOnly(i) {
+    buildSections();
+    if (headings.length) { secIndex = Math.max(0, Math.min(headings.length - 1, i)); }
   }
 
   function clearSection() {
@@ -377,5 +423,11 @@
                             sections: function () { buildSections(); return headings.length; },
                             mode: function () { return state.mode; },
                             verticalCredits: function () { return verticalCredits; },
-                            retagCredits: function () { verticalCredits = tagVerticalCredits(); return verticalCredits; } };
+                            retagCredits: function () { verticalCredits = tagVerticalCredits(); return verticalCredits; },
+                            /* step 3 navigation hooks */
+                            sectionForElement: sectionForElement,
+                            showSectionForElement: showSectionForElement,
+                            currentSectionEl: currentSectionEl,
+                            setSectionIndexOnly: setSectionIndexOnly,
+                            sectionTitles: function () { buildSections(); return headings.map(function (h) { return h.title; }); } };
 })();
