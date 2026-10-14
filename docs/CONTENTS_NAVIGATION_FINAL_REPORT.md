@@ -11,7 +11,7 @@ design.
 |---|---|
 | Starting commit | `e99d26d0a4794119dc0b8a7be55744c7f99fd195` |
 | Starting artifact | `AP Book Final.html`, 1,132,289,645 bytes, SHA-256 `ba63e34f36d7a9b35fc174b2fef6f15a0c70e9d6ab1063aa4451110eae18ff74` |
-| Staged candidate | `reader/AP-Book-Final-step3-staged.html` |
+| Staged candidate | `reader/AP-Book-Final-step3-staged.html` (byte-identical to the promoted artifact, deleted after promotion and reproducible with the patcher) |
 | Final artifact | `AP Book Final.html`, 1,132,306,770 bytes, SHA-256 `2bff4ce2e75d767884672a983f470f9fb339d7088e7d9053925d8e3b351c777d` |
 | Mechanism | `reader/ui3.css` + `reader/ui3.js` (new, additive), four additive hooks in `reader/ui2.js`, and 58 verified sidebar rows turned into links |
 | Source regions changed | **none** — all 1,899 regions are byte-identical, in the same order |
@@ -35,7 +35,7 @@ Measured on the accepted artifact (`reports/contents_navigation/probe/baseline-p
 | **D4 — A fixed landing offset.** The heading offset was a hard-coded `scroll-margin-top:90px` while the sticky toolbar is 44 px on a desktop and taller when it wraps on a phone. | toolbar height 44 px with a 90 px margin at 1400 px; the same margin under a wrapped phone toolbar |
 | **D5 — Mode switches lost the reader.** Switching modes re-showed the reader's stale idea of the section/capture. | Continuous→Section landed on section 1 of 383; Section→Source capture landed on capture 1898; Source capture→Continuous landed ~429,000 px away |
 | **D6 — Forward did not reposition.** After Back/Forward the hash was right but the scroll was not. | `hash=#book-heading-0013` with the heading 10,944 px below the toolbar |
-| **D7 — A group header collapsed itself.** A `<summary>` link navigated *and* toggled its own disclosure group. | reproduced in the fixture run of the fix (see §4) |
+| **D7 — A group header collapsed itself.** A `<summary>` link navigated *and* toggled its own disclosure group. | reproduced in the fixture run while the fix was being built; the acceptance run then measures `openBefore=true → openAfter=true` (§5) |
 | **D8 — The reader's own scroll-sync threw the reader out of the section or capture it had just been sent to.** `reader/ui.js` installs a mode guard by reassigning `queueScrollSync`, but the scroll listener was registered with the *original* function object, so the raw sync kept running in Section and Source capture mode. Its binary search over region positions assumes every region is laid out; with one capture shown, every hidden region reports the same stale position, the search lands on the **last** capture, and the reader is snapped to capture 1899. | stack-instrumented reproduction: clicking any Contents row changed the display, and within ~6 ms `syncVisiblePage` called `setCurrent(1898)`, which the reader then saw instead of the destination (`Source capture 1898 of 1899`) |
 
 The D8 mechanism is the reason several symptoms looked inconsistent: whether a
@@ -205,7 +205,8 @@ stylesheet (one appended block), 58 sidebar rows in the left rail, the inline
 |---|---|
 | Full HTML changed | yes (shell only) |
 | Starting commit | `e99d26d0a4794119dc0b8a7be55744c7f99fd195` |
-| Final commit | `5284c28a732fad8bd9cf4a01389bbae78f2209d6` (`main` == `origin/main`) |
+| Artifact commit | `5284c28a732fad8bd9cf4a01389bbae78f2209d6` |
+| Final commit | `0cb3de70ddee3deea9474de0b9c96cfeee767273` (`main` == `origin/main`) |
 | Size | 1,132,289,645 → 1,132,306,770 bytes (+17,125) |
 | SHA-256 | `2bff4ce2e75d767884672a983f470f9fb339d7088e7d9053925d8e3b351c777d` |
 | Previous artifact | preserved byte-exact as `_master_work/integration_backups/step3-20261014/prev-final-AP Book Final.html` (`ba63e34f…`) |
