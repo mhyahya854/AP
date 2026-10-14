@@ -1,0 +1,39 @@
+{
+ "verified_at_utc": "2026-10-14T11:10:00Z",
+ "remote": "https://github.com/mhyahya854/AP.git",
+ "branch": "main",
+ "remote_head_commit": "bb98f7ed7ca57c4f2642b5ad0c9679251f779a80",
+ "pushed_range": "a6552a0..bb98f7e",
+ "lfs_upload": "Uploading LFS objects: 100% (15/15), 1.1 GB | 10 MB/s, done.",
+ "remote_blob_pointer": {
+  "path": "AP Book Final.html",
+  "oid_sha256": "db07ab804bed45df6dd7b27a70dea2e86f259707d047b9b307d19e71108e35df",
+  "size": 1132269052
+ },
+ "independent_download": {
+  "method": "git clone --no-checkout --depth 1 <remote> then git lfs fetch origin main --include=\"AP Book Final.html\"",
+  "downloaded_object_bytes": 1132269052,
+  "downloaded_object_sha256": "db07ab804bed45df6dd7b27a70dea2e86f259707d047b9b307d19e71108e35df",
+  "matches_promoted_artifact": true,
+  "note": "the object GitHub served hashes to exactly the corrected artifact; the download was of the book only, no source PNG was re-uploaded or fetched"
+ },
+ "previous_artifact": {
+  "commit": "a6552a0",
+  "sha256": "73d175779ae506d9f2b902e83f56438ca313c3d75be4eb1dd0c5cf75c4f645b2",
+  "bytes": 1132261630,
+  "backup": "_master_work/integration_backups/sidebar-20261014/prev-final-AP Book Final.html",
+  "recoverable_from": "the parent commit of bb98f7e (its LFS object is unchanged on the remote)"
+ },
+ "delta": {
+  "bytes_added": 7422,
+  "edits": [
+   "reader-UI stylesheet block (reader/ui.css)",
+   "aside.left id + left collapse button moved to the top of the panel",
+   "left toolbar toggle attributes",
+   "right collapse button",
+   "reader/ui.js block",
+   "reader/ui2.js block"
+  ],
+  "bytes_between_first_region_and_tools_panel_identical": true
+ }
+}
