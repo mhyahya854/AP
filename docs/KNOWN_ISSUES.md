@@ -1,16 +1,44 @@
 # Known issues in the current release
 
-Verified against `AP Book Final.html`, 1,132,269,052 bytes, SHA-256
-`db07ab804bed45df6dd7b27a70dea2e86f259707d047b9b307d19e71108e35df`
+Verified against `AP Book Final.html`, 1,132,289,645 bytes, SHA-256
+`ba63e34f36d7a9b35fc174b2fef6f15a0c70e9d6ab1063aa4451110eae18ff74`
 by the acceptance run reported in
 `docs/FINAL_ACCEPTANCE_REPORT.md` plus the photo-credit wave of 2026-10-14
-(`docs/PHOTO_CREDIT_ORIENTATION.md`) and the sidebar wave of 2026-10-14
+(`docs/PHOTO_CREDIT_ORIENTATION.md`), the sidebar wave of 2026-10-14
 (`docs/SIDEBAR_WAVE.md`, which changed only the two sidebar controls and
-preserved every source region byte for byte).  Each item says whether it is a genuine
+preserved every source region byte for byte) and the toolbar-appearance wave of
+2026-10-14 (`docs/DARK_MODE_AND_TOOLBAR_REPORT.md`, which changed only the
+reader-UI stylesheet, the reader-UI script and one inserted `Appearance`
+control, and preserved every source region byte for byte as well).  Each item
+says whether it is a genuine
 source gap, an availability limit, a scope statement, or something already
 fixed.  Earlier wording that contradicts this file is listed under
 "Superseded claims" at the end, and the raw snapshots are preserved under
 `reports/`.
+
+## Reader-presentation scope statements
+
+1. **Dark mode keeps source artwork on its own surfaces.** Photographs,
+   embedded PNGs and the publisher's reconstructed HTML/SVG figures and
+   diagrams are never filtered, inverted or re-coloured, so a dark reader page
+   shows a white MBA-style canvas or chart exactly as the publisher printed it.
+   This is deliberate: recolouring a source figure would destroy its colour
+   coding and is explicitly out of scope.  `filter` is applied to nothing
+   (verified: 0 of 418 images have any filter in dark mode) and no image byte
+   is altered (verified: every source region hashes identically).
+2. **Dark mode mirrors the inline Word colours it must.** The reconstruction
+   carries 15 309 inline colour declarations from the source documents.  Dark
+   mode mirrors their lightness and keeps their hue, which preserves the
+   contrast the publisher printed (dark ink on white becomes light ink on
+   dark) and keeps the source's teal links, magenta accents, plum rules and red
+   module headings recognisable.  A handful of source colours therefore appear
+   lighter or darker than in Light mode; none changes hue.
+3. **On a narrow phone viewport an open drawer floats over the toolbar.** That
+   is the pre-existing, accepted mobile drawer behaviour (the drawer is fixed,
+   `z-index: 8`, and the toolbar is inside the reading column).  The drawer
+   always carries its own visible `Collapse contents` / `Collapse tools` button
+   as its first element, so closing it is one tap away; both controls were
+   re-checked in this wave.
 
 ## Source gaps - content genuinely absent from the supplied source
 

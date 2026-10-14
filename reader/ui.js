@@ -5,6 +5,13 @@
    Features: three view modes, font / text size / line spacing / zoom, panel
    preferences persisted in localStorage, position preserved across modes.
 
+   2026-10-14 step 2: an Appearance control (Light / Dark / System) in the
+   Reader Tools panel.  The choice is stored with the same preference record,
+   is invisible to every other setting and is preserved by both reset buttons.
+   Dark mode re-colours the chrome through the stylesheet and maps the
+   reconstruction's inline Word colours here - lightness mirrored, hue kept -
+   without ever touching an image, an <svg> or a publisher figure.
+
    2026-10-14 sidebar wave: either sidebar can be collapsed on its own or both
    together on a desktop width, the reading column takes the space back, and a
    collapsed panel returns at its own width and place.  The panel state that is
@@ -24,7 +31,7 @@
   var pageEls = Array.prototype.slice.call(document.querySelectorAll('.book-page'));
   var LEADING = { compact: '1.06', normal: '1.22', relaxed: '1.5' };
   var DEFAULTS = { mode: 'continuous', font: 'original', size: 100, spacing: 'normal',
-                   zoom: 100, left: 'open', right: 'open' };
+                   zoom: 100, left: 'open', right: 'open', theme: 'light' };
   var prefs = Object.assign({}, DEFAULTS);
   var stored = false;
   try {
@@ -328,7 +335,10 @@
   var resetView = $('#view-reset');
   if (resetView) {
     resetView.addEventListener('click', function () {
-      prefs = Object.assign({}, DEFAULTS, { left: prefs.left, right: prefs.right });
+      /* the panel choice and the appearance choice are layout preferences, not
+         typography ones: a reset of the view must not silently re-theme the
+         reader or reopen a panel the reader deliberately closed */
+      prefs = Object.assign({}, DEFAULTS, { left: prefs.left, right: prefs.right, theme: prefs.theme });
       applyTypography(); applyMode({ keepPosition: false }); applyPanels();
       setPage(0, { scroll: true });
     });
@@ -353,9 +363,192 @@
     });
   });
 
+  /* ---- appearance: Light / Dark / System --------------------------------
+     Two halves, both driven by the choice stored in `prefs.theme`:
+
+       1. `data-theme` on <html> hands the chrome, both rails, the reading
+          surface and every structural component to the dark palette in
+          reader/ui.css.
+       2. The reconstruction carries ~15 000 inline Word colours
+          (`<span style="color:#202020">`).  A stylesheet alone cannot mirror
+          them, so each such declaration is rewritten once: its lightness is
+          mirrored and its hue and saturation are kept, which preserves the
+          contrast the publisher printed (dark grey ink on white paper becomes
+          light grey ink on dark paper) and keeps the source's teal links,
+          magenta LG accents, plum rules and red module headings recognisable.
+          Photographs, embedded PNGs, <svg> graphics, the publisher's figures
+          and the reconstructed source diagrams are skipped entirely - they
+          keep their published colours on their own surfaces - and no image
+          byte is ever read or rewritten.
+
+     The transform is applied on demand, in place, and is reversible: the
+     original style attribute of every touched element is kept, so switching
+     back to Light restores the artifact exactly. */
+  var DARK_SKIP = 'img,svg,figure.b2-source-figure,.mobile-diagram-scroll,'
+    + '.swot-0605,.source-composition-0542,.source-composition-0678,'
+    + '.source-composition-0776,.source-composition-0783,'
+    + '.source-composition-0837,.source-composition-0844';
+  var NAMED_COLORS = {
+    black: '#000000', white: '#ffffff', gray: '#808080', grey: '#808080',
+    silver: '#c0c0c0', dimgray: '#696969', dimgrey: '#696969',
+    maroon: '#800000', red: '#ff0000', navy: '#000080', blue: '#0000ff',
+    teal: '#008080', green: '#008000', purple: '#800080', olive: '#808000',
+    fuchsia: '#ff00ff', magenta: '#ff00ff', aqua: '#00ffff', cyan: '#00ffff',
+    lime: '#00ff00', yellow: '#ffff00'
+  };
+  var STYLE_COLOR_RE = /(^|[;{])(\s*)(color|background|background-color)(\s*:\s*)(#[0-9a-fA-F]{3,8}|[a-zA-Z]{3,20})/g;
+
+  function hexToRgb(hex) {
+    var h = hex.slice(1);
+    if (h.length === 3) { h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2]; }
+    if (h.length === 8) { h = h.slice(0, 6); }        /* #rrggbbaa: alpha ignored */
+    if (h.length !== 6 || !/^[0-9a-f]{6}$/.test(h)) { return null; }
+    return [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)];
+  }
+  function rgbToHsl(r, g, b) {
+    r /= 255; g /= 255; b /= 255;
+    var max = Math.max(r, g, b), min = Math.min(r, g, b);
+    var l = (max + min) / 2, h = 0, s = 0, d = max - min;
+    if (d) {
+      s = (l > 0.5) ? d / (2 - max - min) : d / (max + min);
+      if (max === r) { h = (g - b) / d + (g < b ? 6 : 0); }
+      else if (max === g) { h = (b - r) / d + 2; }
+      else { h = (r - g) / d + 4; }
+      h /= 6;
+    }
+    return [h, s, l];
+  }
+  function hslToHex(h, s, l) {
+    var q = (l < 0.5) ? l * (1 + s) : l + s - l * s, p = 2 * l - q;
+    var channel = function (t) {
+      if (t < 0) { t += 1; }
+      if (t > 1) { t -= 1; }
+      if (t < 1 / 6) { return p + (q - p) * 6 * t; }
+      if (t < 1 / 2) { return q; }
+      if (t < 2 / 3) { return p + (q - p) * (2 / 3 - t) * 6; }
+      return p;
+    };
+    var toHex = function (x) {
+      var v = Math.round(x * 255);
+      return (v < 16 ? '0' : '') + v.toString(16);
+    };
+    var r, g, b;
+    if (!s) { r = g = b = l; }
+    else { r = channel(h + 1 / 3); g = channel(h); b = channel(h - 1 / 3); }
+    return '#' + toHex(r) + toHex(g) + toHex(b);
+  }
+  /* one inline colour -> its dark-mode twin (or null: leave it alone) */
+  function darkColor(value, isBackground) {
+    var v = String(value).trim().toLowerCase();
+    if (NAMED_COLORS[v]) { v = NAMED_COLORS[v]; }
+    if (v.charAt(0) !== '#') { return null; }         /* url(), transparent, inherit … */
+    var rgb = hexToRgb(v);
+    if (!rgb) { return null; }
+    var hsl = rgbToHsl(rgb[0], rgb[1], rgb[2]);
+    var l = hsl[2];
+    if (isBackground) {
+      /* a dark or mid fill already reads as a surface on a dark page, and the
+         publisher's coloured bands (module blue, LG magenta) must stay; only
+         light fills are mirrored, and never to pure black */
+      if (l <= 0.45) { return null; }
+      l = Math.max(0.10, Math.min(0.40, 1 - l));
+    } else {
+      /* near-white text is the source's way of printing on a coloured band,
+         which is preserved above: mirroring it would make it unreadable */
+      if (l >= 0.86) { return null; }
+      l = Math.max(0.60, Math.min(0.94, 1 - l));
+    }
+    var out = hslToHex(hsl[0], hsl[1], l);
+    return (out === v) ? null : out;
+  }
+  function darkStyleString(style) {
+    var changed = false;
+    var out = style.replace(STYLE_COLOR_RE, function (whole, lead, space, prop, colon, value) {
+      var mapped = darkColor(value, prop !== 'color');
+      if (!mapped) { return whole; }
+      changed = true;
+      return lead + space + prop + colon + mapped;
+    });
+    return changed ? out : null;
+  }
+  /* written through the style attribute, but any runtime `display` this reader
+     set (Section mode hides blocks) survives the swap */
+  function writeStyleAttr(el, style) {
+    var display = el.style.display;
+    el.setAttribute('style', style);
+    if (display) { el.style.display = display; }
+  }
+  var styledNodes = null, styledLight = null, styledDark = null;
+  /* diagnostics for the QA harness (the cost of the inline-colour pass must be
+     measurable, not guessed) */
+  var themeStats = { mode: null, mapped: 0, build_ms: 0, apply_ms: 0 };
+  function buildStyledIndex() {
+    var t0 = (window.performance && performance.now) ? performance.now() : 0;
+    styledNodes = []; styledLight = []; styledDark = [];
+    var root = mainEl || document.body;
+    var all = root.querySelectorAll('[style]');
+    for (var i = 0; i < all.length; i++) {
+      var el = all[i];
+      if (el.closest && el.closest(DARK_SKIP)) { continue; }
+      var s = el.getAttribute('style');
+      if (!s) { continue; }
+      var dark = darkStyleString(s);
+      if (!dark) { continue; }
+      styledNodes.push(el); styledLight.push(s); styledDark.push(dark);
+    }
+    themeStats.build_ms = Math.round((((window.performance && performance.now) ? performance.now() : 0) - t0) * 10) / 10;
+    themeStats.mapped = styledNodes.length;
+    return styledNodes.length;
+  }
+  function applyThemeMode(mode) {
+    var t0 = (window.performance && performance.now) ? performance.now() : 0;
+    document.documentElement.setAttribute('data-theme', mode);
+    if (mode === 'dark') {
+      if (styledNodes === null) { buildStyledIndex(); }
+      for (var i = 0; i < styledNodes.length; i++) { writeStyleAttr(styledNodes[i], styledDark[i]); }
+    } else if (styledNodes) {
+      for (var j = 0; j < styledNodes.length; j++) { writeStyleAttr(styledNodes[j], styledLight[j]); }
+    }
+    themeStats.mode = mode;
+    themeStats.apply_ms = Math.round((((window.performance && performance.now) ? performance.now() : 0) - t0) * 10) / 10;
+  }
+  var themeQuery = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+  var themeApplied = null;
+  function resolvedTheme() {
+    var choice = prefs.theme || 'light';
+    if (choice === 'system') { return (themeQuery && themeQuery.matches) ? 'dark' : 'light'; }
+    return (choice === 'dark') ? 'dark' : 'light';
+  }
+  function applyTheme() {
+    var mode = resolvedTheme();
+    if (mode !== themeApplied) { themeApplied = mode; applyThemeMode(mode); }
+    var sel = $('#theme');
+    if (sel && sel.value !== (prefs.theme || 'light')) { sel.value = prefs.theme || 'light'; }
+    var hint = $('#theme-hint');
+    if (hint) {
+      hint.textContent = (prefs.theme === 'system')
+        ? ('Following this device: ' + mode + ' mode.')
+        : '';
+    }
+  }
+  if (themeQuery) {
+    var onSchemeChange = function () { if ((prefs.theme || 'light') === 'system') { applyTheme(); } };
+    if (themeQuery.addEventListener) { themeQuery.addEventListener('change', onSchemeChange); }
+    else if (themeQuery.addListener) { themeQuery.addListener(onSchemeChange); }
+  }
+  var themeSel = $('#theme');
+  if (themeSel) {
+    themeSel.addEventListener('change', function () {
+      prefs.theme = themeSel.value;
+      applyTheme();
+      save();
+    });
+  }
+
   /* ---- start ---- */
   applyTypography();
   applyPanels();
+  applyTheme();
   page = (typeof current === 'number' && current >= 0) ? current : 0;
   applyMode({ keepPosition: false });
   var hasHash = !!location.hash;
@@ -367,4 +560,10 @@
       : '';
   }
   window.book2ReaderPrefs = function () { return Object.assign({}, prefs); };
+  /* read-only diagnostics for the QA harness: the appearance preference, the
+     resolved mode and the cost of the inline-colour pass */
+  window.book2Appearance = function () {
+    return { pref: prefs.theme || 'light', applied: themeApplied,
+             mapped: themeStats.mapped, build_ms: themeStats.build_ms, apply_ms: themeStats.apply_ms };
+  };
 })();

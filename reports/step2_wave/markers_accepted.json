@@ -1,0 +1,41 @@
+{
+ "file": "_master_work\\repo\\AP\\AP Book Final.html",
+ "bytes": 1132269052,
+ "markers": {
+  "region-open": 1899,
+  "nav-row": 502,
+  "numbered-entry": 506,
+  "nav-page-empty": 0,
+  "disclosure-control": 145,
+  "desc-label": 155,
+  "lg-badge": 151,
+  "embedded-png": 423,
+  "img": 418,
+  "table": 1479,
+  "book-heading": 383,
+  "group-anchor": 10,
+  "internal-link": 395,
+  "nav-group": 10,
+  "canon-anchor": 10,
+  "lg-question": 2,
+  "left-close-button": 1,
+  "right-close-button": 1,
+  "panel-collapse-class": 11,
+  "left-close": 1,
+  "right-close": 1,
+  "left-toggle": 1,
+  "right-toggle": 1,
+  "ui1-script": 4,
+  "ui2-script": 1,
+  "sidebar-open": 1,
+  "tools-open": 1,
+  "app-open": 1
+ },
+ "regions": {},
+ "notes": {},
+ "regionIds": {
+  "count": 1899,
+  "first": "TMP-0001",
+  "last": "TMP-1899"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "patch": "step 2 wave 2026-10-14 (compact top-right toolbar + appearance)",
+ "input": {
+  "path": "_master_work\\step2\\fixture-v2.html",
+  "bytes": 26981807,
+  "sha256": "98a7e81539a4b9e1154b5e86e933c02d10b2727834cc52596a73d247c695a46d"
+ },
+ "output": {
+  "path": "_master_work\\step2\\fixture-step2.html",
+  "bytes": 27002400,
+  "sha256": "2dbfea6080d4a16d39803076367848c01f94ce405697357880faa7b97d550b3c"
+ },
+ "bytes_delta": 20593,
+ "guards": {
+  "toolbar_markup_verified": 7,
+  "old_css_segment": {
+   "len": 12655,
+   "sha256": "9cbde857967dd72825c8e7889ef4f67cb707b8cc0da75353cf3b9358e1c0b166"
+  },
+  "css_injected": {
+   "was_len": 12655,
+   "now_len": 23516
+  },
+  "ui.js": {
+   "was_len": 17072,
+   "was_sha256": "91fdfb8767093b90d21f1f4ffacbcd6445fed390cffe455268615d8732d722ce",
+   "now_len": 26537,
+   "now_sha256": "f79c17178fd7d8165b82134a5a2d8ad80fb916aed6c504cc5e377798a936b8ee"
+  },
+  "ui2.js": {
+   "was_len": 17277,
+   "was_sha256": "a0fa80caa610988f723d29f14e4a3983b9faa10f82e4ae78910115d675e503e1"
+  },
+  "appearance_control": true
+ },
+ "preserved": {
+  "note": "every byte between the first article region and the tools panel is copied unchanged",
+  "middle_bytes": 26747741,
+  "head_bytes": 177137,
+  "tail_start": 26924878,
+  "tail_bytes": 56929
+ }
+}

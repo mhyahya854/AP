@@ -3,8 +3,8 @@
 | Field | Value |
 |---|---|
 | File | `AP Book Final.html` |
-| Bytes | 1,132,269,052 |
-| SHA-256 | `db07ab804bed45df6dd7b27a70dea2e86f259707d047b9b307d19e71108e35df` |
+| Bytes | 1,132,289,645 |
+| SHA-256 | `ba63e34f36d7a9b35fc174b2fef6f15a0c70e9d6ab1063aa4451110eae18ff74` |
 | Self-contained | yes - every figure and table is an inline `data:` URI, the only scripts are four inline scripts, no network access is required |
 | Source regions | 1,899 (`TMP-0001` .. `TMP-1899`), unchanged in identity, order and text |
 
@@ -14,7 +14,27 @@
 `printed-contents-2026-10-12`, `supplied-entries-2026-10-12`,
 `overnight-audit-2026-10-13`, `orphan-repair-2026-10-13`,
 `final-completion-2026-10-13`, `nine-case-2026-10-13` and
-`photo-credit-orientation-2026-10-14`, `sidebar-2026-10-14`.
+`photo-credit-orientation-2026-10-14`, `sidebar-2026-10-14`,
+`toolbar-appearance-2026-10-14`.
+
+* The toolbar-appearance wave of 2026-10-14 moved the whole toolbar group to
+  the top-right of the reading column as a compact group (619 px instead of a
+  full 210 mm bar) and added a **Light / Dark / System** appearance control at
+  the top of the Reader Tools panel.  It changed two blocks and one piece of
+  shell markup - the reader-UI stylesheet, the reader-UI script (which now also
+  maps the reconstruction's 15 309 inline Word colours in dark mode) and the
+  inserted `Appearance` control - and nothing else: the 1,132,034,986 bytes
+  between the first article region and the tools panel are byte-identical, all
+  1,899 regions hash identically, every marker in the census is unchanged
+  (502 Contents rows, 506 printed-page cells, 155 Extended Description
+  controls, 151 LG badges, 423 embedded PNGs, 383 headings, 395 links with
+  0 broken, 182 vertical photo credits, 0 duplicate ids), and 0 of the 418
+  photographs carry any CSS filter in dark mode.  The accepted sidebar
+  behaviour is untouched: the reading line is preserved exactly when the theme
+  changes or a sidebar is toggled (tested at scroll offset 558 025 px deep in
+  the book).  Evidence and the requirement-by-requirement report:
+  `docs/DARK_MODE_AND_TOOLBAR_REPORT.md`, `reports/step2_wave/`,
+  `docs/layout/46-59`.
 
 * The sidebar wave of 2026-10-14 gave each sidebar its own always-visible
   collapse button at the top of the panel, gave both controls of a panel the
@@ -85,9 +105,14 @@ and the file's total region text is still 1,444,347 characters
 
 | Field | Value |
 |---|---|
-| File | `_master_work/integration_backups/sidebar-20261014/prev-final-AP Book Final.html` (also the parent of the `sidebar-2026-10-14` commit) |
-| Bytes | 1,132,261,630 |
-| SHA-256 | `73d175779ae506d9f2b902e83f56438ca313c3d75be4eb1dd0c5cf75c4f645b2` |
+| File | `_master_work/integration_backups/step2-20261014/prev-final-AP Book Final.html` (also the parent of the `toolbar-appearance-2026-10-14` commit) |
+| Bytes | 1,132,269,052 |
+| SHA-256 | `db07ab804bed45df6dd7b27a70dea2e86f259707d047b9b307d19e71108e35df` |
+
+The artifact before that (the sidebar-wave final) is preserved as
+`_master_work/integration_backups/sidebar-20261014/prev-final-AP Book Final.html`,
+1,132,261,630 bytes, SHA-256
+`73d175779ae506d9f2b902e83f56438ca313c3d75be4eb1dd0c5cf75c4f645b2`.
 
 The artifact before that (the supplied-entries final) is preserved as
 `_master_work/integration_backups/supplied-entries-20261012/prev-final-AP Book Final.html`,

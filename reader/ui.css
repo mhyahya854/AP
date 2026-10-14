@@ -56,7 +56,7 @@ aside.left{padding:0 0 24px;background:#fbfbfc;border-right:1px solid var(--line
 a.nav-child:hover{background:#eef2f7}
 .nav-child.is-current,.nav-child[aria-current]{background:var(--accent-soft);box-shadow:inset 2px 0 0 var(--accent)}
 .nav-child .nav-label{display:inline}
-.nav-page{float:right;margin-left:8px;font:11px/1.5 ui-monospace,Consolas,'Courier New',monospace;color:#7b8494}
+.nav-page{float:right;margin-left:8px;font:11px/1.5 ui-monospace,Consolas,'Courier New',monospace;color:#5f6773}
 .nav-child.nav-unlinked{color:#6f7784;cursor:default}
 .nav-child[data-depth="1"]{--row-indent:6px;font-weight:600}
 .nav-child[data-depth="2"]{--row-indent:20px}
@@ -197,3 +197,188 @@ aside.left a:focus-visible,aside.left summary:focus-visible,
   /* the drawer close/collapse button keeps a touch-sized target on a phone */
   .drawer-close.panel-collapse{min-height:44px;font-size:13px;padding:10px 12px}
 }
+
+/* ===== Step 2 (2026-10-14): compact, top-right toolbar ===================
+   The toolbar is a child of `main`, so it lives inside the reading column and
+   follows that column's right edge automatically when either sidebar is
+   collapsed or reopened.  It used to be a full-width (210 mm) bar; it is now
+   only as wide as its own controls and is pushed against that right edge.
+   It keeps the shell's `position:sticky; top:0`, and because it stays in the
+   flow it can never cover the first lines of the book - only content that is
+   scrolled underneath it passes behind it.  No control is added, removed,
+   duplicated or reordered.
+   ========================================================================= */
+main>.toolbar{
+  width:max-content;          /* compact: as wide as its controls need */
+  max-width:100%;             /* never wider than the reading column */
+  margin:0 0 12px auto;       /* the whole group sits at the right edge */
+  justify-content:flex-end;
+  flex-wrap:wrap;             /* narrow widths wrap instead of clipping */
+}
+main>.toolbar #search{flex:0 1 200px;width:200px;min-width:130px}
+main>.toolbar #counter{max-width:170px}
+.app.mode-spread main>.toolbar{width:max-content;max-width:100%;margin:0 0 12px auto}
+/* a phone cannot fit the group on one line: two deliberate rows, in the same
+   reading order - [collapse · previous · counter · next · Controls] then the
+   search box and the mode badge.  Every control stays reachable. */
+@media screen and (max-width:600px){
+  main>.toolbar{
+    display:grid;width:100%;max-width:100%;
+    grid-template-columns:auto auto minmax(0,1fr) auto auto;
+    gap:6px;align-items:center;
+  }
+  main>.toolbar #search{grid-column:1/5;grid-row:2;width:auto;min-width:0;flex:0 1 auto}
+  main>.toolbar .mode-badge{grid-column:5;grid-row:2;justify-self:end}
+  main>.toolbar #right-toggle{grid-column:5;grid-row:1;justify-self:end}
+  main>.toolbar #counter{max-width:none}
+  /* the shell's search live region is a toolbar child too: it gets its own row
+     and, while it is empty, no space at all */
+  main>.toolbar>[role="status"]{grid-column:1/6;grid-row:3;min-width:0}
+  main>.toolbar>[role="status"]:empty{display:none}
+}
+
+/* ===== Step 2 (2026-10-14): Light / Dark / System appearance =============
+   `data-theme` on <html> picks the palette; reader/ui.js owns the choice and
+   stores it with the other reader preferences.  Dark mode re-colours the
+   chrome, both rails, the reading surface and every structural component the
+   reconstruction draws.  It never filters, inverts or re-colours *source
+   artwork*: photographs, embedded PNGs and the publisher's reconstructed
+   figures and diagrams keep their own colours on their own surfaces, and no
+   image byte is touched.  The source's identity colours are kept as well -
+   the magenta LG badge (`--b2-lg`) and the plum learning-goal hairline
+   (`--b2-rule`) are deliberately not re-declared here.
+   ========================================================================= */
+html[data-theme="dark"]{
+  color-scheme:dark;
+  --page-bg:#111418;      /* application background */
+  --paper:#1c2229;        /* reading surface */
+  --rail:#171c22;         /* both sidebars */
+  --rail-head:#1b2128;    /* panel header strip */
+  --panel:#1b2128;        /* expanded description, table fills */
+  --bar:#232a33;          /* toolbar and disclosure bar */
+  --ink:#e6e9ed;          /* primary body text */
+  --ink-2:#c3ccd7;        /* labels, controls, credits */
+  --ink-3:#8d99a6;        /* secondary text */
+  --link:#9ec9f0;
+  --accent:#8ab8ea;
+  --accent-soft:#26364a;
+  --line:#39424d;
+  --b2-bar:#232a33;
+  --b2-bar-line:#39424d;
+  --b2-rule-line:#2c343d;
+  --b2-cell:#5c6773;      /* real data-table grid */
+  --b2-goal:#d4dae1;      /* learning-goal ink */
+}
+html[data-theme="dark"] body{background:var(--page-bg);color:var(--ink)}
+html[data-theme="dark"] main{background:var(--page-bg)}
+html[data-theme="dark"] .app.mode-continuous main{background:var(--page-bg)}
+html[data-theme="dark"] .app.mode-continuous .book-page{background:var(--paper)}
+html[data-theme="dark"] .book-page{
+  background:var(--paper);color:var(--ink);
+  box-shadow:0 1px 3px rgba(0,0,0,.5),0 8px 24px rgba(0,0,0,.35);
+}
+
+/* ---------- left rail: identity + contents ---------- */
+html[data-theme="dark"] aside,
+html[data-theme="dark"] aside.left,
+html[data-theme="dark"] aside.right{background:var(--rail);border-color:var(--line)}
+html[data-theme="dark"] .rail-head{background:var(--rail-head);border-bottom-color:var(--line)}
+html[data-theme="dark"] .rail-title{color:#d6e2ee}
+html[data-theme="dark"] .rail-authors{color:#aeb8c4}
+html[data-theme="dark"] .rail-cover{background:var(--rail-head);border-color:var(--line)}
+html[data-theme="dark"] .rail-note{background:#2b2418;border-color:#4b3f26;color:#e3c48a}
+html[data-theme="dark"] #contents-heading{color:#94a1af}
+html[data-theme="dark"] .nav-group>summary,
+html[data-theme="dark"] .source-contents>summary{color:#cfe0ef}
+html[data-theme="dark"] .nav-group>summary:hover,
+html[data-theme="dark"] .source-contents>summary:hover,
+html[data-theme="dark"] a.nav-child:hover,
+html[data-theme="dark"] .nav-batch a:hover{background:#222932}
+html[data-theme="dark"] .nav-child{color:#c6cfda}
+html[data-theme="dark"] .nav-child.nav-unlinked{color:#7d8794}
+html[data-theme="dark"] .nav-child.is-current,
+html[data-theme="dark"] .nav-child[aria-current]{background:var(--accent-soft);color:#eaf2fb}
+html[data-theme="dark"] .nav-child.is-current .nav-page,
+html[data-theme="dark"] .nav-child[aria-current] .nav-page{color:#bccbdb}
+html[data-theme="dark"] .nav-page{color:#8b96a3}
+html[data-theme="dark"] .nav-module-link{color:#a8d2f5!important}
+html[data-theme="dark"] .nav-group a{color:var(--link)}
+html[data-theme="dark"] .nav-group a[aria-current="true"]{background:var(--accent-soft);color:#dcebff}
+html[data-theme="dark"] .nav-batch a{color:var(--link)}
+html[data-theme="dark"] details.nav-module>summary::before,
+html[data-theme="dark"] details.nav-group>summary::before{color:#7f8a97}
+
+/* ---------- panel collapse buttons and toolbar ---------- */
+html[data-theme="dark"] .drawer-close.panel-collapse{
+  background:var(--rail-head);color:var(--ink-2);border-bottom-color:var(--line);
+}
+html[data-theme="dark"] .drawer-close.panel-collapse:hover{background:#232a33;color:var(--accent)}
+html[data-theme="dark"] .drawer-close.panel-collapse:active{background:var(--accent-soft)}
+html[data-theme="dark"] .panel-collapse .pc-glyph{color:#7f8a97}
+html[data-theme="dark"] main>.toolbar{background:var(--bar);border-color:var(--line)}
+html[data-theme="dark"] .toolbar button,
+html[data-theme="dark"] .rail-actions button,
+html[data-theme="dark"] .ctl select,
+html[data-theme="dark"] .ctl .btnrow button,
+html[data-theme="dark"] .mode-badge{background:#20272f;color:var(--ink);border-color:var(--line)}
+html[data-theme="dark"] .toolbar button:hover,
+html[data-theme="dark"] .rail-actions button:hover,
+html[data-theme="dark"] .ctl .btnrow button:hover{background:#2b333d}
+html[data-theme="dark"] .toolbar button[aria-expanded="true"]{background:var(--accent-soft);border-color:#4a6b93}
+html[data-theme="dark"] .toolbar button[aria-expanded="true"]:hover{background:#2f4460}
+html[data-theme="dark"] main>.toolbar input[type=search]{
+  background:#1b2128;color:var(--ink);border:1px solid var(--line);border-radius:3px;padding:4px 6px;
+}
+html[data-theme="dark"] main>.toolbar input[type=search]::placeholder{color:var(--ink-3)}
+html[data-theme="dark"] #counter{color:var(--ink-2)}
+html[data-theme="dark"] .mode-badge{color:var(--ink-2)}
+
+/* ---------- right rail: reader tools ---------- */
+html[data-theme="dark"] .tools h2{color:#94a1af}
+html[data-theme="dark"] .ctl{border-bottom-color:#272e37}
+html[data-theme="dark"] .ctl>label{color:var(--ink-2)}
+html[data-theme="dark"] .ctl .val{color:var(--ink-3)}
+html[data-theme="dark"] .ctl-note{color:#e3c48a}
+html[data-theme="dark"] .diag{border-top-color:#2f3843}
+html[data-theme="dark"] .diag .status,
+html[data-theme="dark"] .status{color:#b9c2ce}
+html[data-theme="dark"] .theme-hint{color:var(--ink-3)}
+html[data-theme="dark"] .qa-fail{outline-color:#ff6b6b}
+
+/* ---------- Extended Description ---------- */
+html[data-theme="dark"] .book-page details.disclosure{background:var(--b2-bar);border-color:var(--b2-bar-line)}
+html[data-theme="dark"] .book-page details.disclosure>summary,
+html[data-theme="dark"] .book-page details.disclosure summary{background:var(--b2-bar);color:#dbe2ea}
+html[data-theme="dark"] .book-page details.disclosure>summary:hover{background:#2a323c}
+html[data-theme="dark"] .book-page details.disclosure>summary::before{border-left-color:#cbd4de}
+/* the black-circle / white-i information icon keeps its published design; on a
+   dark bar it gets a hairline ring so its edge stays visible */
+html[data-theme="dark"] .book-page details.disclosure>summary::after{
+  box-shadow:0 0 0 1px rgba(255,255,255,.55);border-radius:50%;
+}
+html[data-theme="dark"] .book-page details.disclosure>.desc-panel{
+  background:var(--panel);border-top-color:var(--b2-bar-line);
+}
+/* the two banner lines wave.css gives their lost band back stay a dark teal */
+html[data-theme="dark"] .book-page p[style*="color:#FFFFFF"]{background:#1b4a52}
+
+/* ---------- real data tables ---------- */
+html[data-theme="dark"] .book-page .ocr-table th,
+html[data-theme="dark"] .book-page .ocr-table td{border-color:#4a5563}
+html[data-theme="dark"] .book-page .ocr-table[data-table-id="table-toms-tires-0333-0334"] th,
+html[data-theme="dark"] .book-page .ocr-table[data-table-id="table-toms-tires-0333-0334"] td,
+html[data-theme="dark"] .book-page .ocr-table[data-table-id="table-yeti-income-0288-0289"] th,
+html[data-theme="dark"] .book-page .ocr-table[data-table-id="table-yeti-income-0288-0289"] td{border-color:#55606d}
+html[data-theme="dark"] .book-page .ocr-table[data-table-id="table-toms-tires-0333-0334"] tr[data-row-index="6"]>*,
+html[data-theme="dark"] .book-page .ocr-table[data-table-id="table-toms-tires-0333-0334"] tr[data-row-index="9"]>*,
+html[data-theme="dark"] .book-page .ocr-table[data-table-id="table-toms-tires-0333-0334"] tr[data-row-index="10"]>*{border-top-color:#55606d}
+html[data-theme="dark"] .book-page .ocr-yeti-frame{background:var(--panel);border-color:#4a5563}
+html[data-theme="dark"] .book-page .ocr-table[data-table-id="table-household-0335"],
+html[data-theme="dark"] .book-page .ocr-table[data-table-id="table-toms-tires-0333-0334"]{background:var(--panel)}
+
+/* ---------- text the reconstruction draws outside the source ---------- */
+html[data-theme="dark"] .book-page .ref{color:var(--ink-3)}
+html[data-theme="dark"] .book-page .source-figure--vertical-credit .source-photo-credit{color:var(--ink-2)}
+
+/* ---------- appearance control ---------- */
+.theme-hint{margin:5px 0 0;font:11px/1.35 Arial,sans-serif;color:#6b7280}

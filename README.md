@@ -29,8 +29,8 @@ Git LFS and opened locally.
 | Field | Value |
 |---|---|
 | File | `AP Book Final.html` |
-| Bytes | 1,132,269,052 |
-| SHA-256 | `db07ab804bed45df6dd7b27a70dea2e86f259707d047b9b307d19e71108e35df` |
+| Bytes | 1,132,289,645 |
+| SHA-256 | `ba63e34f36d7a9b35fc174b2fef6f15a0c70e9d6ab1063aa4451110eae18ff74` |
 
 Verify after downloading:
 
@@ -64,6 +64,24 @@ they were reconstructed for.
 The reader also offers a single-page view and a two-page spread. Those are
 views of the 1,899 reader regions, never of printed pages — no printed page
 number is invented anywhere.
+
+## Appearance and the toolbar
+
+The toolbar is a compact group pinned to the **top-right of the reading
+column**, not a full-width bar: it is only as wide as its controls
+(≈620 px), it keeps the shell's sticky behaviour, and because it is a child of
+the reading column it follows that column's right edge automatically when
+either sidebar is collapsed or reopened. On a phone it adapts to two rows
+instead of clipping. The reading column, both sidebars, the toolbar and the
+textbook content itself now follow a **Light / Dark / System** appearance
+chosen from the `Appearance` control at the top of the Reader Tools panel
+(Light stays the default). Dark mode re-colours the reader's own surfaces and
+maps the reconstruction's inline Word colours by mirroring their lightness
+while keeping their hue; photographs, embedded PNGs and the publisher's
+reconstructed figures are never filtered, inverted or re-coloured, so no image
+byte changes and the source's identity colours (magenta LG badges, plum rules,
+module banners, teal headings) stay recognisable. Details, contrast
+measurements and the position/persistence tests: `docs/DARK_MODE_AND_TOOLBAR_REPORT.md`.
 
 ## How the Contents navigation works
 
