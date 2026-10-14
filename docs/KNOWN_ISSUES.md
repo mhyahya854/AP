@@ -108,18 +108,3 @@ superseded evidence snapshots remain under `reports/overnight_audit/`,
 * "The two mobile drawers overlap" - fixed in the overnight-audit wave.
 * "The MoMo credit is squeezed" - fixed in the final-completion wave; the credit
   is rendered vertically as the source prints it.
-* "Only the MoMo credit is affected" - superseded by `photo-credit-2026-10-13`:
-  every credit that sits in its own narrow cell beside a photograph (182 in
-  total, including Kellogg's `TMP-0124`) is now rendered vertically as the
-  publisher prints it, because those cells are 21-63 px wide against single
-  words of 67-182 px.  See `docs/PHOTO_CREDIT_REPAIR.md`.
-
-## Known limitation of the reader's safety net (not of the book)
-
-The additive reader script still carries a runtime credit detector whose keyword
-list is narrower than the class of credits actually present (for example it does
-not match "…/Alamy Stock Photo").  Since `photo-credit-2026-10-13` the
-orientation lives in the markup for every affected credit, so the detector is no
-longer needed for correctness; it is left in place as a partial safety net and
-its narrow keyword list is recorded here rather than being widened in a way that
-could re-orient credits that are already correct.
