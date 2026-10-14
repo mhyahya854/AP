@@ -19,7 +19,7 @@ git lfs pull                 # fetches the ~1.13 GB HTML object
 
 Then open `AP Book Final.html` in a modern browser (Chrome, Edge, Firefox).
 No server, no network connection and no other file is required: every figure
-and table is an inlined `data:` URI and the only scripts are three inline
+and table is an inlined `data:` URI and the only scripts are four inline
 scripts.
 
 GitHub's source viewer and GitHub Pages do **not** render this file as the
@@ -29,8 +29,8 @@ Git LFS and opened locally.
 | Field | Value |
 |---|---|
 | File | `AP Book Final.html` |
-| Bytes | 1,132,261,630 |
-| SHA-256 | `73d175779ae506d9f2b902e83f56438ca313c3d75be4eb1dd0c5cf75c4f645b2` |
+| Bytes | 1,132,269,052 |
+| SHA-256 | `db07ab804bed45df6dd7b27a70dea2e86f259707d047b9b307d19e71108e35df` |
 
 Verify after downloading:
 

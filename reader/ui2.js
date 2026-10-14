@@ -232,6 +232,8 @@
 
   function setPanel(which, open, persist) {
     var p = prefs();
+    /* the panel's own collapse button and the toolbar toggle must always agree */
+    var close = document.querySelector(which === 'left' ? '#left-close' : '#right-close');
     if (which === 'left') {
       app.classList.toggle('left-closed', !open);
       var lt = document.querySelector('#left-toggle');
@@ -243,6 +245,7 @@
       if (rt) { rt.setAttribute('aria-expanded', String(!!open)); }
       if (persist) { p.right = open ? 'open' : 'closed'; save(p); }
     }
+    if (close) { close.setAttribute('aria-expanded', String(!!open)); }
   }
 
   function applyStoredPanels() {

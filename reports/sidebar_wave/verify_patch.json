@@ -1,0 +1,66 @@
+{
+ "old": {
+  "path": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\repo\\AP\\AP Book Final.html",
+  "bytes": 1132261630,
+  "tail_start": 1132208935
+ },
+ "new": {
+  "path": "staged-sidebar.html",
+  "bytes": 1132269052,
+  "tail_start": 1132212123
+ },
+ "head": {
+  "bytes_old": 173949,
+  "bytes_new": 177137,
+  "reverted_to_old": true
+ },
+ "head_mismatch": null,
+ "tail": {
+  "bytes_old": 52695,
+  "bytes_new": 56929,
+  "reverted_to_old": true
+ },
+ "bytes_delta": 7422,
+ "middle": {
+  "bytes_old": 1132034986,
+  "bytes_new": 1132034986,
+  "identical": true,
+  "sha256_old": "3c21b2852b2ef3e5d4cc018bbc3b856dd457e822b3ff2f565b621779a45464cf",
+  "sha256_new": "3c21b2852b2ef3e5d4cc018bbc3b856dd457e822b3ff2f565b621779a45464cf"
+ },
+ "revert_log": [
+  {
+   "edit": "sidebar id + collapse button",
+   "occ": 1
+  },
+  {
+   "edit": "contents toggle attributes",
+   "occ": 1
+  },
+  {
+   "edit": "restore the old close button",
+   "occ": 1
+  },
+  {
+   "edit": "stylesheet block",
+   "occ": 1
+  },
+  {
+   "edit": "tools collapse button",
+   "occ": 1
+  },
+  {
+   "edit": "script block window.book2ReaderPrefs ",
+   "occ": 1,
+   "inner_old": 13239,
+   "inner_new": 17072
+  },
+  {
+   "edit": "script block window.book2Semantics",
+   "occ": 1,
+   "inner_old": 17031,
+   "inner_new": 17277
+  }
+ ],
+ "verdict": "ONLY THE INTENDED EDITS"
+}

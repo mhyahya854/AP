@@ -1,10 +1,12 @@
 # Known issues in the current release
 
-Verified against `AP Book Final.html`, 1,132,261,630 bytes, SHA-256
-`73d175779ae506d9f2b902e83f56438ca313c3d75be4eb1dd0c5cf75c4f645b2`
-(GitHub `dcae5e5`) by the acceptance run reported in
+Verified against `AP Book Final.html`, 1,132,269,052 bytes, SHA-256
+`db07ab804bed45df6dd7b27a70dea2e86f259707d047b9b307d19e71108e35df`
+by the acceptance run reported in
 `docs/FINAL_ACCEPTANCE_REPORT.md` plus the photo-credit wave of 2026-10-14
-(`docs/PHOTO_CREDIT_ORIENTATION.md`).  Each item says whether it is a genuine
+(`docs/PHOTO_CREDIT_ORIENTATION.md`) and the sidebar wave of 2026-10-14
+(`docs/SIDEBAR_WAVE.md`, which changed only the two sidebar controls and
+preserved every source region byte for byte).  Each item says whether it is a genuine
 source gap, an availability limit, a scope statement, or something already
 fixed.  Earlier wording that contradicts this file is listed under
 "Superseded claims" at the end, and the raw snapshots are preserved under

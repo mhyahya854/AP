@@ -4,6 +4,14 @@
    setLeftOpen, setRightOpen) and never touches source content.
    Features: three view modes, font / text size / line spacing / zoom, panel
    preferences persisted in localStorage, position preserved across modes.
+
+   2026-10-14 sidebar wave: either sidebar can be collapsed on its own or both
+   together on a desktop width, the reading column takes the space back, and a
+   collapsed panel returns at its own width and place.  The panel state that is
+   remembered is the *desktop* one: the narrow-screen drawer is transient (it
+   belongs to reader/ui2.js) and may never overwrite a desktop choice.  A toggle
+   also keeps the reader where it was - the reading line, the rail's own scroll
+   offset and the active section are all preserved instead of jumping.
    ========================================================================= */
 (function () {
   'use strict';
@@ -24,7 +32,10 @@
     if (raw) { prefs = Object.assign(prefs, JSON.parse(raw)); stored = true; }
   } catch (e) { /* storage unavailable: run with defaults */ }
   var narrow = function () { return window.innerWidth <= 850; };
-  if (!stored && narrow()) { prefs.left = 'closed'; prefs.right = 'closed'; }
+  /* `prefs.left` / `prefs.right` are the desktop layout preferences.  On a
+     narrow screen the drawers are transient: reader/ui2.js opens the Contents
+     drawer and keeps the two panels from overlapping, and whatever it does
+     there must not be written back over the desktop choice. */
 
   var baseSetCurrent = setCurrent;
   var baseMove = move;
@@ -154,20 +165,79 @@
   function applyPanels() {
     appEl.classList.toggle('left-closed', prefs.left !== 'open');
     appEl.classList.toggle('right-closed', prefs.right !== 'open');
-    var lt = $('#left-toggle'), rt = $('#right-toggle');
-    if (lt) { lt.setAttribute('aria-expanded', String(prefs.left === 'open')); }
-    if (rt) { rt.setAttribute('aria-expanded', String(prefs.right === 'open')); }
+    syncPanelButtons();
   }
 
-  /* ---- panel toggles remember their state ---- */
+  /* ---- panel controls: state, labels, focus, reading position ----------
+     Each panel has two controls that mean the same thing: the collapse button
+     pinned at the top of the panel and the toolbar toggle that stays visible
+     when the panel is hidden.  Both carry `aria-expanded`, so the two can never
+     report different states. */
+  function syncPanelButtons() {
+    var leftOpen = !appEl.classList.contains('left-closed');
+    var rightOpen = !appEl.classList.contains('right-closed');
+    var lt = $('#left-toggle'), rt = $('#right-toggle');
+    var lc = $('#left-close'), rc = $('#right-close');
+    if (lt) { lt.setAttribute('aria-expanded', String(leftOpen)); }
+    if (rt) { rt.setAttribute('aria-expanded', String(rightOpen)); }
+    if (lc) { lc.setAttribute('aria-expanded', String(leftOpen)); }
+    if (rc) { rc.setAttribute('aria-expanded', String(rightOpen)); }
+  }
+
+  /* The reading line under the viewport top, as (page, fraction down the page).
+     Toggling a sidebar changes the width of the reading column, so the pages
+     rescale; holding this point still is what keeps the reader on the same
+     words (and therefore on the same active section) - it is not a jump to the
+     top of the section. */
+  function capturePosition() {
+    if (!mainEl || !pageEls.length) { return null; }
+    var barH = barEl ? barEl.getBoundingClientRect().bottom : 0;
+    var top = Math.max(mainEl.getBoundingClientRect().top, barH);
+    /* only laid-out regions count: a hidden region reports a zero rectangle at
+       the origin, which would otherwise look like the top of the document */
+    var i = -1, k;
+    for (k = 0; k < pageEls.length; k++) {
+      var b = pageEls[k].getBoundingClientRect();
+      if (b.height > 0 && b.width > 0 && b.top <= top + 1) { i = k; }
+    }
+    if (i < 0) { return { i: 0, f: 0, y: top }; }
+    var r = pageEls[i].getBoundingClientRect();
+    if (!(r.height > 0)) { return { i: i, y: top }; }
+    var f = Math.max(0, Math.min(1, (top - r.top) / r.height));
+    return { i: i, f: f, y: r.top + f * r.height };
+  }
+  function restorePosition(pos) {
+    if (!pos || !mainEl || !pageEls[pos.i]) { return; }
+    var r = pageEls[pos.i].getBoundingClientRect();
+    if (!(r.height > 0)) { return; }
+    var f = (typeof pos.f === 'number') ? pos.f : 0;
+    var y = r.top + f * r.height;
+    if (pos.y - y > 0.5 || y - pos.y > 0.5) { mainEl.scrollTop = mainEl.scrollTop + (y - pos.y); }
+  }
+  function panelOf(which) { return which === 'left' ? sidebarEl : document.querySelector('aside.right'); }
+
+  /* ---- panel toggles remember their (desktop) state ---- */
   var baseSetLeftOpen = setLeftOpen, baseSetRightOpen = setRightOpen;
+  function togglePanel(which, open, apply) {
+    var pos = capturePosition();
+    var rail = panelOf(which);
+    var railScroll = rail ? rail.scrollTop : 0;
+    apply(open);                         /* the shell sets the class + toolbar aria */
+    if (!narrow()) { prefs[which] = open ? 'open' : 'closed'; save(); }
+    syncPanelButtons();
+    window.requestAnimationFrame(function () {
+      computeFit();
+      applyMode({ keepPosition: false });
+      if (rail && rail.scrollTop !== railScroll) { rail.scrollTop = railScroll; }
+      restorePosition(pos);
+      syncPanelButtons();
+    });
+  }
   setLeftOpen = function (open) {
-    baseSetLeftOpen(open); prefs.left = open ? 'open' : 'closed'; save();
-    window.requestAnimationFrame(function () { computeFit(); applyMode({ keepPosition: false }); });
+    togglePanel('left', open, baseSetLeftOpen);
   };
   setRightOpen = function (open) {
-    baseSetRightOpen(open); prefs.right = open ? 'open' : 'closed'; save();
-    window.requestAnimationFrame(function () { computeFit(); applyMode({ keepPosition: false }); });
+    togglePanel('right', open, baseSetRightOpen);
   };
 
   /* ---- current section: extend the base marking with a visible state ---- */
@@ -270,9 +340,17 @@
     var now = narrow();
     var changed = now !== lastNarrow;
     lastNarrow = now;
+    var pos = capturePosition();
     computeFit();
     if (changed && prefs.mode === 'spread') { applyMode({ keepPosition: false }); }
     else { applyPageClasses(effectiveMode()); }
+    /* reader/ui2.js re-applies the drawer state after this handler on a
+       breakpoint change, so the reading position is restored once the
+       layout has settled rather than from the stale geometry. */
+    window.requestAnimationFrame(function () {
+      if (changed) { computeFit(); }
+      restorePosition(pos);
+    });
   });
 
   /* ---- start ---- */

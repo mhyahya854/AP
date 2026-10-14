@@ -1,0 +1,3400 @@
+{
+ "label": "book",
+ "fileUrl": "file:///C:/Users/mhyah/Downloads/book-source/Word/_master_work/sidebar_wave/staged-sidebar.html",
+ "startedAt": "2026-10-14T10:51:42.807Z",
+ "initial": {
+  "mode": "continuous",
+  "effective": "continuous",
+  "leftClosed": false,
+  "rightClosed": false,
+  "leftVisible": true,
+  "rightVisible": true,
+  "L": {
+   "x": 0,
+   "y": 0,
+   "w": 300,
+   "h": 1000,
+   "right": 300,
+   "bottom": 1000
+  },
+  "main": {
+   "x": 300,
+   "y": 0,
+   "w": 840,
+   "h": 1000,
+   "right": 1140,
+   "bottom": 1000
+  },
+  "R": {
+   "x": 1140,
+   "y": 0,
+   "w": 260,
+   "h": 1000,
+   "right": 1400,
+   "bottom": 1000
+  },
+  "leftOverlapsReading": false,
+  "rightOverlapsReading": false,
+  "bothPanelsVisible": true,
+  "fit": "0.9916",
+  "visibleRegionCount": 1868,
+  "visibleRegionIds": [
+   "TMP-0001",
+   "..",
+   "TMP-1899"
+  ],
+  "firstVisiblePageWidth": 787,
+  "currentPageId": null,
+  "counter": "Section 1 / 10 · Front matter",
+  "anchorPageId": null,
+  "anchorFraction": null,
+  "scrollTop": 0,
+  "aria": {
+   "leftClose": "true",
+   "rightClose": "true",
+   "leftToggle": "true",
+   "rightToggle": "true",
+   "leftCloseName": "Collapse contents sidebar",
+   "rightCloseName": "Collapse tools sidebar",
+   "leftCloseControls": "contents-panel",
+   "rightCloseControls": "reader-controls",
+   "leftToggleControls": "contents-panel"
+  },
+  "closeText": {
+   "left": "«Collapse contents",
+   "right": "»Collapse tools"
+  },
+  "closeVisible": {
+   "left": true,
+   "right": true
+  },
+  "togglesVisible": {
+   "left": true,
+   "right": true
+  },
+  "leftPanelClass": "left",
+  "rightPanelClass": "right",
+  "panelId": "contents-panel",
+  "docOverflow": 0,
+  "mainOverflow": 0,
+  "qaFailures": 0,
+  "focus": "BODY",
+  "prefs": {
+   "mode": "continuous",
+   "font": "original",
+   "size": 100,
+   "spacing": "normal",
+   "zoom": 100,
+   "left": "open",
+   "right": "open"
+  },
+  "stored": {
+   "mode": "continuous",
+   "font": "original",
+   "size": 100,
+   "spacing": "normal",
+   "zoom": 100,
+   "left": "open",
+   "right": "open"
+  },
+  "viewport": "1400x1000"
+ },
+ "screenshots": {
+  "initial": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\sidebar_wave\\shots_book\\book-desktop-initial.png",
+  "left=open,right=open": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\sidebar_wave\\shots_book\\book-desktop-left-open-right-open.png",
+  "left=closed,right=open": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\sidebar_wave\\shots_book\\book-desktop-left-closed-right-open.png",
+  "left=open,right=closed": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\sidebar_wave\\shots_book\\book-desktop-left-open-right-closed.png",
+  "left=closed,right=closed": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\sidebar_wave\\shots_book\\book-desktop-left-closed-right-closed.png",
+  "leftCloseClicked": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\sidebar_wave\\shots_book\\book-desktop-left-close-clicked.png",
+  "mode-continuous": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\sidebar_wave\\shots_book\\book-desktop-mode-continuous-both-closed.png",
+  "mode-section": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\sidebar_wave\\shots_book\\book-desktop-mode-section-both-closed.png",
+  "keyboard": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\sidebar_wave\\shots_book\\book-desktop-keyboard.png",
+  "mobile390-load": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\sidebar_wave\\shots_book\\book-mobile390-load.png",
+  "mobile390-right": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\sidebar_wave\\shots_book\\book-mobile390-right-open.png",
+  "mobile390-left-again": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\sidebar_wave\\shots_book\\book-mobile390-left-open-again.png",
+  "mobile390-back-to-desktop": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\sidebar_wave\\shots_book\\book-mobile390-back-to-desktop.png"
+ },
+ "integrity": {
+  "regions": 1899,
+  "firstRegion": "TMP-0001",
+  "lastRegion": "TMP-1899",
+  "navRows": 502,
+  "numberedEntries": 506,
+  "printedLabels": [
+   "FC",
+   "FC",
+   "A1",
+   "i",
+   "ii",
+   "iii",
+   "iv",
+   "x",
+   "xii",
+   "xiii",
+   "xiv",
+   "2"
+  ],
+  "navGroups": 10,
+  "navModules": 31,
+  "details": 197,
+  "disclosures": 155,
+  "emptyDisclosures": 0,
+  "descLabels": 155,
+  "lgBadges": 151,
+  "imgs": 418,
+  "pngImages": 418,
+  "tables": 1478,
+  "headings": 383,
+  "roleHeadings": 383,
+  "links": 395,
+  "brokenLinks": 0,
+  "duplicateIds": 0,
+  "duplicateIdSamples": [],
+  "collapseButtons": 2,
+  "docOverflow": 0
+ },
+ "combos": [
+  {
+   "name": "left=open,right=open",
+   "leftOpen": true,
+   "rightOpen": true,
+   "state": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "leftClosed": false,
+    "rightClosed": false,
+    "leftVisible": true,
+    "rightVisible": true,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 300,
+     "h": 1000,
+     "right": 300,
+     "bottom": 1000
+    },
+    "main": {
+     "x": 300,
+     "y": 0,
+     "w": 840,
+     "h": 1000,
+     "right": 1140,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 1140,
+     "y": 0,
+     "w": 260,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": true,
+    "fit": "0.9916",
+    "visibleRegionCount": 1868,
+    "visibleRegionIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "firstVisiblePageWidth": 787,
+    "currentPageId": null,
+    "counter": "Section 1 / 10 · Front matter",
+    "anchorPageId": null,
+    "anchorFraction": null,
+    "scrollTop": 0,
+    "aria": {
+     "leftClose": "true",
+     "rightClose": "true",
+     "leftToggle": "true",
+     "rightToggle": "true",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": true,
+     "right": true
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "BODY",
+    "prefs": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "stored": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "viewport": "1400x1000"
+   }
+  },
+  {
+   "name": "left=closed,right=open",
+   "leftOpen": false,
+   "rightOpen": true,
+   "state": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "leftClosed": true,
+    "rightClosed": false,
+    "leftVisible": false,
+    "rightVisible": true,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 0,
+     "right": 0,
+     "bottom": 0
+    },
+    "main": {
+     "x": 0,
+     "y": 0,
+     "w": 1140,
+     "h": 1000,
+     "right": 1140,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 1140,
+     "y": 0,
+     "w": 260,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": false,
+    "fit": "1.0000",
+    "visibleRegionCount": 1868,
+    "visibleRegionIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "firstVisiblePageWidth": 794,
+    "currentPageId": null,
+    "counter": "Section 1 / 10 · Front matter",
+    "anchorPageId": "TMP-0001",
+    "anchorFraction": 0,
+    "scrollTop": 12,
+    "aria": {
+     "leftClose": "false",
+     "rightClose": "true",
+     "leftToggle": "false",
+     "rightToggle": "true",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": false,
+     "right": true
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "BODY",
+    "prefs": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "open"
+    },
+    "stored": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "open"
+    },
+    "viewport": "1400x1000"
+   }
+  },
+  {
+   "name": "left=open,right=closed",
+   "leftOpen": true,
+   "rightOpen": false,
+   "state": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "leftClosed": false,
+    "rightClosed": true,
+    "leftVisible": true,
+    "rightVisible": false,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 300,
+     "h": 1000,
+     "right": 300,
+     "bottom": 1000
+    },
+    "main": {
+     "x": 300,
+     "y": 0,
+     "w": 1100,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 0,
+     "right": 0,
+     "bottom": 0
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": false,
+    "fit": "1.0000",
+    "visibleRegionCount": 1868,
+    "visibleRegionIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "firstVisiblePageWidth": 794,
+    "currentPageId": null,
+    "counter": "Section 1 / 10 · Front matter",
+    "anchorPageId": "TMP-0001",
+    "anchorFraction": 0,
+    "scrollTop": 12,
+    "aria": {
+     "leftClose": "true",
+     "rightClose": "false",
+     "leftToggle": "true",
+     "rightToggle": "false",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": true,
+     "right": false
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "BODY",
+    "prefs": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "closed"
+    },
+    "stored": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "closed"
+    },
+    "viewport": "1400x1000"
+   }
+  },
+  {
+   "name": "left=closed,right=closed",
+   "leftOpen": false,
+   "rightOpen": false,
+   "state": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "leftClosed": true,
+    "rightClosed": true,
+    "leftVisible": false,
+    "rightVisible": false,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 0,
+     "right": 0,
+     "bottom": 0
+    },
+    "main": {
+     "x": 0,
+     "y": 0,
+     "w": 1400,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 0,
+     "right": 0,
+     "bottom": 0
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": false,
+    "fit": "1.0000",
+    "visibleRegionCount": 1868,
+    "visibleRegionIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "firstVisiblePageWidth": 794,
+    "currentPageId": null,
+    "counter": "Section 1 / 10 · Front matter",
+    "anchorPageId": "TMP-0001",
+    "anchorFraction": 0,
+    "scrollTop": 12,
+    "aria": {
+     "leftClose": "false",
+     "rightClose": "false",
+     "leftToggle": "false",
+     "rightToggle": "false",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": false,
+     "right": false
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "BODY",
+    "prefs": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "closed"
+    },
+    "stored": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "closed"
+    },
+    "viewport": "1400x1000"
+   }
+  },
+  {
+   "name": "both-reopened",
+   "leftOpen": true,
+   "rightOpen": true,
+   "state": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "leftClosed": false,
+    "rightClosed": false,
+    "leftVisible": true,
+    "rightVisible": true,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 300,
+     "h": 1000,
+     "right": 300,
+     "bottom": 1000
+    },
+    "main": {
+     "x": 300,
+     "y": 0,
+     "w": 840,
+     "h": 1000,
+     "right": 1140,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 1140,
+     "y": 0,
+     "w": 260,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": true,
+    "fit": "0.9916",
+    "visibleRegionCount": 1868,
+    "visibleRegionIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "firstVisiblePageWidth": 787,
+    "currentPageId": null,
+    "counter": "Section 1 / 10 · Front matter",
+    "anchorPageId": "TMP-0001",
+    "anchorFraction": 0,
+    "scrollTop": 12,
+    "aria": {
+     "leftClose": "true",
+     "rightClose": "true",
+     "leftToggle": "true",
+     "rightToggle": "true",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": true,
+     "right": true
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "BODY",
+    "prefs": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "stored": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "viewport": "1400x1000"
+   }
+  }
+ ],
+ "inPanelButtons": {
+  "afterLeftClose": {
+   "mode": "continuous",
+   "effective": "continuous",
+   "leftClosed": true,
+   "rightClosed": false,
+   "leftVisible": false,
+   "rightVisible": true,
+   "L": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "right": 0,
+    "bottom": 0
+   },
+   "main": {
+    "x": 0,
+    "y": 0,
+    "w": 1140,
+    "h": 1000,
+    "right": 1140,
+    "bottom": 1000
+   },
+   "R": {
+    "x": 1140,
+    "y": 0,
+    "w": 260,
+    "h": 1000,
+    "right": 1400,
+    "bottom": 1000
+   },
+   "leftOverlapsReading": false,
+   "rightOverlapsReading": false,
+   "bothPanelsVisible": false,
+   "fit": "1.0000",
+   "visibleRegionCount": 1868,
+   "visibleRegionIds": [
+    "TMP-0001",
+    "..",
+    "TMP-1899"
+   ],
+   "firstVisiblePageWidth": 794,
+   "currentPageId": null,
+   "counter": "Section 1 / 10 · Front matter",
+   "anchorPageId": "TMP-0001",
+   "anchorFraction": 0,
+   "scrollTop": 12,
+   "aria": {
+    "leftClose": "false",
+    "rightClose": "true",
+    "leftToggle": "false",
+    "rightToggle": "true",
+    "leftCloseName": "Collapse contents sidebar",
+    "rightCloseName": "Collapse tools sidebar",
+    "leftCloseControls": "contents-panel",
+    "rightCloseControls": "reader-controls",
+    "leftToggleControls": "contents-panel"
+   },
+   "closeText": {
+    "left": "«Collapse contents",
+    "right": "»Collapse tools"
+   },
+   "closeVisible": {
+    "left": false,
+    "right": true
+   },
+   "togglesVisible": {
+    "left": true,
+    "right": true
+   },
+   "leftPanelClass": "left",
+   "rightPanelClass": "right",
+   "panelId": "contents-panel",
+   "docOverflow": 0,
+   "mainOverflow": 0,
+   "qaFailures": 0,
+   "focus": "left-toggle",
+   "prefs": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "closed",
+    "right": "open"
+   },
+   "stored": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "closed",
+    "right": "open"
+   },
+   "viewport": "1400x1000"
+  },
+  "afterLeftReopen": {
+   "mode": "continuous",
+   "effective": "continuous",
+   "leftClosed": false,
+   "rightClosed": false,
+   "leftVisible": true,
+   "rightVisible": true,
+   "L": {
+    "x": 0,
+    "y": 0,
+    "w": 300,
+    "h": 1000,
+    "right": 300,
+    "bottom": 1000
+   },
+   "main": {
+    "x": 300,
+    "y": 0,
+    "w": 840,
+    "h": 1000,
+    "right": 1140,
+    "bottom": 1000
+   },
+   "R": {
+    "x": 1140,
+    "y": 0,
+    "w": 260,
+    "h": 1000,
+    "right": 1400,
+    "bottom": 1000
+   },
+   "leftOverlapsReading": false,
+   "rightOverlapsReading": false,
+   "bothPanelsVisible": true,
+   "fit": "0.9916",
+   "visibleRegionCount": 1868,
+   "visibleRegionIds": [
+    "TMP-0001",
+    "..",
+    "TMP-1899"
+   ],
+   "firstVisiblePageWidth": 787,
+   "currentPageId": null,
+   "counter": "Section 1 / 10 · Front matter",
+   "anchorPageId": "TMP-0001",
+   "anchorFraction": 0,
+   "scrollTop": 12,
+   "aria": {
+    "leftClose": "true",
+    "rightClose": "true",
+    "leftToggle": "true",
+    "rightToggle": "true",
+    "leftCloseName": "Collapse contents sidebar",
+    "rightCloseName": "Collapse tools sidebar",
+    "leftCloseControls": "contents-panel",
+    "rightCloseControls": "reader-controls",
+    "leftToggleControls": "contents-panel"
+   },
+   "closeText": {
+    "left": "«Collapse contents",
+    "right": "»Collapse tools"
+   },
+   "closeVisible": {
+    "left": true,
+    "right": true
+   },
+   "togglesVisible": {
+    "left": true,
+    "right": true
+   },
+   "leftPanelClass": "left",
+   "rightPanelClass": "right",
+   "panelId": "contents-panel",
+   "docOverflow": 0,
+   "mainOverflow": 0,
+   "qaFailures": 0,
+   "focus": "left-toggle",
+   "prefs": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "open",
+    "right": "open"
+   },
+   "stored": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "open",
+    "right": "open"
+   },
+   "viewport": "1400x1000"
+  },
+  "afterRightClose": {
+   "mode": "continuous",
+   "effective": "continuous",
+   "leftClosed": false,
+   "rightClosed": true,
+   "leftVisible": true,
+   "rightVisible": false,
+   "L": {
+    "x": 0,
+    "y": 0,
+    "w": 300,
+    "h": 1000,
+    "right": 300,
+    "bottom": 1000
+   },
+   "main": {
+    "x": 300,
+    "y": 0,
+    "w": 1100,
+    "h": 1000,
+    "right": 1400,
+    "bottom": 1000
+   },
+   "R": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "right": 0,
+    "bottom": 0
+   },
+   "leftOverlapsReading": false,
+   "rightOverlapsReading": false,
+   "bothPanelsVisible": false,
+   "fit": "1.0000",
+   "visibleRegionCount": 1868,
+   "visibleRegionIds": [
+    "TMP-0001",
+    "..",
+    "TMP-1899"
+   ],
+   "firstVisiblePageWidth": 794,
+   "currentPageId": null,
+   "counter": "Section 1 / 10 · Front matter",
+   "anchorPageId": "TMP-0001",
+   "anchorFraction": 0,
+   "scrollTop": 12,
+   "aria": {
+    "leftClose": "true",
+    "rightClose": "false",
+    "leftToggle": "true",
+    "rightToggle": "false",
+    "leftCloseName": "Collapse contents sidebar",
+    "rightCloseName": "Collapse tools sidebar",
+    "leftCloseControls": "contents-panel",
+    "rightCloseControls": "reader-controls",
+    "leftToggleControls": "contents-panel"
+   },
+   "closeText": {
+    "left": "«Collapse contents",
+    "right": "»Collapse tools"
+   },
+   "closeVisible": {
+    "left": true,
+    "right": false
+   },
+   "togglesVisible": {
+    "left": true,
+    "right": true
+   },
+   "leftPanelClass": "left",
+   "rightPanelClass": "right",
+   "panelId": "contents-panel",
+   "docOverflow": 0,
+   "mainOverflow": 0,
+   "qaFailures": 0,
+   "focus": "right-toggle",
+   "prefs": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "open",
+    "right": "closed"
+   },
+   "stored": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "open",
+    "right": "closed"
+   },
+   "viewport": "1400x1000"
+  },
+  "afterRightReopen": {
+   "mode": "continuous",
+   "effective": "continuous",
+   "leftClosed": false,
+   "rightClosed": false,
+   "leftVisible": true,
+   "rightVisible": true,
+   "L": {
+    "x": 0,
+    "y": 0,
+    "w": 300,
+    "h": 1000,
+    "right": 300,
+    "bottom": 1000
+   },
+   "main": {
+    "x": 300,
+    "y": 0,
+    "w": 840,
+    "h": 1000,
+    "right": 1140,
+    "bottom": 1000
+   },
+   "R": {
+    "x": 1140,
+    "y": 0,
+    "w": 260,
+    "h": 1000,
+    "right": 1400,
+    "bottom": 1000
+   },
+   "leftOverlapsReading": false,
+   "rightOverlapsReading": false,
+   "bothPanelsVisible": true,
+   "fit": "0.9916",
+   "visibleRegionCount": 1868,
+   "visibleRegionIds": [
+    "TMP-0001",
+    "..",
+    "TMP-1899"
+   ],
+   "firstVisiblePageWidth": 787,
+   "currentPageId": null,
+   "counter": "Section 1 / 10 · Front matter",
+   "anchorPageId": "TMP-0001",
+   "anchorFraction": 0,
+   "scrollTop": 12,
+   "aria": {
+    "leftClose": "true",
+    "rightClose": "true",
+    "leftToggle": "true",
+    "rightToggle": "true",
+    "leftCloseName": "Collapse contents sidebar",
+    "rightCloseName": "Collapse tools sidebar",
+    "leftCloseControls": "contents-panel",
+    "rightCloseControls": "reader-controls",
+    "leftToggleControls": "contents-panel"
+   },
+   "closeText": {
+    "left": "«Collapse contents",
+    "right": "»Collapse tools"
+   },
+   "closeVisible": {
+    "left": true,
+    "right": true
+   },
+   "togglesVisible": {
+    "left": true,
+    "right": true
+   },
+   "leftPanelClass": "left",
+   "rightPanelClass": "right",
+   "panelId": "contents-panel",
+   "docOverflow": 0,
+   "mainOverflow": 0,
+   "qaFailures": 0,
+   "focus": "right-toggle",
+   "prefs": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "open",
+    "right": "open"
+   },
+   "stored": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "open",
+    "right": "open"
+   },
+   "viewport": "1400x1000"
+  }
+ },
+ "position": {
+  "before": {
+   "mode": "continuous",
+   "effective": "continuous",
+   "leftClosed": false,
+   "rightClosed": false,
+   "leftVisible": true,
+   "rightVisible": true,
+   "L": {
+    "x": 0,
+    "y": 0,
+    "w": 300,
+    "h": 1000,
+    "right": 300,
+    "bottom": 1000
+   },
+   "main": {
+    "x": 300,
+    "y": 0,
+    "w": 840,
+    "h": 1000,
+    "right": 1140,
+    "bottom": 1000
+   },
+   "R": {
+    "x": 1140,
+    "y": 0,
+    "w": 260,
+    "h": 1000,
+    "right": 1400,
+    "bottom": 1000
+   },
+   "leftOverlapsReading": false,
+   "rightOverlapsReading": false,
+   "bothPanelsVisible": true,
+   "fit": "0.9916",
+   "visibleRegionCount": 1868,
+   "visibleRegionIds": [
+    "TMP-0001",
+    "..",
+    "TMP-1899"
+   ],
+   "firstVisiblePageWidth": 787,
+   "currentPageId": null,
+   "counter": "Section 1 / 10 · Front matter",
+   "anchorPageId": "TMP-0001",
+   "anchorFraction": 0.9056,
+   "scrollTop": 912,
+   "aria": {
+    "leftClose": "true",
+    "rightClose": "true",
+    "leftToggle": "true",
+    "rightToggle": "true",
+    "leftCloseName": "Collapse contents sidebar",
+    "rightCloseName": "Collapse tools sidebar",
+    "leftCloseControls": "contents-panel",
+    "rightCloseControls": "reader-controls",
+    "leftToggleControls": "contents-panel"
+   },
+   "closeText": {
+    "left": "«Collapse contents",
+    "right": "»Collapse tools"
+   },
+   "closeVisible": {
+    "left": true,
+    "right": true
+   },
+   "togglesVisible": {
+    "left": true,
+    "right": true
+   },
+   "leftPanelClass": "left",
+   "rightPanelClass": "right",
+   "panelId": "contents-panel",
+   "docOverflow": 0,
+   "mainOverflow": 0,
+   "qaFailures": 0,
+   "focus": "right-toggle",
+   "prefs": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "open",
+    "right": "open"
+   },
+   "stored": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "open",
+    "right": "open"
+   },
+   "viewport": "1400x1000"
+  },
+  "afterLeftClose": {
+   "mode": "continuous",
+   "effective": "continuous",
+   "leftClosed": true,
+   "rightClosed": false,
+   "leftVisible": false,
+   "rightVisible": true,
+   "L": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "right": 0,
+    "bottom": 0
+   },
+   "main": {
+    "x": 0,
+    "y": 0,
+    "w": 1140,
+    "h": 1000,
+    "right": 1140,
+    "bottom": 1000
+   },
+   "R": {
+    "x": 1140,
+    "y": 0,
+    "w": 260,
+    "h": 1000,
+    "right": 1400,
+    "bottom": 1000
+   },
+   "leftOverlapsReading": false,
+   "rightOverlapsReading": false,
+   "bothPanelsVisible": false,
+   "fit": "1.0000",
+   "visibleRegionCount": 1868,
+   "visibleRegionIds": [
+    "TMP-0001",
+    "..",
+    "TMP-1899"
+   ],
+   "firstVisiblePageWidth": 794,
+   "currentPageId": null,
+   "counter": "Section 1 / 10 · Front matter",
+   "anchorPageId": "TMP-0001",
+   "anchorFraction": 0.9059,
+   "scrollTop": 920,
+   "aria": {
+    "leftClose": "false",
+    "rightClose": "true",
+    "leftToggle": "false",
+    "rightToggle": "true",
+    "leftCloseName": "Collapse contents sidebar",
+    "rightCloseName": "Collapse tools sidebar",
+    "leftCloseControls": "contents-panel",
+    "rightCloseControls": "reader-controls",
+    "leftToggleControls": "contents-panel"
+   },
+   "closeText": {
+    "left": "«Collapse contents",
+    "right": "»Collapse tools"
+   },
+   "closeVisible": {
+    "left": false,
+    "right": true
+   },
+   "togglesVisible": {
+    "left": true,
+    "right": true
+   },
+   "leftPanelClass": "left",
+   "rightPanelClass": "right",
+   "panelId": "contents-panel",
+   "docOverflow": 0,
+   "mainOverflow": 0,
+   "qaFailures": 0,
+   "focus": "left-toggle",
+   "prefs": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "closed",
+    "right": "open"
+   },
+   "stored": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "closed",
+    "right": "open"
+   },
+   "viewport": "1400x1000"
+  },
+  "afterBothClosed": {
+   "mode": "continuous",
+   "effective": "continuous",
+   "leftClosed": true,
+   "rightClosed": true,
+   "leftVisible": false,
+   "rightVisible": false,
+   "L": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "right": 0,
+    "bottom": 0
+   },
+   "main": {
+    "x": 0,
+    "y": 0,
+    "w": 1400,
+    "h": 1000,
+    "right": 1400,
+    "bottom": 1000
+   },
+   "R": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "right": 0,
+    "bottom": 0
+   },
+   "leftOverlapsReading": false,
+   "rightOverlapsReading": false,
+   "bothPanelsVisible": false,
+   "fit": "1.0000",
+   "visibleRegionCount": 1868,
+   "visibleRegionIds": [
+    "TMP-0001",
+    "..",
+    "TMP-1899"
+   ],
+   "firstVisiblePageWidth": 794,
+   "currentPageId": null,
+   "counter": "Section 1 / 10 · Front matter",
+   "anchorPageId": "TMP-0001",
+   "anchorFraction": 0.9059,
+   "scrollTop": 920,
+   "aria": {
+    "leftClose": "false",
+    "rightClose": "false",
+    "leftToggle": "false",
+    "rightToggle": "false",
+    "leftCloseName": "Collapse contents sidebar",
+    "rightCloseName": "Collapse tools sidebar",
+    "leftCloseControls": "contents-panel",
+    "rightCloseControls": "reader-controls",
+    "leftToggleControls": "contents-panel"
+   },
+   "closeText": {
+    "left": "«Collapse contents",
+    "right": "»Collapse tools"
+   },
+   "closeVisible": {
+    "left": false,
+    "right": false
+   },
+   "togglesVisible": {
+    "left": true,
+    "right": true
+   },
+   "leftPanelClass": "left",
+   "rightPanelClass": "right",
+   "panelId": "contents-panel",
+   "docOverflow": 0,
+   "mainOverflow": 0,
+   "qaFailures": 0,
+   "focus": "right-toggle",
+   "prefs": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "closed",
+    "right": "closed"
+   },
+   "stored": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "closed",
+    "right": "closed"
+   },
+   "viewport": "1400x1000"
+  },
+  "keptOnLeftClose": true,
+  "keptOnBothClosed": true,
+  "anchorTrail": [
+   "TMP-0001",
+   "TMP-0001",
+   "TMP-0001"
+  ],
+  "fractionTrail": [
+   0.9056,
+   0.9059,
+   0.9059
+  ]
+ },
+ "persistence": [
+  {
+   "name": "both-closed",
+   "viewport": "1400x1000",
+   "set": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "leftClosed": true,
+    "rightClosed": true,
+    "leftVisible": false,
+    "rightVisible": false,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 0,
+     "right": 0,
+     "bottom": 0
+    },
+    "main": {
+     "x": 0,
+     "y": 0,
+     "w": 1400,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 0,
+     "right": 0,
+     "bottom": 0
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": false,
+    "fit": "1.0000",
+    "visibleRegionCount": 1868,
+    "visibleRegionIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "firstVisiblePageWidth": 794,
+    "currentPageId": null,
+    "counter": "Section 1 / 10 · Front matter",
+    "anchorPageId": "TMP-0001",
+    "anchorFraction": 0.9059,
+    "scrollTop": 920,
+    "aria": {
+     "leftClose": "false",
+     "rightClose": "false",
+     "leftToggle": "false",
+     "rightToggle": "false",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": false,
+     "right": false
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "right-toggle",
+    "prefs": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "closed"
+    },
+    "stored": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "closed"
+    },
+    "viewport": "1400x1000"
+   },
+   "reloaded": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "leftClosed": true,
+    "rightClosed": true,
+    "leftVisible": false,
+    "rightVisible": false,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 0,
+     "right": 0,
+     "bottom": 0
+    },
+    "main": {
+     "x": 0,
+     "y": 0,
+     "w": 1400,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 0,
+     "right": 0,
+     "bottom": 0
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": false,
+    "fit": "1.0000",
+    "visibleRegionCount": 1868,
+    "visibleRegionIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "firstVisiblePageWidth": 794,
+    "currentPageId": null,
+    "counter": "Section 1 / 10 · Front matter",
+    "anchorPageId": null,
+    "anchorFraction": null,
+    "scrollTop": 0,
+    "aria": {
+     "leftClose": "false",
+     "rightClose": "false",
+     "leftToggle": "false",
+     "rightToggle": "false",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": false,
+     "right": false
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "BODY",
+    "prefs": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "closed"
+    },
+    "stored": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "closed"
+    },
+    "viewport": "1400x1000"
+   },
+   "restored": true
+  },
+  {
+   "name": "both-open",
+   "viewport": "1400x1000",
+   "set": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "leftClosed": false,
+    "rightClosed": false,
+    "leftVisible": true,
+    "rightVisible": true,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 300,
+     "h": 1000,
+     "right": 300,
+     "bottom": 1000
+    },
+    "main": {
+     "x": 300,
+     "y": 0,
+     "w": 840,
+     "h": 1000,
+     "right": 1140,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 1140,
+     "y": 0,
+     "w": 260,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": true,
+    "fit": "0.9916",
+    "visibleRegionCount": 1868,
+    "visibleRegionIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "firstVisiblePageWidth": 787,
+    "currentPageId": null,
+    "counter": "Section 1 / 10 · Front matter",
+    "anchorPageId": "TMP-0001",
+    "anchorFraction": 0,
+    "scrollTop": 12,
+    "aria": {
+     "leftClose": "true",
+     "rightClose": "true",
+     "leftToggle": "true",
+     "rightToggle": "true",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": true,
+     "right": true
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "BODY",
+    "prefs": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "stored": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "viewport": "1400x1000"
+   },
+   "reloaded": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "leftClosed": false,
+    "rightClosed": false,
+    "leftVisible": true,
+    "rightVisible": true,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 300,
+     "h": 1000,
+     "right": 300,
+     "bottom": 1000
+    },
+    "main": {
+     "x": 300,
+     "y": 0,
+     "w": 840,
+     "h": 1000,
+     "right": 1140,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 1140,
+     "y": 0,
+     "w": 260,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": true,
+    "fit": "0.9916",
+    "visibleRegionCount": 1868,
+    "visibleRegionIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "firstVisiblePageWidth": 787,
+    "currentPageId": null,
+    "counter": "Section 1 / 10 · Front matter",
+    "anchorPageId": null,
+    "anchorFraction": null,
+    "scrollTop": 0,
+    "aria": {
+     "leftClose": "true",
+     "rightClose": "true",
+     "leftToggle": "true",
+     "rightToggle": "true",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": true,
+     "right": true
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "BODY",
+    "prefs": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "stored": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "viewport": "1400x1000"
+   },
+   "restored": true
+  }
+ ],
+ "modes": [
+  {
+   "mode": "continuous",
+   "open": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "leftClosed": false,
+    "rightClosed": false,
+    "leftVisible": true,
+    "rightVisible": true,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 300,
+     "h": 1000,
+     "right": 300,
+     "bottom": 1000
+    },
+    "main": {
+     "x": 300,
+     "y": 0,
+     "w": 840,
+     "h": 1000,
+     "right": 1140,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 1140,
+     "y": 0,
+     "w": 260,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": true,
+    "fit": "0.9916",
+    "visibleRegionCount": 1868,
+    "visibleRegionIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "firstVisiblePageWidth": 787,
+    "currentPageId": null,
+    "counter": "Section 4 / 10 · Unit 3 / Part 1 Personal Saving and Borrowing",
+    "anchorPageId": "TMP-0950",
+    "anchorFraction": 0.9688,
+    "scrollTop": 328410,
+    "aria": {
+     "leftClose": "true",
+     "rightClose": "true",
+     "leftToggle": "true",
+     "rightToggle": "true",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": true,
+     "right": true
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "BODY",
+    "prefs": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "stored": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "viewport": "1400x1000"
+   },
+   "leftClosed": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "leftClosed": true,
+    "rightClosed": false,
+    "leftVisible": false,
+    "rightVisible": true,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 0,
+     "right": 0,
+     "bottom": 0
+    },
+    "main": {
+     "x": 0,
+     "y": 0,
+     "w": 1140,
+     "h": 1000,
+     "right": 1140,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 1140,
+     "y": 0,
+     "w": 260,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": false,
+    "fit": "1.0000",
+    "visibleRegionCount": 1868,
+    "visibleRegionIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "firstVisiblePageWidth": 794,
+    "currentPageId": null,
+    "counter": "Section 4 / 10 · Unit 3 / Part 1 Personal Saving and Borrowing",
+    "anchorPageId": "TMP-0950",
+    "anchorFraction": 0.9693,
+    "scrollTop": 331236,
+    "aria": {
+     "leftClose": "false",
+     "rightClose": "true",
+     "leftToggle": "false",
+     "rightToggle": "true",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": false,
+     "right": true
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "left-toggle",
+    "prefs": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "open"
+    },
+    "stored": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "open"
+    },
+    "viewport": "1400x1000"
+   },
+   "bothClosed": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "leftClosed": true,
+    "rightClosed": true,
+    "leftVisible": false,
+    "rightVisible": false,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 0,
+     "right": 0,
+     "bottom": 0
+    },
+    "main": {
+     "x": 0,
+     "y": 0,
+     "w": 1400,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 0,
+     "right": 0,
+     "bottom": 0
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": false,
+    "fit": "1.0000",
+    "visibleRegionCount": 1868,
+    "visibleRegionIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "firstVisiblePageWidth": 794,
+    "currentPageId": null,
+    "counter": "Section 4 / 10 · Unit 3 / Part 1 Personal Saving and Borrowing",
+    "anchorPageId": "TMP-0950",
+    "anchorFraction": 0.9693,
+    "scrollTop": 331236,
+    "aria": {
+     "leftClose": "false",
+     "rightClose": "false",
+     "leftToggle": "false",
+     "rightToggle": "false",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": false,
+     "right": false
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "right-toggle",
+    "prefs": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "closed"
+    },
+    "stored": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "closed"
+    },
+    "viewport": "1400x1000"
+   },
+   "reopened": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "leftClosed": false,
+    "rightClosed": false,
+    "leftVisible": true,
+    "rightVisible": true,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 300,
+     "h": 1000,
+     "right": 300,
+     "bottom": 1000
+    },
+    "main": {
+     "x": 300,
+     "y": 0,
+     "w": 840,
+     "h": 1000,
+     "right": 1140,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 1140,
+     "y": 0,
+     "w": 260,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": true,
+    "fit": "0.9916",
+    "visibleRegionCount": 1868,
+    "visibleRegionIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "firstVisiblePageWidth": 787,
+    "currentPageId": null,
+    "counter": "Section 4 / 10 · Unit 3 / Part 1 Personal Saving and Borrowing",
+    "anchorPageId": "TMP-0950",
+    "anchorFraction": 0.9688,
+    "scrollTop": 328410,
+    "aria": {
+     "leftClose": "true",
+     "rightClose": "true",
+     "leftToggle": "true",
+     "rightToggle": "true",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": true,
+     "right": true
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "right-toggle",
+    "prefs": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "stored": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "viewport": "1400x1000"
+   },
+   "keptOnLeftClose": true,
+   "keptOnBothClosed": true,
+   "counterKept": true,
+   "visibleKept": true,
+   "widthRestored": true,
+   "fractionTrail": [
+    0.9688,
+    0.9693,
+    0.9693,
+    0.9688
+   ],
+   "scrollTrail": [
+    328410,
+    331236,
+    331236,
+    328410
+   ]
+  },
+  {
+   "mode": "section",
+   "open": {
+    "mode": "section",
+    "effective": "section",
+    "leftClosed": false,
+    "rightClosed": false,
+    "leftVisible": true,
+    "rightVisible": true,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 300,
+     "h": 1000,
+     "right": 300,
+     "bottom": 1000
+    },
+    "main": {
+     "x": 300,
+     "y": 0,
+     "w": 840,
+     "h": 1000,
+     "right": 1140,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 1140,
+     "y": 0,
+     "w": 260,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": true,
+    "fit": "0.9916",
+    "visibleRegionCount": 4,
+    "visibleRegionIds": [
+     "TMP-0013",
+     "TMP-0014",
+     "TMP-0015",
+     "TMP-0016"
+    ],
+    "firstVisiblePageWidth": 787,
+    "currentPageId": "TMP-1899",
+    "counter": "Section 3 of 383 · Brief Contents",
+    "anchorPageId": "TMP-0013",
+    "anchorFraction": 0,
+    "scrollTop": 12,
+    "aria": {
+     "leftClose": "true",
+     "rightClose": "true",
+     "leftToggle": "true",
+     "rightToggle": "true",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": true,
+     "right": true
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "right-toggle",
+    "prefs": {
+     "mode": "section",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "stored": {
+     "mode": "section",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "viewport": "1400x1000"
+   },
+   "leftClosed": {
+    "mode": "section",
+    "effective": "section",
+    "leftClosed": true,
+    "rightClosed": false,
+    "leftVisible": false,
+    "rightVisible": true,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 0,
+     "right": 0,
+     "bottom": 0
+    },
+    "main": {
+     "x": 0,
+     "y": 0,
+     "w": 1140,
+     "h": 1000,
+     "right": 1140,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 1140,
+     "y": 0,
+     "w": 260,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": false,
+    "fit": "1.0000",
+    "visibleRegionCount": 4,
+    "visibleRegionIds": [
+     "TMP-0013",
+     "TMP-0014",
+     "TMP-0015",
+     "TMP-0016"
+    ],
+    "firstVisiblePageWidth": 794,
+    "currentPageId": "TMP-1899",
+    "counter": "Section 3 of 383 · Brief Contents",
+    "anchorPageId": "TMP-0013",
+    "anchorFraction": 0,
+    "scrollTop": 12,
+    "aria": {
+     "leftClose": "false",
+     "rightClose": "true",
+     "leftToggle": "false",
+     "rightToggle": "true",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": false,
+     "right": true
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "left-toggle",
+    "prefs": {
+     "mode": "section",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "open"
+    },
+    "stored": {
+     "mode": "section",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "open"
+    },
+    "viewport": "1400x1000"
+   },
+   "bothClosed": {
+    "mode": "section",
+    "effective": "section",
+    "leftClosed": true,
+    "rightClosed": true,
+    "leftVisible": false,
+    "rightVisible": false,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 0,
+     "right": 0,
+     "bottom": 0
+    },
+    "main": {
+     "x": 0,
+     "y": 0,
+     "w": 1400,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 0,
+     "right": 0,
+     "bottom": 0
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": false,
+    "fit": "1.0000",
+    "visibleRegionCount": 4,
+    "visibleRegionIds": [
+     "TMP-0013",
+     "TMP-0014",
+     "TMP-0015",
+     "TMP-0016"
+    ],
+    "firstVisiblePageWidth": 794,
+    "currentPageId": "TMP-1899",
+    "counter": "Section 3 of 383 · Brief Contents",
+    "anchorPageId": "TMP-0013",
+    "anchorFraction": 0,
+    "scrollTop": 12,
+    "aria": {
+     "leftClose": "false",
+     "rightClose": "false",
+     "leftToggle": "false",
+     "rightToggle": "false",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": false,
+     "right": false
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "right-toggle",
+    "prefs": {
+     "mode": "section",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "closed"
+    },
+    "stored": {
+     "mode": "section",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "closed",
+     "right": "closed"
+    },
+    "viewport": "1400x1000"
+   },
+   "reopened": {
+    "mode": "section",
+    "effective": "section",
+    "leftClosed": false,
+    "rightClosed": false,
+    "leftVisible": true,
+    "rightVisible": true,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 300,
+     "h": 1000,
+     "right": 300,
+     "bottom": 1000
+    },
+    "main": {
+     "x": 300,
+     "y": 0,
+     "w": 840,
+     "h": 1000,
+     "right": 1140,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 1140,
+     "y": 0,
+     "w": 260,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": true,
+    "fit": "0.9916",
+    "visibleRegionCount": 4,
+    "visibleRegionIds": [
+     "TMP-0013",
+     "TMP-0014",
+     "TMP-0015",
+     "TMP-0016"
+    ],
+    "firstVisiblePageWidth": 787,
+    "currentPageId": "TMP-1899",
+    "counter": "Section 3 of 383 · Brief Contents",
+    "anchorPageId": "TMP-0013",
+    "anchorFraction": 0,
+    "scrollTop": 12,
+    "aria": {
+     "leftClose": "true",
+     "rightClose": "true",
+     "leftToggle": "true",
+     "rightToggle": "true",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": true,
+     "right": true
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "right-toggle",
+    "prefs": {
+     "mode": "section",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "stored": {
+     "mode": "section",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "viewport": "1400x1000"
+   },
+   "keptOnLeftClose": true,
+   "keptOnBothClosed": true,
+   "counterKept": true,
+   "visibleKept": true,
+   "widthRestored": true,
+   "fractionTrail": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "scrollTrail": [
+    12,
+    12,
+    12,
+    12
+   ]
+  }
+ ],
+ "keyboard": {
+  "tabTrail": [
+   "left-close"
+  ],
+  "landedOnClose": {
+   "id": "left-close",
+   "outline": "solid 2px rgb(15, 94, 168)",
+   "offset": "2px"
+  },
+  "afterEnter": {
+   "mode": "continuous",
+   "effective": "continuous",
+   "leftClosed": true,
+   "rightClosed": false,
+   "leftVisible": false,
+   "rightVisible": true,
+   "L": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "right": 0,
+    "bottom": 0
+   },
+   "main": {
+    "x": 0,
+    "y": 0,
+    "w": 1140,
+    "h": 1000,
+    "right": 1140,
+    "bottom": 1000
+   },
+   "R": {
+    "x": 1140,
+    "y": 0,
+    "w": 260,
+    "h": 1000,
+    "right": 1400,
+    "bottom": 1000
+   },
+   "leftOverlapsReading": false,
+   "rightOverlapsReading": false,
+   "bothPanelsVisible": false,
+   "fit": "1.0000",
+   "visibleRegionCount": 1868,
+   "visibleRegionIds": [
+    "TMP-0001",
+    "..",
+    "TMP-1899"
+   ],
+   "firstVisiblePageWidth": 794,
+   "currentPageId": null,
+   "counter": "Section 1 / 10 · Front matter",
+   "anchorPageId": "TMP-0001",
+   "anchorFraction": 0,
+   "scrollTop": 12,
+   "aria": {
+    "leftClose": "false",
+    "rightClose": "true",
+    "leftToggle": "false",
+    "rightToggle": "true",
+    "leftCloseName": "Collapse contents sidebar",
+    "rightCloseName": "Collapse tools sidebar",
+    "leftCloseControls": "contents-panel",
+    "rightCloseControls": "reader-controls",
+    "leftToggleControls": "contents-panel"
+   },
+   "closeText": {
+    "left": "«Collapse contents",
+    "right": "»Collapse tools"
+   },
+   "closeVisible": {
+    "left": false,
+    "right": true
+   },
+   "togglesVisible": {
+    "left": true,
+    "right": true
+   },
+   "leftPanelClass": "left",
+   "rightPanelClass": "right",
+   "panelId": "contents-panel",
+   "docOverflow": 0,
+   "mainOverflow": 0,
+   "qaFailures": 0,
+   "focus": "left-toggle",
+   "prefs": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "closed",
+    "right": "open"
+   },
+   "stored": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "closed",
+    "right": "open"
+   },
+   "viewport": "1400x1000"
+  },
+  "enterRing": {
+   "id": "left-toggle",
+   "outline": "solid 2px rgb(15, 94, 168)",
+   "offset": "2px"
+  },
+  "afterSecondEnter": {
+   "mode": "continuous",
+   "effective": "continuous",
+   "leftClosed": false,
+   "rightClosed": false,
+   "leftVisible": true,
+   "rightVisible": true,
+   "L": {
+    "x": 0,
+    "y": 0,
+    "w": 300,
+    "h": 1000,
+    "right": 300,
+    "bottom": 1000
+   },
+   "main": {
+    "x": 300,
+    "y": 0,
+    "w": 840,
+    "h": 1000,
+    "right": 1140,
+    "bottom": 1000
+   },
+   "R": {
+    "x": 1140,
+    "y": 0,
+    "w": 260,
+    "h": 1000,
+    "right": 1400,
+    "bottom": 1000
+   },
+   "leftOverlapsReading": false,
+   "rightOverlapsReading": false,
+   "bothPanelsVisible": true,
+   "fit": "0.9916",
+   "visibleRegionCount": 1868,
+   "visibleRegionIds": [
+    "TMP-0001",
+    "..",
+    "TMP-1899"
+   ],
+   "firstVisiblePageWidth": 787,
+   "currentPageId": null,
+   "counter": "Section 1 / 10 · Front matter",
+   "anchorPageId": "TMP-0001",
+   "anchorFraction": 0,
+   "scrollTop": 12,
+   "aria": {
+    "leftClose": "true",
+    "rightClose": "true",
+    "leftToggle": "true",
+    "rightToggle": "true",
+    "leftCloseName": "Collapse contents sidebar",
+    "rightCloseName": "Collapse tools sidebar",
+    "leftCloseControls": "contents-panel",
+    "rightCloseControls": "reader-controls",
+    "leftToggleControls": "contents-panel"
+   },
+   "closeText": {
+    "left": "«Collapse contents",
+    "right": "»Collapse tools"
+   },
+   "closeVisible": {
+    "left": true,
+    "right": true
+   },
+   "togglesVisible": {
+    "left": true,
+    "right": true
+   },
+   "leftPanelClass": "left",
+   "rightPanelClass": "right",
+   "panelId": "contents-panel",
+   "docOverflow": 0,
+   "mainOverflow": 0,
+   "qaFailures": 0,
+   "focus": "left-toggle",
+   "prefs": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "open",
+    "right": "open"
+   },
+   "stored": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "open",
+    "right": "open"
+   },
+   "viewport": "1400x1000"
+  },
+  "rightOpen": {
+   "mode": "continuous",
+   "effective": "continuous",
+   "leftClosed": false,
+   "rightClosed": true,
+   "leftVisible": true,
+   "rightVisible": false,
+   "L": {
+    "x": 0,
+    "y": 0,
+    "w": 300,
+    "h": 1000,
+    "right": 300,
+    "bottom": 1000
+   },
+   "main": {
+    "x": 300,
+    "y": 0,
+    "w": 1100,
+    "h": 1000,
+    "right": 1400,
+    "bottom": 1000
+   },
+   "R": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "right": 0,
+    "bottom": 0
+   },
+   "leftOverlapsReading": false,
+   "rightOverlapsReading": false,
+   "bothPanelsVisible": false,
+   "fit": "1.0000",
+   "visibleRegionCount": 1868,
+   "visibleRegionIds": [
+    "TMP-0001",
+    "..",
+    "TMP-1899"
+   ],
+   "firstVisiblePageWidth": 794,
+   "currentPageId": null,
+   "counter": "Section 1 / 10 · Front matter",
+   "anchorPageId": "TMP-0001",
+   "anchorFraction": 0,
+   "scrollTop": 12,
+   "aria": {
+    "leftClose": "true",
+    "rightClose": "false",
+    "leftToggle": "true",
+    "rightToggle": "false",
+    "leftCloseName": "Collapse contents sidebar",
+    "rightCloseName": "Collapse tools sidebar",
+    "leftCloseControls": "contents-panel",
+    "rightCloseControls": "reader-controls",
+    "leftToggleControls": "contents-panel"
+   },
+   "closeText": {
+    "left": "«Collapse contents",
+    "right": "»Collapse tools"
+   },
+   "closeVisible": {
+    "left": true,
+    "right": false
+   },
+   "togglesVisible": {
+    "left": true,
+    "right": true
+   },
+   "leftPanelClass": "left",
+   "rightPanelClass": "right",
+   "panelId": "contents-panel",
+   "docOverflow": 0,
+   "mainOverflow": 0,
+   "qaFailures": 0,
+   "focus": "right-toggle",
+   "prefs": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "open",
+    "right": "closed"
+   },
+   "stored": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "open",
+    "right": "closed"
+   },
+   "viewport": "1400x1000"
+  },
+  "afterEscape": {
+   "mode": "continuous",
+   "effective": "continuous",
+   "leftClosed": true,
+   "rightClosed": true,
+   "leftVisible": false,
+   "rightVisible": false,
+   "L": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "right": 0,
+    "bottom": 0
+   },
+   "main": {
+    "x": 0,
+    "y": 0,
+    "w": 1400,
+    "h": 1000,
+    "right": 1400,
+    "bottom": 1000
+   },
+   "R": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "right": 0,
+    "bottom": 0
+   },
+   "leftOverlapsReading": false,
+   "rightOverlapsReading": false,
+   "bothPanelsVisible": false,
+   "fit": "1.0000",
+   "visibleRegionCount": 1868,
+   "visibleRegionIds": [
+    "TMP-0001",
+    "..",
+    "TMP-1899"
+   ],
+   "firstVisiblePageWidth": 794,
+   "currentPageId": null,
+   "counter": "Section 1 / 10 · Front matter",
+   "anchorPageId": "TMP-0001",
+   "anchorFraction": 0,
+   "scrollTop": 12,
+   "aria": {
+    "leftClose": "false",
+    "rightClose": "false",
+    "leftToggle": "false",
+    "rightToggle": "false",
+    "leftCloseName": "Collapse contents sidebar",
+    "rightCloseName": "Collapse tools sidebar",
+    "leftCloseControls": "contents-panel",
+    "rightCloseControls": "reader-controls",
+    "leftToggleControls": "contents-panel"
+   },
+   "closeText": {
+    "left": "«Collapse contents",
+    "right": "»Collapse tools"
+   },
+   "closeVisible": {
+    "left": false,
+    "right": false
+   },
+   "togglesVisible": {
+    "left": true,
+    "right": true
+   },
+   "leftPanelClass": "left",
+   "rightPanelClass": "right",
+   "panelId": "contents-panel",
+   "docOverflow": 0,
+   "mainOverflow": 0,
+   "qaFailures": 0,
+   "focus": "left-toggle",
+   "prefs": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "closed",
+    "right": "closed"
+   },
+   "stored": {
+    "mode": "continuous",
+    "font": "original",
+    "size": 100,
+    "spacing": "normal",
+    "zoom": 100,
+    "left": "closed",
+    "right": "closed"
+   },
+   "viewport": "1400x1000"
+  }
+ },
+ "mobile": {
+  "mobile390": {
+   "entries": [
+    {
+     "step": "narrow load",
+     "state": {
+      "mode": "continuous",
+      "effective": "continuous",
+      "leftClosed": false,
+      "rightClosed": true,
+      "leftVisible": true,
+      "rightVisible": false,
+      "L": {
+       "x": 0,
+       "y": 0,
+       "w": 280,
+       "h": 844,
+       "right": 280,
+       "bottom": 844
+      },
+      "main": {
+       "x": 0,
+       "y": 0,
+       "w": 390,
+       "h": 844,
+       "right": 390,
+       "bottom": 844
+      },
+      "R": {
+       "x": 0,
+       "y": 0,
+       "w": 0,
+       "h": 0,
+       "right": 0,
+       "bottom": 0
+      },
+      "leftOverlapsReading": true,
+      "rightOverlapsReading": false,
+      "bothPanelsVisible": false,
+      "fit": "0.4586",
+      "visibleRegionCount": 1868,
+      "visibleRegionIds": [
+       "TMP-0001",
+       "..",
+       "TMP-1899"
+      ],
+      "firstVisiblePageWidth": 366,
+      "currentPageId": null,
+      "counter": "Section 1 / 10 · Front matter",
+      "anchorPageId": null,
+      "anchorFraction": null,
+      "scrollTop": 0,
+      "aria": {
+       "leftClose": "true",
+       "rightClose": "false",
+       "leftToggle": "true",
+       "rightToggle": "false",
+       "leftCloseName": "Collapse contents sidebar",
+       "rightCloseName": "Collapse tools sidebar",
+       "leftCloseControls": "contents-panel",
+       "rightCloseControls": "reader-controls",
+       "leftToggleControls": "contents-panel"
+      },
+      "closeText": {
+       "left": "«Collapse contents",
+       "right": "»Collapse tools"
+      },
+      "closeVisible": {
+       "left": true,
+       "right": false
+      },
+      "togglesVisible": {
+       "left": true,
+       "right": true
+      },
+      "leftPanelClass": "left",
+      "rightPanelClass": "right",
+      "panelId": "contents-panel",
+      "docOverflow": 0,
+      "mainOverflow": 0,
+      "qaFailures": 0,
+      "focus": "BODY",
+      "prefs": {
+       "mode": "continuous",
+       "font": "original",
+       "size": 100,
+       "spacing": "normal",
+       "zoom": 100,
+       "left": "open",
+       "right": "open"
+      },
+      "stored": {
+       "mode": "continuous",
+       "font": "original",
+       "size": 100,
+       "spacing": "normal",
+       "zoom": 100,
+       "left": "open",
+       "right": "open"
+      },
+      "viewport": "390x844"
+     }
+    },
+    {
+     "step": "right toggle",
+     "state": {
+      "mode": "continuous",
+      "effective": "continuous",
+      "leftClosed": true,
+      "rightClosed": false,
+      "leftVisible": false,
+      "rightVisible": true,
+      "L": {
+       "x": 0,
+       "y": 0,
+       "w": 0,
+       "h": 0,
+       "right": 0,
+       "bottom": 0
+      },
+      "main": {
+       "x": 0,
+       "y": 0,
+       "w": 390,
+       "h": 844,
+       "right": 390,
+       "bottom": 844
+      },
+      "R": {
+       "x": 110,
+       "y": 0,
+       "w": 280,
+       "h": 844,
+       "right": 390,
+       "bottom": 844
+      },
+      "leftOverlapsReading": false,
+      "rightOverlapsReading": true,
+      "bothPanelsVisible": false,
+      "fit": "0.4586",
+      "visibleRegionCount": 1868,
+      "visibleRegionIds": [
+       "TMP-0001",
+       "..",
+       "TMP-1899"
+      ],
+      "firstVisiblePageWidth": 366,
+      "currentPageId": null,
+      "counter": "Section 1 / 10 · Front matter",
+      "anchorPageId": "TMP-0001",
+      "anchorFraction": 0,
+      "scrollTop": 12,
+      "aria": {
+       "leftClose": "false",
+       "rightClose": "true",
+       "leftToggle": "false",
+       "rightToggle": "true",
+       "leftCloseName": "Collapse contents sidebar",
+       "rightCloseName": "Collapse tools sidebar",
+       "leftCloseControls": "contents-panel",
+       "rightCloseControls": "reader-controls",
+       "leftToggleControls": "contents-panel"
+      },
+      "closeText": {
+       "left": "«Collapse contents",
+       "right": "»Collapse tools"
+      },
+      "closeVisible": {
+       "left": false,
+       "right": true
+      },
+      "togglesVisible": {
+       "left": true,
+       "right": true
+      },
+      "leftPanelClass": "left",
+      "rightPanelClass": "right",
+      "panelId": "contents-panel",
+      "docOverflow": 0,
+      "mainOverflow": 0,
+      "qaFailures": 0,
+      "focus": "BODY",
+      "prefs": {
+       "mode": "continuous",
+       "font": "original",
+       "size": 100,
+       "spacing": "normal",
+       "zoom": 100,
+       "left": "open",
+       "right": "open"
+      },
+      "stored": {
+       "mode": "continuous",
+       "font": "original",
+       "size": 100,
+       "spacing": "normal",
+       "zoom": 100,
+       "left": "open",
+       "right": "open"
+      },
+      "viewport": "390x844"
+     }
+    },
+    {
+     "step": "left toggle again",
+     "state": {
+      "mode": "continuous",
+      "effective": "continuous",
+      "leftClosed": false,
+      "rightClosed": true,
+      "leftVisible": true,
+      "rightVisible": false,
+      "L": {
+       "x": 0,
+       "y": 0,
+       "w": 280,
+       "h": 844,
+       "right": 280,
+       "bottom": 844
+      },
+      "main": {
+       "x": 0,
+       "y": 0,
+       "w": 390,
+       "h": 844,
+       "right": 390,
+       "bottom": 844
+      },
+      "R": {
+       "x": 0,
+       "y": 0,
+       "w": 0,
+       "h": 0,
+       "right": 0,
+       "bottom": 0
+      },
+      "leftOverlapsReading": true,
+      "rightOverlapsReading": false,
+      "bothPanelsVisible": false,
+      "fit": "0.4586",
+      "visibleRegionCount": 1868,
+      "visibleRegionIds": [
+       "TMP-0001",
+       "..",
+       "TMP-1899"
+      ],
+      "firstVisiblePageWidth": 366,
+      "currentPageId": null,
+      "counter": "Section 1 / 10 · Front matter",
+      "anchorPageId": "TMP-0001",
+      "anchorFraction": 0,
+      "scrollTop": 12,
+      "aria": {
+       "leftClose": "true",
+       "rightClose": "false",
+       "leftToggle": "true",
+       "rightToggle": "false",
+       "leftCloseName": "Collapse contents sidebar",
+       "rightCloseName": "Collapse tools sidebar",
+       "leftCloseControls": "contents-panel",
+       "rightCloseControls": "reader-controls",
+       "leftToggleControls": "contents-panel"
+      },
+      "closeText": {
+       "left": "«Collapse contents",
+       "right": "»Collapse tools"
+      },
+      "closeVisible": {
+       "left": true,
+       "right": false
+      },
+      "togglesVisible": {
+       "left": true,
+       "right": true
+      },
+      "leftPanelClass": "left",
+      "rightPanelClass": "right",
+      "panelId": "contents-panel",
+      "docOverflow": 0,
+      "mainOverflow": 0,
+      "qaFailures": 0,
+      "focus": "BODY",
+      "prefs": {
+       "mode": "continuous",
+       "font": "original",
+       "size": 100,
+       "spacing": "normal",
+       "zoom": 100,
+       "left": "open",
+       "right": "open"
+      },
+      "stored": {
+       "mode": "continuous",
+       "font": "original",
+       "size": 100,
+       "spacing": "normal",
+       "zoom": 100,
+       "left": "open",
+       "right": "open"
+      },
+      "viewport": "390x844"
+     }
+    }
+   ],
+   "storedAfterDrawerUse": "{\"mode\":\"continuous\",\"font\":\"original\",\"size\":100,\"spacing\":\"normal\",\"zoom\":100,\"left\":\"open\",\"right\":\"open\"}",
+   "overlapsSeen": 0,
+   "overflowSeen": [
+    0,
+    0,
+    0
+   ],
+   "afterResizeBack": {
+    "mode": "continuous",
+    "effective": "continuous",
+    "leftClosed": false,
+    "rightClosed": false,
+    "leftVisible": true,
+    "rightVisible": true,
+    "L": {
+     "x": 0,
+     "y": 0,
+     "w": 300,
+     "h": 1000,
+     "right": 300,
+     "bottom": 1000
+    },
+    "main": {
+     "x": 300,
+     "y": 0,
+     "w": 840,
+     "h": 1000,
+     "right": 1140,
+     "bottom": 1000
+    },
+    "R": {
+     "x": 1140,
+     "y": 0,
+     "w": 260,
+     "h": 1000,
+     "right": 1400,
+     "bottom": 1000
+    },
+    "leftOverlapsReading": false,
+    "rightOverlapsReading": false,
+    "bothPanelsVisible": true,
+    "fit": "0.9916",
+    "visibleRegionCount": 1868,
+    "visibleRegionIds": [
+     "TMP-0001",
+     "..",
+     "TMP-1899"
+    ],
+    "firstVisiblePageWidth": 787,
+    "currentPageId": null,
+    "counter": "Section 1 / 10 · Front matter",
+    "anchorPageId": "TMP-0001",
+    "anchorFraction": 0,
+    "scrollTop": 12,
+    "aria": {
+     "leftClose": "true",
+     "rightClose": "true",
+     "leftToggle": "true",
+     "rightToggle": "true",
+     "leftCloseName": "Collapse contents sidebar",
+     "rightCloseName": "Collapse tools sidebar",
+     "leftCloseControls": "contents-panel",
+     "rightCloseControls": "reader-controls",
+     "leftToggleControls": "contents-panel"
+    },
+    "closeText": {
+     "left": "«Collapse contents",
+     "right": "»Collapse tools"
+    },
+    "closeVisible": {
+     "left": true,
+     "right": true
+    },
+    "togglesVisible": {
+     "left": true,
+     "right": true
+    },
+    "leftPanelClass": "left",
+    "rightPanelClass": "right",
+    "panelId": "contents-panel",
+    "docOverflow": 0,
+    "mainOverflow": 0,
+    "qaFailures": 0,
+    "focus": "BODY",
+    "prefs": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "stored": {
+     "mode": "continuous",
+     "font": "original",
+     "size": 100,
+     "spacing": "normal",
+     "zoom": 100,
+     "left": "open",
+     "right": "open"
+    },
+    "viewport": "1400x1000"
+   }
+  }
+ },
+ "errors": [],
+ "finishedAt": "2026-10-14T10:53:52.593Z"
+}

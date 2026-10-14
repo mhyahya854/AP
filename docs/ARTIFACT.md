@@ -3,9 +3,9 @@
 | Field | Value |
 |---|---|
 | File | `AP Book Final.html` |
-| Bytes | 1,132,261,630 |
-| SHA-256 | `73d175779ae506d9f2b902e83f56438ca313c3d75be4eb1dd0c5cf75c4f645b2` |
-| Self-contained | yes - every figure and table is an inline `data:` URI, the only scripts are three inline scripts, no network access is required |
+| Bytes | 1,132,269,052 |
+| SHA-256 | `db07ab804bed45df6dd7b27a70dea2e86f259707d047b9b307d19e71108e35df` |
+| Self-contained | yes - every figure and table is an inline `data:` URI, the only scripts are four inline scripts, no network access is required |
 | Source regions | 1,899 (`TMP-0001` .. `TMP-1899`), unchanged in identity, order and text |
 
 ## Wave applied
@@ -14,7 +14,21 @@
 `printed-contents-2026-10-12`, `supplied-entries-2026-10-12`,
 `overnight-audit-2026-10-13`, `orphan-repair-2026-10-13`,
 `final-completion-2026-10-13`, `nine-case-2026-10-13` and
-`photo-credit-orientation-2026-10-14`.
+`photo-credit-orientation-2026-10-14`, `sidebar-2026-10-14`.
+
+* The sidebar wave of 2026-10-14 gave each sidebar its own always-visible
+  collapse button at the top of the panel, gave both controls of a panel the
+  same `aria-expanded` state and a visible focus ring, kept the toolbar toggles
+  that reopen a hidden panel, stopped the transient phone drawer from
+  overwriting the stored desktop preference, and made a sidebar toggle keep the
+  reader exactly where it was (the reading line and the panel's own scroll
+  offset are restored after the re-layout instead of jumping).  It changed the
+  stylesheet, the two additive scripts, four shell attributes and the two
+  collapse buttons - nothing else: the 1,132,034,986 bytes between the first
+  article region and the tools panel are byte-identical, and all 1,899 regions
+  hash identically to the previous artifact.  Evidence and the full
+  requirement-by-requirement report: `docs/SIDEBAR_WAVE.md`,
+  `reports/sidebar_wave/`.
 
 * The corrective wave changed one source region (`TMP-0563`, the Starbucks
   Rewards control, whose description text was stranded beside a bitmap inside
@@ -71,11 +85,15 @@ and the file's total region text is still 1,444,347 characters
 
 | Field | Value |
 |---|---|
-| File | `_master_work/integration_backups/supplied-entries-20261012/prev-final-AP Book Final.html` |
-| Bytes | 1,132,297,657 |
-| SHA-256 | `f606cdc8bf3af4451ed1a092e047fca77bc506244c163dc5ec9bb5531f63346d` |
+| File | `_master_work/integration_backups/sidebar-20261014/prev-final-AP Book Final.html` (also the parent of the `sidebar-2026-10-14` commit) |
+| Bytes | 1,132,261,630 |
+| SHA-256 | `73d175779ae506d9f2b902e83f56438ca313c3d75be4eb1dd0c5cf75c4f645b2` |
 
-The immediately previous artifact (the supplied-entries final) is preserved as
+The artifact before that (the supplied-entries final) is preserved as
+`_master_work/integration_backups/supplied-entries-20261012/prev-final-AP Book Final.html`,
+1,132,297,657 bytes, SHA-256
+`f606cdc8bf3af4451ed1a092e047fca77bc506244c163dc5ec9bb5531f63346d`;
+the overnight-audit final is preserved as
 `_master_work/integration_backups/overnight-audit-20261013/prev-final-AP Book Final.html`,
 1,132,298,830 bytes, SHA-256
 `1f935d1ac2595b9c84ec81354c0b963867abda7c3d5506272a36941c4bd8a83b`.

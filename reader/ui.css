@@ -1,6 +1,14 @@
 
 /* ===== Book 2 reader UI layer (2026-10-12) =================================
    Presentation only. No source text, figure, table or disclosure changes.
+
+   2026-10-14 sidebar wave: each sidebar carries its own always-visible collapse
+   button at the top of the panel (`#left-close` / `#right-close`), the toolbar
+   keeps the matching toggle that reopens a hidden panel, and both controls
+   share the same state styling, focus ring and touch sizing.  The panels
+   themselves are still the plain grid columns of the shell stylesheet, so the
+   reading column expands into the space a collapsed panel gives up and the
+   panel can never cover the reading content on a desktop width.
    ========================================================================= */
 :root{
   --rail-w:300px;
@@ -146,3 +154,46 @@ aside.right{padding:0 0 24px;background:#fbfbfc;border-left:1px solid var(--line
   .rail-cover{width:88px}
 }
 @media print{.toolbar,aside.left,aside.right{display:none}}
+
+/* ---------- sidebar collapse controls (2026-10-14) ----------------------
+   The two sidebars and the toolbar carry the *same* two toggles:
+     a sidebar  -> `#left-close` / `#right-close`, pinned to the top of the
+                   panel and visible at every width (collapsing is therefore
+                   always one obvious click away, without a second control);
+     the toolbar-> `#left-toggle` / `#right-toggle`, which stay visible when a
+                   panel is hidden and show the panel's state.
+   `.drawer-close.panel-collapse` deliberately out-specifies the narrow-screen
+   `.drawer-close` rule of the shell stylesheet, so the same markup works as a
+   panel header on a desktop width and as the drawer's close button on a phone.
+   No transition is added: a sidebar toggle is an immediate layout change. */
+.drawer-close.panel-collapse{
+  display:flex;align-items:center;gap:7px;
+  position:sticky;top:0;z-index:2;
+  float:none;width:100%;min-width:0;min-height:36px;
+  margin:0;padding:8px 12px;border:0;border-bottom:1px solid var(--line);
+  border-radius:0;background:#fff;color:#31404f;
+  font:600 12px/1.2 Arial,sans-serif;letter-spacing:.02em;text-align:left;
+  cursor:pointer;
+}
+aside.right .drawer-close.panel-collapse{justify-content:flex-end;text-align:right}
+.drawer-close.panel-collapse:hover{background:#eef2f7;color:var(--accent)}
+.drawer-close.panel-collapse:active{background:var(--accent-soft)}
+.panel-collapse .pc-glyph{flex:0 0 auto;font-size:14px;line-height:1;color:#8b93a1}
+.drawer-close.panel-collapse:hover .pc-glyph{color:var(--accent)}
+/* `aria-expanded` is the state both controls agree on: the toolbar button of an
+   open panel is tinted, the one of a hidden panel is plain white. */
+.toolbar button[aria-expanded="true"]{background:var(--accent-soft);border-color:#b8cfe8}
+.toolbar button[aria-expanded="true"]:hover{background:#d8e6f7}
+
+/* ---------- visible focus for every reader control ---------- */
+.toolbar button:focus-visible,.toolbar input:focus-visible,
+.drawer-close.panel-collapse:focus-visible,
+aside.left a:focus-visible,aside.left summary:focus-visible,
+.tools select:focus-visible,.tools input:focus-visible,.tools button:focus-visible{
+  outline:2px solid var(--accent);outline-offset:2px;
+}
+
+@media screen and (max-width:850px){
+  /* the drawer close/collapse button keeps a touch-sized target on a phone */
+  .drawer-close.panel-collapse{min-height:44px;font-size:13px;padding:10px 12px}
+}
