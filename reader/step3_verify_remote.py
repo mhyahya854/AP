@@ -24,6 +24,16 @@ def git(*args):
                           check=True).stdout
 
 
+def live_remote_head():
+    """Ask GitHub directly for main, instead of trusting the tracking ref."""
+    try:
+        out = subprocess.run(['git', '-C', BASE, 'ls-remote', 'origin', 'refs/heads/main'],
+                             capture_output=True, text=True, check=True).stdout.split()
+        return out[0] if out else None
+    except Exception as exc:  # noqa: BLE001
+        return 'error: %s' % exc
+
+
 def main():
     patch = json.load(open(os.path.join(BASE, 'reports/contents_navigation/patch_report.json'), encoding='utf-8'))
     want_sha, want_bytes = patch['target_sha256'], patch['target_bytes']
@@ -31,14 +41,20 @@ def main():
               'expected': {'sha256': want_sha, 'bytes': want_bytes},
               'local_head': git('rev-parse', 'HEAD').strip(),
               'remote_head': git('rev-parse', 'origin/main').strip(),
-              'previous_head': patch['source_sha256']}
+              'remote_main_live': live_remote_head(),
+              'previous_artifact_sha256': patch['source_sha256'],
+              'note': ('head values are the commit at verification time; the artifact blob and its '
+                       'LFS pointer are unchanged by the docs-only commits that follow, which is '
+                       'checked by comparing the pointer blob id across those commits')}
     report['head_matches_remote'] = report['local_head'] == report['remote_head']
+    report['head_matches_live_remote'] = report['local_head'] == report['remote_main_live']
     tree = git('ls-tree', '-r', '--name-only', 'HEAD').splitlines()
     report['book_in_tree'] = BOOK in tree
     report['step3_files_in_tree'] = sorted(p for p in tree
                                            if p.startswith('reader/step3_') or p.startswith('reader/ui3.')
                                            or p.startswith('reports/contents_navigation/'))
     report['report_in_tree'] = 'docs/CONTENTS_NAVIGATION_FINAL_REPORT.md' in tree
+    report['book_blob_id'] = git('rev-parse', 'HEAD:' + BOOK).strip()
     pointer = git('show', 'HEAD:' + BOOK).strip().splitlines()
     report['book_lfs_pointer'] = pointer[:3]
     report['book_pointer_matches'] = (('oid sha256:%s' % want_sha) in pointer

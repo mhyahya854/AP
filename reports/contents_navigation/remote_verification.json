@@ -4,10 +4,13 @@
   "sha256": "2bff4ce2e75d767884672a983f470f9fb339d7088e7d9053925d8e3b351c777d",
   "bytes": 1132306770
  },
- "local_head": "5284c28a732fad8bd9cf4a01389bbae78f2209d6",
- "remote_head": "5284c28a732fad8bd9cf4a01389bbae78f2209d6",
- "previous_head": "ba63e34f36d7a9b35fc174b2fef6f15a0c70e9d6ab1063aa4451110eae18ff74",
+ "local_head": "02bd784d39601ec72a5c4d7b7842f1efd18a841f",
+ "remote_head": "02bd784d39601ec72a5c4d7b7842f1efd18a841f",
+ "remote_main_live": "02bd784d39601ec72a5c4d7b7842f1efd18a841f",
+ "previous_artifact_sha256": "ba63e34f36d7a9b35fc174b2fef6f15a0c70e9d6ab1063aa4451110eae18ff74",
+ "note": "head values are the commit at verification time; the artifact blob and its LFS pointer are unchanged by the docs-only commits that follow, which is checked by comparing the pointer blob id across those commits",
  "head_matches_remote": true,
+ "head_matches_live_remote": true,
  "book_in_tree": true,
  "step3_files_in_tree": [
   "reader/step3_boot.mjs",
@@ -24,6 +27,7 @@
   "reader/step3_promote.py",
   "reader/step3_scan.py",
   "reader/step3_summary.py",
+  "reader/step3_verify_remote.py",
   "reader/ui3.css",
   "reader/ui3.js",
   "reports/contents_navigation/acceptance/accept-both-closed-after-nav.png",
@@ -76,6 +80,7 @@
   "reports/contents_navigation/promotion_report.json",
   "reports/contents_navigation/region_digest.json",
   "reports/contents_navigation/region_index.json",
+  "reports/contents_navigation/remote_verification.json",
   "reports/contents_navigation/staged_counts.json",
   "reports/contents_navigation/staged_extract/aside-1-left-left.html",
   "reports/contents_navigation/staged_extract/aside-2-other-right.html",
@@ -87,6 +92,7 @@
   "reports/contents_navigation/staged_extract/script-5.js"
  ],
  "report_in_tree": true,
+ "book_blob_id": "2410f172668f0ba61dc65b2f692443bac0ed71a0",
  "book_lfs_pointer": [
   "version https://git-lfs.github.com/spec/v1",
   "oid sha256:2bff4ce2e75d767884672a983f470f9fb339d7088e7d9053925d8e3b351c777d",
@@ -106,7 +112,7 @@
   },
   "report": {
    "status": 200,
-   "bytes": "15186"
+   "bytes": "16316"
   },
   "ui3_js": {
    "status": 200,

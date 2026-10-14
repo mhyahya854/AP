@@ -173,6 +173,15 @@ across the book).
 | Mobile drawer after a Contents click (390×844, 320×700, 768×1024) | closed on **216 of 216** landings, and the desktop sidebar preference was untouched (1024 wide kept it open) |
 | Light and dark themes | the dark-mode pass landed identically (gap 14, active row correct), and the inline-colour mapping count is unchanged |
 
+The acceptance run above measured the staged candidate, which is byte-identical
+to the promoted file (`reports/contents_navigation/promotion_report.json`:
+`candidate_sha256 == final_sha256 == 2bff4ce2…`).  The promoted file was then
+re-probed on its own path, `file://…/repo/AP/AP Book Final.html`, in the same
+bounded session's closing pass (`_master_work/step3/post/post-probe.json`,
+17:49 UTC): 49 landings, **0 not below the toolbar**, 0 JavaScript errors, and
+the three sampled rows still active 2.6 s after the reader's own scroll-sync
+settled.
+
 ## 6. Preservation
 
 `reports/contents_navigation/region_digest.json` compares the accepted artifact
@@ -199,18 +208,51 @@ Everything the wave touched lives outside the article regions: the head
 stylesheet (one appended block), 58 sidebar rows in the left rail, the inline
 `reader/ui2.js` script, and one appended `<script>` element.
 
+### Independent byte-level audit
+
+Every number above was also re-derived from the promoted file alone, without
+the wave's instruments, by `reader/step3_independent_audit.py`
+(`reports/contents_navigation/published_artifact_audit.json`).  It streams the
+whole document once and counts structure; it reads no generator report:
+
+| Measured from the bytes | Result |
+|---|---|
+| SHA-256 / size of the audited file | `2bff4ce2…` / 1,132,306,770 bytes — the published bytes |
+| Regions | 1,899, `TMP-0001` … `TMP-1899`, ids in unbroken file order |
+| Heading anchors / group anchors | 383 / 10 |
+| Real `id="…"` attributes | 2,346 unique, **0 duplicates** |
+| Internal `href="#…"` fragments | 453 occurrences, 453 distinct targets, **0 unresolvable** |
+| `data-link-kind="region-begin"` rows | 58 |
+| Disclosure controls `details.disclosure` | 145 |
+| Printed-page label cells `class="nav-page"` | 506 |
+| `data-source-contents-id` bindings | 502 |
+| Layer markers | `window.book2Navigation` present, `--b2-nav-offset` present (3 declarations) |
+
+Two notes on that table, because they are the kind of thing that produces a
+false "duplicate id" claim.  A `data-table-id="table-toms-tires-0333-0334"`
+attribute contains the literal text `id="…"`; the audit's id pattern excludes
+it (`(?<![-\w])id="`), which is why the duplicate count is 0 rather than the 6
+`data-table-id` names a naive substring scan reports.  Counts that include the
+head stylesheet (`lg-badge` 328, `b2-desc-label` 156, `b2-vcredit` 4) are
+occurrences of the strings, not DOM nodes; the DOM census in
+`reports/contents_navigation/acceptance_summary.json` (151 Learning Goal badges,
+155 description labels, 506 printed-page cells) remains the authority for node
+counts.
+
 ## 7. Delivery
 
 | Field | Value |
 |---|---|
 | Full HTML changed | yes (shell only) |
 | Starting commit | `e99d26d0a4794119dc0b8a7be55744c7f99fd195` |
-| Artifact commit | `5284c28a732fad8bd9cf4a01389bbae78f2209d6` |
-| Final commit | `0cb3de70ddee3deea9474de0b9c96cfeee767273` (`main` == `origin/main`) |
+| Artifact commit | `5284c28a732fad8bd9cf4a01389bbae78f2209d6` — the navigation layer, the 58 rail rows turned into links, the 1.13 GB artifact and its evidence |
+| Verification commit | `02bd784d39601ec72a5c4d7b7842f1efd18a841f` — when the remote verification ran, `HEAD` == `origin/main` == the live remote `main` (`git ls-remote origin refs/heads/main`, not the local tracking ref) |
+| Docs commits after the artifact | `0cb3de70ddee3deea9474de0b9c96cfeee767273`, `02bd784…` and the commit carrying this table + the independent audit. None of them changes an artifact byte: the committed LFS pointer blob is `2410f172668f0ba61dc65b2f692443bac0ed71a0` in every one of them |
 | Size | 1,132,289,645 → 1,132,306,770 bytes (+17,125) |
 | SHA-256 | `2bff4ce2e75d767884672a983f470f9fb339d7088e7d9053925d8e3b351c777d` |
 | Previous artifact | preserved byte-exact as `_master_work/integration_backups/step3-20261014/prev-final-AP Book Final.html` (`ba63e34f…`) |
-| Remote verification | the commit, the remote tree (75 step-3 evidence paths), the committed LFS pointer (`oid sha256:2bff4ce2…`, `size 1132306770`), the local file and the public media endpoint (HTTP 200, `Content-Length 1132306770`) all agree — `reports/contents_navigation/remote_verification.json` |
+| Remote verification | the commit, the live remote ref, the remote tree (77 step-3 evidence paths), the committed LFS pointer (`oid sha256:2bff4ce2…`, `size 1132306770`), the local file and the public media endpoint (HTTP 200, `Content-Length 1132306770`) all agree — `reports/contents_navigation/remote_verification.json` |
+| Independent audit | `reader/step3_independent_audit.py` re-reads the promoted 1.13 GB file on its own and confirms the structure from the bytes: 1,899 regions in order, 383 headings, 2,346 unique ids with 0 duplicates, 453/453 fragments resolving — `reports/contents_navigation/published_artifact_audit.json` |
 | Rebuild | `python reader/step3_patch.py "AP Book Final.html" staged.html` re-derives the candidate byte for byte from the previous artifact (deterministic, with exact match-count assertions and a size-delta check) |
 
 ## 8. Remaining source limitations

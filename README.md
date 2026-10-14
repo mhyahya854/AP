@@ -105,6 +105,11 @@ on load and on browser Back/Forward. 453 rows are linked (383 verified heading
 anchors, 58 source captures whose first words are the row's own title, 10 group
 anchors and 2 older capture links); the remaining 73 are held with a measured
 reason. See [`docs/CONTENTS_NAVIGATION_FINAL_REPORT.md`](docs/CONTENTS_NAVIGATION_FINAL_REPORT.md).
+That report's numbers are re-derived from the published file alone —
+`reader/step3_independent_audit.py` counts 1,899 regions in file order, 383
+heading anchors, 2,346 unique ids with no duplicates and 453 of 453 internal
+fragments resolving — and from a bounded headless-Chrome pass over `file://` at
+six viewports × three reading modes.
 
 The right-hand page-reference cell shows the printed labels of the
 user-supplied numbered Contents list (500 numbered entries): **506 cells**, for
