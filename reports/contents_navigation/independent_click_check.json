@@ -1,0 +1,607 @@
+{
+ "schema": "book2.step3.independent_click_check.v1",
+ "fileUrl": "file:///C:/Users/mhyah/Downloads/book-source/Word/_master_work/repo/AP/AP%20Book%20Final.html",
+ "startedAt": "2026-10-14T19:42:16.435Z",
+ "gate": {
+  "rs": "complete",
+  "regions": 1899,
+  "nav": true,
+  "sem": true,
+  "rows": 515
+ },
+ "toolbarAt": {
+  "hash": "",
+  "modeBadge": "Continuous",
+  "counter": "Section 1 / 10 · Front matter",
+  "toolbarBottom": 62,
+  "mainTop": 0,
+  "mainBottom": 1000,
+  "targetTag": null,
+  "targetId": null,
+  "targetTop": null,
+  "targetBottom": null,
+  "gapBelowToolbar": null,
+  "belowToolbar": false,
+  "inViewport": false,
+  "region": null,
+  "active": {
+   "href": "#book-heading-0001",
+   "title": "xiiiBusiness with Personal Finance"
+  },
+  "navOffset": "76px",
+  "scrollTop": 0,
+  "drawer": {
+   "appLeftClosed": false,
+   "panelWidth": 300,
+   "panelLeft": 0
+  }
+ },
+ "rows": [
+  {
+   "name": "continuous/region-begin-row",
+   "expected": {
+    "href": "#TMP-0119",
+    "region": "TMP-0119",
+    "belowToolbar": true,
+    "activeRow": "#TMP-0119"
+   },
+   "measured": {
+    "clicked": {
+     "clicked": true,
+     "wasVisible": true,
+     "text": "4Businesses Meet Needs and Solve Problems"
+    },
+    "landing": {
+     "hash": "#TMP-0119",
+     "modeBadge": "Continuous",
+     "counter": "Section 2 / 10 · Unit 1 Businesses, Competition, and New Ideas",
+     "toolbarBottom": 62,
+     "mainTop": 0,
+     "mainBottom": 1000,
+     "targetTag": "ARTICLE",
+     "targetId": "TMP-0119",
+     "targetTop": 76,
+     "targetBottom": 457,
+     "gapBelowToolbar": 14,
+     "belowToolbar": true,
+     "inViewport": true,
+     "region": "TMP-0119",
+     "active": {
+      "href": "#TMP-0119",
+      "title": "4Businesses Meet Needs and Solve Problems"
+     },
+     "navOffset": "76px",
+     "scrollTop": 38167,
+     "drawer": {
+      "appLeftClosed": false,
+      "panelWidth": 300,
+      "panelLeft": 0
+     }
+    }
+   },
+   "pass": true,
+   "note": null
+  },
+  {
+   "name": "continuous/last-linked-row",
+   "expected": {
+    "href": "#book-heading-0383",
+    "belowToolbar": true,
+    "inViewport": true
+   },
+   "measured": {
+    "clicked": {
+     "clicked": true,
+     "wasVisible": true,
+     "text": "440Glossary/Glosario"
+    },
+    "landing": {
+     "hash": "#book-heading-0383",
+     "modeBadge": "Continuous",
+     "counter": "Section 10 / 10 · Glossary/Glosario",
+     "toolbarBottom": 62,
+     "mainTop": 0,
+     "mainBottom": 1000,
+     "targetTag": "P",
+     "targetId": "book-heading-0383",
+     "targetTop": 76,
+     "targetBottom": 121,
+     "gapBelowToolbar": 14,
+     "belowToolbar": true,
+     "inViewport": true,
+     "region": "TMP-1793",
+     "active": {
+      "href": "#book-heading-0383",
+      "title": "440Glossary/Glosario"
+     },
+     "navOffset": "76px",
+     "scrollTop": 702109,
+     "drawer": {
+      "appLeftClosed": false,
+      "panelWidth": 300,
+      "panelLeft": 0
+     }
+    },
+    "railRows": 383
+   },
+   "pass": true,
+   "note": null
+  },
+  {
+   "name": "section/cross-section-row",
+   "expected": {
+    "href": "#book-heading-0121",
+    "modeKept": "Section",
+    "belowToolbar": true,
+    "activeRow": "#book-heading-0121"
+   },
+   "measured": {
+    "clicked": {
+     "clicked": true,
+     "wasVisible": true,
+     "text": "125Technology and Innovation"
+    },
+    "landing": {
+     "hash": "#book-heading-0121",
+     "modeBadge": "Section 121/383",
+     "counter": "Section 121 of 383 · Technology and Innovation",
+     "toolbarBottom": 62,
+     "mainTop": 0,
+     "mainBottom": 1000,
+     "targetTag": "P",
+     "targetId": "book-heading-0121",
+     "targetTop": 76,
+     "targetBottom": 97,
+     "gapBelowToolbar": 14,
+     "belowToolbar": true,
+     "inViewport": true,
+     "region": "TMP-0561",
+     "active": {
+      "href": "#book-heading-0121",
+      "title": "125Technology and Innovation"
+     },
+     "navOffset": "76px",
+     "scrollTop": 18,
+     "drawer": {
+      "appLeftClosed": false,
+      "panelWidth": 300,
+      "panelLeft": 0
+     }
+    }
+   },
+   "pass": true,
+   "note": "Section 121 of 383 · Technology and Innovation"
+  },
+  {
+   "name": "section/second-cross-section-row",
+   "expected": {
+    "href": "#book-heading-0301",
+    "belowToolbar": true,
+    "activeRow": "#book-heading-0301"
+   },
+   "measured": {
+    "clicked": {
+     "clicked": true,
+     "wasVisible": true,
+     "text": "340Employee Motivation"
+    },
+    "landing": {
+     "hash": "#book-heading-0301",
+     "modeBadge": "Section 301/383",
+     "counter": "Section 301 of 383 · Employee Motivation",
+     "toolbarBottom": 62,
+     "mainTop": 0,
+     "mainBottom": 1000,
+     "targetTag": "P",
+     "targetId": "book-heading-0301",
+     "targetTop": 74,
+     "targetBottom": 109,
+     "gapBelowToolbar": 12,
+     "belowToolbar": true,
+     "inViewport": true,
+     "region": "TMP-1340",
+     "active": {
+      "href": "#book-heading-0301",
+      "title": "340Employee Motivation"
+     },
+     "navOffset": "76px",
+     "scrollTop": 0,
+     "drawer": {
+      "appLeftClosed": false,
+      "panelWidth": 300,
+      "panelLeft": 0
+     }
+    }
+   },
+   "pass": true,
+   "note": "Section 301 of 383 · Employee Motivation"
+  },
+  {
+   "name": "source-capture/cross-capture-row",
+   "expected": {
+    "href": "#book-heading-0201",
+    "counter": "Source capture n of 1899",
+    "belowToolbar": true
+   },
+   "measured": {
+    "clicked": {
+     "clicked": true,
+     "wasVisible": true,
+     "text": "207Barriers to Saving"
+    },
+    "landing": {
+     "hash": "#book-heading-0201",
+     "modeBadge": "Source capture",
+     "counter": "Source capture 882 of 1899",
+     "toolbarBottom": 62,
+     "mainTop": 0,
+     "mainBottom": 1000,
+     "targetTag": "P",
+     "targetId": "book-heading-0201",
+     "targetTop": 299,
+     "targetBottom": 339,
+     "gapBelowToolbar": 237,
+     "belowToolbar": true,
+     "inViewport": true,
+     "region": "TMP-0882",
+     "active": {
+      "href": "#book-heading-0201",
+      "title": "207Barriers to Saving"
+     },
+     "navOffset": "76px",
+     "scrollTop": 0,
+     "drawer": {
+      "appLeftClosed": false,
+      "panelWidth": 300,
+      "panelLeft": 0
+     }
+    }
+   },
+   "pass": true,
+   "note": "Source capture 882 of 1899"
+  },
+  {
+   "name": "mode-round-trip/source-capture-to-continuous",
+   "expected": {
+    "hash": "#book-heading-0201",
+    "inViewport": true
+   },
+   "measured": {
+    "before": {
+     "hash": "#book-heading-0201",
+     "modeBadge": "Source capture",
+     "counter": "Source capture 882 of 1899",
+     "toolbarBottom": 62,
+     "mainTop": 0,
+     "mainBottom": 1000,
+     "targetTag": "P",
+     "targetId": "book-heading-0201",
+     "targetTop": 299,
+     "targetBottom": 339,
+     "gapBelowToolbar": 237,
+     "belowToolbar": true,
+     "inViewport": true,
+     "region": "TMP-0882",
+     "active": {
+      "href": "#book-heading-0201",
+      "title": "207Barriers to Saving"
+     },
+     "navOffset": "76px",
+     "scrollTop": 0,
+     "drawer": {
+      "appLeftClosed": false,
+      "panelWidth": 300,
+      "panelLeft": 0
+     }
+    },
+    "after": {
+     "hash": "#book-heading-0201",
+     "modeBadge": "Continuous",
+     "counter": "Section 4 / 10 · Unit 3 / Part 1 Personal Saving and Borrowing",
+     "toolbarBottom": 62,
+     "mainTop": 0,
+     "mainBottom": 1000,
+     "targetTag": "P",
+     "targetId": "book-heading-0201",
+     "targetTop": 256,
+     "targetBottom": 296,
+     "gapBelowToolbar": 194,
+     "belowToolbar": true,
+     "inViewport": true,
+     "region": "TMP-0882",
+     "active": {
+      "href": "#book-heading-0200",
+      "title": "206Other Incentives to Save"
+     },
+     "navOffset": "76px",
+     "scrollTop": 305516,
+     "drawer": {
+      "appLeftClosed": false,
+      "panelWidth": 300,
+      "panelLeft": 0
+     }
+    }
+   },
+   "pass": true,
+   "note": null
+  },
+  {
+   "name": "history/back-and-forward",
+   "expected": {
+    "a": "#book-heading-0041",
+    "b": "#book-heading-0281"
+   },
+   "measured": {
+    "atA": {
+     "hash": "#book-heading-0041",
+     "modeBadge": "Continuous",
+     "counter": "Section 2 / 10 · Unit 1 Businesses, Competition, and New Ideas",
+     "toolbarBottom": 62,
+     "mainTop": 0,
+     "mainBottom": 1000,
+     "targetTag": "P",
+     "targetId": "book-heading-0041",
+     "targetTop": 76,
+     "targetBottom": 114,
+     "gapBelowToolbar": 14,
+     "belowToolbar": true,
+     "inViewport": true,
+     "region": "TMP-0236",
+     "active": {
+      "href": "#book-heading-0041",
+      "title": "39Pathways to Product Ideas"
+     },
+     "navOffset": "76px",
+     "scrollTop": 76673,
+     "drawer": {
+      "appLeftClosed": false,
+      "panelWidth": 300,
+      "panelLeft": 0
+     }
+    },
+    "atB": {
+     "hash": "#book-heading-0281",
+     "modeBadge": "Continuous",
+     "counter": "Section 5 / 10 · Unit 3 / Part 2 Business Finance and Accounting",
+     "toolbarBottom": 62,
+     "mainTop": 0,
+     "mainBottom": 1000,
+     "targetTag": "P",
+     "targetId": "book-heading-0281",
+     "targetTop": 76,
+     "targetBottom": 148,
+     "gapBelowToolbar": 14,
+     "belowToolbar": true,
+     "inViewport": true,
+     "region": "TMP-1240",
+     "active": {
+      "href": "#book-heading-0281",
+      "title": "319Module 3.9 Ethics and Financial Reporting"
+     },
+     "navOffset": "76px",
+     "scrollTop": 449435,
+     "drawer": {
+      "appLeftClosed": false,
+      "panelWidth": 300,
+      "panelLeft": 0
+     }
+    },
+    "back": {
+     "hash": "#book-heading-0041",
+     "modeBadge": "Continuous",
+     "counter": "Section 2 / 10 · Unit 1 Businesses, Competition, and New Ideas",
+     "toolbarBottom": 62,
+     "mainTop": 0,
+     "mainBottom": 1000,
+     "targetTag": "P",
+     "targetId": "book-heading-0041",
+     "targetTop": 76,
+     "targetBottom": 114,
+     "gapBelowToolbar": 14,
+     "belowToolbar": true,
+     "inViewport": true,
+     "region": "TMP-0236",
+     "active": {
+      "href": "#book-heading-0041",
+      "title": "39Pathways to Product Ideas"
+     },
+     "navOffset": "76px",
+     "scrollTop": 76673,
+     "drawer": {
+      "appLeftClosed": false,
+      "panelWidth": 300,
+      "panelLeft": 0
+     }
+    },
+    "fwd": {
+     "hash": "#book-heading-0281",
+     "modeBadge": "Continuous",
+     "counter": "Section 5 / 10 · Unit 3 / Part 2 Business Finance and Accounting",
+     "toolbarBottom": 62,
+     "mainTop": 0,
+     "mainBottom": 1000,
+     "targetTag": "P",
+     "targetId": "book-heading-0281",
+     "targetTop": 76,
+     "targetBottom": 148,
+     "gapBelowToolbar": 14,
+     "belowToolbar": true,
+     "inViewport": true,
+     "region": "TMP-1240",
+     "active": {
+      "href": "#book-heading-0281",
+      "title": "319Module 3.9 Ethics and Financial Reporting"
+     },
+     "navOffset": "76px",
+     "scrollTop": 449435,
+     "drawer": {
+      "appLeftClosed": false,
+      "panelWidth": 300,
+      "panelLeft": 0
+     }
+    }
+   },
+   "pass": true,
+   "note": null
+  },
+  {
+   "name": "repeat/same-row-twice",
+   "expected": {
+    "href": "#book-heading-0042"
+   },
+   "measured": {
+    "first": {
+     "hash": "#book-heading-0042",
+     "modeBadge": "Continuous",
+     "counter": "Section 2 / 10 · Unit 1 Businesses, Competition, and New Ideas",
+     "toolbarBottom": 62,
+     "mainTop": 0,
+     "mainBottom": 1000,
+     "targetTag": "P",
+     "targetId": "book-heading-0042",
+     "targetTop": 76,
+     "targetBottom": 119,
+     "gapBelowToolbar": 14,
+     "belowToolbar": true,
+     "inViewport": true,
+     "region": "TMP-0252",
+     "active": {
+      "href": "#book-heading-0042",
+      "title": "43The Design-Thinking Process"
+     },
+     "navOffset": "76px",
+     "scrollTop": 83616,
+     "drawer": {
+      "appLeftClosed": false,
+      "panelWidth": 300,
+      "panelLeft": 0
+     }
+    },
+    "second": {
+     "hash": "#book-heading-0042",
+     "modeBadge": "Continuous",
+     "counter": "Section 2 / 10 · Unit 1 Businesses, Competition, and New Ideas",
+     "toolbarBottom": 62,
+     "mainTop": 0,
+     "mainBottom": 1000,
+     "targetTag": "P",
+     "targetId": "book-heading-0042",
+     "targetTop": 76,
+     "targetBottom": 119,
+     "gapBelowToolbar": 14,
+     "belowToolbar": true,
+     "inViewport": true,
+     "region": "TMP-0252",
+     "active": {
+      "href": "#book-heading-0042",
+      "title": "43The Design-Thinking Process"
+     },
+     "navOffset": "76px",
+     "scrollTop": 83616,
+     "drawer": {
+      "appLeftClosed": false,
+      "panelWidth": 300,
+      "panelLeft": 0
+     }
+    }
+   },
+   "pass": true,
+   "note": "scrollTop 83616 then 83616"
+  },
+  {
+   "name": "deeplink/load-with-hash",
+   "expected": {
+    "hash": "#book-heading-0200",
+    "belowToolbar": true
+   },
+   "measured": {
+    "hash": "#book-heading-0200",
+    "modeBadge": "Continuous",
+    "counter": "Section 4 / 10 · Unit 3 / Part 1 Personal Saving and Borrowing",
+    "toolbarBottom": 62,
+    "mainTop": 0,
+    "mainBottom": 1000,
+    "targetTag": "P",
+    "targetId": "book-heading-0200",
+    "targetTop": 76,
+    "targetBottom": 116,
+    "gapBelowToolbar": 14,
+    "belowToolbar": true,
+    "inViewport": true,
+    "region": "TMP-0880",
+    "active": {
+     "href": "#book-heading-0200",
+     "title": "206Other Incentives to Save"
+    },
+    "navOffset": "76px",
+    "scrollTop": 307500,
+    "drawer": {
+     "appLeftClosed": false,
+     "panelWidth": 300,
+     "panelLeft": 0
+    }
+   },
+   "pass": true,
+   "note": "Section 4 / 10 · Unit 3 / Part 1 Personal Saving and Borrowing :: gap 14"
+  },
+  {
+   "name": "mobile/drawer-closes-after-navigation",
+   "expected": {
+    "href": "#book-heading-0151",
+    "drawerClosed": true,
+    "belowToolbar": true
+   },
+   "measured": {
+    "drawerAfterOpen": {
+     "appLeftClosed": false,
+     "panelWidth": 280,
+     "panelLeft": 0
+    },
+    "afterClick": {
+     "appLeftClosed": true,
+     "panelWidth": 0,
+     "panelLeft": 0
+    },
+    "clicked": {
+     "clicked": true,
+     "wasVisible": true,
+     "text": "153Production"
+    },
+    "landing": {
+     "hash": "#book-heading-0151",
+     "modeBadge": "Continuous",
+     "counter": "Section 3 / 10 · Unit 2 Marketing",
+     "toolbarBottom": 82,
+     "mainTop": 0,
+     "mainBottom": 844,
+     "targetTag": "P",
+     "targetId": "book-heading-0151",
+     "targetTop": 96,
+     "targetBottom": 137,
+     "gapBelowToolbar": 14,
+     "belowToolbar": true,
+     "inViewport": true,
+     "region": "TMP-0663",
+     "active": {
+      "href": "#book-heading-0151",
+      "title": "153Production"
+     },
+     "navOffset": "96px",
+     "scrollTop": 569743,
+     "drawer": {
+      "appLeftClosed": true,
+      "panelWidth": 0,
+      "panelLeft": 0
+     }
+    }
+   },
+   "pass": true,
+   "note": "gap 14"
+  }
+ ],
+ "landings": 10,
+ "failures": [],
+ "regionGate": "1899 regions required before any measurement",
+ "jsErrors": [],
+ "finishedAt": "2026-10-14T19:44:10.462Z"
+}

@@ -182,6 +182,27 @@ bounded session's closing pass (`_master_work/step3/post/post-probe.json`,
 the three sampled rows still active 2.6 s after the reader's own scroll-sync
 settled.
 
+A third pass was written separately from the probe and shares none of its
+measurement code (`reader/step3_click_check.mjs`, output
+`reports/contents_navigation/independent_click_check.json`).  It refuses to
+measure unless the page really is the artifact (1,899 regions plus the
+navigation layer), then clicks rows itself and reads the toolbar, the reading
+container and the target from the DOM.  **10 of 10 rows passed, 0 JavaScript
+errors**, at 1400×1000 and 390×844:
+
+| Row | Measured |
+|---|---|
+| region-begin row `#TMP-0119` | lands in `TMP-0119`, gap 14 px, that row active |
+| last linked row in the rail | `#book-heading-0383` in region `TMP-1793`, gap 14 px |
+| Section mode, cross-section row | mode stays Section, `Section 121 of 383 · Technology and Innovation`, gap 14 px |
+| Section mode, second cross-section row | `Section 301 of 383 · Employee Motivation`, gap 12 px |
+| Source capture, cross-capture row | mode stays Source capture, `Source capture 882 of 1899`, heading visible |
+| mode round trip → Continuous | same element, same hash, still below the toolbar |
+| Back / Forward | both landings below the toolbar with the right hash and active row |
+| same row clicked twice | identical `scrollTop` (83,616) both times |
+| deep link on load `#book-heading-0200` | gap 14 px, `Section 4 / 10 · Unit 3 …`, row active |
+| mobile drawer after a row click | drawer closed, gap 14 px, measured offset 96 px against the desktop's 76 px |
+
 ## 6. Preservation
 
 `reports/contents_navigation/region_digest.json` compares the accepted artifact
@@ -253,6 +274,7 @@ counts.
 | Previous artifact | preserved byte-exact as `_master_work/integration_backups/step3-20261014/prev-final-AP Book Final.html` (`ba63e34f…`) |
 | Remote verification | the commit, the live remote ref, the remote tree (77 step-3 evidence paths), the committed LFS pointer (`oid sha256:2bff4ce2…`, `size 1132306770`), the local file and the public media endpoint (HTTP 200, `Content-Length 1132306770`) all agree — `reports/contents_navigation/remote_verification.json` |
 | Independent audit | `reader/step3_independent_audit.py` re-reads the promoted 1.13 GB file on its own and confirms the structure from the bytes: 1,899 regions in order, 383 headings, 2,346 unique ids with 0 duplicates, 453/453 fragments resolving — `reports/contents_navigation/published_artifact_audit.json` |
+| Independent click check | `reader/step3_click_check.mjs` drives a separate CDP Chrome and clicks rows itself: 10/10 landed below the toolbar with the right row active, 0 JavaScript errors — `reports/contents_navigation/independent_click_check.json` |
 | Rebuild | `python reader/step3_patch.py "AP Book Final.html" staged.html` re-derives the candidate byte for byte from the previous artifact (deterministic, with exact match-count assertions and a size-delta check) |
 
 ## 8. Remaining source limitations
