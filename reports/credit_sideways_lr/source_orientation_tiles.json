@@ -1,0 +1,177 @@
+[
+ {
+  "region": "TMP-0681",
+  "credit": "Paul Brady/Alamy Stock Photo",
+  "needles": [
+   "paul",
+   "brady",
+   "paulbrady",
+   "paulbradyalamystockphoto"
+  ],
+  "tile_hits": {
+   "as_is": [],
+   "rot_cw": [
+    {
+     "tile": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\credit_fix\\tmp\\TMP-0681-tiles\\tile-0-2.png",
+     "row": 0,
+     "col": 2,
+     "box": [
+      3192,
+      0,
+      5262,
+      2019
+     ],
+     "words": [
+      "paul",
+      "brady",
+      "paulbrady",
+      "paulbradyalamystockphoto"
+     ]
+    }
+   ],
+   "rot_ccw": []
+  },
+  "verdict_tiles": "vertical_up"
+ },
+ {
+  "region": "TMP-1289",
+  "credit": "Eising/Getty Images",
+  "needles": [
+   "eising",
+   "eisinggettyimages"
+  ],
+  "tile_hits": {
+   "as_is": [],
+   "rot_cw": [
+    {
+     "tile": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\credit_fix\\tmp\\TMP-1289-tiles\\tile-0-1.png",
+     "row": 0,
+     "col": 1,
+     "box": [
+      1438,
+      0,
+      3823,
+      2019
+     ],
+     "words": [
+      "eising",
+      "eisinggettyimages"
+     ]
+    },
+    {
+     "tile": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\credit_fix\\tmp\\TMP-1289-tiles\\tile-0-2.png",
+     "row": 0,
+     "col": 2,
+     "box": [
+      3192,
+      0,
+      5262,
+      2019
+     ],
+     "words": [
+      "eising",
+      "eisinggettyimages"
+     ]
+    }
+   ],
+   "rot_ccw": []
+  },
+  "verdict_tiles": "vertical_up"
+ },
+ {
+  "region": "TMP-1518",
+  "credit": "Kim Kulish/Getty Images",
+  "needles": [
+   "kulish",
+   "kimkulish",
+   "kimkulishgettyimages"
+  ],
+  "tile_hits": {
+   "as_is": [],
+   "rot_cw": [
+    {
+     "tile": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\credit_fix\\tmp\\TMP-1518-tiles\\tile-0-1.png",
+     "row": 0,
+     "col": 1,
+     "box": [
+      1438,
+      0,
+      3823,
+      2019
+     ],
+     "words": [
+      "kulish",
+      "kimkulish",
+      "kimkulishgettyimages"
+     ]
+    },
+    {
+     "tile": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\credit_fix\\tmp\\TMP-1518-tiles\\tile-0-2.png",
+     "row": 0,
+     "col": 2,
+     "box": [
+      3192,
+      0,
+      5262,
+      2019
+     ],
+     "words": [
+      "kulish",
+      "kimkulish",
+      "kimkulishgettyimages"
+     ]
+    }
+   ],
+   "rot_ccw": []
+  },
+  "verdict_tiles": "vertical_up"
+ },
+ {
+  "region": "TMP-1529",
+  "credit": "Nora Carol Photography/Getty Images",
+  "needles": [
+   "nora",
+   "carol",
+   "noracarolphotography",
+   "noracarolphotographygettyimages"
+  ],
+  "tile_hits": {
+   "as_is": [],
+   "rot_cw": [
+    {
+     "tile": "C:\\Users\\mhyah\\Downloads\\book-source\\Word\\_master_work\\credit_fix\\tmp\\TMP-1529-tiles\\tile-0-2.png",
+     "row": 0,
+     "col": 2,
+     "box": [
+      3192,
+      0,
+      5262,
+      2019
+     ],
+     "words": [
+      "nora",
+      "carol",
+      "noracarolphotography",
+      "noracarolphotographygettyimages"
+     ]
+    }
+   ],
+   "rot_ccw": []
+  },
+  "verdict_tiles": "vertical_up"
+ },
+ {
+  "region": "TMP-1665",
+  "credit": "jubahphoto/Getty Images",
+  "needles": [
+   "jubahphoto",
+   "jubahphotogettyimages"
+  ],
+  "tile_hits": {
+   "as_is": [],
+   "rot_cw": [],
+   "rot_ccw": []
+  },
+  "verdict_tiles": "not_found"
+ }
+]
