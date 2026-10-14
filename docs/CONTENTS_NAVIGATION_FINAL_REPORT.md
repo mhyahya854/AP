@@ -12,6 +12,7 @@ design.
 | Starting commit | `e99d26d0a4794119dc0b8a7be55744c7f99fd195` |
 | Starting artifact | `AP Book Final.html`, 1,132,289,645 bytes, SHA-256 `ba63e34f36d7a9b35fc174b2fef6f15a0c70e9d6ab1063aa4451110eae18ff74` |
 | Staged candidate | `reader/AP-Book-Final-step3-staged.html` |
+| Final artifact | `AP Book Final.html`, 1,132,306,770 bytes, SHA-256 `2bff4ce2e75d767884672a983f470f9fb339d7088e7d9053925d8e3b351c777d` |
 | Mechanism | `reader/ui3.css` + `reader/ui3.js` (new, additive), four additive hooks in `reader/ui2.js`, and 58 verified sidebar rows turned into links |
 | Source regions changed | **none** — all 1,899 regions are byte-identical, in the same order |
 
@@ -203,9 +204,13 @@ stylesheet (one appended block), 58 sidebar rows in the left rail, the inline
 | Field | Value |
 |---|---|
 | Full HTML changed | yes (shell only) |
-| Size | 1,132,289,645 → 1,132,305,709 bytes (+16,064) |
-| SHA-256 | `28c0de55191655bfe63dbdf9fc68277fb5fac99ed610e2fe06cfadcd734c1af4` |
-| Remote verification | see `reports/contents_navigation/remote_verification.json` |
+| Starting commit | `e99d26d0a4794119dc0b8a7be55744c7f99fd195` |
+| Final commit | `5284c28a732fad8bd9cf4a01389bbae78f2209d6` (`main` == `origin/main`) |
+| Size | 1,132,289,645 → 1,132,306,770 bytes (+17,125) |
+| SHA-256 | `2bff4ce2e75d767884672a983f470f9fb339d7088e7d9053925d8e3b351c777d` |
+| Previous artifact | preserved byte-exact as `_master_work/integration_backups/step3-20261014/prev-final-AP Book Final.html` (`ba63e34f…`) |
+| Remote verification | the commit, the remote tree (75 step-3 evidence paths), the committed LFS pointer (`oid sha256:2bff4ce2…`, `size 1132306770`), the local file and the public media endpoint (HTTP 200, `Content-Length 1132306770`) all agree — `reports/contents_navigation/remote_verification.json` |
+| Rebuild | `python reader/step3_patch.py "AP Book Final.html" staged.html` re-derives the candidate byte for byte from the previous artifact (deterministic, with exact match-count assertions and a size-delta check) |
 
 ## 8. Remaining source limitations
 
