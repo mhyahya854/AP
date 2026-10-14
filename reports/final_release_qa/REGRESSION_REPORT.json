@@ -1,0 +1,56 @@
+{
+ "schema": "book2.release.regression_report.v1",
+ "artifact_changed_by_this_run": false,
+ "artifact_sha256": "2bff4ce2e75d767884672a983f470f9fb339d7088e7d9053925d8e3b351c777d",
+ "baseline_sha256": "2bff4ce2e75d767884672a983f470f9fb339d7088e7d9053925d8e3b351c777d",
+ "baseline_matches": true,
+ "regions_vs_previous_accepted_artifact": {
+  "source": "reports/contents_navigation/region_digest.json (previous promotion wave)",
+  "regions_identical": 1899,
+  "differing": 0,
+  "order_preserved": true
+ },
+ "independent_re_measurements_this_run": {
+  "regions": {
+   "bytes": 1899,
+   "dom": 1899
+  },
+  "heading_anchors": 383,
+  "duplicate_ids": [],
+  "broken_fragments": [],
+  "internal_links": null,
+  "disclosures": {
+   "total": 155,
+   "hidden_when_closed": 155,
+   "shown_when_open": 155
+  },
+  "learning_goal_badges": 151,
+  "printed_page_cells": 506,
+  "images_decoded": 417,
+  "tables": 1478
+ },
+ "existing_pass_results_challenged": [
+  {
+   "claim": "all 155 disclosures functional",
+   "challenged_by": "independent geometry + checkVisibility",
+   "outcome": "confirmed"
+  },
+  {
+   "claim": "453 links land precisely",
+   "challenged_by": "clicking all 453 and re-clicking the 19 slow ones",
+   "outcome": "confirmed"
+  },
+  {
+   "claim": "dark mode safe",
+   "challenged_by": "5-cycle inline-style drift test + pixel contrast",
+   "outcome": "confirmed (no drift, no image filter)"
+  },
+  {
+   "claim": "no duplicate ids / no broken fragments",
+   "challenged_by": "streaming byte audit of the shipped file",
+   "outcome": "confirmed"
+  }
+ ],
+ "js_errors_total": 0,
+ "crashes_or_freezes": 0
+}

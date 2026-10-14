@@ -1,0 +1,354 @@
+[
+ {
+  "name": "cover-title",
+  "selector": "#TMP-0001",
+  "theme": "light",
+  "clip": {
+   "x": 318,
+   "y": 41,
+   "w": 788,
+   "h": 600,
+   "theme": "light",
+   "text": "BUSINESSWITHPERSONALFINANCEfor the AP® CourseDavid A. An",
+   "fontPx": 14,
+   "weight": "400"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-cover-title-light.png"
+ },
+ {
+  "name": "cover-title",
+  "selector": "#TMP-0001",
+  "theme": "dark",
+  "clip": {
+   "x": 318,
+   "y": 41,
+   "w": 788,
+   "h": 600,
+   "theme": "dark",
+   "text": "BUSINESSWITHPERSONALFINANCEfor the AP® CourseDavid A. An",
+   "fontPx": 14,
+   "weight": "400"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-cover-title-dark.png"
+ },
+ {
+  "name": "body-paragraph",
+  "selector": "#TMP-0119",
+  "theme": "light",
+  "clip": {
+   "x": 318,
+   "y": 347,
+   "w": 788,
+   "h": 382,
+   "theme": "light",
+   "text": "Businesses Meet Needs and SolveProblemsLGWhat is a busin",
+   "fontPx": 14,
+   "weight": "400"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-body-paragraph-light.png"
+ },
+ {
+  "name": "body-paragraph",
+  "selector": "#TMP-0119",
+  "theme": "dark",
+  "clip": {
+   "x": 318,
+   "y": 347,
+   "w": 788,
+   "h": 382,
+   "theme": "dark",
+   "text": "Businesses Meet Needs and SolveProblemsLGWhat is a busin",
+   "fontPx": 14,
+   "weight": "400"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-body-paragraph-dark.png"
+ },
+ {
+  "name": "module-heading",
+  "selector": "#book-heading-0117",
+  "theme": "light",
+  "clip": {
+   "x": 371,
+   "y": 527,
+   "w": 683,
+   "h": 22,
+   "theme": "light",
+   "text": "How Consumers Make Decisions",
+   "fontPx": 18.6667,
+   "weight": "700"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-module-heading-light.png"
+ },
+ {
+  "name": "module-heading",
+  "selector": "#book-heading-0117",
+  "theme": "dark",
+  "clip": {
+   "x": 371,
+   "y": 527,
+   "w": 683,
+   "h": 22,
+   "theme": "dark",
+   "text": "How Consumers Make Decisions",
+   "fontPx": 18.6667,
+   "weight": "700"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-module-heading-dark.png"
+ },
+ {
+  "name": "table-cell",
+  "selector": "#TMP-0333",
+  "theme": "light",
+  "clip": {
+   "x": 318,
+   "y": 433,
+   "w": 788,
+   "h": 210,
+   "theme": "light",
+   "text": "ramifications of their fraudulent behavior, these compan",
+   "fontPx": 14,
+   "weight": "400"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-table-cell-light.png"
+ },
+ {
+  "name": "table-cell",
+  "selector": "#TMP-0333",
+  "theme": "dark",
+  "clip": {
+   "x": 318,
+   "y": 433,
+   "w": 788,
+   "h": 210,
+   "theme": "dark",
+   "text": "ramifications of their fraudulent behavior, these compan",
+   "fontPx": 14,
+   "weight": "400"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-table-cell-dark.png"
+ },
+ {
+  "name": "lg-badge",
+  "selector": ".lg-badge",
+  "theme": "light",
+  "clip": {
+   "x": 383,
+   "y": 522,
+   "w": 73,
+   "h": 32,
+   "theme": "light",
+   "text": "LG",
+   "fontPx": 23.04,
+   "weight": "700"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-lg-badge-light.png"
+ },
+ {
+  "name": "lg-badge",
+  "selector": ".lg-badge",
+  "theme": "dark",
+  "clip": {
+   "x": 383,
+   "y": 522,
+   "w": 73,
+   "h": 32,
+   "theme": "dark",
+   "text": "LG",
+   "fontPx": 23.04,
+   "weight": "700"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-lg-badge-dark.png"
+ },
+ {
+  "name": "disclosure-summary",
+  "selector": "details.disclosure > summary",
+  "theme": "light",
+  "clip": {
+   "x": 372,
+   "y": 521,
+   "w": 681,
+   "h": 32,
+   "theme": "light",
+   "text": "Extended description for Front Cover",
+   "fontPx": 12.5,
+   "weight": "600"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-disclosure-summary-light.png"
+ },
+ {
+  "name": "disclosure-summary",
+  "selector": "details.disclosure > summary",
+  "theme": "dark",
+  "clip": {
+   "x": 372,
+   "y": 521,
+   "w": 681,
+   "h": 32,
+   "theme": "dark",
+   "text": "Extended description for Front Cover",
+   "fontPx": 12.5,
+   "weight": "600"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-disclosure-summary-dark.png"
+ },
+ {
+  "name": "photo-credit",
+  "selector": ".b2-vcredit",
+  "theme": "light",
+  "clip": {
+   "x": 1021,
+   "y": 845,
+   "w": 17,
+   "h": 154,
+   "theme": "light",
+   "text": "MoMo Productions/Getty Images",
+   "fontPx": 14.6667,
+   "weight": "400"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-photo-credit-light.png"
+ },
+ {
+  "name": "photo-credit",
+  "selector": ".b2-vcredit",
+  "theme": "dark",
+  "clip": {
+   "x": 1021,
+   "y": 845,
+   "w": 17,
+   "h": 154,
+   "theme": "dark",
+   "text": "MoMo Productions/Getty Images",
+   "fontPx": 14.6667,
+   "weight": "400"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-photo-credit-dark.png"
+ },
+ {
+  "name": "nav-row-linked",
+  "selector": "#contents-nav a.nav-child",
+  "theme": "light",
+  "clip": {
+   "x": 6,
+   "y": 395,
+   "w": 270,
+   "h": 23,
+   "theme": "light",
+   "text": "FCCover Page",
+   "fontPx": 12.5,
+   "weight": "400"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-nav-row-linked-light.png"
+ },
+ {
+  "name": "nav-row-linked",
+  "selector": "#contents-nav a.nav-child",
+  "theme": "dark",
+  "clip": {
+   "x": 6,
+   "y": 395,
+   "w": 270,
+   "h": 23,
+   "theme": "dark",
+   "text": "FCCover Page",
+   "fontPx": 12.5,
+   "weight": "400"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-nav-row-linked-dark.png"
+ },
+ {
+  "name": "nav-row-muted",
+  "selector": "#contents-nav span.nav-unlinked",
+  "theme": "light",
+  "clip": {
+   "x": 6,
+   "y": 372,
+   "w": 270,
+   "h": 23,
+   "theme": "light",
+   "text": "FCAbout this Book",
+   "fontPx": 12.5,
+   "weight": "400"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-nav-row-muted-light.png"
+ },
+ {
+  "name": "nav-row-muted",
+  "selector": "#contents-nav span.nav-unlinked",
+  "theme": "dark",
+  "clip": {
+   "x": 6,
+   "y": 372,
+   "w": 270,
+   "h": 23,
+   "theme": "dark",
+   "text": "FCAbout this Book",
+   "fontPx": 12.5,
+   "weight": "400"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-nav-row-muted-dark.png"
+ },
+ {
+  "name": "toolbar-button",
+  "selector": "#right-toggle",
+  "theme": "light",
+  "clip": {
+   "x": 1035,
+   "y": 28,
+   "w": 63,
+   "h": 24,
+   "theme": "light",
+   "text": "Controls",
+   "fontPx": 12,
+   "weight": "400"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-toolbar-button-light.png"
+ },
+ {
+  "name": "toolbar-button",
+  "selector": "#right-toggle",
+  "theme": "dark",
+  "clip": {
+   "x": 1035,
+   "y": 28,
+   "w": 63,
+   "h": 24,
+   "theme": "dark",
+   "text": "Controls",
+   "fontPx": 12,
+   "weight": "400"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-toolbar-button-dark.png"
+ },
+ {
+  "name": "tools-panel-label",
+  "selector": "#reader-controls label",
+  "theme": "light",
+  "clip": {
+   "x": 1155,
+   "y": 115,
+   "w": 216,
+   "h": 14,
+   "theme": "light",
+   "text": "Appearance",
+   "fontPx": 12,
+   "weight": "600"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-tools-panel-label-light.png"
+ },
+ {
+  "name": "tools-panel-label",
+  "selector": "#reader-controls label",
+  "theme": "dark",
+  "clip": {
+   "x": 1155,
+   "y": 115,
+   "w": 216,
+   "h": 14,
+   "theme": "dark",
+   "text": "Appearance",
+   "fontPx": 12,
+   "weight": "600"
+  },
+  "file": "reports/final_release_qa/screens/qa-pixel-tools-panel-label-dark.png"
+ }
+]

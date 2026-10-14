@@ -1,0 +1,43 @@
+{
+ "heapBefore": {
+  "jsHeapUsedMB": 3.8,
+  "jsHeapTotalMB": 5.5,
+  "nodes": 81714,
+  "layoutCount": 1,
+  "recalcStyleCount": 1
+ },
+ "heapAfter": {
+  "jsHeapUsedMB": 3.1,
+  "jsHeapTotalMB": 5.8,
+  "nodes": 82173,
+  "layoutCount": 43,
+  "recalcStyleCount": 61
+ },
+ "latencyMs": {
+  "search-input-to-frame": 32.7,
+  "contents-click-to-frame": 108.1,
+  "disclosure-open-to-frame": 30.3,
+  "mode-to-section": 849.3,
+  "mode-to-source-capture": 34.7,
+  "mode-to-continuous": 1098.6,
+  "sidebar-toggle": 1133,
+  "theme-switch": 2893.9
+ },
+ "endOfBook": {
+  "start": {
+   "scrollTop": 594658,
+   "scrollHeight": 776160,
+   "clientHeight": 1000
+  },
+  "after": {
+   "scrollTop": 775160,
+   "scrollHeight": 776160
+  },
+  "lastRegionVisible": true,
+  "lastRegionRect": [
+   189,
+   982
+  ],
+  "docScrolledToEnd": true
+ }
+}

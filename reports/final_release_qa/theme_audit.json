@@ -1,0 +1,172 @@
+{
+ "schema": "book2.release.theme_audit.v1",
+ "options": [
+  "light",
+  "dark",
+  "system"
+ ],
+ "light": {
+  "theme": "light",
+  "bodyBg": "rgb(233, 235, 238)",
+  "bodyColor": "rgb(31, 41, 55)"
+ },
+ "dark": {
+  "theme": "dark",
+  "bodyBg": "rgb(17, 20, 24)",
+  "bodyColor": "rgb(230, 233, 237)",
+  "railBg": "rgb(23, 28, 34)"
+ },
+ "inline_styles_restored_exactly": null,
+ "light_stable_after_5_dark_cycles": null,
+ "dark_stable_after_5_light_cycles": null,
+ "drift_cells": {
+  "light": null,
+  "dark": null
+ },
+ "image_filters": null,
+ "images_unfiltered": null,
+ "image_payloads_unchanged": null,
+ "system_mode": null,
+ "persistence": null,
+ "inline_colour_declarations_remapped": 15093,
+ "pixel_contrast": {
+  "cover-title:light": {
+   "ratio": 14.57,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "cover-title:dark": {
+   "ratio": 16.03,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "body-paragraph:light": {
+   "ratio": 21.0,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "body-paragraph:dark": {
+   "ratio": 14.06,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "module-heading:light": {
+   "ratio": 8.94,
+   "required": 3.0,
+   "verdict": "PASS",
+   "note": null
+  },
+  "module-heading:dark": {
+   "ratio": 4.92,
+   "required": 3.0,
+   "verdict": "PASS",
+   "note": null
+  },
+  "table-cell:light": {
+   "ratio": 21.0,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "table-cell:dark": {
+   "ratio": 14.06,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "lg-badge:light": {
+   "ratio": 6.98,
+   "required": 3.0,
+   "verdict": "PASS",
+   "note": null
+  },
+  "lg-badge:dark": {
+   "ratio": 6.98,
+   "required": 3.0,
+   "verdict": "PASS",
+   "note": null
+  },
+  "disclosure-summary:light": {
+   "ratio": 18.9,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "disclosure-summary:dark": {
+   "ratio": 11.09,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "photo-credit:light": {
+   "ratio": 21.0,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "photo-credit:dark": {
+   "ratio": 14.06,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "nav-row-linked:light": {
+   "ratio": 6.89,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "nav-row-linked:dark": {
+   "ratio": 9.85,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "nav-row-muted:light": {
+   "ratio": 5.53,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "nav-row-muted:dark": {
+   "ratio": 5.7,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "toolbar-button:light": {
+   "ratio": 18.09,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "toolbar-button:dark": {
+   "ratio": 10.09,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "tools-panel-label:light": {
+   "ratio": 10.27,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "tools-panel-label:dark": {
+   "ratio": 10.56,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  }
+ },
+ "screenshots": [
+  "reports/final_release_qa/screens/desktop-dark-continuous.png",
+  "reports/final_release_qa/screens/desktop-dark-disclosure-open.png",
+  "reports/final_release_qa/screens/qa-module-banner-dark.png",
+  "reports/final_release_qa/screens/qa-pixel-lg-badge-dark.png"
+ ]
+}

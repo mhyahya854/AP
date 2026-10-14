@@ -1,0 +1,785 @@
+{
+ "schema": "book2.release.content_integrity.v1",
+ "artifact_sha256_audited": "2bff4ce2e75d767884672a983f470f9fb339d7088e7d9053925d8e3b351c777d",
+ "regions": 1899,
+ "region_ids_sequential": true,
+ "first_region": "TMP-0001",
+ "last_region": "TMP-1899",
+ "region_hashes": "regions were compared byte for byte with the previous accepted artifact by the promotion wave (reports/contents_navigation/region_digest.json: 1,899 of 1,899 identical, order preserved) and this run changed no byte of the file",
+ "text": {
+  "total_characters": 1426177,
+  "buckets": {
+   "zero": 41,
+   "under120": 54,
+   "under1000": 1200,
+   "under5000": 604,
+   "over5000": 0
+  }
+ },
+ "images": {
+  "elements": 418,
+  "embedded_png_payloads": 423,
+  "decoded_ok": 417,
+  "broken": [],
+  "in_view_samples": [
+   {
+    "region": "TMP-0001",
+    "complete": true,
+    "natural": [
+     714,
+     1622
+    ],
+    "rendered": [
+     321,
+     728
+    ],
+    "distortion": 0,
+    "visible": true
+   },
+   {
+    "region": "TMP-0116",
+    "complete": true,
+    "natural": [
+     2492,
+     2354
+    ],
+    "rendered": [
+     623,
+     588
+    ],
+    "distortion": 0,
+    "visible": true
+   },
+   {
+    "region": "TMP-0250",
+    "complete": true,
+    "natural": [
+     3292,
+     2194
+    ],
+    "rendered": [
+     650,
+     433
+    ],
+    "distortion": 0,
+    "visible": true
+   },
+   {
+    "region": "TMP-0422",
+    "complete": true,
+    "natural": [
+     346,
+     347
+    ],
+    "rendered": [
+     78,
+     78
+    ],
+    "distortion": 0.0001,
+    "visible": true
+   },
+   {
+    "region": "TMP-0523",
+    "complete": true,
+    "natural": [
+     507,
+     507
+    ],
+    "rendered": [
+     503,
+     503
+    ],
+    "distortion": 0,
+    "visible": true
+   },
+   {
+    "region": "TMP-0656",
+    "complete": true,
+    "natural": [
+     1985,
+     2340
+    ],
+    "rendered": [
+     577,
+     681
+    ],
+    "distortion": 0,
+    "visible": true
+   },
+   {
+    "region": "TMP-0763",
+    "complete": true,
+    "natural": [
+     3295,
+     2202
+    ],
+    "rendered": [
+     650,
+     434
+    ],
+    "distortion": 0,
+    "visible": true
+   },
+   {
+    "region": "TMP-0881",
+    "complete": true,
+    "natural": [
+     3280,
+     1951
+    ],
+    "rendered": [
+     650,
+     386
+    ],
+    "distortion": 0,
+    "visible": true
+   },
+   {
+    "region": "TMP-1086",
+    "complete": true,
+    "natural": [
+     3293,
+     2338
+    ],
+    "rendered": [
+     650,
+     461
+    ],
+    "distortion": 0,
+    "visible": true
+   },
+   {
+    "region": "TMP-1356",
+    "complete": true,
+    "natural": [
+     3133,
+     2086
+    ],
+    "rendered": [
+     650,
+     432
+    ],
+    "distortion": 0,
+    "visible": true
+   },
+   {
+    "region": "TMP-1477",
+    "complete": true,
+    "natural": [
+     3330,
+     1690
+    ],
+    "rendered": [
+     642,
+     326
+    ],
+    "distortion": 0,
+    "visible": true
+   },
+   {
+    "region": "TMP-1695",
+    "complete": true,
+    "natural": [
+     3296,
+     2310
+    ],
+    "rendered": [
+     642,
+     450
+    ],
+    "distortion": 0,
+    "visible": true
+   }
+  ]
+ },
+ "tables": {
+  "tables": 1478,
+  "ocr_data_tables": 86,
+  "layout_tables": 1392
+ },
+ "learning_goal_badges": 151,
+ "photograph_credits": {
+  "sideways_lr_markers": 182,
+  "vertical_writing_elements": 374
+ },
+ "printed_page_cells": 506,
+ "duplicate_ids": [],
+ "broken_fragments": [],
+ "source_gap_regions": {
+  "count": 33,
+  "blank_or_pale_source_pages": 30,
+  "merged_interaction_states": 3,
+  "rows": [
+   {
+    "ref": "TMP-0053",
+    "png": "B2P1-0053.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0055",
+    "png": "B2P1-0055.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0106",
+    "png": "B2P1-0106.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0108",
+    "png": "B2P1-0108.png",
+    "classification": "MERGED_INTERACTION_STATE_REFERENCE",
+    "evidence": "source content merged into one disclosure at TMP-0107 or TMP-1304"
+   },
+   {
+    "ref": "TMP-0109",
+    "png": "B2P1-0109.png",
+    "classification": "MERGED_INTERACTION_STATE_REFERENCE",
+    "evidence": "source content merged into one disclosure at TMP-0107 or TMP-1304"
+   },
+   {
+    "ref": "TMP-0110",
+    "png": "B2P1-0110.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0129",
+    "png": "B2P1-0129.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0231",
+    "png": "B2P1-0231.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0434",
+    "png": "B2P1-0434.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0478",
+    "png": "B2P1-0478.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0666",
+    "png": "B2P1-0666.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0708",
+    "png": "B2P1-0708.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0771",
+    "png": "B2P1-0771.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0862",
+    "png": "B2P1-0862.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0922",
+    "png": "B2P2-0059.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0969",
+    "png": "B2P2-0106.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0970",
+    "png": "B2P2-0107.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0977",
+    "png": "B2P2-0114.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-0993",
+    "png": "B2P2-0130.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-1112",
+    "png": "B2P2-0249.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-1156",
+    "png": "B2P2-0293.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-1174",
+    "png": "B2P2-0311.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-1205",
+    "png": "B2P2-0342.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-1208",
+    "png": "B2P2-0345.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-1298",
+    "png": "B2P2-0435.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-1305",
+    "png": "B2P2-0442.png",
+    "classification": "MERGED_INTERACTION_STATE_REFERENCE",
+    "evidence": "source content merged into one disclosure at TMP-0107 or TMP-1304"
+   },
+   {
+    "ref": "TMP-1306",
+    "png": "B2P2-0443.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-1414",
+    "png": "B2P2-0551.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-1444",
+    "png": "B2P2-0581.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-1521",
+    "png": "B2P2-0658.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-1577",
+    "png": "B2P2-0714.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-1599",
+    "png": "B2P2-0736.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   },
+   {
+    "ref": "TMP-1670",
+    "png": "B2P2-0807.png",
+    "classification": "BLANK_OR_PALE_BACKGROUND_ONLY",
+    "evidence": "full-resolution RGB channel extrema; one of three visually inspected pale/blank image families"
+   }
+  ],
+  "empty_in_the_reader": [
+   "TMP-0053",
+   "TMP-0055",
+   "TMP-0106",
+   "TMP-0108",
+   "TMP-0109",
+   "TMP-0110",
+   "TMP-0129",
+   "TMP-0231",
+   "TMP-0313",
+   "TMP-0434",
+   "TMP-0478",
+   "TMP-0503",
+   "TMP-0517",
+   "TMP-0531",
+   "TMP-0625",
+   "TMP-0666",
+   "TMP-0708",
+   "TMP-0771",
+   "TMP-0862",
+   "TMP-0922",
+   "TMP-0969",
+   "TMP-0970",
+   "TMP-0977",
+   "TMP-0993",
+   "TMP-1112",
+   "TMP-1121",
+   "TMP-1156",
+   "TMP-1162",
+   "TMP-1174",
+   "TMP-1205",
+   "TMP-1208",
+   "TMP-1298",
+   "TMP-1305",
+   "TMP-1306",
+   "TMP-1312",
+   "TMP-1414",
+   "TMP-1444",
+   "TMP-1521",
+   "TMP-1577",
+   "TMP-1599",
+   "TMP-1670"
+  ],
+  "evidence": "blank_viewport_audit.csv (per-region RGB extrema + classification) and docs/KNOWN_ISSUES.md \"Source gaps\"",
+  "status": "SOURCE LIMITATION - nothing invented to fill them"
+ },
+ "regions_with_little_text": [
+  {
+   "id": "TMP-0044",
+   "chars": 66,
+   "label": "Contents",
+   "group": "Front matter"
+  },
+  {
+   "id": "TMP-0056",
+   "chars": 40,
+   "label": "Content Advisory Board",
+   "group": "Front matter"
+  },
+  {
+   "id": "TMP-0105",
+   "chars": 43,
+   "label": "Content Advisory Board",
+   "group": "Front matter"
+  },
+  {
+   "id": "TMP-0111",
+   "chars": 44,
+   "label": "Unit 1 Businesses, Competition, and New Ideas",
+   "group": "Unit 1 Businesses, Competition, and New Ideas"
+  },
+  {
+   "id": "TMP-0112",
+   "chars": 29,
+   "label": "Unit 1 Businesses, Competition, and New Ideas",
+   "group": "Unit 1 Businesses, Competition, and New Ideas"
+  },
+  {
+   "id": "TMP-0116",
+   "chars": 73,
+   "label": "Meeting Customer Needs and Wants: Cotopaxi",
+   "group": "Unit 1 Businesses, Competition, and New Ideas"
+  },
+  {
+   "id": "TMP-0124",
+   "chars": 38,
+   "label": "Customers and Consumers",
+   "group": "Unit 1 Businesses, Competition, and New Ideas"
+  },
+  {
+   "id": "TMP-0163",
+   "chars": 117,
+   "label": "Monopolies",
+   "group": "Unit 1 Businesses, Competition, and New Ideas"
+  },
+  {
+   "id": "TMP-0176",
+   "chars": 22,
+   "label": "Stuck in the Middle",
+   "group": "Unit 1 Businesses, Competition, and New Ideas"
+  },
+  {
+   "id": "TMP-0195",
+   "chars": 114,
+   "label": "Module 1.3 PESTEL Factors and the Business Environment",
+   "group": "Unit 1 Businesses, Competition, and New Ideas"
+  },
+  {
+   "id": "TMP-0196",
+   "chars": 110,
+   "label": "Module 1.3 PESTEL Factors and the Business Environment",
+   "group": "Unit 1 Businesses, Competition, and New Ideas"
+  },
+  {
+   "id": "TMP-0209",
+   "chars": 108,
+   "label": "Business Viability",
+   "group": "Unit 1 Businesses, Competition, and New Ideas"
+  },
+  {
+   "id": "TMP-0217",
+   "chars": 96,
+   "label": "Changes in PESTEL Factors",
+   "group": "Unit 1 Businesses, Competition, and New Ideas"
+  },
+  {
+   "id": "TMP-0255",
+   "chars": 60,
+   "label": "The Design-Thinking Process",
+   "group": "Unit 1 Businesses, Competition, and New Ideas"
+  },
+  {
+   "id": "TMP-0275",
+   "chars": 75,
+   "label": "Module 1.4 Review",
+   "group": "Unit 1 Businesses, Competition, and New Ideas"
+  },
+  {
+   "id": "TMP-0348",
+   "chars": 19,
+   "label": "A Focus on Values",
+   "group": "Unit 1 Businesses, Competition, and New Ideas"
+  },
+  {
+   "id": "TMP-0364",
+   "chars": 28,
+   "label": "Sole Proprietorship",
+   "group": "Unit 1 Businesses, Competition, and New Ideas"
+  },
+  {
+   "id": "TMP-0479",
+   "chars": 15,
+   "label": "Unit 2 Marketing",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0480",
+   "chars": 24,
+   "label": "Unit 2 Marketing",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0486",
+   "chars": 100,
+   "label": "Module 2.1 Marketing to Customers",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0518",
+   "chars": 35,
+   "label": "Creating a Customer Profile",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0522",
+   "chars": 95,
+   "label": "Strategies for Building Relationships",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0527",
+   "chars": 84,
+   "label": "The Benefits of Good Relationships",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0548",
+   "chars": 109,
+   "label": "Module 2.2 Consumer Behavior",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0558",
+   "chars": 119,
+   "label": "Influential Factors",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0564",
+   "chars": 56,
+   "label": "Technology and Innovation",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0568",
+   "chars": 53,
+   "label": "Technology and Innovation",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0632",
+   "chars": 103,
+   "label": "Pie Charts",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0646",
+   "chars": 105,
+   "label": "Module 2.4 Product",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0650",
+   "chars": 94,
+   "label": "Product Development",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0699",
+   "chars": 114,
+   "label": "Price Determinants",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0727",
+   "chars": 118,
+   "label": "Laws Protect Consumers from Discrimination",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0772",
+   "chars": 70,
+   "label": "Module 2.6 Review",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0850",
+   "chars": 79,
+   "label": "UNIT 2 REVIEW",
+   "group": "Unit 2 Marketing"
+  },
+  {
+   "id": "TMP-0863",
+   "chars": 42,
+   "label": "Unit 3 / Part 1 Personal Saving and Borrowing",
+   "group": "Unit 3 / Part 1 Personal Saving and Borrowing"
+  },
+  {
+   "id": "TMP-0864",
+   "chars": 22,
+   "label": "Unit 3 / Part 1 Personal Saving and Borrowing",
+   "group": "Unit 3 / Part 1 Personal Saving and Borrowing"
+  },
+  {
+   "id": "TMP-0875",
+   "chars": 97,
+   "label": "Income and Saving",
+   "group": "Unit 3 / Part 1 Personal Saving and Borrowing"
+  },
+  {
+   "id": "TMP-0893",
+   "chars": 109,
+   "label": "Laws and Regulations",
+   "group": "Unit 3 / Part 1 Personal Saving and Borrowing"
+  },
+  {
+   "id": "TMP-0903",
+   "chars": 104,
+   "label": "Savings Vehicles",
+   "group": "Unit 3 / Part 1 Personal Saving and Borrowing"
+  },
+  {
+   "id": "TMP-0971",
+   "chars": 44,
+   "label": "UNIT 3 PART 2 Business Finance and Accounting",
+   "group": "Unit 3 / Part 2 Business Finance and Accounting"
+  },
+  {
+   "id": "TMP-0972",
+   "chars": 26,
+   "label": "UNIT 3 PART 2 Business Finance and Accounting",
+   "group": "Unit 3 / Part 2 Business Finance and Accounting"
+  },
+  {
+   "id": "TMP-1185",
+   "chars": 65,
+   "label": "Personal Net Worth",
+   "group": "Unit 3 / Part 2 Business Finance and Accounting"
+  },
+  {
+   "id": "TMP-1219",
+   "chars": 90,
+   "label": "A Tour of the Cash Flow Statement",
+   "group": "Unit 3 / Part 2 Business Finance and Accounting"
+  },
+  {
+   "id": "TMP-1299",
+   "chars": 29,
+   "label": "UNIT 4 Management and Strategy",
+   "group": "Unit 4 Management and Strategy"
+  },
+  {
+   "id": "TMP-1300",
+   "chars": 38,
+   "label": "UNIT 4 Management and Strategy",
+   "group": "Unit 4 Management and Strategy"
+  },
+  {
+   "id": "TMP-1391",
+   "chars": 37,
+   "label": "Applying Benchmarks",
+   "group": "Unit 4 Management and Strategy"
+  },
+  {
+   "id": "TMP-1459",
+   "chars": 108,
+   "label": "Bargaining Power of Suppliers",
+   "group": "Unit 4 Management and Strategy"
+  },
+  {
+   "id": "TMP-1479",
+   "chars": 56,
+   "label": "Applying SWOT Analysis",
+   "group": "Unit 4 Management and Strategy"
+  },
+  {
+   "id": "TMP-1522",
+   "chars": 49,
+   "label": "U N I T 5 Personal Goals, Budgeting, and Investing",
+   "group": "Unit 5 Personal Goals, Budgeting, and Investing"
+  },
+  {
+   "id": "TMP-1523",
+   "chars": 22,
+   "label": "U N I T 5 Personal Goals, Budgeting, and Investing",
+   "group": "Unit 5 Personal Goals, Budgeting, and Investing"
+  },
+  {
+   "id": "TMP-1592",
+   "chars": 114,
+   "label": "Types of Insurance",
+   "group": "Unit 5 Personal Goals, Budgeting, and Investing"
+  },
+  {
+   "id": "TMP-1648",
+   "chars": 2,
+   "label": "Behaviors That Can Cost Us",
+   "group": "Unit 5 Personal Goals, Budgeting, and Investing"
+  },
+  {
+   "id": "TMP-1694",
+   "chars": 8,
+   "label": "Appendix The Business Model Canvas",
+   "group": "Appendix The Business Model Canvas"
+  },
+  {
+   "id": "TMP-1734",
+   "chars": 75,
+   "label": "References",
+   "group": "References"
+  }
+ ],
+ "justified_exceptions": "none - the artifact was not modified in this run"
+}

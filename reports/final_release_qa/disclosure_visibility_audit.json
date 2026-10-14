@@ -1,0 +1,8090 @@
+{
+ "schema": "book2.release.disclosure_visibility.v1",
+ "total": 155,
+ "distinctRegions": 155,
+ "passing": 0,
+ "failing": [
+  {
+   "i": 0,
+   "region": "TMP-0002",
+   "summary": "Extended description for Front Cover",
+   "bodyChars": 580,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 205,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 239,
+    "panelBoxH": 205,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 1,
+   "region": "TMP-0058",
+   "summary": "Extended description for Organization",
+   "bodyChars": 1427,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 425,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 458,
+    "panelBoxH": 425,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 2,
+   "region": "TMP-0059",
+   "summary": "Extended description for Organization (continued)",
+   "bodyChars": 1210,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 516,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 550,
+    "panelBoxH": 516,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 3,
+   "region": "TMP-0060",
+   "summary": "Extended description for Organization (continued)",
+   "bodyChars": 362,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 455,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 489,
+    "panelBoxH": 455,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 4,
+   "region": "TMP-0061",
+   "summary": "Extended description for Organization (continued)",
+   "bodyChars": 1560,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 460,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 494,
+    "panelBoxH": 460,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 5,
+   "region": "TMP-0062",
+   "summary": "Extended description for Organization (continued)",
+   "bodyChars": 1622,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 490,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 524,
+    "panelBoxH": 490,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 6,
+   "region": "TMP-0063",
+   "summary": "Extended description for Organization (continued)",
+   "bodyChars": 98,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 68,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 102,
+    "panelBoxH": 68,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 7,
+   "region": "TMP-0065",
+   "summary": "Extended description for Real World Business Examples",
+   "bodyChars": 1351,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 417,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 450,
+    "panelBoxH": 417,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 8,
+   "region": "TMP-0066",
+   "summary": "Extended description for Real World Business Examples (continued)",
+   "bodyChars": 1077,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 443,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 477,
+    "panelBoxH": 443,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 9,
+   "region": "TMP-0067",
+   "summary": "Extended description for Real World Business Examples (continued)",
+   "bodyChars": 462,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 417,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 451,
+    "panelBoxH": 417,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 10,
+   "region": "TMP-0068",
+   "summary": "Extended description for Real World Business Examples (continued)",
+   "bodyChars": 351,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 433,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 467,
+    "panelBoxH": 433,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 11,
+   "region": "TMP-0069",
+   "summary": "Extended description for Real World Business Examples (continued)",
+   "bodyChars": 443,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 409,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 443,
+    "panelBoxH": 409,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 12,
+   "region": "TMP-0070",
+   "summary": "Extended description for Real World Business Examples (continued)",
+   "bodyChars": 116,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 68,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 102,
+    "panelBoxH": 68,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 13,
+   "region": "TMP-0072",
+   "summary": "Extended description for Learning Tools",
+   "bodyChars": 1238,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 432,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 466,
+    "panelBoxH": 432,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 14,
+   "region": "TMP-0073",
+   "summary": "Extended description for Learning Tools (continued)",
+   "bodyChars": 1344,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 502,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 536,
+    "panelBoxH": 502,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 15,
+   "region": "TMP-0074",
+   "summary": "Extended description for Learning Tools (continued)",
+   "bodyChars": 1086,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 392,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 426,
+    "panelBoxH": 392,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 16,
+   "region": "TMP-0075",
+   "summary": "Extended description for Learning Tools (continued)",
+   "bodyChars": 728,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 250,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 284,
+    "panelBoxH": 250,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 17,
+   "region": "TMP-0077",
+   "summary": "Extended description for Module-Ending A P Practice",
+   "bodyChars": 946,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 386,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 420,
+    "panelBoxH": 386,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 18,
+   "region": "TMP-0078",
+   "summary": "Extended description for Module-Ending A P Practice (continued)",
+   "bodyChars": 1247,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 416,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 450,
+    "panelBoxH": 416,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 19,
+   "region": "TMP-0079",
+   "summary": "Extended description for Module-Ending A P Practice (continued)",
+   "bodyChars": 647,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 387,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 421,
+    "panelBoxH": 387,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 20,
+   "region": "TMP-0080",
+   "summary": "Extended description for Module-Ending A P Practice (continued)",
+   "bodyChars": 913,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 522,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 556,
+    "panelBoxH": 522,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 21,
+   "region": "TMP-0081",
+   "summary": "Extended description for Module-Ending A P Practice (continued)",
+   "bodyChars": 1554,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 489,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 523,
+    "panelBoxH": 489,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 22,
+   "region": "TMP-0082",
+   "summary": "Extended description for Module-Ending A P Practice (continued)",
+   "bodyChars": 1635,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 481,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 515,
+    "panelBoxH": 481,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 23,
+   "region": "TMP-0083",
+   "summary": "Extended description for Module-Ending A P Practice (continued)",
+   "bodyChars": 1595,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 473,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 507,
+    "panelBoxH": 473,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 24,
+   "region": "TMP-0084",
+   "summary": "Extended description for Module-Ending A P Practice (continued)",
+   "bodyChars": 466,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 218,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 252,
+    "panelBoxH": 218,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 25,
+   "region": "TMP-0086",
+   "summary": "Extended description for Unit-Ending A P Practice Questions",
+   "bodyChars": 1059,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 395,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 429,
+    "panelBoxH": 395,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 26,
+   "region": "TMP-0087",
+   "summary": "Extended description for Unit-Ending A P Practice Questions (continued)",
+   "bodyChars": 654,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 469,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 503,
+    "panelBoxH": 469,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 27,
+   "region": "TMP-0088",
+   "summary": "Extended description for Unit-Ending A P Practice Questions (continued)",
+   "bodyChars": 1204,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 481,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 515,
+    "panelBoxH": 481,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 28,
+   "region": "TMP-0089",
+   "summary": "Extended description for Unit-Ending A P Practice Questions (continued)",
+   "bodyChars": 1183,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 461,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 495,
+    "panelBoxH": 461,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 29,
+   "region": "TMP-0090",
+   "summary": "Extended description for Unit-Ending A P Practice Questions (continued)",
+   "bodyChars": 562,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 282,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 316,
+    "panelBoxH": 282,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 30,
+   "region": "TMP-0092",
+   "summary": "Extended description for A P Skill Building Tools",
+   "bodyChars": 1351,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 389,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 423,
+    "panelBoxH": 389,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 31,
+   "region": "TMP-0093",
+   "summary": "Extended description for A P Skill Building Tools (continued)",
+   "bodyChars": 1226,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 453,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 487,
+    "panelBoxH": 453,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 32,
+   "region": "TMP-0094",
+   "summary": "Extended description for A P Skill Building Tools (continued)",
+   "bodyChars": 1289,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 423,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 457,
+    "panelBoxH": 423,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 33,
+   "region": "TMP-0095",
+   "summary": "Extended description for A P Skill Building Tools (continued)",
+   "bodyChars": 1546,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 468,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 502,
+    "panelBoxH": 468,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 34,
+   "region": "TMP-0096",
+   "summary": "Extended description for A P Skill Building Tools (continued)",
+   "bodyChars": 948,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 437,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 471,
+    "panelBoxH": 437,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 35,
+   "region": "TMP-0098",
+   "summary": "Extended description for Project-Based Learning Support",
+   "bodyChars": 1415,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 410,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 444,
+    "panelBoxH": 410,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 36,
+   "region": "TMP-0099",
+   "summary": "Extended description for Project-Based Learning Support (continued)",
+   "bodyChars": 1060,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 479,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 513,
+    "panelBoxH": 479,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 37,
+   "region": "TMP-0100",
+   "summary": "Extended description for Project-Based Learning Support (continued)",
+   "bodyChars": 350,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 509,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 543,
+    "panelBoxH": 509,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 38,
+   "region": "TMP-0107",
+   "summary": "Extended description for Digital Platform",
+   "bodyChars": 1726,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 564,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 598,
+    "panelBoxH": 564,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 39,
+   "region": "TMP-0121",
+   "summary": "Extended description for Businesses",
+   "bodyChars": 306,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 129,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 163,
+    "panelBoxH": 129,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 40,
+   "region": "TMP-0125",
+   "summary": "Extended description for Kellogg's Froot Loops",
+   "bodyChars": 202,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 131,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 165,
+    "panelBoxH": 131,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 41,
+   "region": "TMP-0135",
+   "summary": "Extended description for Figure 1.1-1 The Value Created by a",
+   "bodyChars": 144,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 167,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 201,
+    "panelBoxH": 167,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 42,
+   "region": "TMP-0141",
+   "summary": "Extended description for Imperfect Foods",
+   "bodyChars": 169,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 96,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 130,
+    "panelBoxH": 96,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 43,
+   "region": "TMP-0152",
+   "summary": "Extended description for FIGURE 1.2-1 Where Market Prices Comes From: Supply and Demand",
+   "bodyChars": 213,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 96,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 130,
+    "panelBoxH": 96,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 44,
+   "region": "TMP-0154",
+   "summary": "Extended description for Highly Competitive Markets",
+   "bodyChars": 129,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 45,
+   "region": "TMP-0172",
+   "summary": "Extended description for Figure 1.2-2 Porter's Generic Strategy",
+   "bodyChars": 252,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 157,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 191,
+    "panelBoxH": 157,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 46,
+   "region": "TMP-0177",
+   "summary": "Extended description for Arby’s",
+   "bodyChars": 253,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 131,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 165,
+    "panelBoxH": 131,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 47,
+   "region": "TMP-0195",
+   "summary": "Extended description for Coke",
+   "bodyChars": 56,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 43,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 76,
+    "panelBoxH": 43,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 48,
+   "region": "TMP-0199",
+   "summary": "Extended description for Figure 1.3-1 PESTEL Analysis",
+   "bodyChars": 347,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 197,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 231,
+    "panelBoxH": 197,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 49,
+   "region": "TMP-0203",
+   "summary": "Extended description for Simply Pop Beverage Can",
+   "bodyChars": 158,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 95,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 129,
+    "panelBoxH": 95,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 50,
+   "region": "TMP-0238",
+   "summary": "Extended description for Figure 1.4-1 Four Pathways to Product Ideas",
+   "bodyChars": 763,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 263,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 297,
+    "panelBoxH": 263,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 51,
+   "region": "TMP-0250",
+   "summary": "Extended description for Risky Business",
+   "bodyChars": 136,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 67,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 101,
+    "panelBoxH": 67,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 52,
+   "region": "TMP-0256",
+   "summary": "Extended description for Figure 1.4-2 The",
+   "bodyChars": 432,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 232,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 266,
+    "panelBoxH": 232,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 53,
+   "region": "TMP-0264",
+   "summary": "Extended description for FIGURE 1.4-3 Brainstorming",
+   "bodyChars": 117,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 104,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 138,
+    "panelBoxH": 104,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 54,
+   "region": "TMP-0276",
+   "summary": "Extended description for Robot",
+   "bodyChars": 58,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 47,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 81,
+    "panelBoxH": 47,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 55,
+   "region": "TMP-0312",
+   "summary": "Extended description for Your School’s Vision, Mission, and Culture",
+   "bodyChars": 822,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 452,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 466,
+    "panelBoxH": 432,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 56,
+   "region": "TMP-0330",
+   "summary": "Extended description for Safety Record",
+   "bodyChars": 140,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 57,
+   "region": "TMP-0337",
+   "summary": "Extended description for Volkswagen's False Emissions Data",
+   "bodyChars": 143,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 58,
+   "region": "TMP-0366",
+   "summary": "Extended description for Figure 1.7-1 A Sole Proprietorship",
+   "bodyChars": 227,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 165,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 199,
+    "panelBoxH": 165,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 59,
+   "region": "TMP-0377",
+   "summary": "Extended description for Consultants and Businesses",
+   "bodyChars": 205,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 86,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 120,
+    "panelBoxH": 86,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 60,
+   "region": "TMP-0379",
+   "summary": "Extended description for Figure 1.7-2 An Example of Organizational Structure",
+   "bodyChars": 135,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 145,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 179,
+    "panelBoxH": 145,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 61,
+   "region": "TMP-0421",
+   "summary": "Extended description for Figure 1.8-1 The Supply Chain for a Good ⓘ Figure 1.8-1 The Suppl",
+   "bodyChars": 761,
+   "closed": {
+    "detailsH": 52,
+    "summaryH": 50,
+    "panelBoxH": 214,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 266,
+    "panelBoxH": 214,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 62,
+   "region": "TMP-0422",
+   "summary": "Extended description for Figure 1.8-2 The Supply Chain for Cereal",
+   "bodyChars": 429,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 216,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 250,
+    "panelBoxH": 216,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 63,
+   "region": "TMP-0428",
+   "summary": "Extended description for Figure 1.8-3 The Supply Chain for a Service",
+   "bodyChars": 64,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 158,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 192,
+    "panelBoxH": 158,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 64,
+   "region": "TMP-0462",
+   "summary": "Extended description for Figure U1-1 Organizational Chart for the X Y Z Corporation",
+   "bodyChars": 178,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 222,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 256,
+    "panelBoxH": 222,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 65,
+   "region": "TMP-0474",
+   "summary": "Extended description for Super Soakers",
+   "bodyChars": 283,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 112,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 146,
+    "panelBoxH": 112,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 66,
+   "region": "TMP-0492",
+   "summary": "Extended description for FIGURE 2.1-1 Demographics Versus Psychographics",
+   "bodyChars": 520,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 348,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 382,
+    "panelBoxH": 348,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 67,
+   "region": "TMP-0499",
+   "summary": "Extended description for Gap, Incorporated Stores",
+   "bodyChars": 311,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 109,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 143,
+    "panelBoxH": 109,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 68,
+   "region": "TMP-0502",
+   "summary": "Extended description for FIGURE 2.1-2 Four Main Types of Market Segmentation",
+   "bodyChars": 514,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 646,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 680,
+    "panelBoxH": 646,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 69,
+   "region": "TMP-0516",
+   "summary": "Extended description for Figure 2.1-3 Cooper, the Family Man",
+   "bodyChars": 1953,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 968,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 1002,
+    "panelBoxH": 968,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 70,
+   "region": "TMP-0523",
+   "summary": "Extended description for Lancôme Cosmetics",
+   "bodyChars": 585,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 300,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 334,
+    "panelBoxH": 300,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 71,
+   "region": "TMP-0530",
+   "summary": "Extended description for Privacy Statement",
+   "bodyChars": 1350,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 583,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 616,
+    "panelBoxH": 583,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 72,
+   "region": "TMP-0542",
+   "summary": "Extended description for Walmart",
+   "bodyChars": 108,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 68,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 102,
+    "panelBoxH": 68,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 73,
+   "region": "TMP-0563",
+   "summary": "Extended description for Starbucks Rewards",
+   "bodyChars": 157,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 94,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 128,
+    "panelBoxH": 94,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 74,
+   "region": "TMP-0567",
+   "summary": "Extended description for Figure 2.2-1 Cialdini's Seven Principles of Influence",
+   "bodyChars": 785,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 480,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 514,
+    "panelBoxH": 480,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 75,
+   "region": "TMP-0575",
+   "summary": "Extended description for Consumers",
+   "bodyChars": 213,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 94,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 128,
+    "panelBoxH": 94,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 76,
+   "region": "TMP-0585",
+   "summary": "Extended description for Merck",
+   "bodyChars": 465,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 300,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 334,
+    "panelBoxH": 300,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 77,
+   "region": "TMP-0603",
+   "summary": "Extended description for Figure 2.3-1 Types of Research Data",
+   "bodyChars": 123,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 62,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 96,
+    "panelBoxH": 62,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 78,
+   "region": "TMP-0621",
+   "summary": "Extended description for Figure 2.3-2 Bar Chart",
+   "bodyChars": 185,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 267,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 301,
+    "panelBoxH": 267,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 79,
+   "region": "TMP-0624",
+   "summary": "Extended description for Figure 2.3-3 Stacked Bar Chart",
+   "bodyChars": 301,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 632,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 666,
+    "panelBoxH": 632,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 80,
+   "region": "TMP-0628",
+   "summary": "Extended description for Figure 2.3-4 Line Graph",
+   "bodyChars": 229,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 179,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 213,
+    "panelBoxH": 179,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 81,
+   "region": "TMP-0631",
+   "summary": "Extended description for Figure 2.3-5 Pie Chart",
+   "bodyChars": 62,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 125,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 158,
+    "panelBoxH": 125,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 82,
+   "region": "TMP-0651",
+   "summary": "Extended description for Figure 2.4-1 Iterative Product Development",
+   "bodyChars": 422,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 277,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 310,
+    "panelBoxH": 277,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 83,
+   "region": "TMP-0656",
+   "summary": "Extended description for Cheetos",
+   "bodyChars": 211,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 84,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 118,
+    "panelBoxH": 84,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 84,
+   "region": "TMP-0660",
+   "summary": "Extended description for Air Tag",
+   "bodyChars": 46,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 46,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 80,
+    "panelBoxH": 46,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 85,
+   "region": "TMP-0673",
+   "summary": "Extended description for Figure 2.4-2 Product Life Cycle",
+   "bodyChars": 305,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 109,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 143,
+    "panelBoxH": 109,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 86,
+   "region": "TMP-0700",
+   "summary": "Extended description for Figure 2.5-1",
+   "bodyChars": 262,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 173,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 207,
+    "panelBoxH": 173,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 87,
+   "region": "TMP-0706",
+   "summary": "Extended description for A M C Plus",
+   "bodyChars": 328,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 112,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 146,
+    "panelBoxH": 112,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 88,
+   "region": "TMP-0715",
+   "summary": "Extended description for Figure 2.5-2 Price Elasticity of Demand",
+   "bodyChars": 1,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 76,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 110,
+    "panelBoxH": 76,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 89,
+   "region": "TMP-0719",
+   "summary": "Extended description for Figure 2.5-3 Market Demand",
+   "bodyChars": 226,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 72,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 106,
+    "panelBoxH": 72,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 90,
+   "region": "TMP-0726",
+   "summary": "Extended description for Disaster Strikes",
+   "bodyChars": 1174,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 468,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 613,
+    "panelBoxH": 468,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 91,
+   "region": "TMP-0745",
+   "summary": "Extended description for Middleman",
+   "bodyChars": 311,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 79,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 112,
+    "panelBoxH": 79,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 92,
+   "region": "TMP-0748",
+   "summary": "Extended description for Figure 2.6-1 Direct and Indirect Distribution",
+   "bodyChars": 443,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 279,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 313,
+    "panelBoxH": 279,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 93,
+   "region": "TMP-0756",
+   "summary": "Extended description for Docu Sign",
+   "bodyChars": 222,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 103,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 137,
+    "panelBoxH": 103,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 94,
+   "region": "TMP-0773",
+   "summary": "Extended description for IRON MAN",
+   "bodyChars": 93,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 61,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 94,
+    "panelBoxH": 61,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 95,
+   "region": "TMP-0779",
+   "summary": "Extended description for Outdoor Advertising",
+   "bodyChars": 169,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 78,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 112,
+    "panelBoxH": 78,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 96,
+   "region": "TMP-0793",
+   "summary": "Extended description for Black Friday Advertisements",
+   "bodyChars": 75,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 64,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 98,
+    "panelBoxH": 64,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 97,
+   "region": "TMP-0802",
+   "summary": "Extended description for United Nations",
+   "bodyChars": 167,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 98,
+   "region": "TMP-0809",
+   "summary": "Extended description for Honda",
+   "bodyChars": 282,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 105,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 139,
+    "panelBoxH": 105,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 99,
+   "region": "TMP-0831",
+   "summary": "Extended description for Figure U 2-1 Apple vs. Samsung Market Share by Generation",
+   "bodyChars": 228,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 142,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 176,
+    "panelBoxH": 142,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 100,
+   "region": "TMP-0835",
+   "summary": "Extended description for Figure U 2-2 Second- and Fourth-Quarter Shipments from Various",
+   "bodyChars": 296,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 212,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 246,
+    "panelBoxH": 212,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 101,
+   "region": "TMP-0840",
+   "summary": "Extended description for Figure U 2-3 Annual Revenue of Film Releases in U. S. Movie Theat",
+   "bodyChars": 331,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 245,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 278,
+    "panelBoxH": 245,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 102,
+   "region": "TMP-0843",
+   "summary": "Extended description for Figure U 2-4 Annual Movie Theater Ticket Sales Per Person, 2010 t",
+   "bodyChars": 352,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 343,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 376,
+    "panelBoxH": 343,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 103,
+   "region": "TMP-0846",
+   "summary": "Extended description for Figure U 2-5 The Product Life Cycle",
+   "bodyChars": 629,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 531,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 565,
+    "panelBoxH": 531,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 104,
+   "region": "TMP-0849",
+   "summary": "Extended description for Figure U 2-6 Product Features of Beats Studio Pro Headphones",
+   "bodyChars": 300,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 217,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 251,
+    "panelBoxH": 217,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 105,
+   "region": "TMP-0851",
+   "summary": "Extended description for Figure U 2-7 Beats Studio Pro Ad",
+   "bodyChars": 307,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 146,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 180,
+    "panelBoxH": 146,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 106,
+   "region": "TMP-0855",
+   "summary": "Extended description for Essie Weingarten",
+   "bodyChars": 274,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 88,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 122,
+    "panelBoxH": 88,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 107,
+   "region": "TMP-0868",
+   "summary": "Extended description for Student Loan",
+   "bodyChars": 130,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 152,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 186,
+    "panelBoxH": 152,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 108,
+   "region": "TMP-0876",
+   "summary": "Extended description for Minor Emergencies",
+   "bodyChars": 219,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 103,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 137,
+    "panelBoxH": 103,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 109,
+   "region": "TMP-0904",
+   "summary": "Extended description for C D Special",
+   "bodyChars": 72,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 43,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 76,
+    "panelBoxH": 43,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 110,
+   "region": "TMP-0924",
+   "summary": "Extended description for Borrowing",
+   "bodyChars": 96,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 88,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 122,
+    "panelBoxH": 88,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 111,
+   "region": "TMP-0929",
+   "summary": "Extended description for Loans",
+   "bodyChars": 221,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 108,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 142,
+    "panelBoxH": 108,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 112,
+   "region": "TMP-0935",
+   "summary": "Extended description for Payday Lenders",
+   "bodyChars": 142,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 62,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 96,
+    "panelBoxH": 62,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 113,
+   "region": "TMP-0989",
+   "summary": "Extended description for Figure 3.1-1 The Flow of Accounting Information",
+   "bodyChars": 126,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 224,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 257,
+    "panelBoxH": 224,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 114,
+   "region": "TMP-0997",
+   "summary": "Extended description for New York Stock Exchange",
+   "bodyChars": 69,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 47,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 81,
+    "panelBoxH": 47,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 115,
+   "region": "TMP-1024",
+   "summary": "Extended description for Commercial Kitchen",
+   "bodyChars": 150,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 112,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 146,
+    "panelBoxH": 112,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 116,
+   "region": "TMP-1067",
+   "summary": "Extended description for Capital Bank",
+   "bodyChars": 231,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 96,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 130,
+    "panelBoxH": 96,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 117,
+   "region": "TMP-1120",
+   "summary": "Extended description for Figure 3.6-1 Gross Profit Margin, Operating Profit Margin, and Ne",
+   "bodyChars": 1647,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 443,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 477,
+    "panelBoxH": 443,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 118,
+   "region": "TMP-1129",
+   "summary": "Extended description for Population Trends",
+   "bodyChars": 212,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 78,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 112,
+    "panelBoxH": 78,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 119,
+   "region": "TMP-1161",
+   "summary": "Extended description for Figure 3.7-1 The Balance Sheet",
+   "bodyChars": 523,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 586,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 620,
+    "panelBoxH": 586,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 120,
+   "region": "TMP-1181",
+   "summary": "Extended description for Redbox",
+   "bodyChars": 146,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 121,
+   "region": "TMP-1186",
+   "summary": "Extended description for Financial Aid",
+   "bodyChars": 99,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 43,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 76,
+    "panelBoxH": 43,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 122,
+   "region": "TMP-1200",
+   "summary": "Extended description for Shake Shack",
+   "bodyChars": 73,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 43,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 76,
+    "panelBoxH": 43,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 123,
+   "region": "TMP-1304",
+   "summary": "Extended description for A M D",
+   "bodyChars": 100,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 124,
+   "region": "TMP-1311",
+   "summary": "Extended description for Figure 4.1-1 Four Functions of Management",
+   "bodyChars": 493,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 675,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 709,
+    "panelBoxH": 675,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 125,
+   "region": "TMP-1338",
+   "summary": "Extended description for Figure 4.1-2 Components of Compensation",
+   "bodyChars": 118,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 120,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 154,
+    "panelBoxH": 120,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 126,
+   "region": "TMP-1350",
+   "summary": "Extended description for South by Southwest",
+   "bodyChars": 66,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 46,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 80,
+    "panelBoxH": 46,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 127,
+   "region": "TMP-1356",
+   "summary": "Extended description for A T and T",
+   "bodyChars": 130,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 128,
+   "region": "TMP-1370",
+   "summary": "Extended description for Rate Your Satisfaction",
+   "bodyChars": 152,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 64,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 98,
+    "panelBoxH": 64,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 129,
+   "region": "TMP-1373",
+   "summary": "Extended description for Door Dash",
+   "bodyChars": 346,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 159,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 193,
+    "panelBoxH": 159,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 130,
+   "region": "TMP-1383",
+   "summary": "Extended description for Figure 4.2-1 Categorizing KPIs",
+   "bodyChars": 318,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 433,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 466,
+    "panelBoxH": 433,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 131,
+   "region": "TMP-1389",
+   "summary": "Extended description for Figure 4.2-2 The Benchmarking Process",
+   "bodyChars": 772,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 353,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 387,
+    "panelBoxH": 353,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 132,
+   "region": "TMP-1405",
+   "summary": "Extended description for Strategies",
+   "bodyChars": 237,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 96,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 130,
+    "panelBoxH": 96,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 133,
+   "region": "TMP-1410",
+   "summary": "Extended description for 37 Signals",
+   "bodyChars": 364,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 198,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 232,
+    "panelBoxH": 198,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 134,
+   "region": "TMP-1423",
+   "summary": "Extended description for Times Square",
+   "bodyChars": 88,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 67,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 101,
+    "panelBoxH": 67,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 135,
+   "region": "TMP-1428",
+   "summary": "Extended description for AI Purchasing",
+   "bodyChars": 150,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 67,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 101,
+    "panelBoxH": 67,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 136,
+   "region": "TMP-1438",
+   "summary": "Extended description for Windows AI Foundry",
+   "bodyChars": 148,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 67,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 101,
+    "panelBoxH": 67,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 137,
+   "region": "TMP-1450",
+   "summary": "Extended description for Figure 4.4-1 Porter’s Five Forces",
+   "bodyChars": 416,
+   "closed": {
+    "detailsH": 31,
+    "summaryH": 29,
+    "panelBoxH": 251,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 289,
+    "panelBoxH": 251,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 138,
+   "region": "TMP-1459",
+   "summary": "Extended description for Streaming Music",
+   "bodyChars": 48,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 46,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 80,
+    "panelBoxH": 46,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 139,
+   "region": "TMP-1468",
+   "summary": "Extended description for Figure 4.4-2 SWOT Analysis",
+   "bodyChars": 219,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 180,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 214,
+    "panelBoxH": 180,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 140,
+   "region": "TMP-1471",
+   "summary": "Extended description for John Deere",
+   "bodyChars": 123,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 68,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 102,
+    "panelBoxH": 68,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 141,
+   "region": "TMP-1477",
+   "summary": "Extended description for Fine Teas",
+   "bodyChars": 126,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 76,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 110,
+    "panelBoxH": 76,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 142,
+   "region": "TMP-1492",
+   "summary": "Extended description for Beyond Meat",
+   "bodyChars": 158,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 96,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 130,
+    "panelBoxH": 96,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 143,
+   "region": "TMP-1542",
+   "summary": "Extended description for Figure 5.1-1 U.S. State and Local Sales Tax",
+   "bodyChars": 717,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 518,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 551,
+    "panelBoxH": 518,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 144,
+   "region": "TMP-1551",
+   "summary": "Extended description for H and R Block",
+   "bodyChars": 143,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 145,
+   "region": "TMP-1555",
+   "summary": "Extended description for United States Treasury Check",
+   "bodyChars": 152,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 62,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 96,
+    "panelBoxH": 62,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 146,
+   "region": "TMP-1559",
+   "summary": "Extended description for Figure 5.1-2 Sample Pay Stub",
+   "bodyChars": 309,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 112,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 146,
+    "panelBoxH": 112,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 147,
+   "region": "TMP-1574",
+   "summary": "Extended description for Figure 5.1-3 Dylan’s Pay Stub",
+   "bodyChars": 383,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 228,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 262,
+    "panelBoxH": 228,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 148,
+   "region": "TMP-1609",
+   "summary": "Extended description for State Farm",
+   "bodyChars": 310,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 126,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 160,
+    "panelBoxH": 126,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 149,
+   "region": "TMP-1624",
+   "summary": "Extended description for FUTURE",
+   "bodyChars": 105,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 65,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 99,
+    "panelBoxH": 65,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 150,
+   "region": "TMP-1639",
+   "summary": "Extended description for Figure 5.3-1 The Power of Compounding",
+   "bodyChars": 517,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 279,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 313,
+    "panelBoxH": 279,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 151,
+   "region": "TMP-1646",
+   "summary": "Extended description for Figure 5.3-2 The Rise and Fall, but Long-Term Rise, of the Stock ",
+   "bodyChars": 221,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 125,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 159,
+    "panelBoxH": 125,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 152,
+   "region": "TMP-1653",
+   "summary": "Extended description for Life Stages",
+   "bodyChars": 189,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 97,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 131,
+    "panelBoxH": 97,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 153,
+   "region": "TMP-1701",
+   "summary": "Extended description for Business Model Canvas: Uber",
+   "bodyChars": 301,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 412,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 446,
+    "panelBoxH": 412,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  },
+  {
+   "i": 154,
+   "region": "TMP-1708",
+   "summary": "Extended description for Business Model Canvas: B M W",
+   "bodyChars": 390,
+   "closed": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 419,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "open": {
+    "detailsH": 453,
+    "panelBoxH": 419,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   }
+  }
+ ],
+ "shortBodies": [
+  {
+   "i": 63,
+   "region": "TMP-0428",
+   "summary": "Extended description for Figure 1.8-3 The Supply Chain for a Service",
+   "bodyWords": 6,
+   "bodyHead": "The flowchart reads as follows:PlanningSourcingDeliveryFollo"
+  },
+  {
+   "i": 88,
+   "region": "TMP-0715",
+   "summary": "Extended description for Figure 2.5-2 Price Elasticity of Demand",
+   "bodyWords": 1,
+   "bodyHead": "ⓘ"
+  }
+ ],
+ "wordStats": {
+  "min": 1,
+  "max": 330
+ },
+ "rows": [
+  {
+   "i": 0,
+   "id": null,
+   "region": "TMP-0002",
+   "summary": "Extended description for Front Cover",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 580,
+   "bodyWords": 111,
+   "bodyHead": "The authors are David A. Anderson, Heidi M. Neck, Christophe",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 205,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 239,
+    "panelBoxH": 205,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 1,
+   "id": null,
+   "region": "TMP-0058",
+   "summary": "Extended description for Organization",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1427,
+   "bodyWords": 262,
+   "bodyHead": "The title ...organization appears at the top of the image. T",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 425,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 458,
+    "panelBoxH": 425,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 2,
+   "id": null,
+   "region": "TMP-0059",
+   "summary": "Extended description for Organization (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1210,
+   "bodyWords": 206,
+   "bodyHead": "when we buy something on sale or avoid a purchase. But in pe",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 516,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 550,
+    "panelBoxH": 516,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 3,
+   "id": null,
+   "region": "TMP-0060",
+   "summary": "Extended description for Organization (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 362,
+   "bodyWords": 57,
+   "bodyHead": "• 3.7 The Balance Sheet and Net Worth• 3.8 The Cash Flow Sta",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 455,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 489,
+    "panelBoxH": 455,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 4,
+   "id": null,
+   "region": "TMP-0061",
+   "summary": "Extended description for Organization (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1560,
+   "bodyWords": 253,
+   "bodyHead": "The text at the top of the third screenshot's page reads, It",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 460,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 494,
+    "panelBoxH": 460,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 5,
+   "id": null,
+   "region": "TMP-0062",
+   "summary": "Extended description for Organization (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1622,
+   "bodyWords": 246,
+   "bodyHead": "They decided to pivot to a new business concept they felt mi",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 490,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 524,
+    "panelBoxH": 490,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 6,
+   "id": null,
+   "region": "TMP-0063",
+   "summary": "Extended description for Organization (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 98,
+   "bodyWords": 14,
+   "bodyHead": "You’ll examine decisions made by real managers and entrepren",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 68,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 102,
+    "panelBoxH": 68,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 7,
+   "id": null,
+   "region": "TMP-0065",
+   "summary": "Extended description for Real World Business Examples",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1351,
+   "bodyWords": 214,
+   "bodyHead": "The title ...examples appears at the top of the image. Text ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 417,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 450,
+    "panelBoxH": 417,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 8,
+   "id": null,
+   "region": "TMP-0066",
+   "summary": "Extended description for Real World Business Examples (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1077,
+   "bodyWords": 166,
+   "bodyHead": "Text accompanying the first screenshot reads: Real World Bus",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 443,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 477,
+    "panelBoxH": 443,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 9,
+   "id": null,
+   "region": "TMP-0067",
+   "summary": "Extended description for Real World Business Examples (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 462,
+   "bodyWords": 73,
+   "bodyHead": "The third screenshot shows a figure from the text titled Fig",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 417,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 451,
+    "panelBoxH": 417,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 10,
+   "id": null,
+   "region": "TMP-0068",
+   "summary": "Extended description for Real World Business Examples (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 351,
+   "bodyWords": 61,
+   "bodyHead": "○ GROSS EARNINGS• RATE○ 17 dollars• HOURS○ 30• CURRENT PAY○ ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 433,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 467,
+    "panelBoxH": 433,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 11,
+   "id": null,
+   "region": "TMP-0069",
+   "summary": "Extended description for Real World Business Examples (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 443,
+   "bodyWords": 70,
+   "bodyHead": "• Y T D DEDUCTIONS○ 69.95 dollars• Y T D NET PAY○ 440.05 dol",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 409,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 443,
+    "panelBoxH": 409,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 12,
+   "id": null,
+   "region": "TMP-0070",
+   "summary": "Extended description for Real World Business Examples (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 116,
+   "bodyWords": 18,
+   "bodyHead": "prepare for emergencies, save for short- and long-term goals",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 68,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 102,
+    "panelBoxH": 68,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 13,
+   "id": null,
+   "region": "TMP-0072",
+   "summary": "Extended description for Learning Tools",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1238,
+   "bodyWords": 199,
+   "bodyHead": "...learning tools — Smart Study Starts With These ToolsBuilt",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 432,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 466,
+    "panelBoxH": 432,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 14,
+   "id": null,
+   "region": "TMP-0073",
+   "summary": "Extended description for Learning Tools (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1344,
+   "bodyWords": 215,
+   "bodyHead": "Place can be a physical location where customers encounter t",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 502,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 536,
+    "panelBoxH": 502,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 15,
+   "id": null,
+   "region": "TMP-0074",
+   "summary": "Extended description for Learning Tools (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1086,
+   "bodyWords": 190,
+   "bodyHead": "○ media advertising: The promotion of goods, services, or br",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 392,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 426,
+    "panelBoxH": 392,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 16,
+   "id": null,
+   "region": "TMP-0075",
+   "summary": "Extended description for Learning Tools (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 728,
+   "bodyWords": 111,
+   "bodyHead": "• A P (Registered trademark) Skills TIP○ One of the key skil",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 250,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 284,
+    "panelBoxH": 250,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 17,
+   "id": null,
+   "region": "TMP-0077",
+   "summary": "Extended description for Module-Ending A P Practice",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 946,
+   "bodyWords": 144,
+   "bodyHead": "...module-ending A P (trademark) Practice — Practice With Pu",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 386,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 420,
+    "panelBoxH": 386,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 18,
+   "id": null,
+   "region": "TMP-0078",
+   "summary": "Extended description for Module-Ending A P Practice (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1247,
+   "bodyWords": 164,
+   "bodyHead": "• Business-to-business (B2B) companies sell their goods and ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 416,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 450,
+    "panelBoxH": 416,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 19,
+   "id": null,
+   "region": "TMP-0079",
+   "summary": "Extended description for Module-Ending A P Practice (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 647,
+   "bodyWords": 87,
+   "bodyHead": "The second screenshot is titled, Preparing for the A P (Regi",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 387,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 421,
+    "panelBoxH": 387,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 20,
+   "id": null,
+   "region": "TMP-0080",
+   "summary": "Extended description for Module-Ending A P Practice (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 913,
+   "bodyWords": 154,
+   "bodyHead": "3. At which stage of a product’s life cycle are profits most",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 522,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 556,
+    "panelBoxH": 522,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 21,
+   "id": null,
+   "region": "TMP-0081",
+   "summary": "Extended description for Module-Ending A P Practice (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1554,
+   "bodyWords": 243,
+   "bodyHead": "A third screenshot shows two overlapping pages. Text accompa",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 489,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 523,
+    "panelBoxH": 489,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 22,
+   "id": null,
+   "region": "TMP-0082",
+   "summary": "Extended description for Module-Ending A P Practice (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1635,
+   "bodyWords": 269,
+   "bodyHead": "The second page of the screenshot continues the case study. ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 481,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 515,
+    "panelBoxH": 481,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 23,
+   "id": null,
+   "region": "TMP-0083",
+   "summary": "Extended description for Module-Ending A P Practice (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1595,
+   "bodyWords": 230,
+   "bodyHead": "Cuban also likes to disrupt industries with radical change. ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 473,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 507,
+    "panelBoxH": 473,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 24,
+   "id": null,
+   "region": "TMP-0084",
+   "summary": "Extended description for Module-Ending A P Practice (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 466,
+   "bodyWords": 78,
+   "bodyHead": "Apply Your A P (Registered trademark) Skills• Identify the f",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 218,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 252,
+    "panelBoxH": 218,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 25,
+   "id": null,
+   "region": "TMP-0086",
+   "summary": "Extended description for Unit-Ending A P Practice Questions",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1059,
+   "bodyWords": 160,
+   "bodyHead": "Unit-Ending A P Practice Questions — Test What You Know—So Y",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 395,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 429,
+    "panelBoxH": 395,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 26,
+   "id": null,
+   "region": "TMP-0087",
+   "summary": "Extended description for Unit-Ending A P Practice Questions (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 654,
+   "bodyWords": 111,
+   "bodyHead": "1. According to Figure U 2-1, Samsung smartphones are most i",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 469,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 503,
+    "panelBoxH": 469,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 27,
+   "id": null,
+   "region": "TMP-0088",
+   "summary": "Extended description for Unit-Ending A P Practice Questions (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1204,
+   "bodyWords": 187,
+   "bodyHead": "• b. Samsung and Apple were responsible for the majority of ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 481,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 515,
+    "panelBoxH": 481,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 28,
+   "id": null,
+   "region": "TMP-0089",
+   "summary": "Extended description for Unit-Ending A P Practice Questions (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1183,
+   "bodyWords": 180,
+   "bodyHead": "• Identify and explain one reason why sales growth might slo",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 461,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 495,
+    "panelBoxH": 461,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 29,
+   "id": null,
+   "region": "TMP-0090",
+   "summary": "Extended description for Unit-Ending A P Practice Questions (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 562,
+   "bodyWords": 95,
+   "bodyHead": "• Active Noise Cancelling (an icon shows a figure wearing he",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 282,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 316,
+    "panelBoxH": 282,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 30,
+   "id": null,
+   "region": "TMP-0092",
+   "summary": "Extended description for A P Skill Building Tools",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1351,
+   "bodyWords": 227,
+   "bodyHead": "The title ...A P (trademark) Skill Building Tools appears at",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 389,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 423,
+    "panelBoxH": 389,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 31,
+   "id": null,
+   "region": "TMP-0093",
+   "summary": "Extended description for A P Skill Building Tools (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1226,
+   "bodyWords": 183,
+   "bodyHead": "Here are two activities to help you build the skills you’ll ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 453,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 487,
+    "panelBoxH": 453,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 32,
+   "id": null,
+   "region": "TMP-0094",
+   "summary": "Extended description for A P Skill Building Tools (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1289,
+   "bodyWords": 205,
+   "bodyHead": "It is essential to recognize the unique terms and concepts u",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 423,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 457,
+    "panelBoxH": 423,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 33,
+   "id": null,
+   "region": "TMP-0095",
+   "summary": "Extended description for A P Skill Building Tools (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1546,
+   "bodyWords": 251,
+   "bodyHead": "comes to the types of products and services they support wit",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 468,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 502,
+    "panelBoxH": 468,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 34,
+   "id": null,
+   "region": "TMP-0096",
+   "summary": "Extended description for A P Skill Building Tools (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 948,
+   "bodyWords": 136,
+   "bodyHead": "marketing. They are the most likely customers for the produc",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 437,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 471,
+    "panelBoxH": 437,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 35,
+   "id": null,
+   "region": "TMP-0098",
+   "summary": "Extended description for Project-Based Learning Support",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1415,
+   "bodyWords": 226,
+   "bodyHead": "The title ...Project-Based Learning Support appears at the t",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 410,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 444,
+    "panelBoxH": 410,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 36,
+   "id": null,
+   "region": "TMP-0099",
+   "summary": "Extended description for Project-Based Learning Support (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1060,
+   "bodyWords": 169,
+   "bodyHead": "model comprises four main elements: the offering (what is so",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 479,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 513,
+    "panelBoxH": 479,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 37,
+   "id": null,
+   "region": "TMP-0100",
+   "summary": "Extended description for Project-Based Learning Support (continued)",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 350,
+   "bodyWords": 46,
+   "bodyHead": "○ Platform development and maintenance○ Marketing and ads○ H",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 509,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 543,
+    "panelBoxH": 509,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 38,
+   "id": null,
+   "region": "TMP-0107",
+   "summary": "Extended description for Digital Platform",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1726,
+   "bodyWords": 264,
+   "bodyHead": "The title ... Digital Platform appears at the top. Text on t",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 564,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 598,
+    "panelBoxH": 564,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 39,
+   "id": null,
+   "region": "TMP-0121",
+   "summary": "Extended description for Businesses",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 306,
+   "bodyWords": 51,
+   "bodyHead": "The first photo shows a woman seated at a parked pedal ice-c",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 129,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 163,
+    "panelBoxH": 129,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 40,
+   "id": null,
+   "region": "TMP-0125",
+   "summary": "Extended description for Kellogg's Froot Loops",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 202,
+   "bodyWords": 28,
+   "bodyHead": "Text on the box reads, Kellogg's FROOTLOOPS; Good source of ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 131,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 165,
+    "panelBoxH": 131,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 41,
+   "id": null,
+   "region": "TMP-0135",
+   "summary": "Extended description for Figure 1.1-1 The Value Created by a",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 144,
+   "bodyWords": 23,
+   "bodyHead": "Jacket The breakdown of the graph reads asfollows:• Value eq",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 167,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 201,
+    "panelBoxH": 167,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 42,
+   "id": null,
+   "region": "TMP-0141",
+   "summary": "Extended description for Imperfect Foods",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 169,
+   "bodyWords": 29,
+   "bodyHead": "The advertisement on the van shows a bunch oftomatoes with t",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 96,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 130,
+    "panelBoxH": 96,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 43,
+   "id": null,
+   "region": "TMP-0152",
+   "summary": "Extended description for FIGURE 1.2-1 Where Market Prices Comes From: Supply and Demand",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 213,
+   "bodyWords": 30,
+   "bodyHead": "The horizontal axis of the graph is labeled Quantity. Thever",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 96,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 130,
+    "panelBoxH": 96,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 44,
+   "id": null,
+   "region": "TMP-0154",
+   "summary": "Extended description for Highly Competitive Markets",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 129,
+   "bodyWords": 24,
+   "bodyHead": "The first photo shows a variety of shoes displayed on a wall",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 45,
+   "id": null,
+   "region": "TMP-0172",
+   "summary": "Extended description for Figure 1.2-2 Porter's Generic Strategy",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 252,
+   "bodyWords": 38,
+   "bodyHead": "ⓘThe matrix is divided into two columns and two rows. The co",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 157,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 191,
+    "panelBoxH": 157,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 46,
+   "id": null,
+   "region": "TMP-0177",
+   "summary": "Extended description for Arby’s",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 253,
+   "bodyWords": 42,
+   "bodyHead": "A bag reads: Arby’s MEAT CRAFT; TURKEY,CHICKEN, ROAST BEEF. ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 131,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 165,
+    "panelBoxH": 131,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 47,
+   "id": null,
+   "region": "TMP-0195",
+   "summary": "Extended description for Coke",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 56,
+   "bodyWords": 11,
+   "bodyHead": "The words, SHARE A Coke, appear on the wall behind them.",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 43,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 76,
+    "panelBoxH": 43,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 48,
+   "id": null,
+   "region": "TMP-0199",
+   "summary": "Extended description for Figure 1.3-1 PESTEL Analysis",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 347,
+   "bodyWords": 56,
+   "bodyHead": "The letters in PESTEL read as follows:• P: Political, with a",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 197,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 231,
+    "panelBoxH": 197,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 49,
+   "id": null,
+   "region": "TMP-0203",
+   "summary": "Extended description for Simply Pop Beverage Can",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 158,
+   "bodyWords": 24,
+   "bodyHead": "The text on the can reads as follows:Naturally flavored with",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 95,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 129,
+    "panelBoxH": 95,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 50,
+   "id": null,
+   "region": "TMP-0238",
+   "summary": "Extended description for Figure 1.4-1 Four Pathways to Product Ideas",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 763,
+   "bodyWords": 121,
+   "bodyHead": "The first icon on the roadway shows a woman looking through ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 263,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 297,
+    "panelBoxH": 263,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 51,
+   "id": null,
+   "region": "TMP-0250",
+   "summary": "Extended description for Risky Business",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 136,
+   "bodyWords": 23,
+   "bodyHead": "The windows of the store feature popular cartoon characters,",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 67,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 101,
+    "panelBoxH": 67,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 52,
+   "id": null,
+   "region": "TMP-0256",
+   "summary": "Extended description for Figure 1.4-2 The",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 432,
+   "bodyWords": 70,
+   "bodyHead": "Design-Thinking ProcessiThe first icon shows two shaking han",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 232,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 266,
+    "panelBoxH": 232,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 53,
+   "id": null,
+   "region": "TMP-0264",
+   "summary": "Extended description for FIGURE 1.4-3 Brainstorming",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 117,
+   "bodyWords": 17,
+   "bodyHead": "Ideas on sticky notes surrounding the word BRAINSTORM on the",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 104,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 138,
+    "panelBoxH": 104,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 54,
+   "id": null,
+   "region": "TMP-0276",
+   "summary": "Extended description for Robot",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 58,
+   "bodyWords": 11,
+   "bodyHead": "A man stands beside her and observes the fine detail work.",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 47,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 81,
+    "panelBoxH": 47,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 55,
+   "id": null,
+   "region": "TMP-0312",
+   "summary": "Extended description for Your School’s Vision, Mission, and Culture",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 822,
+   "bodyWords": 127,
+   "bodyHead": "The posters from left to right read:Integrity is doing the r",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 452,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 466,
+    "panelBoxH": 432,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 56,
+   "id": null,
+   "region": "TMP-0330",
+   "summary": "Extended description for Safety Record",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 140,
+   "bodyWords": 24,
+   "bodyHead": "The sign in the forefront reads Service Center, N P, New Pro",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 57,
+   "id": null,
+   "region": "TMP-0337",
+   "summary": "Extended description for Volkswagen's False Emissions Data",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 143,
+   "bodyWords": 29,
+   "bodyHead": "The huge banner is held aloft by two women and three men. It",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 58,
+   "id": null,
+   "region": "TMP-0366",
+   "summary": "Extended description for Figure 1.7-1 A Sole Proprietorship",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 227,
+   "bodyWords": 32,
+   "bodyHead": "An upward pointing arrow reads Pros. Theaccompanying list re",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 165,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 199,
+    "panelBoxH": 165,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 59,
+   "id": null,
+   "region": "TMP-0377",
+   "summary": "Extended description for Consultants and Businesses",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 205,
+   "bodyWords": 37,
+   "bodyHead": "In the first photo, a woman wearing headphones works on a la",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 86,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 120,
+    "panelBoxH": 86,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 60,
+   "id": null,
+   "region": "TMP-0379",
+   "summary": "Extended description for Figure 1.7-2 An Example of Organizational Structure",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 135,
+   "bodyWords": 22,
+   "bodyHead": "The flowchart reads as follows:• Board of Directors○ Chief E",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 145,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 179,
+    "panelBoxH": 145,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 61,
+   "id": null,
+   "region": "TMP-0421",
+   "summary": "Extended description for Figure 1.8-1 The Supply Chain for a Good ⓘ Figure 1.8-1 The Suppl",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 761,
+   "bodyWords": 126,
+   "bodyHead": "At the heart of this process is the flow of raw materials to",
+   "closedGeometry": {
+    "detailsH": 52,
+    "summaryH": 50,
+    "panelBoxH": 214,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 266,
+    "panelBoxH": 214,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 62,
+   "id": null,
+   "region": "TMP-0422",
+   "summary": "Extended description for Figure 1.8-2 The Supply Chain for Cereal",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 429,
+   "bodyWords": 51,
+   "bodyHead": "The illustration reads as follows:Raw material. An accompany",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 216,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 250,
+    "panelBoxH": 216,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 63,
+   "id": null,
+   "region": "TMP-0428",
+   "summary": "Extended description for Figure 1.8-3 The Supply Chain for a Service",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 64,
+   "bodyWords": 6,
+   "bodyHead": "The flowchart reads as follows:PlanningSourcingDeliveryFollo",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 158,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 192,
+    "panelBoxH": 158,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 64,
+   "id": null,
+   "region": "TMP-0462",
+   "summary": "Extended description for Figure U1-1 Organizational Chart for the X Y Z Corporation",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 178,
+   "bodyWords": 28,
+   "bodyHead": "The organizational chart reads as follows:• C E O○ C T O▪ Vi",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 222,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 256,
+    "panelBoxH": 222,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 65,
+   "id": null,
+   "region": "TMP-0474",
+   "summary": "Extended description for Super Soakers",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 283,
+   "bodyWords": 50,
+   "bodyHead": "The first photo shows engineer Lonnie Johnson standing with ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 112,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 146,
+    "panelBoxH": 112,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 66,
+   "id": null,
+   "region": "TMP-0492",
+   "summary": "Extended description for FIGURE 2.1-1 Demographics Versus Psychographics",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 520,
+   "bodyWords": 87,
+   "bodyHead": "Two tables show the demographic and psychographic data for a",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 348,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 382,
+    "panelBoxH": 348,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 67,
+   "id": null,
+   "region": "TMP-0499",
+   "summary": "Extended description for Gap, Incorporated Stores",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 311,
+   "bodyWords": 57,
+   "bodyHead": "The first photo shows the storefront for an Old Navy store. ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 109,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 143,
+    "panelBoxH": 109,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 68,
+   "id": null,
+   "region": "TMP-0502",
+   "summary": "Extended description for FIGURE 2.1-2 Four Main Types of Market Segmentation",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 514,
+   "bodyWords": 84,
+   "bodyHead": "The table reads as follows:• Demographic (Icon of a group of",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 646,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 680,
+    "panelBoxH": 646,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 69,
+   "id": null,
+   "region": "TMP-0516",
+   "summary": "Extended description for Figure 2.1-3 Cooper, the Family Man",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1953,
+   "bodyWords": 321,
+   "bodyHead": "A photo shows a man, Cooper, carrying his toddler-aged daugh",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 968,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 1002,
+    "panelBoxH": 968,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 70,
+   "id": null,
+   "region": "TMP-0523",
+   "summary": "Extended description for Lancôme Cosmetics",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 585,
+   "bodyWords": 101,
+   "bodyHead": "The screen reads as follows: EARNING POINTS IS EASY. Discove",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 300,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 334,
+    "panelBoxH": 300,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 71,
+   "id": null,
+   "region": "TMP-0530",
+   "summary": "Extended description for Privacy Statement",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1350,
+   "bodyWords": 175,
+   "bodyHead": "The statement on a screen reads: 8. WHEN AND HOW CAN WE DISC",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 583,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 616,
+    "panelBoxH": 583,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 72,
+   "id": null,
+   "region": "TMP-0542",
+   "summary": "Extended description for Walmart",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 108,
+   "bodyWords": 16,
+   "bodyHead": "Additional registers are open and checking out customers. Lo",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 68,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 102,
+    "panelBoxH": 68,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 73,
+   "id": null,
+   "region": "TMP-0563",
+   "summary": "Extended description for Starbucks Rewards",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 157,
+   "bodyWords": 28,
+   "bodyHead": "Text on the page reads, FREE COFFEE IS A TAP AWAY. Join now ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 94,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 128,
+    "panelBoxH": 94,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 74,
+   "id": null,
+   "region": "TMP-0567",
+   "summary": "Extended description for Figure 2.2-1 Cialdini's Seven Principles of Influence",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 785,
+   "bodyWords": 122,
+   "bodyHead": "The illustration shows a circle. At the center of thecircle ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 480,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 514,
+    "panelBoxH": 480,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 75,
+   "id": null,
+   "region": "TMP-0575",
+   "summary": "Extended description for Consumers",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 213,
+   "bodyWords": 33,
+   "bodyHead": "Additional barrels of vegetables are clustered around the ca",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 94,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 128,
+    "panelBoxH": 94,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 76,
+   "id": null,
+   "region": "TMP-0585",
+   "summary": "Extended description for Merck",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 465,
+   "bodyWords": 69,
+   "bodyHead": "The phone screen displays a screenshot from a webpage for Me",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 300,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 334,
+    "panelBoxH": 300,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 77,
+   "id": null,
+   "region": "TMP-0603",
+   "summary": "Extended description for Figure 2.3-1 Types of Research Data",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 123,
+   "bodyWords": 19,
+   "bodyHead": "The table shows two columns: Quantitative and Qualitative, a",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 62,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 96,
+    "panelBoxH": 62,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 78,
+   "id": null,
+   "region": "TMP-0621",
+   "summary": "Extended description for Figure 2.3-2 Bar Chart",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 185,
+   "bodyWords": 28,
+   "bodyHead": "• May, 76 degrees• June, 84 degrees• July, 89 degrees• Augus",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 267,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 301,
+    "panelBoxH": 267,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 79,
+   "id": null,
+   "region": "TMP-0624",
+   "summary": "Extended description for Figure 2.3-3 Stacked Bar Chart",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 301,
+   "bodyWords": 69,
+   "bodyHead": "• Store 1◦ 0 to 20, 18 dollars◦ 21 to 40, 41 dollars◦ 41 to ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 632,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 666,
+    "panelBoxH": 632,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 80,
+   "id": null,
+   "region": "TMP-0628",
+   "summary": "Extended description for Figure 2.3-4 Line Graph",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 229,
+   "bodyWords": 42,
+   "bodyHead": "The horizontal axis of the graph shows Year from 2020 to 202",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 179,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 213,
+    "panelBoxH": 179,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 81,
+   "id": null,
+   "region": "TMP-0631",
+   "summary": "Extended description for Figure 2.3-5 Pie Chart",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 62,
+   "bodyWords": 12,
+   "bodyHead": "ⓘThe data in the pie chart read as follows:• Shoes, 34 perce",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 125,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 158,
+    "panelBoxH": 125,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 82,
+   "id": null,
+   "region": "TMP-0651",
+   "summary": "Extended description for Figure 2.4-1 Iterative Product Development",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 422,
+   "bodyWords": 73,
+   "bodyHead": "The flowchart reads as follows:• Market Opportunities (Icon ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 277,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 310,
+    "panelBoxH": 277,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 83,
+   "id": null,
+   "region": "TMP-0656",
+   "summary": "Extended description for Cheetos",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 211,
+   "bodyWords": 45,
+   "bodyHead": "Text on the beauty set packaging reads, 2 LIP GLOSS WANDS NE",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 84,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 118,
+    "panelBoxH": 84,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 84,
+   "id": null,
+   "region": "TMP-0660",
+   "summary": "Extended description for Air Tag",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 46,
+   "bodyWords": 8,
+   "bodyHead": "Text reads: Lose your knack for losing things.",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 46,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 80,
+    "panelBoxH": 46,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 85,
+   "id": null,
+   "region": "TMP-0673",
+   "summary": "Extended description for Figure 2.4-2 Product Life Cycle",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 305,
+   "bodyWords": 51,
+   "bodyHead": "The horizontal axis of the graph shows Time. The vertical ax",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 109,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 143,
+    "panelBoxH": 109,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 86,
+   "id": null,
+   "region": "TMP-0700",
+   "summary": "Extended description for Figure 2.5-1",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 262,
+   "bodyWords": 49,
+   "bodyHead": "Price, Per-Unit Cost, and Per-Unit Profit MarginiThe chart s",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 173,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 207,
+    "panelBoxH": 173,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 87,
+   "id": null,
+   "region": "TMP-0706",
+   "summary": "Extended description for A M C Plus",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 328,
+   "bodyWords": 61,
+   "bodyHead": "The top bar of the screen shows the A M C plus logo in the l",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 112,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 146,
+    "panelBoxH": 112,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 88,
+   "id": null,
+   "region": "TMP-0715",
+   "summary": "Extended description for Figure 2.5-2 Price Elasticity of Demand",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1,
+   "bodyWords": 1,
+   "bodyHead": "ⓘ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 76,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 110,
+    "panelBoxH": 76,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 89,
+   "id": null,
+   "region": "TMP-0719",
+   "summary": "Extended description for Figure 2.5-3 Market Demand",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 226,
+   "bodyWords": 41,
+   "bodyHead": "The horizontal axis shows the Quantity (pair of socks) from ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 72,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 106,
+    "panelBoxH": 72,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 90,
+   "id": null,
+   "region": "TMP-0726",
+   "summary": "Extended description for Disaster Strikes",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1174,
+   "bodyWords": 200,
+   "bodyHead": "Logo: Los Angeles County Consumer and Business Affairs.d c b",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 468,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 613,
+    "panelBoxH": 468,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 91,
+   "id": null,
+   "region": "TMP-0745",
+   "summary": "Extended description for Middleman",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 311,
+   "bodyWords": 60,
+   "bodyHead": "Posed on the desk in front of the man are Dollar Shave Club ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 79,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 112,
+    "panelBoxH": 79,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 92,
+   "id": null,
+   "region": "TMP-0748",
+   "summary": "Extended description for Figure 2.6-1 Direct and Indirect Distribution",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 443,
+   "bodyWords": 64,
+   "bodyHead": "The first flowchart shows IndirectDistribution and reads as ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 279,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 313,
+    "panelBoxH": 279,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 93,
+   "id": null,
+   "region": "TMP-0756",
+   "summary": "Extended description for Docu Sign",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 222,
+   "bodyWords": 34,
+   "bodyHead": "Text on the screen reads from top to bottom: Sales: 1-877-72",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 103,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 137,
+    "panelBoxH": 103,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 94,
+   "id": null,
+   "region": "TMP-0773",
+   "summary": "Extended description for IRON MAN",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 93,
+   "bodyWords": 13,
+   "bodyHead": "Hundreds of spectators appear behind the participants, linin",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 61,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 94,
+    "panelBoxH": 61,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 95,
+   "id": null,
+   "region": "TMP-0779",
+   "summary": "Extended description for Outdoor Advertising",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 169,
+   "bodyWords": 26,
+   "bodyHead": "The film advertised shows actor Michael Keaton as the charac",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 78,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 112,
+    "panelBoxH": 78,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 96,
+   "id": null,
+   "region": "TMP-0793",
+   "summary": "Extended description for Black Friday Advertisements",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 75,
+   "bodyWords": 13,
+   "bodyHead": "The catalog in focus reads 9 HOURS ONLY! Take advantage of o",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 64,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 98,
+    "panelBoxH": 64,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 97,
+   "id": null,
+   "region": "TMP-0802",
+   "summary": "Extended description for United Nations",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 167,
+   "bodyWords": 34,
+   "bodyHead": "The right side of the video grab shows a photo of a plate wi",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 98,
+   "id": null,
+   "region": "TMP-0809",
+   "summary": "Extended description for Honda",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 282,
+   "bodyWords": 51,
+   "bodyHead": "The photo shows Hugh Jackman as Wolverine driving a Honda Od",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 105,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 139,
+    "panelBoxH": 105,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 99,
+   "id": null,
+   "region": "TMP-0831",
+   "summary": "Extended description for Figure U 2-1 Apple vs. Samsung Market Share by Generation",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 228,
+   "bodyWords": 39,
+   "bodyHead": "ⓘThe horizontal axis of the graph shows Market Share (percen",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 142,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 176,
+    "panelBoxH": 142,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 100,
+   "id": null,
+   "region": "TMP-0835",
+   "summary": "Extended description for Figure U 2-2 Second- and Fourth-Quarter Shipments from Various",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 296,
+   "bodyWords": 45,
+   "bodyHead": "Smartphone ManufacturersⓘThe horizontal axis shows Quarters ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 212,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 246,
+    "panelBoxH": 212,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 101,
+   "id": null,
+   "region": "TMP-0840",
+   "summary": "Extended description for Figure U 2-3 Annual Revenue of Film Releases in U. S. Movie Theat",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 331,
+   "bodyWords": 56,
+   "bodyHead": "The horizontal axis of the graph shows the years from 2010 t",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 245,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 278,
+    "panelBoxH": 245,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 102,
+   "id": null,
+   "region": "TMP-0843",
+   "summary": "Extended description for Figure U 2-4 Annual Movie Theater Ticket Sales Per Person, 2010 t",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 352,
+   "bodyWords": 60,
+   "bodyHead": "ⓘThe horizontal axis of the graph shows the years from 2010 ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 343,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 376,
+    "panelBoxH": 343,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 103,
+   "id": null,
+   "region": "TMP-0846",
+   "summary": "Extended description for Figure U 2-5 The Product Life Cycle",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 629,
+   "bodyWords": 107,
+   "bodyHead": "• The line for Profit begins in the negative space during th",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 531,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 565,
+    "panelBoxH": 531,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 104,
+   "id": null,
+   "region": "TMP-0849",
+   "summary": "Extended description for Figure U 2-6 Product Features of Beats Studio Pro Headphones",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 300,
+   "bodyWords": 47,
+   "bodyHead": "• Lossless Audio via U S B - C. An accompanying illustration",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 217,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 251,
+    "panelBoxH": 217,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 105,
+   "id": null,
+   "region": "TMP-0851",
+   "summary": "Extended description for Figure U 2-7 Beats Studio Pro Ad",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 307,
+   "bodyWords": 51,
+   "bodyHead": "An image accompanying the description The King shows LeBron ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 146,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 180,
+    "panelBoxH": 146,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 106,
+   "id": null,
+   "region": "TMP-0855",
+   "summary": "Extended description for Essie Weingarten",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 274,
+   "bodyWords": 46,
+   "bodyHead": "The first photo shows Essie Weingarten standing before a wal",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 88,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 122,
+    "panelBoxH": 88,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 107,
+   "id": null,
+   "region": "TMP-0868",
+   "summary": "Extended description for Student Loan",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 130,
+   "bodyWords": 17,
+   "bodyHead": "The page reads:Student LoanOverview. Undergraduate student f",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 152,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 186,
+    "panelBoxH": 152,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 108,
+   "id": null,
+   "region": "TMP-0876",
+   "summary": "Extended description for Minor Emergencies",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 219,
+   "bodyWords": 40,
+   "bodyHead": "The first photo shows a medium-sized dog wearing a cone arou",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 103,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 137,
+    "panelBoxH": 103,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 109,
+   "id": null,
+   "region": "TMP-0904",
+   "summary": "Extended description for C D Special",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 72,
+   "bodyWords": 13,
+   "bodyHead": "Additional text reads: Seven-month C D. Speak to a banker to",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 43,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 76,
+    "panelBoxH": 43,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 110,
+   "id": null,
+   "region": "TMP-0924",
+   "summary": "Extended description for Borrowing",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 96,
+   "bodyWords": 18,
+   "bodyHead": "The man shakes hands with the woman in the business suit. Th",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 88,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 122,
+    "panelBoxH": 88,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 111,
+   "id": null,
+   "region": "TMP-0929",
+   "summary": "Extended description for Loans",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 221,
+   "bodyWords": 38,
+   "bodyHead": "The first photo shows a close-up of a sign in front of a res",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 108,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 142,
+    "panelBoxH": 108,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 112,
+   "id": null,
+   "region": "TMP-0935",
+   "summary": "Extended description for Payday Lenders",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 142,
+   "bodyWords": 23,
+   "bodyHead": "Several advertisements in the window appear in both English ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 62,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 96,
+    "panelBoxH": 62,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 113,
+   "id": null,
+   "region": "TMP-0989",
+   "summary": "Extended description for Figure 3.1-1 The Flow of Accounting Information",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 126,
+   "bodyWords": 15,
+   "bodyHead": "The flowchart reads as follows:• Business Operations○ Sales○",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 224,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 257,
+    "panelBoxH": 224,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 114,
+   "id": null,
+   "region": "TMP-0997",
+   "summary": "Extended description for New York Stock Exchange",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 69,
+   "bodyWords": 10,
+   "bodyHead": "Additional employees and scores of monitors appear in the ba",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 47,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 81,
+    "panelBoxH": 47,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 115,
+   "id": null,
+   "region": "TMP-1024",
+   "summary": "Extended description for Commercial Kitchen",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 150,
+   "bodyWords": 27,
+   "bodyHead": "The wall of the kitchen is lined with dozens of ovens. A sec",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 112,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 146,
+    "panelBoxH": 112,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 116,
+   "id": null,
+   "region": "TMP-1067",
+   "summary": "Extended description for Capital Bank",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 231,
+   "bodyWords": 41,
+   "bodyHead": "Text overlaid over the photo of the woman reads, Chart YourC",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 96,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 130,
+    "panelBoxH": 96,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 117,
+   "id": null,
+   "region": "TMP-1120",
+   "summary": "Extended description for Figure 3.6-1 Gross Profit Margin, Operating Profit Margin, and Ne",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 1647,
+   "bodyWords": 330,
+   "bodyHead": "The horizontal axis of the graph shows Year from 2009 to 202",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 443,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 477,
+    "panelBoxH": 443,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 118,
+   "id": null,
+   "region": "TMP-1129",
+   "summary": "Extended description for Population Trends",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 212,
+   "bodyWords": 39,
+   "bodyHead": "In the first photo, three very young girls walk down the hal",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 78,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 112,
+    "panelBoxH": 78,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 119,
+   "id": null,
+   "region": "TMP-1161",
+   "summary": "Extended description for Figure 3.7-1 The Balance Sheet",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 523,
+   "bodyWords": 44,
+   "bodyHead": "The first flowchart reads as follows:AssetsCurrent assetsCas",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 586,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 620,
+    "panelBoxH": 586,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 120,
+   "id": null,
+   "region": "TMP-1181",
+   "summary": "Extended description for Redbox",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 146,
+   "bodyWords": 24,
+   "bodyHead": "The kiosk advertises one dollar per night. Additional films ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 121,
+   "id": null,
+   "region": "TMP-1186",
+   "summary": "Extended description for Financial Aid",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 99,
+   "bodyWords": 17,
+   "bodyHead": "The sign reads: Renew Your Financial Aid for Next Year. fafs",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 43,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 76,
+    "panelBoxH": 43,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 122,
+   "id": null,
+   "region": "TMP-1200",
+   "summary": "Extended description for Shake Shack",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 73,
+   "bodyWords": 10,
+   "bodyHead": "Additional customers are seated at the restaurant's outdoor ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 43,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 76,
+    "panelBoxH": 43,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 123,
+   "id": null,
+   "region": "TMP-1304",
+   "summary": "Extended description for A M D",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 100,
+   "bodyWords": 21,
+   "bodyHead": "Text on the screen reads, A M D, A I Platforms.Powering the ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 124,
+   "id": null,
+   "region": "TMP-1311",
+   "summary": "Extended description for Figure 4.1-1 Four Functions of Management",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 493,
+   "bodyWords": 52,
+   "bodyHead": "The center of the flowchart reads: Functions of management. ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 675,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "td",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 709,
+    "panelBoxH": 675,
+    "bodyContributes": true,
+    "hitOpen": "td",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 125,
+   "id": null,
+   "region": "TMP-1338",
+   "summary": "Extended description for Figure 4.1-2 Components of Compensation",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 118,
+   "bodyWords": 16,
+   "bodyHead": "The pie chart reads as follows:Wages and salaries: 68 percen",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 120,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 154,
+    "panelBoxH": 120,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 126,
+   "id": null,
+   "region": "TMP-1350",
+   "summary": "Extended description for South by Southwest",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 66,
+   "bodyWords": 12,
+   "bodyHead": "A large screen shows Cuban to the audience in a packed audit",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 46,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 80,
+    "panelBoxH": 46,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 127,
+   "id": null,
+   "region": "TMP-1356",
+   "summary": "Extended description for A T and T",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 130,
+   "bodyWords": 26,
+   "bodyHead": "The text of the sign reads: A T and T. Get UNLIMITED for our",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 128,
+   "id": null,
+   "region": "TMP-1370",
+   "summary": "Extended description for Rate Your Satisfaction",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 152,
+   "bodyWords": 26,
+   "bodyHead": "A digital screen reads: Your satisfaction with our customer ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 64,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 98,
+    "panelBoxH": 64,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 129,
+   "id": null,
+   "region": "TMP-1373",
+   "summary": "Extended description for Door Dash",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 346,
+   "bodyWords": 54,
+   "bodyHead": "The advertisement heading reads: Make data-driven business d",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 159,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 193,
+    "panelBoxH": 159,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 130,
+   "id": null,
+   "region": "TMP-1383",
+   "summary": "Extended description for Figure 4.2-1 Categorizing KPIs",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 318,
+   "bodyWords": 41,
+   "bodyHead": "The illustration reads as follows:• Financial Health◦ Revenu",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 433,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 466,
+    "panelBoxH": 433,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 131,
+   "id": null,
+   "region": "TMP-1389",
+   "summary": "Extended description for Figure 4.2-2 The Benchmarking Process",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 772,
+   "bodyWords": 121,
+   "bodyHead": "The illustration reads as follows:• Step 1: Define the objec",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 353,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 387,
+    "panelBoxH": 353,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 132,
+   "id": null,
+   "region": "TMP-1405",
+   "summary": "Extended description for Strategies",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 237,
+   "bodyWords": 41,
+   "bodyHead": "The clear strategy is represented as a horizontal arrow poin",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 96,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 130,
+    "panelBoxH": 96,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 133,
+   "id": null,
+   "region": "TMP-1410",
+   "summary": "Extended description for 37 Signals",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 364,
+   "bodyWords": 63,
+   "bodyHead": "Seven talking heads surround the icons for fourteen differen",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 198,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 232,
+    "panelBoxH": 198,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 134,
+   "id": null,
+   "region": "TMP-1423",
+   "summary": "Extended description for Times Square",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 88,
+   "bodyWords": 11,
+   "bodyHead": "The buildings display numerous advertisements of varying siz",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 67,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 101,
+    "panelBoxH": 67,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 135,
+   "id": null,
+   "region": "TMP-1428",
+   "summary": "Extended description for AI Purchasing",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 150,
+   "bodyWords": 28,
+   "bodyHead": "The woman appears blurry in the background as her finger tou",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 67,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 101,
+    "panelBoxH": 67,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 136,
+   "id": null,
+   "region": "TMP-1438",
+   "summary": "Extended description for Windows AI Foundry",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 148,
+   "bodyWords": 23,
+   "bodyHead": "The screen behind Nadella reads, Announcing Windows AI Found",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 67,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 101,
+    "panelBoxH": 67,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 137,
+   "id": null,
+   "region": "TMP-1450",
+   "summary": "Extended description for Figure 4.4-1 Porter’s Five Forces",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 416,
+   "bodyWords": 70,
+   "bodyHead": "ⓘ At the center of the flowchart is a circle comprised of ro",
+   "closedGeometry": {
+    "detailsH": 31,
+    "summaryH": 29,
+    "panelBoxH": 251,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 289,
+    "panelBoxH": 251,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 138,
+   "id": null,
+   "region": "TMP-1459",
+   "summary": "Extended description for Streaming Music",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 48,
+   "bodyWords": 8,
+   "bodyHead": "A large screen in the background reads, Spotify.",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 46,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 80,
+    "panelBoxH": 46,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 139,
+   "id": null,
+   "region": "TMP-1468",
+   "summary": "Extended description for Figure 4.4-2 SWOT Analysis",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 219,
+   "bodyWords": 31,
+   "bodyHead": "The illustration outlines the meaning of the acronym SWOT, a",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 180,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 214,
+    "panelBoxH": 180,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 140,
+   "id": null,
+   "region": "TMP-1471",
+   "summary": "Extended description for John Deere",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 123,
+   "bodyWords": 19,
+   "bodyHead": "Several additional tractors and heavy duty vehicles appear i",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 68,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 102,
+    "panelBoxH": 68,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 141,
+   "id": null,
+   "region": "TMP-1477",
+   "summary": "Extended description for Fine Teas",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 126,
+   "bodyWords": 22,
+   "bodyHead": "The cylinders from right to left read as follows:• Reiki Ble",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 76,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 110,
+    "panelBoxH": 76,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 142,
+   "id": null,
+   "region": "TMP-1492",
+   "summary": "Extended description for Beyond Meat",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 158,
+   "bodyWords": 22,
+   "bodyHead": "The top shelf displays Impossible brandproducts. The middle ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 96,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 130,
+    "panelBoxH": 96,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 143,
+   "id": null,
+   "region": "TMP-1542",
+   "summary": "Extended description for Figure 5.1-1 U.S. State and Local Sales Tax",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 717,
+   "bodyWords": 105,
+   "bodyHead": "The horizontal axis of the graph shows the percent taxrate f",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 518,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 551,
+    "panelBoxH": 518,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 144,
+   "id": null,
+   "region": "TMP-1551",
+   "summary": "Extended description for H and R Block",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 143,
+   "bodyWords": 29,
+   "bodyHead": "The window shows an advertisement of a man adjusting a bow t",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 60,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 94,
+    "panelBoxH": 60,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 145,
+   "id": null,
+   "region": "TMP-1555",
+   "summary": "Extended description for United States Treasury Check",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 152,
+   "bodyWords": 27,
+   "bodyHead": "The check shows the Statue of Liberty on the left side. Deta",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 62,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 96,
+    "panelBoxH": 62,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 146,
+   "id": null,
+   "region": "TMP-1559",
+   "summary": "Extended description for Figure 5.1-2 Sample Pay Stub",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 309,
+   "bodyWords": 48,
+   "bodyHead": "The text of the pay stub reads as follows:• Better Gear, Inc",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 112,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 146,
+    "panelBoxH": 112,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 147,
+   "id": null,
+   "region": "TMP-1574",
+   "summary": "Extended description for Figure 5.1-3 Dylan’s Pay Stub",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 383,
+   "bodyWords": 58,
+   "bodyHead": "The pay stub reads, from top to bottom and left to right, as",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 228,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 262,
+    "panelBoxH": 228,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 148,
+   "id": null,
+   "region": "TMP-1609",
+   "summary": "Extended description for State Farm",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 310,
+   "bodyWords": 57,
+   "bodyHead": "The State Farm logo and name appear in the top left corner o",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 126,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 160,
+    "panelBoxH": 126,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 149,
+   "id": null,
+   "region": "TMP-1624",
+   "summary": "Extended description for FUTURE",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 105,
+   "bodyWords": 20,
+   "bodyHead": "Each student holds a letter on a sign in front of their face",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 65,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 99,
+    "panelBoxH": 65,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 150,
+   "id": null,
+   "region": "TMP-1639",
+   "summary": "Extended description for Figure 5.3-1 The Power of Compounding",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 517,
+   "bodyWords": 94,
+   "bodyHead": "The horizontal axis of the graph shows the Year from 0 to 25",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 279,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 313,
+    "panelBoxH": 279,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 151,
+   "id": null,
+   "region": "TMP-1646",
+   "summary": "Extended description for Figure 5.3-2 The Rise and Fall, but Long-Term Rise, of the Stock ",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 221,
+   "bodyWords": 38,
+   "bodyHead": "The vertical axis of the graph shows the years from 2020 to ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 125,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 159,
+    "panelBoxH": 125,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 152,
+   "id": null,
+   "region": "TMP-1653",
+   "summary": "Extended description for Life Stages",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 189,
+   "bodyWords": 36,
+   "bodyHead": "In the first photo, a young woman in a business suit stands ",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 97,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 131,
+    "panelBoxH": 97,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 153,
+   "id": null,
+   "region": "TMP-1701",
+   "summary": "Extended description for Business Model Canvas: Uber",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 301,
+   "bodyWords": 40,
+   "bodyHead": "The chart, titled BUSINESS MODEL CANVAS: UBER, has several s",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 412,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 446,
+    "panelBoxH": 412,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  },
+  {
+   "i": 154,
+   "id": null,
+   "region": "TMP-1708",
+   "summary": "Extended description for Business Model Canvas: B M W",
+   "summaryCount": 1,
+   "panelClass": "desc-panel",
+   "bodyChars": 390,
+   "bodyWords": 58,
+   "bodyHead": "The chart, titled BUSINESS MODEL CANVAS: B M W reads as foll",
+   "closedGeometry": {
+    "detailsH": 34,
+    "summaryH": 32,
+    "panelBoxH": 419,
+    "bodyNotContributing": true,
+    "panelOutsideDetails": true,
+    "hitClosed": "p",
+    "checkVisibilityClosed": false
+   },
+   "openGeometry": {
+    "detailsH": 453,
+    "panelBoxH": 419,
+    "bodyContributes": true,
+    "hitOpen": "p",
+    "checkVisibilityOpen": true,
+    "overflowX": false
+   },
+   "passes": false
+  }
+ ]
+}

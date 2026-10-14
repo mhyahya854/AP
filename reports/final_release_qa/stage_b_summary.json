@@ -1,0 +1,97 @@
+{
+ "schema": "book2.release.qa_interact.v1",
+ "fileUrl": "file:///C:/Users/mhyah/Downloads/book-source/Word/_master_work/repo/AP/AP%20Book%20Final.html",
+ "startedAt": "2026-10-14T20:48:01.049Z",
+ "phases": {
+  "perf": {
+   "navigation": {
+    "domContentLoaded": 17108,
+    "load": 18336,
+    "type": "navigate"
+   },
+   "timings": [
+    {
+     "label": "search",
+     "ms": 914
+    },
+    {
+     "label": "contents-click",
+     "ms": 936
+    },
+    {
+     "label": "mode-section",
+     "ms": 1139
+    },
+    {
+     "label": "mode-source-capture",
+     "ms": 625
+    },
+    {
+     "label": "mode-continuous",
+     "ms": 998
+    },
+    {
+     "label": "sidebar-toggle",
+     "ms": 653
+    },
+    {
+     "label": "disclosure-open",
+     "ms": 815
+    }
+   ],
+   "memory": {
+    "before": 10000000,
+    "after": 10000000,
+    "growthMB": 0
+   },
+   "stress": [
+    {
+     "round": 0,
+     "ms": 2650
+    },
+    {
+     "round": 1,
+     "ms": 3616
+    },
+    {
+     "round": 2,
+     "ms": 2402
+    }
+   ],
+   "endReachable": {
+    "scrollTop": 0,
+    "scrollHeight": 1000,
+    "lastRegionVisible": false
+   },
+   "elementCount": 54099,
+   "wallClockLoadMs": 18724
+  },
+  "screens": [
+   "cover",
+   "frontmatter-contents",
+   "unit1-opener",
+   "case-study-cotopaxi",
+   "module-1-1",
+   "lg-badge-region",
+   "disclosure-front-cover",
+   "table-region",
+   "credit-region",
+   "glossary",
+   "last-linked-row",
+   "deep-region",
+   "modeSection",
+   "modeSourceCapture",
+   "darkContinuous",
+   "darkDisclosureOpen",
+   "tableStructure",
+   "contentsExpanded"
+  ]
+ },
+ "gate": {
+  "rs": "complete",
+  "regions": 1899,
+  "nav": true
+ },
+ "jsErrors": [],
+ "finishedAt": "2026-10-14T20:48:58.469Z"
+}

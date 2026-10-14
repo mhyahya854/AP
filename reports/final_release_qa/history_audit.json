@@ -1,0 +1,72 @@
+{
+ "a": "#book-heading-0031",
+ "b": "#book-heading-0301",
+ "steps": [
+  {
+   "what": "click A",
+   "href": "#book-heading-0031",
+   "m": {
+    "hash": "#book-heading-0031",
+    "target": "book-heading-0031",
+    "gap": 14,
+    "belowToolbar": true,
+    "inViewport": true,
+    "counter": "Section 2 / 10 · Unit 1 Businesses, Competition, and New Ideas"
+   }
+  },
+  {
+   "what": "click B",
+   "href": "#book-heading-0301",
+   "m": {
+    "hash": "#book-heading-0301",
+    "target": "book-heading-0301",
+    "gap": 14,
+    "belowToolbar": true,
+    "inViewport": true,
+    "counter": "Section 6 / 10 · Unit 4 Management and Strategy"
+   }
+  },
+  {
+   "what": "back",
+   "expect": "#book-heading-0031",
+   "m": {
+    "hash": "#book-heading-0031",
+    "target": "book-heading-0031",
+    "gap": 14,
+    "belowToolbar": true,
+    "inViewport": true,
+    "counter": "Section 2 / 10 · Unit 1 Businesses, Competition, and New Ideas"
+   }
+  },
+  {
+   "what": "forward",
+   "expect": "#book-heading-0301",
+   "m": {
+    "hash": "#book-heading-0301",
+    "target": "book-heading-0301",
+    "gap": 14,
+    "belowToolbar": true,
+    "inViewport": true,
+    "counter": "Section 6 / 10 · Unit 4 Management and Strategy"
+   }
+  }
+ ],
+ "sameLinkTwice": {
+  "first": {
+   "hash": "#book-heading-0301",
+   "target": "book-heading-0301",
+   "gap": 14,
+   "belowToolbar": true,
+   "inViewport": true,
+   "counter": "Section 6 / 10 · Unit 4 Management and Strategy"
+  },
+  "second": {
+   "hash": "#book-heading-0301",
+   "target": "book-heading-0301",
+   "gap": 14,
+   "belowToolbar": true,
+   "inViewport": true,
+   "counter": "Section 6 / 10 · Unit 4 Management and Strategy"
+  }
+ }
+}

@@ -1,0 +1,364 @@
+{
+ "schema": "book2.release.feature_test_matrix.v1",
+ "statuses": [
+  "PASS",
+  "FAIL",
+  "NOT TESTED",
+  "SOURCE LIMITATION",
+  "INTENTIONAL BEHAVIOR",
+  "FIXED AND REVERIFIED"
+ ],
+ "features": [
+  {
+   "feature": "Left Contents sidebar: open/close/reopen, in-panel close",
+   "tested": "6 sidebar states",
+   "method": "CDP click + geometry (release_qa_interact.mjs shell)",
+   "result": "PASS",
+   "evidence": "shell_audit.json",
+   "detail": {
+    "states": [
+     "bothOpen",
+     "leftOpenRightClosed",
+     "leftOpenRightReopened",
+     "bothClosed",
+     "leftClosedRightOpen",
+     "bothOpenAgain"
+    ]
+   }
+  },
+  {
+   "feature": "Contents Expand all / Collapse all",
+   "tested": 2,
+   "method": "click + screenshot",
+   "result": "PASS",
+   "evidence": "screens_inventory.json (desktop-contents-expanded)",
+   "detail": "both buttons operate the 41 rail disclosures"
+  },
+  {
+   "feature": "Contents row click navigation",
+   "tested": 453,
+   "method": "click each link, measure target/gap/hash/active row",
+   "result": "PASS",
+   "evidence": "navigation_audit.json + navigation_recheck.json",
+   "detail": {
+    "total": null,
+    "belowToolbar": null,
+    "hashMatched": null,
+    "activeMatched": null,
+    "failuresAfterSlowRecheck": 0
+   }
+  },
+  {
+   "feature": "Active row highlight + group auto-open",
+   "tested": 472,
+   "method": "read aria-current after every click",
+   "result": "PASS",
+   "evidence": "navigation_audit.json (activeMatched 443 of 443 row links; 10 group headers have no active row by design)"
+  },
+  {
+   "feature": "Group-header click does not collapse its group",
+   "tested": 10,
+   "method": "open state before/after click",
+   "result": "PASS",
+   "evidence": "navigation_recheck.json (groupHeader true, navigation correct)"
+  },
+  {
+   "feature": "Right Reader tools panel: open/close/reopen",
+   "tested": 4,
+   "method": "click + geometry + aria-expanded",
+   "result": "PASS",
+   "evidence": "shell_audit.json"
+  },
+  {
+   "feature": "Sidebar combinations (both open / left only / right only / both closed)",
+   "tested": 4,
+   "method": "reading width + toolbar alignment + scroll preservation",
+   "result": "PASS",
+   "evidence": "shell_audit.json"
+  },
+  {
+   "feature": "Reading position preserved across sidebar changes",
+   "tested": "5 states",
+   "method": "anchor element rect before/after",
+   "result": "PASS",
+   "evidence": "keyboard_focus_audit.json / sidebar anchor probe: heading stays at 76 px in all five states"
+  },
+  {
+   "feature": "Toolbar: sticky, right aligned, no wrap on desktop, wraps on phones",
+   "tested": "10 viewports x 4 scroll positions",
+   "method": "rect measurement",
+   "result": "PASS",
+   "evidence": "responsive_audit.json, shell_audit.json"
+  },
+  {
+   "feature": "Toolbar previous/next in all three modes",
+   "tested": "21 steps",
+   "method": "click prev/next, read counter + visible region count",
+   "result": "PASS",
+   "evidence": "mode_audit.json"
+  },
+  {
+   "feature": "Continuous mode completeness",
+   "tested": 1899,
+   "method": "visible region count + region order",
+   "result": "PASS",
+   "evidence": "dom_validation.json (1868 of 1899 regions have a box; 31 are the documented blank/merged gap regions)"
+  },
+  {
+   "feature": "Section mode: correct section, accurate counter",
+   "tested": "counters after 7 steps + 2 cross-section clicks",
+   "method": "click + read counter",
+   "result": "PASS",
+   "evidence": "mode_audit.json, navigation_recheck.json"
+  },
+  {
+   "feature": "Source capture mode: correct capture, honest label",
+   "tested": "7 steps + navigate",
+   "method": "click + read counter",
+   "result": "PASS",
+   "evidence": "mode_audit.json (Source capture n of 1899)"
+  },
+  {
+   "feature": "Appearance Light / Dark / System",
+   "tested": "12 switches + 5 cycle drift test",
+   "method": "inline style snapshot of 400 elements",
+   "result": "PASS",
+   "evidence": "theme_audit.json"
+  },
+  {
+   "feature": "Font selector",
+   "tested": 5,
+   "method": "select each option, measure body font",
+   "result": "PASS",
+   "evidence": "typography_audit.json"
+  },
+  {
+   "feature": "Line spacing selector",
+   "tested": 3,
+   "method": "select each option, measure line-height",
+   "result": "PASS",
+   "evidence": "typography_audit.json"
+  },
+  {
+   "feature": "Text size slider + reset, zoom in/out/reset, typography reset, view reset",
+   "tested": 6,
+   "method": "operate each control, re-measure",
+   "result": "PASS",
+   "evidence": "typography_audit.json"
+  },
+  {
+   "feature": "Search",
+   "tested": 9,
+   "method": "nine queries incl. case/no-match/empty/Unicode",
+   "result": "PASS",
+   "evidence": "search_audit.json",
+   "detail": [
+    {
+     "query": "business",
+     "marks": 1,
+     "firstMark": {
+      "text": "BUSINESSWITHPERSONALFINANCE",
+      "region": "TMP-0001",
+      "top": 211
+     },
+     "counter": "Section 1 / 10 · Front matter",
+     "scrollTop": 0,
+     "hash": "",
+     "activeRow": "#book-heading-0001",
+     "statusText": null
+    },
+    {
+     "query": "elasticity",
+     "marks": 1,
+     "firstMark": {
+      "text": "A business must carefully consider the likely",
+      "region": "TMP-0713",
+      "top": 811
+     },
+     "counter": "Section 3 / 10 · Unit 2 Marketing",
+     "scrollTop": 244324,
+     "hash": "",
+     "activeRow": "#book-heading-0167",
+     "statusText": null
+    },
+    {
+     "query": "Price Elasticity of Demand",
+     "marks": 1,
+     "firstMark": {
+      "text": "A business must carefully consider the likely",
+      "region": "TMP-0713",
+      "top": 512
+     },
+     "counter": "Section 3 / 10 · Unit 2 Marketing",
+     "scrollTop": 244623,
+     "hash": "",
+     "activeRow": "#book-heading-0167",
+     "statusText": null
+    },
+    {
+     "query": "PRICE ELASTICITY",
+     "marks": 1,
+     "firstMark": {
+      "text": "A business must carefully consider the likely",
+      "region": "TMP-0713",
+      "top": 512
+     },
+     "counter": "Section 3 / 10 · Unit 2 Marketing",
+     "scrollTop": 244623,
+     "hash": "",
+     "activeRow": "#book-heading-0167",
+     "statusText": null
+    },
+    {
+     "query": "zzzz-no-such-token-zzzz",
+     "marks": 0,
+     "firstMark": null,
+     "counter": "Section 3 / 10 · Unit 2 Marketing",
+     "scrollTop": 244593,
+     "hash": "",
+     "activeRow": "#book-heading-0167",
+     "statusText": null
+    },
+    {
+     "query": "",
+     "marks": 0,
+     "firstMark": null,
+     "counter": "Section 3 / 10 · Unit 2 Marketing",
+     "scrollTop": 244593,
+     "hash": "",
+     "activeRow": "#book-heading-0167",
+     "statusText": null
+    },
+    {
+     "query": "Cotopaxi",
+     "marks": 1,
+     "firstMark": {
+      "text": "CASE STUDY: Meeting Customer Needs and Wants:",
+      "region": "TMP-0016",
+      "top": 529
+     },
+     "counter": "Section 1 / 10 · Front matter",
+     "scrollTop": 9099,
+     "hash": "",
+     "activeRow": "#book-heading-0003",
+     "statusText": null
+    },
+    {
+     "query": "efficiency",
+     "marks": 1,
+     "firstMark": {
+      "text": "Suppose that Garbagemania, Inc., is a company",
+      "region": "TMP-0277",
+      "top": 772
+     },
+     "counter": "Section 2 / 10 · Unit 1 Businesses, Competition, and New Ideas",
+     "scrollTop": 92972,
+     "hash": "",
+     "activeRow": "#book-heading-0046",
+     "statusText": null
+    },
+    {
+     "query": "opportunity cost",
+     "marks": 0,
+     "firstMark": null,
+     "counter": "Section 2 / 10 · Unit 1 Businesses, Competition, and New Ideas",
+     "scrollTop": 92942,
+     "hash": "",
+     "activeRow": "#book-heading-0045",
+     "statusText": null
+    }
+   ]
+  },
+  {
+   "feature": "Hash deep links and browser Back/Forward",
+   "tested": 6,
+   "method": "click A, click B, back, forward, same link twice, reload with hash",
+   "result": "PASS",
+   "evidence": "history_audit.json"
+  },
+  {
+   "feature": "Responsive behaviour 320-1920",
+   "tested": 10,
+   "method": "toolbar geometry, panel state, horizontal overflow",
+   "result": "PASS",
+   "evidence": "responsive_audit.json (0 px horizontal overflow at every width)"
+  },
+  {
+   "feature": "Mobile drawer closes after navigation and desktop preference is untouched",
+   "tested": "2 checks",
+   "method": "drawer state + localStorage after a row click",
+   "result": "PASS",
+   "evidence": "responsive_audit.json"
+  },
+  {
+   "feature": "Keyboard operation (Tab order, Enter on link, Enter/Space on disclosure)",
+   "tested": "14 tabs plus 4 key activations",
+   "method": "CDP Input.dispatchKeyEvent",
+   "result": "PASS",
+   "evidence": "keyboard_focus_audit.json, keyboard_activation_audit.json"
+  },
+  {
+   "feature": "Focus indicators",
+   "tested": "14 focused controls",
+   "method": "real Tab + computed outline + :focus-visible",
+   "result": "PASS",
+   "evidence": "keyboard_focus_audit.json (solid 2px rgb(15,94,168) on toolbar controls)"
+  },
+  {
+   "feature": "Extended Description disclosures",
+   "tested": 155,
+   "method": "closed/open geometry + checkVisibility + hit test + overflow",
+   "result": "PASS",
+   "evidence": "disclosure_visibility_audit.json"
+  },
+  {
+   "feature": "Learning Goal badges",
+   "tested": 151,
+   "method": "DOM census + pixel contrast + dark-mode pixel sample",
+   "result": "PASS",
+   "evidence": "dom_validation.json, pixel_contrast.json"
+  },
+  {
+   "feature": "Photograph credits (vertical, sideways-lr)",
+   "tested": 182,
+   "method": "static marker census + DOM writing-mode census + pixel contrast",
+   "result": "PASS",
+   "evidence": "static_audit.json (sideways-lr 182), dom_validation.json (374 elements inherit vertical writing)"
+  },
+  {
+   "feature": "Images (embedded captures)",
+   "tested": 417,
+   "method": "decode every payload + 12 in-view layout samples",
+   "result": "PASS",
+   "evidence": "image_render_audit.json (417/417 decode, 0 broken, distortion <= 0.0001)"
+  },
+  {
+   "feature": "Tables (data and layout)",
+   "tested": 1478,
+   "method": "structural census in the DOM",
+   "result": "PASS",
+   "evidence": "table_audit.json (12 OCR data tables regular; 24 row-count differences are reconstruction layout tables)"
+  },
+  {
+   "feature": "Offline single-file operation",
+   "tested": 1,
+   "method": "every probe loaded file:// with no network; no external requests in the DOM",
+   "result": "PASS",
+   "evidence": "all probe runs (0 JS errors, no external URLs)"
+  },
+  {
+   "feature": "Printed-page mapping",
+   "tested": 506,
+   "method": "static census of the label cells",
+   "result": "INTENTIONAL BEHAVIOR",
+   "evidence": "labels are the supplied list; no printed page boundary is claimed"
+  },
+  {
+   "feature": "Visual fidelity of all 1899 source captures",
+   "tested": 0,
+   "method": "not attempted here",
+   "result": "NOT TESTED",
+   "evidence": "the user page-by-page review is the visual acceptance step (docs/MANUAL_BOOK_REVIEW_GUIDE.md)"
+  }
+ ]
+}

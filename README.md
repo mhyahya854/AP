@@ -111,6 +111,12 @@ heading anchors, 2,346 unique ids with no duplicates and 453 of 453 internal
 fragments resolving — and from a bounded headless-Chrome pass over `file://` at
 six viewports × three reading modes.
 
+The final technical sign-off before the page-by-page human review is
+[`docs/FINAL_TECHNICAL_CERTIFICATION.md`](docs/FINAL_TECHNICAL_CERTIFICATION.md),
+with its raw evidence in `reports/final_release_qa/`. The user-facing review
+checklist is [`docs/MANUAL_BOOK_REVIEW_GUIDE.md`](docs/MANUAL_BOOK_REVIEW_GUIDE.md)
+plus `reports/final_release_qa/MANUAL_REVIEW_INDEX.csv`.
+
 The right-hand page-reference cell shows the printed labels of the
 user-supplied numbered Contents list (500 numbered entries): **506 cells**, for
 example `Module 1.1 What Is a Business?` 4, `Unit 2 Marketing` 104,

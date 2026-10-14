@@ -1,0 +1,49 @@
+{
+ "schema": "book2.release.disclosure_audit.v1",
+ "total": 155,
+ "distinct_regions": 155,
+ "hidden_when_closed": 155,
+ "shown_when_open": 155,
+ "horizontal_overflow": 0,
+ "body_word_stats": {
+  "min": 1,
+  "max": 330
+ },
+ "short_bodies": [
+  {
+   "i": 63,
+   "region": "TMP-0428",
+   "summary": "Extended description for Figure 1.8-3 The Supply Chain for a Service",
+   "bodyWords": 6,
+   "bodyHead": "The flowchart reads as follows:PlanningSourcingDeliveryFollo"
+  },
+  {
+   "i": 88,
+   "region": "TMP-0715",
+   "summary": "Extended description for Figure 2.5-2 Price Elasticity of Demand",
+   "bodyWords": 1,
+   "bodyHead": "ⓘ"
+  }
+ ],
+ "short_body_dispositions": [
+  {
+   "region": "TMP-0715",
+   "summary": "Extended description for Figure 2.5-2 Price Elasticity of Demand",
+   "body": "the single glyph the source page prints inside the box",
+   "source_check": "Page 701-800/B2P1-0715.png inspected: the source box holds the glyph and the real description paragraph is printed below the box; the reader reproduces both, so the region is not missing text (the paragraph is present outside the control)",
+   "status": "INTENTIONAL BEHAVIOR"
+  },
+  {
+   "region": "TMP-0428",
+   "summary": "Extended description for Figure 1.8-3 The Supply Chain for a Service",
+   "body": "six words naming the flowchart stages",
+   "status": "SOURCE LIMITATION",
+   "note": "no longer description exists in the supplied capture"
+  }
+ ],
+ "method": {
+  "closed_test": "details box equals the summary box and checkVisibility() is false",
+  "open_test": "details box grows by the panel height and checkVisibility() is true",
+  "why": "Chrome keeps a layout box for the slotted content of a closed details, so a child rect alone proves nothing"
+ }
+}

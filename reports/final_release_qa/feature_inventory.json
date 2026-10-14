@@ -1,0 +1,11 @@
+{
+ "schema": "book2.release.feature_inventory.v1",
+ "source": "live DOM inventory (reader/release_qa_dom.mjs, phase inventory)",
+ "ui_control_count_outside_contents": null,
+ "ui_controls": null,
+ "rail_link_count": null,
+ "rail_unlinked_count": null,
+ "rail_links": null,
+ "rail_unlinked": null,
+ "control_tags": null
+}

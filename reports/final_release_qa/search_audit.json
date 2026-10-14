@@ -1,0 +1,123 @@
+{
+ "cases": [
+  {
+   "query": "business",
+   "marks": 1,
+   "firstMark": {
+    "text": "BUSINESSWITHPERSONALFINANCE",
+    "region": "TMP-0001",
+    "top": 211
+   },
+   "counter": "Section 1 / 10 · Front matter",
+   "scrollTop": 0,
+   "hash": "",
+   "activeRow": "#book-heading-0001",
+   "statusText": null
+  },
+  {
+   "query": "elasticity",
+   "marks": 1,
+   "firstMark": {
+    "text": "A business must carefully consider the likely",
+    "region": "TMP-0713",
+    "top": 811
+   },
+   "counter": "Section 3 / 10 · Unit 2 Marketing",
+   "scrollTop": 244324,
+   "hash": "",
+   "activeRow": "#book-heading-0167",
+   "statusText": null
+  },
+  {
+   "query": "Price Elasticity of Demand",
+   "marks": 1,
+   "firstMark": {
+    "text": "A business must carefully consider the likely",
+    "region": "TMP-0713",
+    "top": 512
+   },
+   "counter": "Section 3 / 10 · Unit 2 Marketing",
+   "scrollTop": 244623,
+   "hash": "",
+   "activeRow": "#book-heading-0167",
+   "statusText": null
+  },
+  {
+   "query": "PRICE ELASTICITY",
+   "marks": 1,
+   "firstMark": {
+    "text": "A business must carefully consider the likely",
+    "region": "TMP-0713",
+    "top": 512
+   },
+   "counter": "Section 3 / 10 · Unit 2 Marketing",
+   "scrollTop": 244623,
+   "hash": "",
+   "activeRow": "#book-heading-0167",
+   "statusText": null
+  },
+  {
+   "query": "zzzz-no-such-token-zzzz",
+   "marks": 0,
+   "firstMark": null,
+   "counter": "Section 3 / 10 · Unit 2 Marketing",
+   "scrollTop": 244593,
+   "hash": "",
+   "activeRow": "#book-heading-0167",
+   "statusText": null
+  },
+  {
+   "query": "",
+   "marks": 0,
+   "firstMark": null,
+   "counter": "Section 3 / 10 · Unit 2 Marketing",
+   "scrollTop": 244593,
+   "hash": "",
+   "activeRow": "#book-heading-0167",
+   "statusText": null
+  },
+  {
+   "query": "Cotopaxi",
+   "marks": 1,
+   "firstMark": {
+    "text": "CASE STUDY: Meeting Customer Needs and Wants:",
+    "region": "TMP-0016",
+    "top": 529
+   },
+   "counter": "Section 1 / 10 · Front matter",
+   "scrollTop": 9099,
+   "hash": "",
+   "activeRow": "#book-heading-0003",
+   "statusText": null
+  },
+  {
+   "query": "efficiency",
+   "marks": 1,
+   "firstMark": {
+    "text": "Suppose that Garbagemania, Inc., is a company",
+    "region": "TMP-0277",
+    "top": 772
+   },
+   "counter": "Section 2 / 10 · Unit 1 Businesses, Competition, and New Ideas",
+   "scrollTop": 92972,
+   "hash": "",
+   "activeRow": "#book-heading-0046",
+   "statusText": null
+  },
+  {
+   "query": "opportunity cost",
+   "marks": 0,
+   "firstMark": null,
+   "counter": "Section 2 / 10 · Unit 1 Businesses, Competition, and New Ideas",
+   "scrollTop": 92942,
+   "hash": "",
+   "activeRow": "#book-heading-0045",
+   "statusText": null
+  }
+ ],
+ "afterClear": {
+  "marks": 0,
+  "counter": "Section 2 / 10 · Unit 1 Businesses, Competition, and New Ideas",
+  "hash": ""
+ }
+}

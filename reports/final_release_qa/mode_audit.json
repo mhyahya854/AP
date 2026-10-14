@@ -1,0 +1,182 @@
+{
+ "perMode": {
+  "continuous": {
+   "badge": "Continuous",
+   "counter": "Section 1 / 10 · Front matter",
+   "visibleRegions": 1868,
+   "dataMode": "continuous",
+   "effective": "continuous",
+   "appClasses": "app mode-continuous",
+   "label": "Continuous reading: the whole book on one flowing sheet."
+  },
+  "section": {
+   "badge": "Section 1/383",
+   "counter": "Section 1 of 383 · Business with Personal Finance",
+   "visibleRegions": 2,
+   "dataMode": "section",
+   "effective": "section",
+   "appClasses": "app mode-continuous",
+   "label": "Sections follow the book’s own verified headings (383 anchors). These are the book’s real sections, not printed pages: the available source carries no printed page numbers."
+  },
+  "single": {
+   "badge": "Source capture",
+   "counter": "Source capture 1 of 1899",
+   "visibleRegions": 1,
+   "dataMode": "single",
+   "effective": "single",
+   "appClasses": "app mode-single",
+   "label": "Source captures are the 1,899 page images the book was rebuilt from. Each is a screenshot of a scrolling page, so a capture is not a printed page."
+  }
+ },
+ "steps": {
+  "continuous": [
+   {
+    "dir": "next",
+    "counter": "Section 2 / 10 · Unit 1 Businesses, Competition, and New Ideas",
+    "visible": 1868,
+    "hash": ""
+   },
+   {
+    "dir": "next",
+    "counter": "Section 3 / 10 · Unit 2 Marketing",
+    "visible": 1868,
+    "hash": ""
+   },
+   {
+    "dir": "next",
+    "counter": "Section 4 / 10 · Unit 3 / Part 1 Personal Saving and Borrowing",
+    "visible": 1868,
+    "hash": ""
+   },
+   {
+    "dir": "prev",
+    "counter": "Section 3 / 10 · Unit 2 Marketing",
+    "visible": 1868,
+    "hash": ""
+   },
+   {
+    "dir": "prev",
+    "counter": "Section 2 / 10 · Unit 1 Businesses, Competition, and New Ideas",
+    "visible": 1868,
+    "hash": ""
+   },
+   {
+    "dir": "prev",
+    "counter": "Section 1 / 10 · Front matter",
+    "visible": 1868,
+    "hash": ""
+   },
+   {
+    "dir": "prev",
+    "counter": "Section 1 / 10 · Front matter",
+    "visible": 1868,
+    "hash": ""
+   }
+  ],
+  "section": [
+   {
+    "dir": "next",
+    "counter": "Section 2 of 383 · Accessibility",
+    "visible": 11,
+    "hash": ""
+   },
+   {
+    "dir": "next",
+    "counter": "Section 3 of 383 · Brief Contents",
+    "visible": 4,
+    "hash": ""
+   },
+   {
+    "dir": "next",
+    "counter": "Section 4 of 383 · Contents",
+    "visible": 29,
+    "hash": ""
+   },
+   {
+    "dir": "prev",
+    "counter": "Section 3 of 383 · Brief Contents",
+    "visible": 4,
+    "hash": ""
+   },
+   {
+    "dir": "prev",
+    "counter": "Section 2 of 383 · Accessibility",
+    "visible": 11,
+    "hash": ""
+   },
+   {
+    "dir": "prev",
+    "counter": "Section 1 of 383 · Business with Personal Finance",
+    "visible": 2,
+    "hash": ""
+   },
+   {
+    "dir": "prev",
+    "counter": "Section 1 of 383 · Business with Personal Finance",
+    "visible": 2,
+    "hash": ""
+   }
+  ],
+  "single": [
+   {
+    "dir": "next",
+    "counter": "Source capture 2 of 1899",
+    "visible": 1,
+    "hash": ""
+   },
+   {
+    "dir": "next",
+    "counter": "Source capture 3 of 1899",
+    "visible": 1,
+    "hash": ""
+   },
+   {
+    "dir": "next",
+    "counter": "Source capture 4 of 1899",
+    "visible": 1,
+    "hash": ""
+   },
+   {
+    "dir": "prev",
+    "counter": "Source capture 3 of 1899",
+    "visible": 1,
+    "hash": ""
+   },
+   {
+    "dir": "prev",
+    "counter": "Source capture 2 of 1899",
+    "visible": 1,
+    "hash": ""
+   },
+   {
+    "dir": "prev",
+    "counter": "Source capture 1 of 1899",
+    "visible": 1,
+    "hash": ""
+   },
+   {
+    "dir": "prev",
+    "counter": "Source capture 1 of 1899",
+    "visible": 1,
+    "hash": ""
+   }
+  ]
+ },
+ "sectionPrevAtStart": [
+  "Section 1 of 383 · Business with Personal Finance",
+  "Section 1 of 383 · Business with Personal Finance",
+  "Section 1 of 383 · Business with Personal Finance",
+  "Section 1 of 383 · Business with Personal Finance"
+ ],
+ "singlePrevAtStart": [
+  "Source capture 1 of 1899",
+  "Source capture 1 of 1899",
+  "Source capture 1 of 1899",
+  "Source capture 1 of 1899"
+ ],
+ "continuousAfter": {
+  "visibleRegions": 1868,
+  "regions": 1899,
+  "badge": "Continuous"
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "tabSequence": [
+  "#left-toggle",
+  "#prev",
+  "#next",
+  "#search",
+  "#right-toggle",
+  "summary.",
+  "summary.",
+  "summary.",
+  "summary.",
+  "summary.",
+  "summary."
+ ],
+ "focusRings": [
+  {
+   "sel": "#left-toggle",
+   "outline": "none 3px rgb(0, 0, 0)",
+   "outlineWidthPx": 3,
+   "boxShadow": null
+  },
+  {
+   "sel": "#prev",
+   "outline": "none 3px rgb(0, 0, 0)",
+   "outlineWidthPx": 3,
+   "boxShadow": null
+  },
+  {
+   "sel": "#next",
+   "outline": "none 3px rgb(0, 0, 0)",
+   "outlineWidthPx": 3,
+   "boxShadow": null
+  },
+  {
+   "sel": "#search",
+   "outline": "none 3px rgb(0, 0, 0)",
+   "outlineWidthPx": 3,
+   "boxShadow": null
+  },
+  {
+   "sel": "#right-toggle",
+   "outline": "none 3px rgb(0, 0, 0)",
+   "outlineWidthPx": 3,
+   "boxShadow": null
+  },
+  {
+   "sel": "#nav-expand",
+   "outline": "none 3px rgb(0, 0, 0)",
+   "outlineWidthPx": 3,
+   "boxShadow": null
+  },
+  {
+   "sel": "#nav-collapse",
+   "outline": "none 3px rgb(0, 0, 0)",
+   "outlineWidthPx": 3,
+   "boxShadow": null
+  },
+  {
+   "sel": "#zoom",
+   "outline": "none 3px rgb(16, 16, 16)",
+   "outlineWidthPx": 3,
+   "boxShadow": null
+  },
+  {
+   "sel": "#theme",
+   "outline": "none 3px rgb(31, 41, 55)",
+   "outlineWidthPx": 3,
+   "boxShadow": null
+  },
+  {
+   "sel": "#font",
+   "outline": "none 3px rgb(31, 41, 55)",
+   "outlineWidthPx": 3,
+   "boxShadow": null
+  },
+  {
+   "sel": "#spacing",
+   "outline": "none 3px rgb(31, 41, 55)",
+   "outlineWidthPx": 3,
+   "boxShadow": null
+  }
+ ],
+ "disclosure": {
+  "closedH": 34,
+  "openH": 239,
+  "openedByClick": true,
+  "closedAgainH": 34
+ },
+ "drawerFocus": {
+  "afterOpenFocus": "#left-toggle",
+  "afterCloseFocus": "#left-toggle"
+ }
+}

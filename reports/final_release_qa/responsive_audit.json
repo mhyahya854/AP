@@ -1,0 +1,222 @@
+{
+ "schema": "book2.release.responsive_audit.v1",
+ "viewports": [
+  {
+   "viewport": [
+    320,
+    700
+   ],
+   "toolbarHeight": 70,
+   "toolbarWidth": 296,
+   "toolbarLeft": 12,
+   "toolbarRight": 308,
+   "toolbarWraps": true,
+   "toolbarFits": true,
+   "docOverflowX": 0,
+   "leftPanelVisible": true,
+   "rightPanelVisible": false,
+   "readingWidth": 320,
+   "navOffset": "96px",
+   "searchWidth": 198,
+   "appClasses": "app mode-continuous fit-reflow right-closed"
+  },
+  {
+   "viewport": [
+    375,
+    812
+   ],
+   "toolbarHeight": 70,
+   "toolbarWidth": 351,
+   "toolbarLeft": 12,
+   "toolbarRight": 363,
+   "toolbarWraps": true,
+   "toolbarFits": true,
+   "docOverflowX": 0,
+   "leftPanelVisible": true,
+   "rightPanelVisible": false,
+   "readingWidth": 375,
+   "navOffset": "96px",
+   "searchWidth": 253,
+   "appClasses": "app mode-continuous fit-reflow right-closed"
+  },
+  {
+   "viewport": [
+    390,
+    844
+   ],
+   "toolbarHeight": 70,
+   "toolbarWidth": 366,
+   "toolbarLeft": 12,
+   "toolbarRight": 378,
+   "toolbarWraps": true,
+   "toolbarFits": true,
+   "docOverflowX": 0,
+   "leftPanelVisible": true,
+   "rightPanelVisible": false,
+   "readingWidth": 390,
+   "navOffset": "96px",
+   "searchWidth": 268,
+   "appClasses": "app mode-continuous fit-reflow right-closed"
+  },
+  {
+   "viewport": [
+    600,
+    900
+   ],
+   "toolbarHeight": 70,
+   "toolbarWidth": 576,
+   "toolbarLeft": 12,
+   "toolbarRight": 588,
+   "toolbarWraps": true,
+   "toolbarFits": true,
+   "docOverflowX": 0,
+   "leftPanelVisible": true,
+   "rightPanelVisible": false,
+   "readingWidth": 600,
+   "navOffset": "96px",
+   "searchWidth": 478,
+   "appClasses": "app mode-continuous fit-reflow right-closed"
+  },
+  {
+   "viewport": [
+    768,
+    1024
+   ],
+   "toolbarHeight": 44,
+   "toolbarWidth": 639,
+   "toolbarLeft": 114,
+   "toolbarRight": 753,
+   "toolbarWraps": false,
+   "toolbarFits": true,
+   "docOverflowX": 0,
+   "leftPanelVisible": true,
+   "rightPanelVisible": false,
+   "readingWidth": 768,
+   "navOffset": "73px",
+   "searchWidth": 200,
+   "appClasses": "app mode-continuous right-closed"
+  },
+  {
+   "viewport": [
+    850,
+    1000
+   ],
+   "toolbarHeight": 44,
+   "toolbarWidth": 639,
+   "toolbarLeft": 179,
+   "toolbarRight": 818,
+   "toolbarWraps": false,
+   "toolbarFits": true,
+   "docOverflowX": 0,
+   "leftPanelVisible": true,
+   "rightPanelVisible": false,
+   "readingWidth": 850,
+   "navOffset": "75px",
+   "searchWidth": 200,
+   "appClasses": "app mode-continuous right-closed"
+  },
+  {
+   "viewport": [
+    1024,
+    768
+   ],
+   "toolbarHeight": 74,
+   "toolbarWidth": 463,
+   "toolbarLeft": 288,
+   "toolbarRight": 751,
+   "toolbarWraps": true,
+   "toolbarFits": true,
+   "docOverflowX": 0,
+   "leftPanelVisible": true,
+   "rightPanelVisible": true,
+   "readingWidth": 514,
+   "navOffset": "106px",
+   "searchWidth": 200,
+   "appClasses": "app mode-continuous fit-reflow"
+  },
+  {
+   "viewport": [
+    1366,
+    768
+   ],
+   "toolbarHeight": 44,
+   "toolbarWidth": 639,
+   "toolbarLeft": 434,
+   "toolbarRight": 1073,
+   "toolbarWraps": false,
+   "toolbarFits": true,
+   "docOverflowX": 0,
+   "leftPanelVisible": true,
+   "rightPanelVisible": true,
+   "readingWidth": 806,
+   "navOffset": "76px",
+   "searchWidth": 200,
+   "appClasses": "app mode-continuous"
+  },
+  {
+   "viewport": [
+    1400,
+    1000
+   ],
+   "toolbarHeight": 44,
+   "toolbarWidth": 639,
+   "toolbarLeft": 468,
+   "toolbarRight": 1107,
+   "toolbarWraps": false,
+   "toolbarFits": true,
+   "docOverflowX": 0,
+   "leftPanelVisible": true,
+   "rightPanelVisible": true,
+   "readingWidth": 840,
+   "navOffset": "76px",
+   "searchWidth": 200,
+   "appClasses": "app mode-continuous"
+  },
+  {
+   "viewport": [
+    1920,
+    1080
+   ],
+   "toolbarHeight": 44,
+   "toolbarWidth": 639,
+   "toolbarLeft": 988,
+   "toolbarRight": 1627,
+   "toolbarWraps": false,
+   "toolbarFits": true,
+   "docOverflowX": 0,
+   "leftPanelVisible": true,
+   "rightPanelVisible": true,
+   "readingWidth": 1360,
+   "navOffset": "76px",
+   "searchWidth": 200,
+   "appClasses": "app mode-continuous"
+  }
+ ],
+ "horizontal_overflow_all_viewports": 0,
+ "toolbar_wraps_below": 768,
+ "nav_offset_tracking": [
+  "96px",
+  "96px",
+  "96px",
+  "96px",
+  "73px",
+  "75px",
+  "106px",
+  "76px",
+  "76px",
+  "76px"
+ ],
+ "mobile_cover": {
+  "screens": [
+   null,
+   null
+  ],
+  "region_width_at_320": null,
+  "document_overflow_x": null,
+  "images": null,
+  "finding": "the cover keeps its source composition; nothing is cut off and the page does not scroll sideways at 320 px or 390 px"
+ },
+ "mobile_drawer": null,
+ "desktop_after_mobile": null,
+ "breakpoint_transitions": "390 -> 1400 left both sidebars visible with preferences unchanged"
+}

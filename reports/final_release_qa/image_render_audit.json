@@ -1,0 +1,178 @@
+{
+ "decode": {
+  "images": 417,
+  "distinctPayloads": 413,
+  "decodedOk": 417,
+  "bad": []
+ },
+ "inView": [
+  {
+   "region": "TMP-0001",
+   "complete": true,
+   "natural": [
+    714,
+    1622
+   ],
+   "rendered": [
+    321,
+    728
+   ],
+   "distortion": 0,
+   "visible": true
+  },
+  {
+   "region": "TMP-0116",
+   "complete": true,
+   "natural": [
+    2492,
+    2354
+   ],
+   "rendered": [
+    623,
+    588
+   ],
+   "distortion": 0,
+   "visible": true
+  },
+  {
+   "region": "TMP-0250",
+   "complete": true,
+   "natural": [
+    3292,
+    2194
+   ],
+   "rendered": [
+    650,
+    433
+   ],
+   "distortion": 0,
+   "visible": true
+  },
+  {
+   "region": "TMP-0422",
+   "complete": true,
+   "natural": [
+    346,
+    347
+   ],
+   "rendered": [
+    78,
+    78
+   ],
+   "distortion": 0.0001,
+   "visible": true
+  },
+  {
+   "region": "TMP-0523",
+   "complete": true,
+   "natural": [
+    507,
+    507
+   ],
+   "rendered": [
+    503,
+    503
+   ],
+   "distortion": 0,
+   "visible": true
+  },
+  {
+   "region": "TMP-0656",
+   "complete": true,
+   "natural": [
+    1985,
+    2340
+   ],
+   "rendered": [
+    577,
+    681
+   ],
+   "distortion": 0,
+   "visible": true
+  },
+  {
+   "region": "TMP-0763",
+   "complete": true,
+   "natural": [
+    3295,
+    2202
+   ],
+   "rendered": [
+    650,
+    434
+   ],
+   "distortion": 0,
+   "visible": true
+  },
+  {
+   "region": "TMP-0881",
+   "complete": true,
+   "natural": [
+    3280,
+    1951
+   ],
+   "rendered": [
+    650,
+    386
+   ],
+   "distortion": 0,
+   "visible": true
+  },
+  {
+   "region": "TMP-1086",
+   "complete": true,
+   "natural": [
+    3293,
+    2338
+   ],
+   "rendered": [
+    650,
+    461
+   ],
+   "distortion": 0,
+   "visible": true
+  },
+  {
+   "region": "TMP-1356",
+   "complete": true,
+   "natural": [
+    3133,
+    2086
+   ],
+   "rendered": [
+    650,
+    432
+   ],
+   "distortion": 0,
+   "visible": true
+  },
+  {
+   "region": "TMP-1477",
+   "complete": true,
+   "natural": [
+    3330,
+    1690
+   ],
+   "rendered": [
+    642,
+    326
+   ],
+   "distortion": 0,
+   "visible": true
+  },
+  {
+   "region": "TMP-1695",
+   "complete": true,
+   "natural": [
+    3296,
+    2310
+   ],
+   "rendered": [
+    642,
+    450
+   ],
+   "distortion": 0,
+   "visible": true
+  }
+ ]
+}

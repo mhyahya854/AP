@@ -1,0 +1,689 @@
+{
+ "schema": "book2.release.pixel_contrast.v1",
+ "rows": [
+  {
+   "name": "cover-title",
+   "theme": "light",
+   "selector": "#TMP-0001",
+   "text": "BUSINESSWITHPERSONALFINANCEfor the AP\u00ae CourseDavid A. An",
+   "fontPx": 14.0,
+   "weight": "400",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-cover-title-light.png",
+   "surface": [
+    255,
+    255,
+    255
+   ],
+   "ink": [
+    0,
+    42,
+    78
+   ],
+   "ratio": 14.57,
+   "surfaceShare": 0.3325,
+   "pixels": 472800
+  },
+  {
+   "name": "cover-title",
+   "theme": "dark",
+   "selector": "#TMP-0001",
+   "text": "BUSINESSWITHPERSONALFINANCEfor the AP\u00ae CourseDavid A. An",
+   "fontPx": 14.0,
+   "weight": "400",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-cover-title-dark.png",
+   "surface": [
+    28,
+    34,
+    41
+   ],
+   "ink": [
+    255,
+    255,
+    255
+   ],
+   "ratio": 16.03,
+   "surfaceShare": 0.2903,
+   "pixels": 472800
+  },
+  {
+   "name": "body-paragraph",
+   "theme": "light",
+   "selector": "#TMP-0119",
+   "text": "Businesses Meet Needs and SolveProblemsLGWhat is a busin",
+   "fontPx": 14.0,
+   "weight": "400",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-body-paragraph-light.png",
+   "surface": [
+    255,
+    255,
+    255
+   ],
+   "ink": [
+    0,
+    0,
+    0
+   ],
+   "ratio": 21.0,
+   "surfaceShare": 0.849,
+   "pixels": 301016
+  },
+  {
+   "name": "body-paragraph",
+   "theme": "dark",
+   "selector": "#TMP-0119",
+   "text": "Businesses Meet Needs and SolveProblemsLGWhat is a busin",
+   "fontPx": 14.0,
+   "weight": "400",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-body-paragraph-dark.png",
+   "surface": [
+    28,
+    34,
+    41
+   ],
+   "ink": [
+    240,
+    240,
+    240
+   ],
+   "ratio": 14.06,
+   "surfaceShare": 0.847,
+   "pixels": 301016
+  },
+  {
+   "name": "module-heading",
+   "theme": "light",
+   "selector": "#book-heading-0117",
+   "text": "How Consumers Make Decisions",
+   "fontPx": 18.6667,
+   "weight": "700",
+   "largeText": true,
+   "required": 3.0,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-module-heading-light.png",
+   "surface": [
+    255,
+    255,
+    255
+   ],
+   "ink": [
+    101,
+    50,
+    133
+   ],
+   "ratio": 8.94,
+   "surfaceShare": 0.8407,
+   "pixels": 15026
+  },
+  {
+   "name": "module-heading",
+   "theme": "dark",
+   "selector": "#book-heading-0117",
+   "text": "How Consumers Make Decisions",
+   "fontPx": 18.6667,
+   "weight": "700",
+   "largeText": true,
+   "required": 3.0,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-module-heading-dark.png",
+   "surface": [
+    28,
+    34,
+    41
+   ],
+   "ink": [
+    173,
+    122,
+    205
+   ],
+   "ratio": 4.92,
+   "surfaceShare": 0.8407,
+   "pixels": 15026
+  },
+  {
+   "name": "table-cell",
+   "theme": "light",
+   "selector": "#TMP-0333",
+   "text": "ramifications of their fraudulent behavior, these compan",
+   "fontPx": 14.0,
+   "weight": "400",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-table-cell-light.png",
+   "surface": [
+    255,
+    255,
+    255
+   ],
+   "ink": [
+    0,
+    0,
+    0
+   ],
+   "ratio": 21.0,
+   "surfaceShare": 0.8569,
+   "pixels": 165480
+  },
+  {
+   "name": "table-cell",
+   "theme": "dark",
+   "selector": "#TMP-0333",
+   "text": "ramifications of their fraudulent behavior, these compan",
+   "fontPx": 14.0,
+   "weight": "400",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-table-cell-dark.png",
+   "surface": [
+    28,
+    34,
+    41
+   ],
+   "ink": [
+    240,
+    240,
+    240
+   ],
+   "ratio": 14.06,
+   "surfaceShare": 0.8557,
+   "pixels": 165480
+  },
+  {
+   "name": "lg-badge",
+   "theme": "light",
+   "selector": ".lg-badge",
+   "text": "LG",
+   "fontPx": 23.04,
+   "weight": "700",
+   "largeText": true,
+   "required": 3.0,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-lg-badge-light.png",
+   "surface": [
+    166,
+    31,
+    102
+   ],
+   "ink": [
+    255,
+    255,
+    255
+   ],
+   "ratio": 6.98,
+   "surfaceShare": 0.75,
+   "pixels": 2336
+  },
+  {
+   "name": "lg-badge",
+   "theme": "dark",
+   "selector": ".lg-badge",
+   "text": "LG",
+   "fontPx": 23.04,
+   "weight": "700",
+   "largeText": true,
+   "required": 3.0,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-lg-badge-dark.png",
+   "surface": [
+    166,
+    31,
+    102
+   ],
+   "ink": [
+    255,
+    255,
+    255
+   ],
+   "ratio": 6.98,
+   "surfaceShare": 0.7483,
+   "pixels": 2336
+  },
+  {
+   "name": "disclosure-summary",
+   "theme": "light",
+   "selector": "details.disclosure > summary",
+   "text": "Extended description for Front Cover",
+   "fontPx": 12.5,
+   "weight": "600",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-disclosure-summary-light.png",
+   "surface": [
+    242,
+    243,
+    244
+   ],
+   "ink": [
+    0,
+    0,
+    0
+   ],
+   "ratio": 18.9,
+   "surfaceShare": 0.9046,
+   "pixels": 21792
+  },
+  {
+   "name": "disclosure-summary",
+   "theme": "dark",
+   "selector": "details.disclosure > summary",
+   "text": "Extended description for Front Cover",
+   "fontPx": 12.5,
+   "weight": "600",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-disclosure-summary-dark.png",
+   "surface": [
+    35,
+    42,
+    51
+   ],
+   "ink": [
+    219,
+    226,
+    234
+   ],
+   "ratio": 11.09,
+   "surfaceShare": 0.9014,
+   "pixels": 21792
+  },
+  {
+   "name": "photo-credit",
+   "theme": "light",
+   "selector": ".b2-vcredit",
+   "text": "MoMo Productions/Getty Images",
+   "fontPx": 14.6667,
+   "weight": "400",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-photo-credit-light.png",
+   "surface": [
+    255,
+    255,
+    255
+   ],
+   "ink": [
+    0,
+    0,
+    0
+   ],
+   "ratio": 21.0,
+   "surfaceShare": 0.7063,
+   "pixels": 2618
+  },
+  {
+   "name": "photo-credit",
+   "theme": "dark",
+   "selector": ".b2-vcredit",
+   "text": "MoMo Productions/Getty Images",
+   "fontPx": 14.6667,
+   "weight": "400",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-photo-credit-dark.png",
+   "surface": [
+    28,
+    34,
+    41
+   ],
+   "ink": [
+    240,
+    240,
+    240
+   ],
+   "ratio": 14.06,
+   "surfaceShare": 0.7063,
+   "pixels": 2618
+  },
+  {
+   "name": "nav-row-linked",
+   "theme": "light",
+   "selector": "#contents-nav a.nav-child",
+   "text": "FCCover Page",
+   "fontPx": 12.5,
+   "weight": "400",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-nav-row-linked-light.png",
+   "surface": [
+    251,
+    251,
+    252
+   ],
+   "ink": [
+    19,
+    93,
+    136
+   ],
+   "ratio": 6.89,
+   "surfaceShare": 0.9345,
+   "pixels": 6210
+  },
+  {
+   "name": "nav-row-linked",
+   "theme": "dark",
+   "selector": "#contents-nav a.nav-child",
+   "text": "FCCover Page",
+   "fontPx": 12.5,
+   "weight": "400",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-nav-row-linked-dark.png",
+   "surface": [
+    23,
+    28,
+    34
+   ],
+   "ink": [
+    158,
+    201,
+    240
+   ],
+   "ratio": 9.85,
+   "surfaceShare": 0.9345,
+   "pixels": 6210
+  },
+  {
+   "name": "nav-row-muted",
+   "theme": "light",
+   "selector": "#contents-nav span.nav-unlinked",
+   "text": "FCAbout this Book",
+   "fontPx": 12.5,
+   "weight": "400",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-nav-row-muted-light.png",
+   "surface": [
+    251,
+    251,
+    252
+   ],
+   "ink": [
+    95,
+    103,
+    115
+   ],
+   "ratio": 5.53,
+   "surfaceShare": 0.9129,
+   "pixels": 6210
+  },
+  {
+   "name": "nav-row-muted",
+   "theme": "dark",
+   "selector": "#contents-nav span.nav-unlinked",
+   "text": "FCAbout this Book",
+   "fontPx": 12.5,
+   "weight": "400",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-nav-row-muted-dark.png",
+   "surface": [
+    23,
+    28,
+    34
+   ],
+   "ink": [
+    139,
+    150,
+    163
+   ],
+   "ratio": 5.7,
+   "surfaceShare": 0.9129,
+   "pixels": 6210
+  },
+  {
+   "name": "toolbar-button",
+   "theme": "light",
+   "selector": "#right-toggle",
+   "text": "Controls",
+   "fontPx": 12.0,
+   "weight": "400",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-toolbar-button-light.png",
+   "surface": [
+    230,
+    239,
+    250
+   ],
+   "ink": [
+    0,
+    0,
+    0
+   ],
+   "ratio": 18.09,
+   "surfaceShare": 0.7083,
+   "pixels": 1512
+  },
+  {
+   "name": "toolbar-button",
+   "theme": "dark",
+   "selector": "#right-toggle",
+   "text": "Controls",
+   "fontPx": 12.0,
+   "weight": "400",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-toolbar-button-dark.png",
+   "surface": [
+    38,
+    54,
+    74
+   ],
+   "ink": [
+    230,
+    233,
+    237
+   ],
+   "ratio": 10.09,
+   "surfaceShare": 0.7083,
+   "pixels": 1512
+  },
+  {
+   "name": "tools-panel-label",
+   "theme": "light",
+   "selector": "#reader-controls label",
+   "text": "Appearance",
+   "fontPx": 12.0,
+   "weight": "600",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-tools-panel-label-light.png",
+   "surface": [
+    251,
+    251,
+    252
+   ],
+   "ink": [
+    49,
+    64,
+    79
+   ],
+   "ratio": 10.27,
+   "surfaceShare": 0.8624,
+   "pixels": 3024
+  },
+  {
+   "name": "tools-panel-label",
+   "theme": "dark",
+   "selector": "#reader-controls label",
+   "text": "Appearance",
+   "fontPx": 12.0,
+   "weight": "600",
+   "largeText": false,
+   "required": 4.5,
+   "verdict": "PASS",
+   "file": "reports/final_release_qa/screens/qa-pixel-tools-panel-label-dark.png",
+   "surface": [
+    23,
+    28,
+    34
+   ],
+   "ink": [
+    195,
+    204,
+    215
+   ],
+   "ratio": 10.56,
+   "surfaceShare": 0.8624,
+   "pixels": 3024
+  }
+ ],
+ "summary": {
+  "cover-title:light": {
+   "ratio": 14.57,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "cover-title:dark": {
+   "ratio": 16.03,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "body-paragraph:light": {
+   "ratio": 21.0,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "body-paragraph:dark": {
+   "ratio": 14.06,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "module-heading:light": {
+   "ratio": 8.94,
+   "required": 3.0,
+   "verdict": "PASS",
+   "note": null
+  },
+  "module-heading:dark": {
+   "ratio": 4.92,
+   "required": 3.0,
+   "verdict": "PASS",
+   "note": null
+  },
+  "table-cell:light": {
+   "ratio": 21.0,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "table-cell:dark": {
+   "ratio": 14.06,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "lg-badge:light": {
+   "ratio": 6.98,
+   "required": 3.0,
+   "verdict": "PASS",
+   "note": null
+  },
+  "lg-badge:dark": {
+   "ratio": 6.98,
+   "required": 3.0,
+   "verdict": "PASS",
+   "note": null
+  },
+  "disclosure-summary:light": {
+   "ratio": 18.9,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "disclosure-summary:dark": {
+   "ratio": 11.09,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "photo-credit:light": {
+   "ratio": 21.0,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "photo-credit:dark": {
+   "ratio": 14.06,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "nav-row-linked:light": {
+   "ratio": 6.89,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "nav-row-linked:dark": {
+   "ratio": 9.85,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "nav-row-muted:light": {
+   "ratio": 5.53,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "nav-row-muted:dark": {
+   "ratio": 5.7,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "toolbar-button:light": {
+   "ratio": 18.09,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "toolbar-button:dark": {
+   "ratio": 10.09,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "tools-panel-label:light": {
+   "ratio": 10.27,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  },
+  "tools-panel-label:dark": {
+   "ratio": 10.56,
+   "required": 4.5,
+   "verdict": "PASS",
+   "note": null
+  }
+ }
+}
