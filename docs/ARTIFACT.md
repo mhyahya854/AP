@@ -3,8 +3,8 @@
 | Field | Value |
 |---|---|
 | File | `AP Book Final.html` |
-| Bytes | 1,132,243,794 |
-| SHA-256 | `572144b82c780abbad6ec81174c96fea0f4082222442ec42a8d90657d3a4b09f` |
+| Bytes | 1,132,261,630 |
+| SHA-256 | `73d175779ae506d9f2b902e83f56438ca313c3d75be4eb1dd0c5cf75c4f645b2` |
 | Self-contained | yes - every figure and table is an inline `data:` URI, the only scripts are three inline scripts, no network access is required |
 | Source regions | 1,899 (`TMP-0001` .. `TMP-1899`), unchanged in identity, order and text |
 
@@ -13,7 +13,8 @@
 `continuous-reading-2026-10-12`, `corrective-2026-10-12` and
 `printed-contents-2026-10-12`, `supplied-entries-2026-10-12`,
 `overnight-audit-2026-10-13`, `orphan-repair-2026-10-13`,
-`final-completion-2026-10-13` and `nine-case-2026-10-13`.
+`final-completion-2026-10-13`, `nine-case-2026-10-13` and
+`photo-credit-orientation-2026-10-14`.
 
 * The corrective wave changed one source region (`TMP-0563`, the Starbucks
   Rewards control, whose description text was stranded beside a bitmap inside
@@ -43,6 +44,20 @@
   source-vertical `MoMo Productions/Getty Images` credit vertically instead of
   letting the browser break the word in half.  Disclosure controls in the book:
   155, none empty.  Ledger: `docs/NINE_CASE_LEDGER.md`.
+
+* The photo-credit wave of 2026-10-14 gave all **182** photo-side credits their
+  printed orientation.  Each one was recovered from its own source capture: they
+  are printed vertically in a narrow column beside the photograph and read
+  bottom-to-top, so the rule is `writing-mode:sideways-lr`, applied as one extra
+  property on the credit paragraph's existing `style` attribute.  The first
+  attempt at this (`9a17a12`, `writing-mode:vertical-rl` on the same paragraphs)
+  was wrong by 180 degrees - it made the credits read top-to-bottom, upside down
+  against the page - and was reverted in `4ecafea` before this correction was
+  written.  Evidence and the rejected-direction proof:
+  `docs/PHOTO_CREDIT_ORIENTATION.md`,
+  `reports/credit_sideways_lr/credit_regions_before_after.csv`,
+  `docs/layout/34-credit-sideways-lr-match.png`,
+  `docs/layout/35-credit-vertical-rl-inverted.png`.
 
 Of the **1,899** regions, **1,895** are byte-identical to the artifact before
 the supplied-entries wave and **4** changed - `TMP-0542`, `TMP-0543`,

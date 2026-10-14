@@ -1,9 +1,10 @@
 # Known issues in the current release
 
-Verified against `AP Book Final.html`, 1,132,243,794 bytes, SHA-256
-`572144b82c780abbad6ec81174c96fea0f4082222442ec42a8d90657d3a4b09f`
-(GitHub `fb11cc1`) by the acceptance run reported in
-`docs/FINAL_ACCEPTANCE_REPORT.md`.  Each item says whether it is a genuine
+Verified against `AP Book Final.html`, 1,132,261,630 bytes, SHA-256
+`73d175779ae506d9f2b902e83f56438ca313c3d75be4eb1dd0c5cf75c4f645b2`
+(GitHub `dcae5e5`) by the acceptance run reported in
+`docs/FINAL_ACCEPTANCE_REPORT.md` plus the photo-credit wave of 2026-10-14
+(`docs/PHOTO_CREDIT_ORIENTATION.md`).  Each item says whether it is a genuine
 source gap, an availability limit, a scope statement, or something already
 fixed.  Earlier wording that contradicts this file is listed under
 "Superseded claims" at the end, and the raw snapshots are preserved under
