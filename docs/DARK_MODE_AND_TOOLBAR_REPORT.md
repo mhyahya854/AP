@@ -378,10 +378,20 @@ collected for the whole fixture run and the whole full-book run: **0 in both**
 
 ### GitHub
 
-See `reports/step2_wave/remote_verification.json` for the pushed commit, the
-LFS upload summary and the independent download check (a fresh
-`git clone --no-checkout --depth 1` of the remote plus
-`git lfs fetch` of the book only, hashed locally).
+| Field | Value |
+|---|---|
+| Commit | `a73036ebd2f1b8c004b0a8d5d8ca6d354e5d20ed` (pushed range `f8eeaea..a73036e`, branch `main`) |
+| LFS upload | `Uploading LFS objects: 100% (1/1), 1.1 GB \| 12 MB/s, done.` — one consolidated object, no source PNG re-uploaded |
+| Remote HEAD at verification | `a73036ebd2f1b8c004b0a8d5d8ca6d354e5d20ed` |
+| Independent download | fresh `git clone --no-checkout --depth 1` + `git lfs fetch origin main --include="AP Book Final.html"` → 1,132,289,645 bytes, SHA-256 `ba63e34f…ff74`, **matches the promoted artifact exactly** |
+
+Full record: `reports/step2_wave/remote_verification.json`.  The previous
+artifact is recoverable both from the parent commit `f8eeaea` (its LFS object is
+untouched on the remote) and from the local backup
+`_master_work/integration_backups/step2-20261014/prev-final-AP Book Final.html`
+(`db07ab80…5df`, 1,132,269,052 bytes).  Nothing was force-pushed, no history was
+rewritten, the repository's visibility was not changed, and no unrelated
+system file was touched.
 
 ---
 
