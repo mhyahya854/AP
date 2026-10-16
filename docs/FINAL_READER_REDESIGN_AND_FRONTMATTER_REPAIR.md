@@ -251,8 +251,8 @@ profile - the user's own browser is never touched).
 | step | result |
 |---|---|
 | rollback preserved | `_master_work/integration_backups/final-reader-20261016/prev-final-AP Book Final.html` and `prev-root-AP Book Final.html` (both 1,132,306,770 bytes, SHA-256 `2bff4ce2…`), plus the previous artifact in Git LFS |
-| commit | `714b0987681f3abafa0526437909b64ea83f59fe` on `main` |
-| remote ref | `git ls-remote origin refs/heads/main` = `714b0987681f3abafa0526437909b64ea83f59fe` |
+| commits | `714b0987681f3abafa0526437909b64ea83f59fe` (artifact, docs, evidence) then `92fcc48e7e58da4bf5ca04f58b9997caddba4876` (this report's publication record and `reader/final_reader/`) |
+| remote ref | `git ls-remote origin refs/heads/main` = `92fcc48e7e58da4bf5ca04f58b9997caddba4876` |
 | remote LFS object | the GitHub LFS batch API returns a download link for `oid 9ffd6bb53c1e68b17d766519c2dc65cb61f4eafccadd2e0cb4b52e732cfbc64c`, `size 1132308257` |
 | uploaded LFS objects | 41 (the artifact plus this wave's 48 screenshots); no `source_png/` capture was re-uploaded |
 | local synchronisation | project-root `AP Book Final.html` and `_master_work/repo/AP/AP Book Final.html` are both 1,132,308,257 bytes with SHA-256 `9ffd6bb5…` |
