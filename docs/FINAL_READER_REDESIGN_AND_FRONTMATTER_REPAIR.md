@@ -232,10 +232,28 @@ repaired region.
 
 ## 9. How the candidate was assembled
 
-`reader/patch_book.py` streams the accepted artifact and rewrites only the
+`reader/final_reader/patch_book.py` streams the accepted artifact and rewrites only the
 shell: the head stylesheet tail, the header/rail markup inserted after
 `<div class="app" id="b2-app">`, the Contents panel wrapper rebuilt around the
 byte-identical `<nav id="contents-nav">` subtree, the `<main>` open tag (the
 floating toolbar removed), and everything after `</main>`. The 1,899
 `<article>` regions are copied through untouched. All edits are byte-level
 anchored, and the script fails loudly if an anchor is missing or ambiguous.
+
+The same directory holds the sources that were patched in
+(`ui/reader_ui.css`, `ui/reader_ui.js`, `ui/headings.js`, `ui/shell_head.html`,
+`ui/shell_tail.html`), the measurement/comparison tools (`tools/`) and the QA
+harness used for the run (`qa/`, CDP only, against an isolated headless Chrome
+profile - the user's own browser is never touched).
+
+## 10. Publication
+
+| step | result |
+|---|---|
+| rollback preserved | `_master_work/integration_backups/final-reader-20261016/prev-final-AP Book Final.html` and `prev-root-AP Book Final.html` (both 1,132,306,770 bytes, SHA-256 `2bff4ce2…`), plus the previous artifact in Git LFS |
+| commit | `714b0987681f3abafa0526437909b64ea83f59fe` on `main` |
+| remote ref | `git ls-remote origin refs/heads/main` = `714b0987681f3abafa0526437909b64ea83f59fe` |
+| remote LFS object | the GitHub LFS batch API returns a download link for `oid 9ffd6bb53c1e68b17d766519c2dc65cb61f4eafccadd2e0cb4b52e732cfbc64c`, `size 1132308257` |
+| uploaded LFS objects | 41 (the artifact plus this wave's 48 screenshots); no `source_png/` capture was re-uploaded |
+| local synchronisation | project-root `AP Book Final.html` and `_master_work/repo/AP/AP Book Final.html` are both 1,132,308,257 bytes with SHA-256 `9ffd6bb5…` |
+| worktree | clean |

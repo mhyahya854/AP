@@ -1,0 +1,7 @@
+[
+  { "name": "17-mobile-390-closed", "width": 390, "height": 844, "theme": "light", "panel": false, "hash": "book-heading-0025" },
+  { "name": "18-mobile-390-contents", "width": 390, "height": 844, "panel": true },
+  { "name": "19-mobile-320-closed", "width": 320, "height": 720, "theme": "light", "panel": false },
+  { "name": "22-tablet-768", "width": 768, "height": 1024, "theme": "dark", "panel": false },
+  { "name": "21-narrow-1024", "width": 1024, "height": 900, "theme": "light", "panel": false }
+]
