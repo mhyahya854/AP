@@ -1,0 +1,262 @@
+{
+ "url": "file:///C:/Users/mhyah/Downloads/book-source/Word/_master_work/redesign/candidate/AP Book Final (redesign).html",
+ "steps": [
+  {
+   "name": "frame",
+   "value": {
+    "header": {
+     "x": 0,
+     "y": 0,
+     "w": 1400,
+     "h": 52
+    },
+    "rail": {
+     "x": 0,
+     "y": 52,
+     "w": 58,
+     "h": 898
+    },
+    "main": {
+     "x": 58,
+     "y": 52,
+     "w": 1342,
+     "h": 898
+    },
+    "footer": {
+     "x": 0,
+     "y": 950,
+     "w": 1400,
+     "h": 50
+    },
+    "app": {
+     "x": 0,
+     "y": 0,
+     "w": 1400,
+     "h": 1000
+    },
+    "panelVisible": false
+   }
+  },
+  {
+   "name": "search_open",
+   "value": true
+  },
+  {
+   "name": "search_hits",
+   "value": 8
+  },
+  {
+   "name": "search_status",
+   "value": "8 matches"
+  },
+  {
+   "name": "search_jump",
+   "value": {
+    "hash": "",
+    "top": 6556
+   }
+  },
+  {
+   "name": "type_open",
+   "value": true
+  },
+  {
+   "name": "dark",
+   "value": "dark"
+  },
+  {
+   "name": "dark_stats",
+   "value": {
+    "pref": "dark",
+    "applied": "dark",
+    "mapped": 15309,
+    "build_ms": 133.6,
+    "apply_ms": 205.6
+   }
+  },
+  {
+   "name": "light",
+   "value": "light"
+  },
+  {
+   "name": "bm_open",
+   "value": true
+  },
+  {
+   "name": "bm_after_add",
+   "value": []
+  },
+  {
+   "name": "more_open",
+   "value": true
+  },
+  {
+   "name": "more_items",
+   "value": 5
+  },
+  {
+   "name": "panel_open",
+   "value": {
+    "cls": "app mode-continuous panel-open",
+    "w": 384,
+    "railVisible": false
+   }
+  },
+  {
+   "name": "collapse_all",
+   "value": 0
+  },
+  {
+   "name": "expand_all",
+   "value": 42
+  },
+  {
+   "name": "progress",
+   "value": {
+    "text": "0",
+    "marker": "0.00%"
+   }
+  },
+  {
+   "name": "progress_mid",
+   "value": "50"
+  },
+  {
+   "name": "next",
+   "value": "#book-heading-0255"
+  },
+  {
+   "name": "prev",
+   "value": "#TMP-1079"
+  },
+  {
+   "name": "history",
+   "value": [
+    "book-heading-0383",
+    "TMP-0178",
+    "TMP-0001",
+    "book-heading-0255"
+   ]
+  },
+  {
+   "name": "back_hash",
+   "value": "#book-heading-0255"
+  },
+  {
+   "name": "qa_failures",
+   "value": 0
+  }
+ ],
+ "screens": [],
+ "problems": [],
+ "load_ms": 19011,
+ "after_load": {
+  "ready": "complete",
+  "regions": 1899,
+  "rows": 455,
+  "refIndex": 443,
+  "role": 383,
+  "unstyled": 58,
+  "navLinks": 455,
+  "legacyToolbar": false,
+  "legacyMode": false,
+  "badge": false,
+  "counter": false,
+  "rightAside": false,
+  "appClass": "app mode-continuous",
+  "bodyScroll": 0
+ },
+ "nav": [
+  {
+   "name": "frontmatter-a11y",
+   "id": "book-heading-0002",
+   "clicked": true,
+   "hash": "#book-heading-0002",
+   "top": 64,
+   "height": 30,
+   "headerBottom": 52,
+   "footerTop": 950,
+   "visible": true,
+   "active": "A1Accessibility",
+   "locator": "xiii"
+  },
+  {
+   "name": "module-1-1",
+   "id": "book-heading-0009",
+   "clicked": true,
+   "hash": "#book-heading-0009",
+   "top": 64,
+   "height": 62,
+   "headerBottom": 52,
+   "footerTop": 950,
+   "visible": true,
+   "active": "4Module 1.1 What Is a Business?",
+   "locator": "2"
+  },
+  {
+   "name": "deep-topic",
+   "id": "book-heading-0200",
+   "clicked": true,
+   "hash": "#book-heading-0200",
+   "top": 64,
+   "height": 45,
+   "headerBottom": 52,
+   "footerTop": 950,
+   "visible": true,
+   "active": "206Other Incentives to Save",
+   "locator": "206"
+  },
+  {
+   "name": "late-topic",
+   "id": "book-heading-0370",
+   "clicked": true,
+   "hash": "#book-heading-0370",
+   "top": 64,
+   "height": 52,
+   "headerBottom": 52,
+   "footerTop": 950,
+   "visible": true,
+   "active": "420The Risks and Costs of Investing",
+   "locator": "420"
+  },
+  {
+   "name": "last-heading",
+   "id": "book-heading-0383",
+   "clicked": true,
+   "hash": "#book-heading-0383",
+   "top": 64,
+   "height": 50,
+   "headerBottom": 52,
+   "footerTop": 950,
+   "visible": true,
+   "active": "440Glossary/Glosario",
+   "locator": "440"
+  },
+  {
+   "name": "region-begin",
+   "id": "TMP-0178",
+   "clicked": true,
+   "hash": "#TMP-0178",
+   "top": 64,
+   "height": 476,
+   "headerBottom": 52,
+   "footerTop": 950,
+   "visible": true,
+   "active": "20Barriers to Entry.",
+   "locator": "20"
+  },
+  {
+   "name": "cover",
+   "id": "TMP-0001",
+   "clicked": true,
+   "hash": "#TMP-0001",
+   "top": 52,
+   "height": 1010,
+   "headerBottom": 52,
+   "footerTop": 950,
+   "visible": true,
+   "active": "FCCover Page",
+   "locator": "FC"
+  }
+ ]
+}

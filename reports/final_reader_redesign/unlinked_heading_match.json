@@ -1,0 +1,654 @@
+{
+ "rows": [
+  {
+   "label": "FCAbout this Book",
+   "norm": "fcabout this book",
+   "matches": []
+  },
+  {
+   "label": "iTitle Page",
+   "norm": "ititle page",
+   "matches": []
+  },
+  {
+   "label": "iiCopyright Page",
+   "norm": "iicopyright page",
+   "matches": []
+  },
+  {
+   "label": "9Practice Your AP® Skills Questions",
+   "norm": "9practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "23Practice Your AP® Skills Questions",
+   "norm": "23practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "35Practice Your AP® Skills Questions",
+   "norm": "35practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "49Practice Your AP® Skills Questions",
+   "norm": "49practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "59Practice Your AP® Skills Questions",
+   "norm": "59practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "72Practice Your AP® Skills Questions",
+   "norm": "72practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "87Practice Your AP® Skills Questions",
+   "norm": "87practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "99Competitive Advantage from Quality.",
+   "norm": "99competitive advantage from quality",
+   "matches": []
+  },
+  {
+   "label": "100Competitive Advantage from Barriers to Entry.",
+   "norm": "100competitive advantage from barriers to entry",
+   "matches": []
+  },
+  {
+   "label": "101Practice Your AP® Skills Questions",
+   "norm": "101practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "103ATerms to Know",
+   "norm": "103aterms to know",
+   "matches": []
+  },
+  {
+   "label": "CASE STUDY: Marketing Keeps Businesses Afloat: Intuit",
+   "norm": "case study marketing keeps businesses afloat intuit",
+   "matches": []
+  },
+  {
+   "label": "118Practice Your AP® Skills Questions",
+   "norm": "118practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "130Practice Your AP® Skills Questions",
+   "norm": "130practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "145Practice Your AP® Skills Questions",
+   "norm": "145practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "161Practice Your AP® Skills Questions",
+   "norm": "161practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "173Practice Your AP® Skills Questions",
+   "norm": "173practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "184Practice Your AP® Skills Questions",
+   "norm": "184practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "199Practice Your AP® Skills Questions",
+   "norm": "199practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "201ATerms to Know",
+   "norm": "201aterms to know",
+   "matches": []
+  },
+  {
+   "label": "201AAP® Exam Practice Questions",
+   "norm": "201aap exam practice questions",
+   "matches": []
+  },
+  {
+   "label": "INTRODUCTION: Personal Finance: Minding Your Own Business",
+   "norm": "introduction personal finance minding your own business",
+   "matches": []
+  },
+  {
+   "label": "219Practice Your AP® Skills Questions",
+   "norm": "219practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "234Practice Your AP® Skills Questions",
+   "norm": "234practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "CASE STUDY: It Takes Money to Make Money: Solana Street Food",
+   "norm": "case study it takes money to make money solana street food",
+   "matches": []
+  },
+  {
+   "label": "247Practice Your AP® Skills Questions",
+   "norm": "247practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "258Practice Your AP® Skills Questions",
+   "norm": "258practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "265Debt Financing",
+   "norm": "265debt financing",
+   "matches": []
+  },
+  {
+   "label": "268Equity Financing",
+   "norm": "268equity financing",
+   "matches": []
+  },
+  {
+   "label": "275Practice Your AP® Skills Questions",
+   "norm": "275practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "278Gross Profit",
+   "norm": "278gross profit",
+   "matches": []
+  },
+  {
+   "label": "279Operating Profit",
+   "norm": "279operating profit",
+   "matches": []
+  },
+  {
+   "label": "280Pre-Tax Income",
+   "norm": "280pre tax income",
+   "matches": []
+  },
+  {
+   "label": "280Net Profit",
+   "norm": "280net profit",
+   "matches": []
+  },
+  {
+   "label": "281Operating Profit Margin",
+   "norm": "281operating profit margin",
+   "matches": []
+  },
+  {
+   "label": "282Net Profit Margin",
+   "norm": "282net profit margin",
+   "matches": []
+  },
+  {
+   "label": "290Practice Your AP® Skills Questions",
+   "norm": "290practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "299Bankruptcy",
+   "norm": "299bankruptcy",
+   "matches": []
+  },
+  {
+   "label": "304Practice Your AP® Skills Questions",
+   "norm": "304practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "314Practice Your AP® Skills Questions",
+   "norm": "314practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "325Practice Your AP® Skills Questions",
+   "norm": "325practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "327ATerms to Know",
+   "norm": "327aterms to know",
+   "matches": []
+  },
+  {
+   "label": "AP® Skills Workshop Decision Making",
+   "norm": "ap skills workshop decision making",
+   "matches": []
+  },
+  {
+   "label": "Business Canvas Project Application",
+   "norm": "business canvas project application",
+   "matches": [
+    "book-heading-0098@TMP-0476",
+    "book-heading-0194@TMP-0861"
+   ]
+  },
+  {
+   "label": "CASE STUDY: What a Difference Leadership Makes: AMD",
+   "norm": "case study what a difference leadership makes amd",
+   "matches": []
+  },
+  {
+   "label": "331Organizing",
+   "norm": "331organizing",
+   "matches": []
+  },
+  {
+   "label": "332Evaluating",
+   "norm": "332evaluating",
+   "matches": []
+  },
+  {
+   "label": "338Compensation Schemes",
+   "norm": "338compensation schemes",
+   "matches": []
+  },
+  {
+   "label": "342Practice Your AP® Skills Questions",
+   "norm": "342practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "356Practice Your AP® Skills Questions",
+   "norm": "356practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "368Practice Your AP® Skills Questions",
+   "norm": "368practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "372Competitive Rivalry",
+   "norm": "372competitive rivalry",
+   "matches": []
+  },
+  {
+   "label": "377SWOT Analysis",
+   "norm": "377swot analysis",
+   "matches": []
+  },
+  {
+   "label": "379Weaknesses",
+   "norm": "379weaknesses",
+   "matches": []
+  },
+  {
+   "label": "383Practice Your AP® Skills Questions",
+   "norm": "383practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "385ATerms to Know",
+   "norm": "385aterms to know",
+   "matches": []
+  },
+  {
+   "label": "385AAP® Exam Practice Questions",
+   "norm": "385aap exam practice questions",
+   "matches": []
+  },
+  {
+   "label": "INTRODUCTION: Not-So-Easy Come, Easy Go: The Importance of Personal Finance",
+   "norm": "introduction not so easy come easy go the importance of personal finance",
+   "matches": []
+  },
+  {
+   "label": "398Practice Your AP® Skills Questions",
+   "norm": "398practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "404Auto Insurance",
+   "norm": "404auto insurance",
+   "matches": []
+  },
+  {
+   "label": "406Life Insurance",
+   "norm": "406life insurance",
+   "matches": []
+  },
+  {
+   "label": "411Insurance Fraud",
+   "norm": "411insurance fraud",
+   "matches": []
+  },
+  {
+   "label": "413Practice Your AP® Skills Questions",
+   "norm": "413practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "426Practice Your AP® Skills Questions",
+   "norm": "426practice your ap skills questions",
+   "matches": []
+  },
+  {
+   "label": "429ATerms to Know",
+   "norm": "429aterms to know",
+   "matches": []
+  },
+  {
+   "label": "429AAP® Exam Practice Questions",
+   "norm": "429aap exam practice questions",
+   "matches": []
+  },
+  {
+   "label": "AP® Skills Workshop Communication",
+   "norm": "ap skills workshop communication",
+   "matches": []
+  },
+  {
+   "label": "EP-1FEP",
+   "norm": "ep 1fep",
+   "matches": []
+  },
+  {
+   "label": "BCBack Cover",
+   "norm": "bcback cover",
+   "matches": []
+  }
+ ],
+ "near": [
+  {
+   "label": "FCAbout this Book",
+   "candidates": []
+  },
+  {
+   "label": "iTitle Page",
+   "candidates": []
+  },
+  {
+   "label": "iiCopyright Page",
+   "candidates": []
+  },
+  {
+   "label": "9Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "23Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "35Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "49Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "59Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "72Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "87Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "99Competitive Advantage from Quality.",
+   "candidates": []
+  },
+  {
+   "label": "100Competitive Advantage from Barriers to Entry.",
+   "candidates": []
+  },
+  {
+   "label": "101Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "103ATerms to Know",
+   "candidates": []
+  },
+  {
+   "label": "CASE STUDY: Marketing Keeps Businesses Afloat: Intuit",
+   "candidates": []
+  },
+  {
+   "label": "118Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "130Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "145Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "161Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "173Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "184Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "199Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "201ATerms to Know",
+   "candidates": []
+  },
+  {
+   "label": "201AAP® Exam Practice Questions",
+   "candidates": []
+  },
+  {
+   "label": "INTRODUCTION: Personal Finance: Minding Your Own Business",
+   "candidates": []
+  },
+  {
+   "label": "219Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "234Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "CASE STUDY: It Takes Money to Make Money: Solana Street Food",
+   "candidates": []
+  },
+  {
+   "label": "247Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "258Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "265Debt Financing",
+   "candidates": []
+  },
+  {
+   "label": "268Equity Financing",
+   "candidates": []
+  },
+  {
+   "label": "275Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "278Gross Profit",
+   "candidates": []
+  },
+  {
+   "label": "279Operating Profit",
+   "candidates": []
+  },
+  {
+   "label": "280Pre-Tax Income",
+   "candidates": []
+  },
+  {
+   "label": "280Net Profit",
+   "candidates": []
+  },
+  {
+   "label": "281Operating Profit Margin",
+   "candidates": []
+  },
+  {
+   "label": "282Net Profit Margin",
+   "candidates": []
+  },
+  {
+   "label": "290Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "299Bankruptcy",
+   "candidates": []
+  },
+  {
+   "label": "304Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "314Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "325Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "327ATerms to Know",
+   "candidates": []
+  },
+  {
+   "label": "AP® Skills Workshop Decision Making",
+   "candidates": []
+  },
+  {
+   "label": "CASE STUDY: What a Difference Leadership Makes: AMD",
+   "candidates": []
+  },
+  {
+   "label": "331Organizing",
+   "candidates": []
+  },
+  {
+   "label": "332Evaluating",
+   "candidates": []
+  },
+  {
+   "label": "338Compensation Schemes",
+   "candidates": []
+  },
+  {
+   "label": "342Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "356Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "368Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "372Competitive Rivalry",
+   "candidates": []
+  },
+  {
+   "label": "377SWOT Analysis",
+   "candidates": []
+  },
+  {
+   "label": "379Weaknesses",
+   "candidates": []
+  },
+  {
+   "label": "383Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "385ATerms to Know",
+   "candidates": []
+  },
+  {
+   "label": "385AAP® Exam Practice Questions",
+   "candidates": []
+  },
+  {
+   "label": "INTRODUCTION: Not-So-Easy Come, Easy Go: The Importance of Personal Finance",
+   "candidates": []
+  },
+  {
+   "label": "398Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "404Auto Insurance",
+   "candidates": []
+  },
+  {
+   "label": "406Life Insurance",
+   "candidates": []
+  },
+  {
+   "label": "411Insurance Fraud",
+   "candidates": []
+  },
+  {
+   "label": "413Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "426Practice Your AP® Skills Questions",
+   "candidates": []
+  },
+  {
+   "label": "429ATerms to Know",
+   "candidates": []
+  },
+  {
+   "label": "429AAP® Exam Practice Questions",
+   "candidates": []
+  },
+  {
+   "label": "AP® Skills Workshop Communication",
+   "candidates": []
+  },
+  {
+   "label": "EP-1FEP",
+   "candidates": []
+  },
+  {
+   "label": "BCBack Cover",
+   "candidates": []
+  }
+ ],
+ "heads": 383
+}

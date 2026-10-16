@@ -1,5 +1,18 @@
 # Known issues in the current release
 
+Latest wave: the **final-reader redesign and frontmatter repair** of 2026-10-16
+(`docs/FINAL_READER_REDESIGN_AND_FRONTMATTER_REPAIR.md`).  It replaces the
+application shell only - a new header, collapsible Contents rail, continuous
+reading, search/typography/bookmark popovers and a bottom progress bar - and
+corrects the Accessibility, publisher title and copyright/acknowledgments
+frontmatter pages with **scoped CSS**, so all 1,899 `<article>` regions remain
+byte-identical to the previously accepted artifact
+(`reports/final_reader_redesign/region_digest.json`).  It also links the
+`Title Page` and `Copyright Page` rows to `#TMP-0007` and `#TMP-0009`, which
+corrects the stale source-absence claim below.  Current artifact:
+1,132,308,257 bytes, SHA-256
+`9ffd6bb53c1e68b17d766519c2dc65cb61f4eafccadd2e0cb4b52e732cfbc64c`.
+
 Verified against `AP Book Final.html`, 1,132,289,645 bytes, SHA-256
 `2bff4ce2e75d767884672a983f470f9fb339d7088e7d9053925d8e3b351c777d`
 (1,132,306,770 bytes) by the contents-navigation wave of 2026-10-14
@@ -72,19 +85,59 @@ fixed.  Earlier wording that contradicts this file is listed under
    have no entry in that list and keep an empty cell.  Nothing was inferred from
    position, adjacency or the source images.  All 500 supplied entries are
    represented.
-7. **Five supplied entries are visible but unlinked.** `About this Book`,
-   `Title Page`, `Copyright Page`, `FEP` and `Back Cover` have no body anywhere
-   in the supplied source (a whole-file scan finds none of those words), so
-   their rows carry their supplied label and deliberately no link.  `Cover
-   Page` and `Get the most out of your textbook's . . .` do have a verified
-   destination and are linked.
-8. **67 Contents entries are held** (shown, not linked) because no
+7. **Three supplied entries are visible but unlinked.** `About this Book`,
+   `FEP` and `Back Cover` have no body anywhere in the supplied source (a
+   whole-file scan finds none of those words), so their rows carry their
+   supplied label and deliberately no link.  `Cover Page`, `Get the most out of
+   your textbook's . . .`, and - corrected on 2026-10-16 - `Title Page` and
+   `Copyright Page` do have verified destinations and are linked (`#TMP-0007`
+   and `#TMP-0009`).  The earlier claim that the title and copyright pages are
+   source-absent was wrong: `B2P1-0007.png` carries the interior title page and
+   `B2P1-0009…0012.png` carry the credits, the `Copyright © 2026` statement,
+   the ISBN, the acknowledgments, the AP® statement, the BFW address and
+   website, the EU GPSR notice and the Macmillan Dublin address.  The manifest
+   labels all of `TMP-0003`–`TMP-0012` as `Accessibility` only because the
+   supplied Contents list folds the whole frontmatter under one heading.
+8. **70 Contents entries are held** (shown, not linked) because no
    source-verified destination could be established for them: 36 have no
    occurrence of their own wording anywhere in the reconstructed body, 17 occur
    in more than one body capture (ambiguous without an anchor), 14 occur inside
    a capture but not at its beginning (a new anchor would be needed).  The
    contents-navigation wave of 2026-10-14 linked the other 58 held rows, each to
    the source capture whose first words are that row's own title.
+   The final-reader wave of 2026-10-16 re-checked every held row twice: against
+   the whole reconstructed text (one streaming pass, recorded in
+   `reports/final_reader_redesign/unlinked_rows_evidence.json`) and against the
+   383 verified heading anchors
+   (`reports/final_reader_redesign/unlinked_heading_match.json`).  No held row's
+   wording matches a verified heading anchor, and the rows whose wording *does*
+   appear in the source do so as incidental mentions inside body text rather
+   than at an audited heading (`Gross Profit` in `TMP-1105…1148`, `Debt
+   Financing` in `TMP-1065…`, and so on).  Connecting them needs a new anchor
+   created at each exact source heading and verified row by row, because the
+   repeated titles (`Practice Your AP® Skills Questions`, `Terms to Know`) occur
+   in roughly thirty modules each; that work is not done, so those rows stay
+   non-interactive rather than mis-linked.
+
+## Reader-interface scope statements (final-reader wave, 2026-10-16)
+
+9.  **Continuous reading only.**  The three-way mode picker, the `Continuous`
+    badge, the `Section n / m` counter, the floating toolbar and the 260 px
+    `Reader tools` panel were removed.  The whole book is one flowing document;
+    no part of it is hidden by a mode class, and the regions are byte-identical
+    to the previously accepted artifact.
+10. **The reading reference is a nearest verified printed reference, never an
+    inferred page number.**  The footer shows the printed label of the supplied
+    numbered Contents list for the last verified destination at or above the
+    reading line (or `—` when there is none).  No total page count is displayed,
+    because the supplied list does not establish one, and source capture
+    numbers are never shown as page numbers.
+11. **Frontmatter repairs are scoped CSS.**  The Accessibility, title and
+    copyright pages are corrected with stylesheet rules limited to
+    `TMP-0003…TMP-0012`; no source region byte changed anywhere in the book.
+12. **Dark mode still never filters source artwork.**  Photographs, embedded
+    PNGs and the publisher's figures keep their own colours on their own
+    surfaces, and no image byte is read or rewritten.
 
 ## Availability limits - deliberately not offered
 
